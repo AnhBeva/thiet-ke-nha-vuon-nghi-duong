@@ -1,128 +1,155 @@
 # Module 08. Vật Liệu, Màu Sắc Và Chất Cảm
 
-## 1. Mục tiêu học tập
+## 1. Vai trò của module trong toàn bộ giáo trình
 
-- Hiểu đúng bản chất của vật liệu, màu sắc và chất cảm.
-- Biết áp dụng kiến thức vào một khu đất hoặc phương án cụ thể.
-- Nhận diện lỗi thường gặp và hậu quả vận hành.
-- Tạo được đầu ra thực hành có thể đưa vào brief hoặc checklist.
+Module này chuyển mục tiêu cảm xúc, khí hậu và vận hành thành quyết định vật liệu. Nó nhận dữ liệu từ Module 01, 04, 05 và 07, sau đó tạo tiêu chí cho giác quan, bảo trì, thi công và brief.
 
-## 2. Vì sao module này quan trọng
+## 2. Mục tiêu học tập
 
-Vật liệu quyết định cảm giác chạm, bước đi, độ nóng, độ trơn, tuổi thọ và sự hòa hợp giữa nhà với vườn.
+- Nhận biết vật liệu như yếu tố tạo cảm giác, an toàn, nhiệt, tuổi thọ và bảo trì.
+- Giải thích được vì sao màu, bề mặt, độ nhám, tích nhiệt, chống trơn và già đi ảnh hưởng trực tiếp tới nhà vườn.
+- Phân tích được vật liệu ngoài trời theo khí hậu nóng ẩm và cách sử dụng thật.
+- Lập được bảng tiêu chí vật liệu cho sân, hiên, tường, lối đi, bậc và điểm ngồi.
 
 ## 3. Tư duy cốt lõi
 
 > Vật liệu tốt trong nhà vườn phải đẹp khi mới, an toàn khi dùng và già đi có phẩm chất.
 
-## 4. Kiến thức nền cần hiểu đúng
+## 4. Bản chất vấn đề
 
-### 4.1. Chất cảm
+Vật liệu không chỉ là lớp hoàn thiện thị giác. Nó quyết định bàn chân có nóng không, bậc có trơn khi mưa không, tường có bám rêu không, sân có tích nhiệt không và tổng thể có hòa với cây hay cạnh tranh với cây.
 
-Bề mặt thô, nhám, mịn, ấm, lạnh tạo cảm nhận khác nhau cho tay và chân.
+Bản chất của chọn vật liệu là chọn hành vi theo thời gian: vật liệu sẽ ướt, khô, bẩn, bạc màu, rêu, nứt, giãn nở, được lau rửa hoặc bị bỏ quên.
 
-### 4.2. Màu nền
+Người mới thường chọn vật liệu theo showroom hoặc ảnh khô ráo. Nhà vườn cần kiểm vật liệu trong nắng, mưa, đất, lá rụng, dép ướt, trẻ nhỏ, người già và bảo trì thật.
 
-Màu nên hỗ trợ cây xanh và bóng đổ, không cạnh tranh quá mạnh.
+## 5. Kiến thức nền cần hiểu đúng
 
-### 4.3. Tích nhiệt
+### 5.1. Chất cảm
 
-Sân, tường, đá, bê tông có thể hấp nhiệt và làm khu vực quanh nhà nóng hơn.
+**Khái niệm:** Chất cảm là cảm giác bề mặt khi nhìn, chạm và bước lên.
 
-### 4.4. Chống trơn
+**Bản chất:** Thô, nhám, mịn, lạnh, ấm, mềm, cứng tạo trải nghiệm khác nhau.
 
-Ngoài trời luôn phải xét mưa, rêu, đất và dép ướt.
+**Hệ quả thiết kế:** Chọn chất cảm theo vị trí: đi chân trần, bậc, tường, ghế, tay vịn.
 
-### 4.5. Già đi đẹp
+### 5.2. Màu nền
 
-Một số vật liệu có patina đẹp; một số chỉ bạc màu, bong tróc hoặc bẩn.
+**Khái niệm:** Màu nền hỗ trợ cây, bóng đổ và kiến trúc.
 
-### 4.6. Bảo trì
+**Bản chất:** Màu quá mạnh hoặc quá nhiều làm cây mất vai trò chủ đạo.
 
-Không có vật liệu nào “không cần chăm”; chỉ có mức chăm phù hợp hoặc không phù hợp.
-## 5. Nguyên lý thiết kế
+**Hệ quả thiết kế:** Dùng bảng màu tiết chế, ưu tiên nền bền và hợp ánh sáng.
 
-| Nguyên lý | Cách áp dụng |
-|---|---|
-| Bắt đầu từ vai trò | Mỗi yếu tố phải trả lời nó phục vụ điều gì. |
-| Phù hợp khu đất | Không áp công thức chung lên mọi dự án. |
-| Cân bằng cảm xúc và vận hành | Đẹp phải đi cùng an toàn, bền và dễ chăm. |
-| Thiết kế theo lớp | Mọi quyết định cần liên hệ với các lớp không gian khác. |
-| Kiểm tra bằng thời gian | Luôn hỏi sau 1 năm, 3 năm, 5 năm sẽ ra sao. |
+### 5.3. Tích nhiệt
 
-## 6. Sơ đồ trực quan
+**Khái niệm:** Vật liệu tối, đặc, cứng như đá, bê tông, gạch đặc có thể hấp nhiệt.
 
-```mermaid
-flowchart TD
-  A["Dữ liệu đầu vào"] --> B["Phân tích Vật Liệu, Màu Sắc Và Chất Cảm"]
-  B --> C["Nguyên lý"]
-  C --> D["Giải pháp"]
-  D --> E["Kiểm tra lỗi"]
-  E --> F["Đưa vào brief"]
-```
+**Bản chất:** Sân tích nhiệt làm vi khí hậu quanh nhà nóng hơn.
 
-## 7. Quy trình áp dụng từng bước
+**Hệ quả thiết kế:** Giảm diện tích cứng, tăng bóng, chọn màu và bề mặt phù hợp.
 
-1. Thu thập dữ liệu từ các module trước: cảm xúc, khu đất, hành trình, khí hậu.
-2. Xác định các vị trí quan trọng trên sơ đồ.
-3. Phân tích vấn đề theo từng khái niệm nền trong bài.
-4. Đề xuất giải pháp có lý do, tránh chọn theo sở thích rời rạc.
-5. Kiểm tra rủi ro vận hành và bảo trì.
-6. Ghi kết luận thành checklist hoặc yêu cầu brief.
+### 5.4. Chống trơn
 
-## 8. Ví dụ thực tế
+**Khái niệm:** Ngoài trời luôn có mưa, rêu, bùn, dép ướt.
 
-| Tình huống | Cách đọc hoặc xử lý |
-|---|---|
-| Phương án đẹp nhưng khó dùng | Cần kiểm lại vị trí, khí hậu, lối đi, ánh sáng và bảo trì. |
-| Một chi tiết được lặp quá nhiều | Cần giảm để tổng thể có nhịp và khoảng nghỉ. |
-| Khu vực ít được dùng | Thường do thiếu bóng, thiếu tiện tiếp cận, thiếu riêng tư hoặc thiếu lý do ở lại. |
-| Giải pháp tốt nhưng sai chỗ | Cần đưa về đúng điều kiện nắng, gió, nước, hoạt động. |
+**Bản chất:** Vật liệu đẹp nhưng trơn là lỗi an toàn nghiêm trọng.
 
-## 9. Lỗi thường gặp và cách tránh
+**Hệ quả thiết kế:** Kiểm độ nhám, độ dốc, thoát nước và vệ sinh.
 
-| Lỗi thường gặp | Hậu quả |
-|---|---|
-| Chỉ chọn theo thẩm mỹ | Dễ sai vận hành. |
-| Không liên hệ khu đất | Giải pháp thiếu căn cứ. |
-| Không xét bảo trì | Nhanh xuống cấp. |
-| Thiếu tiêu chí đánh giá | Khó review với đơn vị thiết kế. |
-| Tách khỏi tổng thể | Không gian bị rời rạc. |
+### 5.5. Già đi đẹp
 
-## 10. Checklist kiểm tra
+**Khái niệm:** Vật liệu sẽ bạc màu, bám bẩn, nứt hoặc tạo patina.
 
-### Hiểu đúng
+**Bản chất:** Không phải cũ đi nào cũng đẹp.
 
-| Câu hỏi | Đạt/Chưa | Ghi chú |
+**Hệ quả thiết kế:** Chọn vật liệu có kịch bản lão hóa phù hợp tinh thần dự án.
+
+### 5.6. Bảo trì
+
+**Khái niệm:** Mọi vật liệu đều cần chăm ở mức nào đó.
+
+**Bản chất:** Vật liệu không hợp mức chăm sẽ nhanh xấu.
+
+**Hệ quả thiết kế:** Ghi rõ vệ sinh, chống thấm, sơn lại, thay thế, chống rêu.
+
+## 6. Các nguyên lý thiết kế chính
+
+| Nguyên lý | Vì sao quan trọng | Cách áp dụng |
 |---|---|---|
-| Đã xác định vai trò của chủ đề trong dự án chưa? |  |  |
-| Đã liên hệ với khu đất và người dùng chưa? |  |  |
-| Đã biết rủi ro nếu làm sai chưa? |  |  |
+| Chọn theo vị trí dùng | Một vật liệu không phù hợp mọi nơi. | Phân loại sân nắng, hiên ướt, bậc, lối đi, tường, ghế. |
+| An toàn trước hiệu ứng | Vật liệu đẹp mà trơn hoặc nóng là thất bại. | Kiểm chống trơn, nhiệt bề mặt, cạnh sắc. |
+| Làm nền cho cây | Nhà vườn cần vật liệu đỡ cho cảnh quan. | Giữ bảng màu nền, tránh quá nhiều họa tiết cạnh tranh. |
+| Kiểm dưới nắng và mưa | Showroom không đại diện thực tế. | Xem mẫu khi khô, ướt, nắng gắt, có bụi đất. |
+| Thiết kế cho lão hóa | Vật liệu sẽ đổi trạng thái. | Chọn vật liệu cũ đi có phẩm chất hoặc dễ thay thế. |
 
-### Áp dụng
+## 7. Công cụ phân tích
 
-| Câu hỏi | Đạt/Chưa | Ghi chú |
-|---|---|---|
-| Đã có giải pháp cụ thể chưa? |  |  |
-| Đã có tiêu chí kiểm tra chưa? |  |  |
-| Đã đưa được vào brief/ch checklist chưa? |  |  |
+- Bảng vật liệu theo vị trí: sân, hiên, lối đi, bậc, tường, ghế, quanh hồ.
+- Ma trận đánh giá: nóng, trơn, thấm, bẩn, rêu, bền màu, bảo trì, thay thế.
+- Bảng màu nền chính-phụ-điểm nhấn.
+- Mẫu thử vật liệu kiểm dưới nắng, mưa và đất.
 
-## 11. Bài tập thực hành
+## 8. Quy trình áp dụng từng bước
 
-Lập bảng phân tích vật liệu, màu sắc và chất cảm cho một khu vực cụ thể. Bảng gồm: hiện trạng, vấn đề, nguyên lý liên quan, giải pháp, rủi ro và tiêu chí kiểm tra.
+1. Liệt kê các bề mặt người dùng chạm, bước, ngồi, nhìn gần và nhìn xa.
+2. Phân vùng vật liệu theo nắng, mưa, ẩm, tần suất đi lại và nguy cơ trơn.
+3. Chọn bảng màu nền để hỗ trợ cây và kiến trúc.
+4. Đánh giá từng vật liệu theo tích nhiệt, chống trơn, bám bẩn, rêu, bảo trì.
+5. Kiểm mẫu ngoài trời trong điều kiện khô, ướt và nắng.
+6. Ghi tiêu chí vật liệu vào brief và hồ sơ thi công.
 
-## 12. Tiêu chí tự đánh giá
+## 9. Ví dụ thực tế
+
+| Tình huống | Dấu hiệu nhận biết | Nguyên nhân | Hướng xử lý |
+|---|---|---|---|
+| Sân đá tối màu không bóng | Bề mặt nóng khi nắng. | Đá tối và đặc hấp nhiệt mạnh. | Giảm diện tích, thêm bóng, đổi màu sáng hơn hoặc vật liệu thấm. |
+| Gạch nhẵn ở lối đi ngoài trời | Trơn khi mưa hoặc rêu. | Chọn theo vẻ sạch lúc khô. | Dùng bề mặt nhám, độ dốc và vệ sinh định kỳ. |
+| Nhiều màu vật liệu cạnh cây | Tường, sân, đá, gạch đều nổi bật. | Vật liệu cạnh tranh với cây. | Giảm bảng màu, chọn nền trung tính và một điểm nhấn. |
+| Gỗ ngoài trời xuống màu nhanh | Bạc màu, cong vênh, trơn nếu thiếu chăm. | Không có kịch bản bảo trì. | Chọn loại phù hợp, xử lý bề mặt, chấp nhận patina hoặc đổi vật liệu. |
+| Bậc đá cạnh sắc | Đẹp nhưng nguy hiểm khi trượt. | Không xét người già, trẻ nhỏ, dép ướt. | Bo cạnh, chống trơn, thêm tay vịn hoặc đèn dẫn hướng. |
+
+## 10. Lỗi thường gặp và cách tránh
+
+| Lỗi | Vì sao sai | Hậu quả | Cách tránh |
+|---|---|---|---|
+| Chọn vật liệu theo ảnh khô ráo | Không kiểm điều kiện mưa, đất, rêu. | Trơn, bẩn, nóng, nhanh xấu. | Thử mẫu ngoài trời. |
+| Dùng quá nhiều vật liệu | Muốn phong phú nhưng thiếu hệ. | Tổng thể rối và khó bảo trì. | Giới hạn bảng vật liệu chính-phụ. |
+| Quên nhiệt bề mặt | Chỉ xét màu và giá. | Sân nóng, hiên khó dùng. | Kiểm nắng, bóng và tích nhiệt. |
+| Quên chống trơn | Xem nhẹ an toàn ngoài trời. | Ngã, đặc biệt khi mưa. | Ưu tiên bề mặt phù hợp và thoát nước. |
+| Không tính lão hóa | Chỉ nhìn ngày bàn giao. | Bạc màu, rêu, bong tróc gây thất vọng. | Chọn vật liệu theo trạng thái sau 3-5 năm. |
+
+## 11. Checklist kiểm tra
+
+| Câu hỏi kiểm tra | Dấu hiệu đạt | Rủi ro nếu chưa đạt | Hành động sửa |
+|---|---|---|---|
+| Vật liệu có phù hợp vị trí dùng không? | Mỗi vùng có tiêu chí riêng. | Sân, bậc, hiên dùng sai vật liệu. | Phân vùng lại theo nắng, mưa, tần suất dùng. |
+| Có kiểm nóng bề mặt chưa? | Vật liệu nắng không quá nóng hoặc có bóng che. | Người dùng tránh sân/hiên. | Đổi màu, đổi vật liệu, thêm bóng. |
+| Có kiểm chống trơn khi ướt chưa? | Bề mặt đủ nhám, thoát nước tốt. | Nguy cơ té ngã. | Đổi hoàn thiện, tăng dốc, thêm rãnh. |
+| Bảng màu có làm nền cho cây không? | Màu chính tiết chế, cây vẫn là chủ thể. | Tổng thể rối, thiếu nghỉ dưỡng. | Giảm màu và họa tiết. |
+| Có kế hoạch bảo trì vật liệu chưa? | Có vệ sinh, chống thấm, sơn lại, thay thế. | Vật liệu nhanh xuống cấp. | Ghi yêu cầu bảo trì vào brief. |
+
+## 12. Bài tập thực hành
+
+| Mức | Bài tập |
+|---|---|
+| Cơ bản | Chọn 5 vật liệu ngoài trời và ghi rủi ro nóng, trơn, bẩn, bảo trì. |
+| Trung cấp | Lập ma trận vật liệu cho sân, hiên, lối đi, bậc và tường. |
+| Nâng cao | Đề xuất bảng vật liệu cho một nhà vườn, kèm lý do khí hậu, cảm xúc và kịch bản sau 5 năm. |
+
+## 13. Tiêu chí tự đánh giá
 
 | Mức | Biểu hiện |
 |---|---|
-| Đạt | Nhận diện được các yếu tố chính. |
-| Tốt | Phân tích được vấn đề và giải pháp tương ứng. |
-| Xuất sắc | Đầu ra đủ rõ để dùng trong brief hoặc review phương án thật. |
+| Cơ bản | Nhận diện được vật liệu nóng, trơn hoặc khó chăm. |
+| Khá | Giải thích được nguyên nhân theo bề mặt, màu, nước và sử dụng. |
+| Tốt | Chọn được vật liệu phù hợp từng vị trí và tinh thần thiết kế. |
+| Xuất sắc | Tạo được bảng tiêu chí vật liệu có thể đưa vào brief và review mẫu thi công. |
 
-## 13. Liên kết với các module khác
+## 14. Liên kết với các module khác
 
-Module này liên kết với các module trước và tạo đầu vào cho Module 12.
+Nhận đầu vào từ Module 01, 04, 05 và 07. Tạo nền cho Module 09, 10, 11 và Module 12.
 
-## 14. Ghi chú giới hạn chuyên môn
+## 15. Ghi chú giới hạn chuyên môn
 
-Khi triển khai thật, các chi tiết kỹ thuật cần chuyên gia kiểm tra theo điều kiện dự án.
+Thông số chống trơn, chống thấm, kết cấu nền, độ bền ngoài trời và quy cách thi công cần kiểm bằng mẫu thật, tài liệu kỹ thuật và đơn vị chuyên môn.

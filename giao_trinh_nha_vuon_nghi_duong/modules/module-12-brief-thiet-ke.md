@@ -1,136 +1,157 @@
 # Module 12. Bài Tập Tổng Hợp: Xây Brief Thiết Kế Nhà Vườn
 
-## 1. Mục tiêu học tập
+## 1. Vai trò của module trong toàn bộ giáo trình
 
-- Hiểu đúng bản chất của bài tập tổng hợp: xây brief thiết kế nhà vườn.
-- Biết áp dụng kiến thức vào một khu đất hoặc phương án cụ thể.
-- Nhận diện lỗi thường gặp và hậu quả vận hành.
-- Tạo được đầu ra thực hành có thể đưa vào brief hoặc checklist.
+Module này là đầu ra tổng hợp của toàn bộ giáo trình. Nó nhận kết quả từ Module 01-11 và biến thành một brief có thể gửi cho kiến trúc sư, cảnh quan, nhà thầu hoặc dùng để tự review phương án.
 
-## 2. Vì sao module này quan trọng
+## 2. Mục tiêu học tập
 
-Brief là đầu ra thực tế quan trọng nhất của giáo trình. Nó biến mong muốn mơ hồ thành đề bài có thể thiết kế, báo giá, review và kiểm soát.
+- Nhận biết brief là công cụ thiết kế và kiểm soát, không chỉ là bản mô tả mong muốn.
+- Giải thích được các phần bắt buộc của brief: tinh thần, người dùng, hiện trạng, hoạt động, yêu cầu kiến trúc, cảnh quan, kỹ thuật, bảo trì, tiêu chí đánh giá.
+- Phân tích được brief mơ hồ và chuyển nó thành đề bài rõ.
+- Hoàn thành được brief nhà vườn đủ dữ liệu, ưu tiên và checklist review.
 
 ## 3. Tư duy cốt lõi
 
 > Brief xuất sắc không nói “tôi muốn đẹp”; nó nói rõ đẹp theo nghĩa nào, cho ai, trên khu đất nào, ưu tiên gì, tránh gì và kiểm bằng tiêu chí nào.
 
-## 4. Kiến thức nền cần hiểu đúng
+## 4. Bản chất vấn đề
 
-### 4.1. Tinh thần
+Brief là cầu nối giữa mong muốn sống và hành động thiết kế. Nó giúp đội ngũ chuyên môn hiểu đúng mục tiêu, giới hạn, dữ liệu hiện trạng, ưu tiên và tiêu chí thành công.
 
-3-5 từ khóa cảm xúc và một câu mô tả dự án.
+Bản chất của brief tốt là đủ rõ để ra quyết định và đủ mở để chuyên gia sáng tạo. Brief không nên áp đặt mọi giải pháp, nhưng phải nêu rõ vấn đề, trải nghiệm mong muốn, rủi ro cần tránh và cách đánh giá.
 
-### 4.2. Người dùng
+Người mới thường viết brief bằng cảm xúc chung chung hoặc danh sách ảnh. Cách chuyên nghiệp là tổng hợp từng module thành yêu cầu kiểm được: cảm xúc, đất, hành trình, khí hậu, nhà-vườn, cây, nước, vật liệu, giác quan, bảo trì, quy trình.
 
-Ai sống, ai ghé, ai chăm, ai cần an toàn đặc biệt.
+## 5. Kiến thức nền cần hiểu đúng
 
-### 4.3. Hoạt động
+### 5.1. Tinh thần dự án
 
-Các hoạt động thật quyết định hiên, sân, lối đi và điểm dừng.
+**Khái niệm:** Tinh thần là 3-5 từ khóa cảm xúc và một câu mô tả dự án.
 
-### 4.4. Hiện trạng
+**Bản chất:** Nó định hướng mọi lựa chọn sau này.
 
-Tóm tắt nắng, gió, nước, đất, view, cây hiện trạng.
+**Hệ quả thiết kế:** Viết rõ cảm giác sống, không chỉ phong cách.
 
-### 4.5. Yêu cầu kiến trúc
+### 5.2. Người dùng
 
-Mái, hiên, cửa, thông gió, riêng tư, vật liệu.
+**Khái niệm:** Người dùng gồm người ở, khách, trẻ nhỏ, người già, người chăm, thú cưng nếu có.
 
-### 4.6. Yêu cầu cảnh quan
+**Bản chất:** Mỗi nhóm tạo yêu cầu khác nhau về an toàn, riêng tư, bảo trì.
 
-Tầng cây, khoảng mở, lối đi, điểm dừng, nước, ánh sáng.
+**Hệ quả thiết kế:** Lập bảng người dùng và hoạt động.
 
-### 4.7. Yêu cầu kỹ thuật
+### 5.3. Hiện trạng
 
-Cao độ, thoát nước, tưới, điện ngoài trời, chống trơn.
+**Khái niệm:** Hiện trạng gồm nắng, gió, nước, đất, view, cây, tiếng ồn, ranh, hạ tầng.
 
-### 4.8. Tiêu chí đánh giá
+**Bản chất:** Thiếu hiện trạng làm brief thành mong muốn không bám đất.
 
-Mát, thoáng, có cảm xúc, bền, dễ chăm, đẹp hơn sau 5 năm.
-## 5. Nguyên lý thiết kế
+**Hệ quả thiết kế:** Đính kèm bản đồ đọc đất và ảnh ghi chú.
 
-| Nguyên lý | Cách áp dụng |
-|---|---|
-| Bắt đầu từ vai trò | Mỗi yếu tố phải trả lời nó phục vụ điều gì. |
-| Phù hợp khu đất | Không áp công thức chung lên mọi dự án. |
-| Cân bằng cảm xúc và vận hành | Đẹp phải đi cùng an toàn, bền và dễ chăm. |
-| Thiết kế theo lớp | Mọi quyết định cần liên hệ với các lớp không gian khác. |
-| Kiểm tra bằng thời gian | Luôn hỏi sau 1 năm, 3 năm, 5 năm sẽ ra sao. |
+### 5.4. Yêu cầu không gian
 
-## 6. Sơ đồ trực quan
+**Khái niệm:** Gồm nhà, hiên, sân, vườn, lối đi, điểm dừng, khung nhìn.
 
-```mermaid
-flowchart TD
-  A["Dữ liệu đầu vào"] --> B["Phân tích Bài Tập Tổng Hợp: Xây Brief Thiết Kế Nhà Vườn"]
-  B --> C["Nguyên lý"]
-  C --> D["Giải pháp"]
-  D --> E["Kiểm tra lỗi"]
-  E --> F["Đưa vào brief"]
-```
+**Bản chất:** Nó chuyển trải nghiệm thành cấu trúc không gian.
 
-## 7. Quy trình áp dụng từng bước
+**Hệ quả thiết kế:** Mô tả hoạt động và quan hệ giữa các lớp.
 
-1. Thu thập dữ liệu từ các module trước: cảm xúc, khu đất, hành trình, khí hậu.
-2. Xác định các vị trí quan trọng trên sơ đồ.
-3. Phân tích vấn đề theo từng khái niệm nền trong bài.
-4. Đề xuất giải pháp có lý do, tránh chọn theo sở thích rời rạc.
-5. Kiểm tra rủi ro vận hành và bảo trì.
-6. Ghi kết luận thành checklist hoặc yêu cầu brief.
+### 5.5. Yêu cầu kỹ thuật
 
-## 8. Ví dụ thực tế
+**Khái niệm:** Gồm cao độ, thoát nước, tưới, điện ngoài trời, vật liệu, chống trơn, bảo trì.
 
-| Tình huống | Cách đọc hoặc xử lý |
-|---|---|
-| Phương án đẹp nhưng khó dùng | Cần kiểm lại vị trí, khí hậu, lối đi, ánh sáng và bảo trì. |
-| Một chi tiết được lặp quá nhiều | Cần giảm để tổng thể có nhịp và khoảng nghỉ. |
-| Khu vực ít được dùng | Thường do thiếu bóng, thiếu tiện tiếp cận, thiếu riêng tư hoặc thiếu lý do ở lại. |
-| Giải pháp tốt nhưng sai chỗ | Cần đưa về đúng điều kiện nắng, gió, nước, hoạt động. |
+**Bản chất:** Kỹ thuật là điều kiện để thiết kế sống lâu.
 
-## 9. Lỗi thường gặp và cách tránh
+**Hệ quả thiết kế:** Ghi tiêu chí, không bỏ sang giai đoạn sau.
 
-| Lỗi thường gặp | Hậu quả |
-|---|---|
-| Chỉ chọn theo thẩm mỹ | Dễ sai vận hành. |
-| Không liên hệ khu đất | Giải pháp thiếu căn cứ. |
-| Không xét bảo trì | Nhanh xuống cấp. |
-| Thiếu tiêu chí đánh giá | Khó review với đơn vị thiết kế. |
-| Tách khỏi tổng thể | Không gian bị rời rạc. |
+### 5.6. Tiêu chí đánh giá
 
-## 10. Checklist kiểm tra
+**Khái niệm:** Tiêu chí giúp duyệt phương án ít cảm tính.
 
-### Hiểu đúng
+**Bản chất:** Không có tiêu chí thì mỗi người hiểu đẹp theo một cách.
 
-| Câu hỏi | Đạt/Chưa | Ghi chú |
+**Hệ quả thiết kế:** Viết checklist thành công và điều không chấp nhận.
+
+## 6. Các nguyên lý thiết kế chính
+
+| Nguyên lý | Vì sao quan trọng | Cách áp dụng |
 |---|---|---|
-| Đã xác định vai trò của chủ đề trong dự án chưa? |  |  |
-| Đã liên hệ với khu đất và người dùng chưa? |  |  |
-| Đã biết rủi ro nếu làm sai chưa? |  |  |
+| Tổng hợp theo lớp | Brief phải gom đủ các module. | Đi từ cảm xúc đến hiện trạng, không gian, kỹ thuật, vận hành. |
+| Nói bằng tiêu chí kiểm được | Cụ thể giúp giảm hiểu lầm. | Thay “đẹp” bằng “mát, có bóng, dễ chăm, riêng tư, dùng được buổi tối”. |
+| Phân biệt bắt buộc và mong muốn | Không phải yêu cầu nào cũng ngang nhau. | Ghi must-have, should-have, nice-to-have. |
+| Mở cho chuyên gia đề xuất | Brief không nên khóa hết giải pháp. | Nêu vấn đề, mục tiêu, ràng buộc và tiêu chí. |
+| Dùng brief để review | Brief không kết thúc khi gửi đi. | Mang checklist brief vào từng buổi duyệt phương án. |
 
-### Áp dụng
+## 7. Công cụ phân tích
 
-| Câu hỏi | Đạt/Chưa | Ghi chú |
-|---|---|---|
-| Đã có giải pháp cụ thể chưa? |  |  |
-| Đã có tiêu chí kiểm tra chưa? |  |  |
-| Đã đưa được vào brief/ch checklist chưa? |  |  |
+- Mẫu brief 10 phần.
+- Bảng must-have, should-have, nice-to-have.
+- Checklist review phương án theo 11 module trước.
+- Phụ lục bản đồ: hiện trạng, hành trình, khí hậu, nhà-vườn, cây, nước, vật liệu, giác quan, bảo trì.
 
-## 11. Bài tập thực hành
+## 8. Quy trình áp dụng từng bước
 
-Lập bảng phân tích bài tập tổng hợp: xây brief thiết kế nhà vườn cho một khu vực cụ thể. Bảng gồm: hiện trạng, vấn đề, nguyên lý liên quan, giải pháp, rủi ro và tiêu chí kiểm tra.
+1. Tóm tắt tinh thần dự án bằng 3-5 từ khóa và một câu mô tả.
+2. Ghi người dùng, hoạt động chính, lịch sử dụng và mức bảo trì.
+3. Đính kèm dữ liệu hiện trạng: nắng, gió, nước, đất, view, cây, tiếng ồn.
+4. Mô tả yêu cầu trải nghiệm: hành trình, điểm dừng, riêng tư, mở-kín.
+5. Ghi yêu cầu kiến trúc nhiệt đới: mái, hiên, cửa, kính, thông gió, mưa tạt.
+6. Ghi yêu cầu quan hệ nhà-vườn, cây xanh, đất-nước, vật liệu, ánh sáng, bảo trì.
+7. Phân loại ưu tiên và điều không chấp nhận.
+8. Tạo checklist đánh giá phương án và câu hỏi cho đơn vị thiết kế.
 
-## 12. Tiêu chí tự đánh giá
+## 9. Ví dụ thực tế
+
+| Tình huống | Dấu hiệu nhận biết | Nguyên nhân | Hướng xử lý |
+|---|---|---|---|
+| Brief mơ hồ: muốn xanh và chill | Không có người dùng, đất, hoạt động, bảo trì. | Đội thiết kế phải đoán nghĩa của xanh và chill. | Viết lại thành cảm xúc, hoạt động, vị trí xanh, mức chăm, tiêu chí mát/riêng tư. |
+| Muốn nhiều cây nhưng ít chăm | Mong muốn và năng lực mâu thuẫn. | Không phân loại ưu tiên. | Chọn cây khỏe, ít tầng phức tạp, tưới theo vùng, giảm cây hoa mùa vụ. |
+| Muốn kính lớn nhìn vườn | Có nguy cơ nóng, chói, mưa tạt. | Chỉ nêu view mà thiếu khí hậu. | Ghi yêu cầu kính có hiên che, kiểm nắng Tây, thông gió và riêng tư. |
+| Muốn sân rộng cho trẻ chơi | Cần an toàn, bóng, vật liệu, tầm nhìn người lớn. | Nếu chỉ ghi sân rộng sẽ thiếu chất lượng dùng. | Thêm tiêu chí chống trơn, bóng mát, quan sát từ bếp/hiên. |
+| Muốn hồ nước thư giãn | Có rủi ro muỗi, an toàn, bảo trì, tiếng ồn. | Chỉ nghĩ đến hình ảnh. | Ghi tiêu chí an toàn, lọc nước, vệ sinh, tiếng nước vừa đủ. |
+
+## 10. Lỗi thường gặp và cách tránh
+
+| Lỗi | Vì sao sai | Hậu quả | Cách tránh |
+|---|---|---|---|
+| Brief chỉ là ảnh tham khảo | Ảnh không đủ dữ liệu thiết kế. | Thiết kế sao chép hoặc lệch nhu cầu. | Chuyển ảnh thành từ khóa, nguyên lý và tiêu chí. |
+| Không ghi điều không chấp nhận | Chỉ nêu mong muốn tích cực. | Phương án có thể đẹp nhưng nóng, khó chăm, thiếu riêng tư. | Ghi danh sách rủi ro phải tránh. |
+| Không phân loại ưu tiên | Mọi yêu cầu đều quan trọng như nhau. | Khó ra quyết định khi xung đột ngân sách hoặc diện tích. | Chia must-have, should-have, nice-to-have. |
+| Bỏ qua kỹ thuật trong brief | Nghĩ kỹ thuật để sau. | Concept đẹp nhưng khó thi công hoặc vận hành. | Ghi yêu cầu cao độ, nước, tưới, điện, vật liệu từ đầu. |
+| Không dùng brief để review | Brief viết xong rồi bỏ. | Duyệt phương án lại cảm tính. | Biến brief thành checklist duyệt. |
+
+## 11. Checklist kiểm tra
+
+| Câu hỏi kiểm tra | Dấu hiệu đạt | Rủi ro nếu chưa đạt | Hành động sửa |
+|---|---|---|---|
+| Brief có tinh thần rõ chưa? | Có 3-5 từ khóa và một câu định hướng. | Thiết kế thiếu bản sắc. | Viết lại cảm xúc thành ngôn ngữ cụ thể. |
+| Brief có dữ liệu hiện trạng chưa? | Có bản đồ nắng, gió, nước, đất, view, cây. | Thiết kế không bám khu đất. | Bổ sung khảo sát và ảnh ghi chú. |
+| Brief có người dùng và hoạt động chưa? | Có ai dùng, dùng khi nào, làm gì. | Không gian thiếu đúng nhu cầu. | Lập bảng người dùng-hoạt động. |
+| Brief có yêu cầu kỹ thuật và bảo trì chưa? | Có nước, tưới, vật liệu, đèn, chống trơn, lịch chăm. | Đẹp nhưng khó vận hành. | Bổ sung tiêu chí kỹ thuật và bảo trì. |
+| Brief có checklist review chưa? | Có tiêu chí duyệt phương án và điều không chấp nhận. | Duyệt cảm tính. | Chuyển brief thành bảng kiểm. |
+
+## 12. Bài tập thực hành
+
+| Mức | Bài tập |
+|---|---|
+| Cơ bản | Viết brief một trang gồm tinh thần, người dùng, hoạt động, điều cần tránh. |
+| Trung cấp | Bổ sung bản đồ hiện trạng, yêu cầu khí hậu, nhà-vườn, cây, nước, vật liệu, giác quan. |
+| Nâng cao | Hoàn thiện brief đầy đủ kèm checklist review phương án và bảng ưu tiên must-have, should-have, nice-to-have. |
+
+## 13. Tiêu chí tự đánh giá
 
 | Mức | Biểu hiện |
 |---|---|
-| Đạt | Nhận diện được các yếu tố chính. |
-| Tốt | Phân tích được vấn đề và giải pháp tương ứng. |
-| Xuất sắc | Đầu ra đủ rõ để dùng trong brief hoặc review phương án thật. |
+| Cơ bản | Brief nêu được mong muốn và người dùng chính. |
+| Khá | Brief giải thích được lý do, hiện trạng và rủi ro chính. |
+| Tốt | Brief có yêu cầu không gian, kỹ thuật, bảo trì và tiêu chí đánh giá rõ. |
+| Xuất sắc | Brief đủ để gửi chuyên gia, so sánh phương án, kiểm soát duyệt thiết kế và nghiệm thu sơ bộ. |
 
-## 13. Liên kết với các module khác
+## 14. Liên kết với các module khác
 
-Module này liên kết với các module trước và tạo đầu vào cho Module 12.
+Tổng hợp đầu ra từ Module 01-11. Đây là đầu ra cuối của giáo trình và là tài liệu làm việc với đội ngũ thiết kế, thi công, bảo trì.
 
-## 14. Ghi chú giới hạn chuyên môn
+## 15. Ghi chú giới hạn chuyên môn
 
-Khi triển khai thật, các chi tiết kỹ thuật cần chuyên gia kiểm tra theo điều kiện dự án.
+Brief là tài liệu định hướng và kiểm soát chất lượng. Nó không thay thế hợp đồng, hồ sơ thiết kế kỹ thuật, dự toán, giấy phép, khảo sát chuyên môn hoặc trách nhiệm nghề nghiệp của đơn vị tư vấn.

@@ -14,8 +14,8 @@ Bộ tài liệu đã được kiểm soát lại theo ba yêu cầu chính:
 |---|---|---|
 | Ngôn ngữ | Tiêu đề, thân bài, bảng, checklist dùng tiếng Việt có dấu | Đạt |
 | Cấu trúc | Đủ 12 module, 6 phụ lục, 1 mục lục, 1 báo cáo kiểm định | Đạt |
-| Độ sâu | Mỗi module có phần kiến thức nền, nguyên lý, quy trình, ví dụ, lỗi, bài tập | Đạt |
-| Trực quan | Có bảng, sơ đồ Mermaid ở các điểm cần làm rõ luồng tư duy | Đạt |
+| Độ sâu | Mỗi module có vai trò, bản chất vấn đề, kiến thức nền, công cụ phân tích, quy trình, ví dụ, lỗi, checklist và bài tập | Đạt |
+| Trực quan | Có bảng phân tích, checklist, ma trận và cấu trúc dễ rà soát | Đạt |
 | Học tập | Mỗi bài đều có đầu ra và tiêu chí tự đánh giá | Đạt |
 | Ứng dụng | Có brief, phiếu khảo sát, checklist và mẫu review phương án | Đạt |
 
@@ -38,24 +38,25 @@ Bộ tài liệu đã được kiểm soát lại theo ba yêu cầu chính:
 
 ## Chuẩn module xuất sắc đã áp dụng
 
-Tất cả 12 module đã được chuẩn hóa theo 14 phần bắt buộc:
+Tất cả 12 module đã được chuẩn hóa theo 15 phần bắt buộc:
 
-1. Mục tiêu học tập.
-2. Vì sao module này quan trọng.
+1. Vai trò của module trong toàn bộ giáo trình.
+2. Mục tiêu học tập.
 3. Tư duy cốt lõi.
-4. Kiến thức nền cần hiểu đúng.
-5. Nguyên lý thiết kế.
-6. Sơ đồ trực quan Mermaid.
-7. Quy trình áp dụng từng bước.
-8. Ví dụ thực tế.
-9. Lỗi thường gặp và cách tránh.
-10. Checklist kiểm tra.
-11. Bài tập thực hành.
-12. Tiêu chí tự đánh giá.
-13. Liên kết với các module khác.
-14. Ghi chú giới hạn chuyên môn.
+4. Bản chất vấn đề.
+5. Kiến thức nền cần hiểu đúng.
+6. Các nguyên lý thiết kế chính.
+7. Công cụ phân tích.
+8. Quy trình áp dụng từng bước.
+9. Ví dụ thực tế.
+10. Lỗi thường gặp và cách tránh.
+11. Checklist kiểm tra.
+12. Bài tập thực hành.
+13. Tiêu chí tự đánh giá.
+14. Liên kết với các module khác.
+15. Ghi chú giới hạn chuyên môn.
 
-Mục tiêu của chuẩn này là biến mỗi module thành một bài học độc lập: người học hiểu được bản chất, biết áp dụng, có bài tập đầu ra và có tiêu chí tự kiểm tra.
+Mục tiêu của chuẩn này là biến mỗi module thành một bài học độc lập: người học hiểu được vai trò trong toàn bộ giáo trình, nắm bản chất, có công cụ phân tích, biết áp dụng, có bài tập đầu ra và có tiêu chí tự kiểm tra.
 
 ## Kết luận
 

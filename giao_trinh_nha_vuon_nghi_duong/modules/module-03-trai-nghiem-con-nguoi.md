@@ -1,138 +1,147 @@
 # Module 03. Thiết Kế Trải Nghiệm Con Người
 
-## 1. Mục tiêu học tập
+## 1. Vai trò của module trong toàn bộ giáo trình
 
-- Hiểu nhà vườn như một chuỗi trải nghiệm chứ không chỉ là mặt bằng.
-- Biết tổ chức hành trình từ cổng vào, hiên, sân, lối đi và điểm nghỉ.
-- Áp dụng được các nguyên lý mở - kín, điểm dừng, khung nhìn và prospect - refuge.
-- Tạo được bài tập hành trình một ngày làm đầu vào cho thiết kế.
+Module này biến dữ liệu khu đất thành hành trình sống. Nó nhận cảm xúc từ Module 01 và dữ liệu hiện trạng từ Module 02, sau đó tạo nền cho quan hệ nhà-vườn, vị trí hiên, điểm dừng, ánh sáng, âm thanh và brief.
 
-## 2. Vì sao module này quan trọng
+## 2. Mục tiêu học tập
 
-Nhiều khu vườn đẹp trên ảnh nhưng ít được sử dụng vì không có hành trình hợp lý, không có điểm dừng dễ chịu hoặc chỗ ngồi bị nắng, gió, thiếu riêng tư. Module này giúp chuyển từ tư duy “bố trí đồ vật” sang tư duy “thiết kế cảm giác khi con người di chuyển và ở lại”.
+- Nhận biết nhà vườn như một chuỗi trải nghiệm thay vì một mặt bằng tĩnh.
+- Giải thích được vai trò của hành trình, điểm dừng, mở-kín, prospect-refuge và tỷ lệ cơ thể.
+- Phân tích được vì sao một không gian đẹp có thể ít được dùng.
+- Vẽ được sơ đồ hành trình một ngày và dùng nó để chỉnh phương án.
 
 ## 3. Tư duy cốt lõi
 
-> Một không gian nghỉ dưỡng tốt không phơi bày mọi thứ cùng lúc; nó dẫn người đi chậm lại qua các lớp mở - kín, sáng - tối, động - tĩnh.
+> Một không gian nghỉ dưỡng tốt không phơi bày mọi thứ cùng lúc; nó dẫn người đi chậm lại qua các lớp mở-kín, sáng-tối, động-tĩnh.
 
-## 4. Kiến thức nền cần hiểu đúng
+## 4. Bản chất vấn đề
 
-### 4.1. Hành trình không gian
+Trải nghiệm không gian là cảm giác nối tiếp theo thời gian: tiếp cận, bước vào, dừng lại, nhìn ra, quay về, dùng ban ngày và dùng ban đêm.
 
-Hành trình là chuỗi chuyển động từ lúc tiếp cận khu đất đến khi vào nhà, ra hiên, đi trong vườn và dừng lại. Hành trình tốt có nhịp, có bất ngờ vừa đủ và không làm người dùng bị lạc hoặc mệt.
+Bản chất của module là thiết kế lý do để con người di chuyển và ở lại. Ghế, lối đi, hiên, cây, ánh sáng chỉ có giá trị khi chúng hỗ trợ hành vi thật.
 
-### 4.2. Điểm dừng
+Người mới thường thiết kế mặt bằng nhìn đẹp từ trên xuống nhưng quên cảm giác của người đứng trong không gian: nhìn gì, nắng ở đâu, có tựa lưng không, có bị nhìn thấy không, đường đi có mời gọi không.
 
-Điểm dừng là nơi người dùng có lý do ở lại: ngồi uống trà, đọc sách, nhìn cây, nghe nước, trò chuyện hoặc đơn giản là thở. Điểm dừng phải có bóng, tầm nhìn, chỗ tựa và cảm giác an toàn.
+## 5. Kiến thức nền cần hiểu đúng
 
-### 4.3. Mở - kín
+### 5.1. Hành trình không gian
 
-Không gian mở cho cảm giác thở và nhìn xa; không gian kín cho cảm giác được ôm và riêng tư. Thiết kế tốt cần luân phiên hai trạng thái này.
+**Khái niệm:** Hành trình là chuỗi di chuyển từ cổng, sân, hiên, nhà, vườn và điểm nghỉ.
 
-### 4.4. Prospect - refuge
+**Bản chất:** Hành trình tốt có nhịp, có chuyển tiếp và không làm người dùng mệt hoặc lạc.
 
-Prospect là khả năng nhìn ra; refuge là cảm giác được che chở. Một chỗ ngồi tốt thường có tầm nhìn phía trước và điểm tựa phía sau hoặc bên cạnh.
+**Hệ quả thiết kế:** Vẽ đường đi theo hoạt động thật, không chỉ theo lối kỹ thuật.
 
-### 4.5. Khung nhìn
+### 5.2. Điểm dừng
 
-Khung nhìn là cảnh được chọn có chủ đích qua cửa, hiên, lối đi hoặc kẽ cây. Không phải view nào cũng nên mở; có view cần che.
+**Khái niệm:** Điểm dừng là nơi có lý do để ở lại.
 
-### 4.6. Tỷ lệ cơ thể
+**Bản chất:** Một chỗ ngồi tốt cần bóng, view, điểm tựa, an toàn và tiếp cận thuận tiện.
 
-Lối đi, bậc, ghế, khoảng cách tới cây và chiều cao tường/cây đều cần phù hợp cơ thể người thật, đặc biệt nếu có trẻ nhỏ hoặc người già.
-## 5. Nguyên lý thiết kế
+**Hệ quả thiết kế:** Không đặt ghế nếu chưa biết người ngồi nhìn gì và được che ra sao.
 
-| Nguyên lý | Cách áp dụng |
-|---|---|
-| Đi chậm có chủ đích | Lối đi nên dẫn dắt, không chỉ nối thẳng điểm đầu và điểm cuối. |
-| Mỗi điểm ngồi phải có lý do | Không đặt ghế nếu không biết người ngồi nhìn gì và được che ra sao. |
-| Tạo nhịp mở - kín | Dùng cây, tường thấp, mái, ánh sáng để tạo lớp chuyển tiếp. |
-| Ưu tiên cảm giác an toàn | Chỗ nghỉ cần đủ sáng, không trơn, không bị nhìn trực diện. |
-| Thiết kế theo thời điểm | Sáng, chiều và tối có ánh sáng, gió và nhu cầu khác nhau. |
+### 5.3. Mở-kín
 
-## 6. Sơ đồ trực quan
+**Khái niệm:** Mở cho cảm giác thoáng, kín cho cảm giác được ôm và riêng tư.
 
-```mermaid
-flowchart LR
-  A["Cổng"] --> B["Lớp đệm"]
-  B --> C["Lối đi chậm"]
-  C --> D["Khoảng mở"]
-  D --> E["Hiên"]
-  E --> F["Điểm ngồi chính"]
-  F --> G["Góc riêng tư"]
-```
+**Bản chất:** Chỉ mở toàn bộ làm mất chiều sâu, chỉ kín toàn bộ làm bí.
 
-## 7. Quy trình áp dụng từng bước
+**Hệ quả thiết kế:** Tổ chức nhịp luân phiên bằng cây, tường thấp, mái, cao độ, ánh sáng.
 
-1. Lập danh sách hoạt động trong một ngày: về nhà, ăn, nghỉ, đọc sách, tiếp khách, đi dạo.
+### 5.4. Prospect-refuge
+
+**Khái niệm:** Prospect là nhìn ra, refuge là được che chở.
+
+**Bản chất:** Con người thường thích ngồi nơi có tầm nhìn phía trước và điểm tựa phía sau hoặc bên cạnh.
+
+**Hệ quả thiết kế:** Thiết kế điểm nghỉ có lưng tựa, mép cây, tường thấp hoặc mái che.
+
+### 5.5. Tỷ lệ cơ thể
+
+**Khái niệm:** Khoảng cách, bậc, lối đi, ghế, tay vịn và tầm nhìn phải hợp cơ thể người thật.
+
+**Bản chất:** Sai tỷ lệ làm không gian mỏi, nguy hiểm hoặc ít dùng.
+
+**Hệ quả thiết kế:** Kiểm bằng người già, trẻ nhỏ, người mang đồ và sử dụng ban đêm.
+
+## 6. Các nguyên lý thiết kế chính
+
+| Nguyên lý | Vì sao quan trọng | Cách áp dụng |
+|---|---|---|
+| Thiết kế theo hoạt động | Không gian phải phục vụ hành vi thật. | Bắt đầu bằng lịch một ngày của người sử dụng. |
+| Mỗi điểm ngồi phải có lý do | Ghế không có bóng, view hoặc riêng tư sẽ bị bỏ. | Kiểm tra bóng, nhìn gì, tựa đâu, đi tới ra sao. |
+| Tạo nhịp mở-kín | Nhịp tạo chiều sâu nghỉ dưỡng. | Dùng lớp cây, mái, tường thấp và ánh sáng để dẫn dắt. |
+| Ưu tiên cảm giác an toàn | Không an toàn thì người dùng không ở lại. | Kiểm tra trơn, tối, khuất, bị nhìn trực diện. |
+| Thiết kế theo thời điểm | Sáng, chiều, tối có nhu cầu khác nhau. | Review cùng một điểm ở nhiều giờ. |
+
+## 7. Công cụ phân tích
+
+- Sơ đồ hành trình một ngày.
+- Bảng điểm dừng: hoạt động, bóng, view, tựa, riêng tư, tiếp cận.
+- Bản đồ mở-kín và vùng động-tĩnh.
+- Ma trận người dùng: trẻ nhỏ, người già, khách, người chăm.
+
+## 8. Quy trình áp dụng từng bước
+
+1. Lập danh sách hoạt động trong ngày và trong tuần.
 2. Vẽ đường di chuyển của từng hoạt động trên sơ đồ.
-3. Chọn 3 điểm dừng quan trọng nhất và mô tả cảm giác mong muốn.
-4. Kiểm tra từng điểm dừng theo bốn câu: có bóng không, nhìn gì, tựa vào đâu, đi tới có dễ không.
-5. Đánh dấu vùng cần mở để nhìn xa và vùng cần kín để riêng tư.
-6. Điều chỉnh lối đi để tránh cắt ngang nơi nghỉ tĩnh hoặc mở thẳng vào view xấu.
+3. Chọn 3-5 điểm dừng quan trọng nhất.
+4. Mô tả cảm giác mong muốn tại từng điểm dừng.
+5. Kiểm tra từng điểm theo bóng, view, tựa, riêng tư, an toàn, tiếp cận.
+6. Điều chỉnh lối đi để tránh cắt ngang vùng nghỉ tĩnh hoặc mở thẳng vào view xấu.
 
-## 8. Ví dụ thực tế
+## 9. Ví dụ thực tế
 
-| Tình huống | Cách đọc hoặc xử lý |
+| Tình huống | Dấu hiệu nhận biết | Nguyên nhân | Hướng xử lý |
+|---|---|---|---|
+| Từ cổng vào nhà | Đi thẳng thấy hết nhà và sân. | Thiếu lớp chuyển tiếp nên trải nghiệm bị phơi bày. | Thêm lớp cây, tường thấp hoặc đoạn ngoặt nhẹ để làm chậm nhịp. |
+| Góc uống trà sáng | Có nắng nhẹ, view cây thấp, ít người đi ngang. | Điều kiện phù hợp hoạt động tĩnh. | Giữ góc này như điểm dừng chính, tránh đặt lối kỹ thuật cắt qua. |
+| Bàn ăn ngoài hiên | Xa bếp hoặc mưa tạt. | Thiếu liên kết chức năng và che chắn. | Đặt gần bếp, đủ rộng, có mái che và đèn ấm. |
+| Lối đi trong vườn | Quá thẳng và không có điểm dừng. | Chỉ là đường kỹ thuật, không tạo trải nghiệm. | Tạo đoạn mở, đoạn khép, một vài điểm nhìn và chỗ nghỉ nhỏ. |
+| Khu trẻ chơi | Xa tầm nhìn người lớn. | An toàn thị giác bị thiếu. | Đặt trong tầm nhìn từ bếp, hiên hoặc phòng khách. |
+
+## 10. Lỗi thường gặp và cách tránh
+
+| Lỗi | Vì sao sai | Hậu quả | Cách tránh |
+|---|---|---|---|
+| Thiết kế chỉ theo mặt bằng đẹp | Mặt bằng không phản ánh cảm giác đứng trong không gian. | Không gian thiếu trải nghiệm sống thật. | Kiểm bằng hành trình người dùng. |
+| Lối đi quá thẳng | Đi nhanh, không có nhịp nghỉ. | Mất cảm giác khám phá. | Tạo lớp chuyển tiếp và điểm dừng. |
+| Điểm ngồi không có bóng | Không dùng được vào giờ nóng. | Ghế thành trang trí. | Kiểm nắng theo giờ trước khi đặt. |
+| Mở toàn bộ view | Không còn chiều sâu và riêng tư. | Không gian bị phơi bày. | Chọn view chính, che view phụ. |
+| Quên người già và trẻ nhỏ | Không xét tốc độ, tầm nhìn, nguy cơ ngã. | Bậc, nền, lối đi thành rủi ro. | Review bằng người dùng yếu thế nhất. |
+
+## 11. Checklist kiểm tra
+
+| Câu hỏi kiểm tra | Dấu hiệu đạt | Rủi ro nếu chưa đạt | Hành động sửa |
+|---|---|---|---|
+| Có hành trình một ngày chưa? | Có đường đi cho các hoạt động chính. | Thiết kế không bám đời sống thật. | Lập lịch và vẽ đường di chuyển. |
+| Mỗi điểm dừng có lý do chưa? | Có hoạt động, bóng, view, tựa, riêng tư. | Điểm ngồi bị bỏ trống. | Bổ sung điều kiện sử dụng hoặc bỏ điểm thừa. |
+| Có nhịp mở-kín chưa? | Có đoạn mở, đoạn khép, vùng chuyển tiếp. | Không gian phẳng và thiếu chiều sâu. | Thêm lớp cây, mái, cao độ hoặc tường thấp. |
+| Có kiểm an toàn ban đêm chưa? | Đường đi đọc được, nền không trơn, không có góc khuất nguy hiểm. | Người dùng tránh ra vườn buổi tối. | Bổ sung ánh sáng dẫn hướng và xử lý nền. |
+| Lối đi có tránh vùng nghỉ tĩnh không? | Không cắt ngang điểm ngồi chính. | Không gian nghỉ bị quấy nhiễu. | Điều chỉnh tuyến đi hoặc đổi vị trí điểm dừng. |
+
+## 12. Bài tập thực hành
+
+| Mức | Bài tập |
 |---|---|
-| Từ cổng vào nhà | Nên có lớp cây hoặc tường mềm làm chậm nhịp, tránh nhìn thẳng toàn bộ nhà. |
-| Góc uống trà sáng | Đặt ở nơi có nắng nhẹ hoặc bóng dịu, nhìn ra khoảng cây thấp và không bị lối đi chính quấy nhiễu. |
-| Bàn ăn ngoài hiên | Cần gần bếp, đủ rộng, có đèn ấm, tránh gió mạnh và mưa tạt. |
-| Lối đi trong vườn | Nên có đoạn mở ra, đoạn khép lại và một vài điểm dừng nhỏ. |
-| Khu trẻ chơi | Cần nền an toàn và có tầm nhìn từ nơi người lớn thường ngồi. |
+| Cơ bản | Ghi lại hành trình một ngày của một người dùng chính trong nhà vườn. |
+| Trung cấp | Vẽ sơ đồ đường đi, 3 điểm dừng và phân tích bóng, view, tựa, riêng tư. |
+| Nâng cao | Chỉnh một mặt bằng có sẵn để cải thiện nhịp mở-kín và chất lượng điểm dừng. |
 
-## 9. Lỗi thường gặp và cách tránh
-
-| Lỗi thường gặp | Hậu quả |
-|---|---|
-| Thiết kế chỉ theo mặt bằng đẹp | Không gian có thể thiếu trải nghiệm sống thật. |
-| Lối đi quá thẳng | Mất cảm giác khám phá và nghỉ dưỡng. |
-| Điểm ngồi không có bóng | Không ai dùng vào thời điểm nóng. |
-| Mở toàn bộ view | Không gian thiếu riêng tư và thiếu chiều sâu. |
-| Quên người già/trẻ nhỏ | Bậc, nền và lối đi có thể trở thành rủi ro. |
-
-## 10. Checklist kiểm tra
-
-### Hành trình
-
-| Câu hỏi | Đạt/Chưa | Ghi chú |
-|---|---|---|
-| Có lối vào rõ và dễ chịu chưa? |  |  |
-| Có nhịp chuyển tiếp từ ngoài vào trong chưa? |  |  |
-| Lối đi có tránh cắt ngang vùng nghỉ không? |  |  |
-
-### Điểm dừng
-
-| Câu hỏi | Đạt/Chưa | Ghi chú |
-|---|---|---|
-| Có ít nhất 3 điểm dừng có lý do chưa? |  |  |
-| Mỗi điểm dừng có bóng và tầm nhìn chưa? |  |  |
-| Có điểm riêng tư và điểm sinh hoạt chung chưa? |  |  |
-
-### An toàn
-
-| Câu hỏi | Đạt/Chưa | Ghi chú |
-|---|---|---|
-| Bậc, nền, lối đi có an toàn không? |  |  |
-| Có xét nhu cầu trẻ nhỏ/người già không? |  |  |
-| Ban đêm có đọc được hành trình không? |  |  |
-
-## 11. Bài tập thực hành
-
-Vẽ “hành trình một ngày” của một người sử dụng chính. Bài nộp gồm sơ đồ đường đi, 3 điểm dừng, cảm giác mong muốn ở từng điểm và 5 lỗi cần tránh.
-
-## 12. Tiêu chí tự đánh giá
+## 13. Tiêu chí tự đánh giá
 
 | Mức | Biểu hiện |
 |---|---|
-| Đạt | Có sơ đồ đường đi và một số điểm dừng. |
-| Tốt | Mỗi điểm dừng có lý do, view và điều kiện sử dụng rõ. |
-| Xuất sắc | Hành trình tạo được nhịp cảm xúc và có thể dùng để chỉnh mặt bằng thật. |
+| Cơ bản | Có sơ đồ đường đi và vài điểm dừng. |
+| Khá | Giải thích được vì sao điểm dừng dùng được hoặc không dùng được. |
+| Tốt | Đề xuất được chỉnh sửa theo hành vi, bóng, view và riêng tư. |
+| Xuất sắc | Hành trình đủ rõ để điều chỉnh mặt bằng, hiên, lối đi, cây và ánh sáng. |
 
-## 13. Liên kết với các module khác
+## 14. Liên kết với các module khác
 
-Dùng dữ liệu từ Module 01 và 02; tạo nền cho Module 05 khi tổ chức quan hệ nhà - vườn.
+Nhận đầu vào từ Module 01 và 02. Tạo nền cho Module 05 về quan hệ nhà-vườn, Module 09 về giác quan và Module 12 về brief.
 
-## 14. Ghi chú giới hạn chuyên môn
+## 15. Ghi chú giới hạn chuyên môn
 
-Phần này định hướng trải nghiệm; các chi tiết kích thước, bậc, lan can và an toàn cần kiểm tra theo thiết kế kỹ thuật.
+Module này định hướng trải nghiệm. Kích thước chi tiết, bậc, lan can, chiếu sáng kỹ thuật và an toàn cần kiểm tra theo tiêu chuẩn thiết kế hiện hành.

@@ -51,18 +51,23 @@ flowchart TD
 
 ## Chuẩn trình bày trong từng bài
 
-Mỗi module đều có cùng một cấu trúc để dễ học, dễ rà soát:
+Mỗi module đều dùng cùng một khung 15 phần để dễ học, dễ rà soát và đủ sâu khi áp dụng vào dự án thật:
 
-1. Mục tiêu học tập.
-2. Tư duy cốt lõi.
-3. Kiến thức nền cần hiểu đúng.
-4. Nguyên lý thiết kế.
-5. Quy trình áp dụng.
-6. Ví dụ minh họa.
-7. Lỗi thường gặp.
-8. Checklist kiểm tra.
-9. Bài tập thực hành.
-10. Tiêu chí tự đánh giá đầu ra.
+1. Vai trò của module trong toàn bộ giáo trình.
+2. Mục tiêu học tập.
+3. Tư duy cốt lõi.
+4. Bản chất vấn đề.
+5. Kiến thức nền cần hiểu đúng.
+6. Các nguyên lý thiết kế chính.
+7. Công cụ phân tích.
+8. Quy trình áp dụng từng bước.
+9. Ví dụ thực tế.
+10. Lỗi thường gặp và cách tránh.
+11. Checklist kiểm tra.
+12. Bài tập thực hành.
+13. Tiêu chí tự đánh giá.
+14. Liên kết với các module khác.
+15. Ghi chú giới hạn chuyên môn.
 
 ## Thứ tự thiết kế đúng
 

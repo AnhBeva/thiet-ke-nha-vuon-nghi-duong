@@ -1,128 +1,156 @@
 # Module 07. Đất, Nước, Thoát Nước Và Tưới
 
-## 1. Mục tiêu học tập
+## 1. Vai trò của module trong toàn bộ giáo trình
 
-- Hiểu đúng bản chất của đất, nước, thoát nước và tưới.
-- Biết áp dụng kiến thức vào một khu đất hoặc phương án cụ thể.
-- Nhận diện lỗi thường gặp và hậu quả vận hành.
-- Tạo được đầu ra thực hành có thể đưa vào brief hoặc checklist.
+Module này xử lý hạ tầng sống của khu vườn. Nó nhận dữ liệu khu đất, tầng cây và quan hệ nhà-vườn từ các module trước, sau đó tạo tiêu chí kỹ thuật cho vật liệu, bảo trì, thi công và brief.
 
-## 2. Vì sao module này quan trọng
+## 2. Mục tiêu học tập
 
-Đây là phần ít hào nhoáng nhưng quyết định tuổi thọ khu vườn. Nhiều vườn xuống cấp không phải vì chọn cây xấu mà vì nước, đất, cao độ và tưới sai.
+- Nhận biết đất, nước, cao độ, thoát nước và tưới là nền vận hành của vườn.
+- Giải thích được vì sao cây chết, sân trơn, bồn úng và nhà ẩm thường bắt đầu từ nước và đất.
+- Phân tích được hướng nước chảy, điểm đọng, khả năng thoát, nhu cầu tưới theo vùng.
+- Lập được checklist đất-nước-tưới để đưa vào brief và nghiệm thu sơ bộ.
 
 ## 3. Tư duy cốt lõi
 
 > Nước phải có đường đi, đất phải cho rễ thở, tưới phải đúng vùng; nếu ba điều này sai, mọi lớp cảnh quan phía trên đều yếu.
 
-## 4. Kiến thức nền cần hiểu đúng
+## 4. Bản chất vấn đề
 
-### 4.1. Đất trồng
+Đất và nước là phần ít thấy nhưng quyết định tuổi thọ vườn. Một khu vườn đẹp lúc bàn giao có thể xuống cấp nhanh nếu cao độ sai, nước đọng, đất bí, bồn cây không thoát hoặc tưới cùng một lượng cho mọi vùng.
 
-Đất cần thoáng, có hữu cơ, giữ ẩm vừa đủ và phù hợp từng nhóm cây.
+Bản chất của module là kiểm soát cân bằng: đủ nước nhưng không úng, đất giữ ẩm nhưng vẫn thoáng khí, sân thoát nhanh nhưng không xả nước gây hại, tưới tự động nhưng vẫn có khả năng điều chỉnh.
 
-### 4.2. Cao độ
+Người mới thường nghĩ cây yếu do chọn cây sai, trong khi nguyên nhân thật có thể là đất nén, rễ ngạt, tưới quá nhiều, thiếu thoát đáy hoặc nước mưa chảy về sai hướng.
 
-Cao độ quyết định nước chảy về đâu và có hắt vào nhà hay không.
+## 5. Kiến thức nền cần hiểu đúng
 
-### 4.3. Thoát nước mặt
+### 5.1. Đất trồng
 
-Nước trên sân, lối đi, hiên cần thoát nhanh và an toàn.
+**Khái niệm:** Đất tốt cần thoáng khí, hữu cơ, giữ ẩm vừa đủ và phù hợp nhóm cây.
 
-### 4.4. Thoát nước trong bồn cây
+**Bản chất:** Rễ cần cả nước và oxy; đất quá chặt hoặc quá úng làm rễ ngạt.
 
-Bồn cây phải tránh úng rễ và có lớp thoát phù hợp.
+**Hệ quả thiết kế:** Kiểm đất nén, cải tạo hữu cơ, thoát nước và chọn cây phù hợp.
 
-### 4.5. Tưới theo vùng
+### 5.2. Cao độ
 
-Vùng nắng, vùng râm, cây mới, cây lớn cần lượng nước khác nhau.
+**Khái niệm:** Cao độ quyết định nước chảy đi đâu.
 
-### 4.6. Phủ gốc
+**Bản chất:** Sai cao độ có thể làm nước hắt vào nhà, đọng ở lối đi hoặc úng bồn cây.
 
-Giảm bốc hơi, bắn bùn, cỏ dại và biến động nhiệt đất.
-## 5. Nguyên lý thiết kế
+**Hệ quả thiết kế:** Vẽ hướng dốc, điểm thu nước, cao độ hiên, sân, bồn.
 
-| Nguyên lý | Cách áp dụng |
-|---|---|
-| Bắt đầu từ vai trò | Mỗi yếu tố phải trả lời nó phục vụ điều gì. |
-| Phù hợp khu đất | Không áp công thức chung lên mọi dự án. |
-| Cân bằng cảm xúc và vận hành | Đẹp phải đi cùng an toàn, bền và dễ chăm. |
-| Thiết kế theo lớp | Mọi quyết định cần liên hệ với các lớp không gian khác. |
-| Kiểm tra bằng thời gian | Luôn hỏi sau 1 năm, 3 năm, 5 năm sẽ ra sao. |
+### 5.3. Thoát nước mặt
 
-## 6. Sơ đồ trực quan
+**Khái niệm:** Nước trên sân, lối đi, hiên cần thoát nhanh và an toàn.
 
-```mermaid
-flowchart TD
-  A["Dữ liệu đầu vào"] --> B["Phân tích Đất, Nước, Thoát Nước Và Tưới"]
-  B --> C["Nguyên lý"]
-  C --> D["Giải pháp"]
-  D --> E["Kiểm tra lỗi"]
-  E --> F["Đưa vào brief"]
-```
+**Bản chất:** Nước đọng gây trơn, rêu, bẩn, muỗi và hư vật liệu.
 
-## 7. Quy trình áp dụng từng bước
+**Hệ quả thiết kế:** Dùng độ dốc, rãnh, khe thấm, vật liệu thấm và điểm thu rõ.
 
-1. Thu thập dữ liệu từ các module trước: cảm xúc, khu đất, hành trình, khí hậu.
-2. Xác định các vị trí quan trọng trên sơ đồ.
-3. Phân tích vấn đề theo từng khái niệm nền trong bài.
-4. Đề xuất giải pháp có lý do, tránh chọn theo sở thích rời rạc.
-5. Kiểm tra rủi ro vận hành và bảo trì.
-6. Ghi kết luận thành checklist hoặc yêu cầu brief.
+### 5.4. Thoát nước bồn cây
 
-## 8. Ví dụ thực tế
+**Khái niệm:** Bồn cây cần thoát đáy và tránh nước bị khóa.
 
-| Tình huống | Cách đọc hoặc xử lý |
-|---|---|
-| Phương án đẹp nhưng khó dùng | Cần kiểm lại vị trí, khí hậu, lối đi, ánh sáng và bảo trì. |
-| Một chi tiết được lặp quá nhiều | Cần giảm để tổng thể có nhịp và khoảng nghỉ. |
-| Khu vực ít được dùng | Thường do thiếu bóng, thiếu tiện tiếp cận, thiếu riêng tư hoặc thiếu lý do ở lại. |
-| Giải pháp tốt nhưng sai chỗ | Cần đưa về đúng điều kiện nắng, gió, nước, hoạt động. |
+**Bản chất:** Bồn kín biến đất thành chậu úng lớn.
 
-## 9. Lỗi thường gặp và cách tránh
+**Hệ quả thiết kế:** Thiết kế lớp thoát, lỗ thoát, vải lọc, đường xả bảo trì.
 
-| Lỗi thường gặp | Hậu quả |
-|---|---|
-| Chỉ chọn theo thẩm mỹ | Dễ sai vận hành. |
-| Không liên hệ khu đất | Giải pháp thiếu căn cứ. |
-| Không xét bảo trì | Nhanh xuống cấp. |
-| Thiếu tiêu chí đánh giá | Khó review với đơn vị thiết kế. |
-| Tách khỏi tổng thể | Không gian bị rời rạc. |
+### 5.5. Tưới theo vùng
 
-## 10. Checklist kiểm tra
+**Khái niệm:** Vùng nắng, râm, cây mới, cây lớn, cây chậu cần nước khác nhau.
 
-### Hiểu đúng
+**Bản chất:** Tưới đồng loạt gây chỗ úng, chỗ khô.
 
-| Câu hỏi | Đạt/Chưa | Ghi chú |
+**Hệ quả thiết kế:** Chia zone tưới theo nhu cầu, có van và lịch điều chỉnh.
+
+### 5.6. Phủ gốc
+
+**Khái niệm:** Phủ gốc giảm bốc hơi, bùn bắn, cỏ dại và biến động nhiệt đất.
+
+**Bản chất:** Đất trống dễ nóng, đóng váng và xói.
+
+**Hệ quả thiết kế:** Dùng mulch, cây nền hoặc vật liệu thấm phù hợp.
+
+## 6. Các nguyên lý thiết kế chính
+
+| Nguyên lý | Vì sao quan trọng | Cách áp dụng |
 |---|---|---|
-| Đã xác định vai trò của chủ đề trong dự án chưa? |  |  |
-| Đã liên hệ với khu đất và người dùng chưa? |  |  |
-| Đã biết rủi ro nếu làm sai chưa? |  |  |
+| Đọc nước trước khi lát sân | Sau khi hoàn thiện rất khó sửa cao độ. | Kiểm hướng nước trước vật liệu và cây. |
+| Cho rễ thở | Cây không chỉ cần nước mà cần oxy. | Tránh đất nén, bồn úng, tưới quá nhiều. |
+| Tách nước sạch và nước bẩn | Nước mưa, bùn, lá và rác cần đường đi rõ. | Thiết kế điểm thu dễ vệ sinh. |
+| Tưới đúng vùng | Mỗi vùng có nhu cầu khác nhau. | Chia zone tưới theo nắng, loại cây, tuổi cây. |
+| Thiết kế để bảo trì | Hệ nước luôn cần vệ sinh. | Có nắp thăm, đường xả, vị trí van dễ tiếp cận. |
 
-### Áp dụng
+## 7. Công cụ phân tích
 
-| Câu hỏi | Đạt/Chưa | Ghi chú |
-|---|---|---|
-| Đã có giải pháp cụ thể chưa? |  |  |
-| Đã có tiêu chí kiểm tra chưa? |  |  |
-| Đã đưa được vào brief/ch checklist chưa? |  |  |
+- Bản đồ cao độ và hướng nước chảy.
+- Bảng điểm đọng nước sau mưa.
+- Ma trận đất: loại đất, thoát nước, hữu cơ, độ nén, cây phù hợp.
+- Sơ đồ zone tưới theo nắng/râm, cây mới/cây lớn, bồn/sân.
 
-## 11. Bài tập thực hành
+## 8. Quy trình áp dụng từng bước
 
-Lập bảng phân tích đất, nước, thoát nước và tưới cho một khu vực cụ thể. Bảng gồm: hiện trạng, vấn đề, nguyên lý liên quan, giải pháp, rủi ro và tiêu chí kiểm tra.
+1. Quan sát khu đất trong mưa hoặc sau mưa, ghi hướng chảy và điểm đọng.
+2. Đánh dấu cao độ tương đối của nhà, hiên, sân, bồn cây, ranh đất.
+3. Kiểm tra đất sơ bộ: dính, tơi, thoát nước, nén chặt, hữu cơ.
+4. Xác định vùng cây cần đất sâu, vùng bồn cây, vùng cây chậu, vùng nền phủ.
+5. Thiết kế đường thoát nước mặt và thoát nước bồn.
+6. Chia vùng tưới theo điều kiện nắng, loại cây và tuổi cây.
+7. Lập lịch kiểm tra sau thi công: sau mưa lớn, sau 1 tháng, sau 3 tháng, sau mùa mưa.
 
-## 12. Tiêu chí tự đánh giá
+## 9. Ví dụ thực tế
+
+| Tình huống | Dấu hiệu nhận biết | Nguyên nhân | Hướng xử lý |
+|---|---|---|---|
+| Nước đọng trước cửa | Sau mưa có vũng ở lối vào. | Độ dốc hoặc điểm thu sai. | Chỉnh cao độ, thêm rãnh thu, đổi vật liệu thấm. |
+| Bồn cây xanh lúc đầu rồi vàng lá | Đất luôn ướt và có mùi bí. | Thoát đáy kém hoặc tưới quá nhiều. | Mở thoát, cải tạo đất, giảm tưới, kiểm lỗ xả. |
+| Cây nắng và cây râm tưới cùng lịch | Vùng râm ướt, vùng nắng khô. | Không chia zone tưới. | Tách van và lịch tưới theo nhu cầu. |
+| Sân lát kín quanh gốc cây | Nước và khí khó vào rễ. | Bề mặt bị bịt kín và đất nén. | Tạo ô thấm, phủ gốc, nới đất quanh rễ. |
+| Rãnh thoát nước khó vệ sinh | Rác lá gây tắc. | Thiếu nắp thăm hoặc điểm gom rác. | Thiết kế nắp mở, lưới chắn rác, lịch vệ sinh. |
+
+## 10. Lỗi thường gặp và cách tránh
+
+| Lỗi | Vì sao sai | Hậu quả | Cách tránh |
+|---|---|---|---|
+| Chỉ xử lý nước sau khi lát xong | Cao độ bị khóa. | Sửa tốn chi phí và phá hoàn thiện. | Thiết kế thoát nước trước vật liệu. |
+| Tưới nhiều để cây nhanh khỏe | Nhầm nước với sức sống. | Úng rễ, nấm bệnh, muỗi. | Tưới theo độ ẩm đất và nhóm cây. |
+| Bồn cây không có thoát đáy | Nước bị giữ trong bồn. | Cây chết chậm, mùi hôi, thấm công trình. | Thiết kế lớp thoát và đường xả. |
+| Đất trồng quá nặng | Đất sét hoặc đất nén giữ nước quá lâu. | Rễ thiếu oxy. | Cải tạo đất bằng hữu cơ, vật liệu thoáng, thoát nước. |
+| Không có lối bảo trì hệ tưới | Van, lọc, đầu tưới bị giấu. | Khó sửa khi tắc hoặc rò. | Bố trí van và nắp thăm dễ tiếp cận. |
+
+## 11. Checklist kiểm tra
+
+| Câu hỏi kiểm tra | Dấu hiệu đạt | Rủi ro nếu chưa đạt | Hành động sửa |
+|---|---|---|---|
+| Đã có bản đồ nước sau mưa chưa? | Có hướng chảy, điểm đọng, điểm xả. | Ngập, trơn, rêu, muỗi. | Khảo sát lại sau mưa và chỉnh cao độ. |
+| Đất có cho rễ thở không? | Đất tơi, thoát vừa, không nén quá mức. | Cây yếu dù tưới đủ. | Cải tạo đất và tránh nén trong thi công. |
+| Bồn cây có thoát đáy chưa? | Có lớp thoát, lỗ xả, đường bảo trì. | Úng, thấm, cây chết. | Bổ sung cấu tạo thoát nước bồn. |
+| Tưới đã chia zone chưa? | Zone theo nắng/râm, loại cây, cây mới/cũ. | Chỗ úng, chỗ khô. | Tách van, chỉnh lịch và đầu tưới. |
+| Hệ thoát/tưới có bảo trì được không? | Có nắp thăm, lọc, van, đường vệ sinh. | Tắc rãnh, rò nước khó sửa. | Bổ sung điểm tiếp cận và lịch kiểm tra. |
+
+## 12. Bài tập thực hành
+
+| Mức | Bài tập |
+|---|---|
+| Cơ bản | Quan sát một khu sân sau mưa và ghi ít nhất 5 điểm nước chảy hoặc đọng. |
+| Trung cấp | Vẽ sơ đồ cao độ tương đối, hướng nước chảy, điểm thu nước và vùng tưới. |
+| Nâng cao | Lập checklist nghiệm thu đất-nước-tưới cho một sân vườn, kèm rủi ro và cách sửa. |
+
+## 13. Tiêu chí tự đánh giá
 
 | Mức | Biểu hiện |
 |---|---|
-| Đạt | Nhận diện được các yếu tố chính. |
-| Tốt | Phân tích được vấn đề và giải pháp tương ứng. |
-| Xuất sắc | Đầu ra đủ rõ để dùng trong brief hoặc review phương án thật. |
+| Cơ bản | Nhận diện được điểm đọng nước, đất bí hoặc tưới sai rõ ràng. |
+| Khá | Giải thích được nguyên nhân theo cao độ, đất, thoát nước, tưới. |
+| Tốt | Đề xuất được giải pháp phù hợp từng vùng. |
+| Xuất sắc | Tạo được sơ đồ và checklist có thể đưa vào brief, thi công và nghiệm thu sơ bộ. |
 
-## 13. Liên kết với các module khác
+## 14. Liên kết với các module khác
 
-Module này liên kết với các module trước và tạo đầu vào cho Module 12.
+Nhận đầu vào từ Module 02, 05 và 06. Tạo nền cho Module 08, 10, 11 và Module 12.
 
-## 14. Ghi chú giới hạn chuyên môn
+## 15. Ghi chú giới hạn chuyên môn
 
-Khi triển khai thật, các chi tiết kỹ thuật cần chuyên gia kiểm tra theo điều kiện dự án.
+Thiết kế thoát nước, chống thấm, cao độ kỹ thuật, hệ tưới tự động và xử lý đất phức tạp cần kỹ sư, kiến trúc sư cảnh quan hoặc đơn vị chuyên môn kiểm tra.

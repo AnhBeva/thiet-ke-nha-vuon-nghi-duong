@@ -1,144 +1,156 @@
 # Module 02. Đọc Khu Đất: Nắng, Gió, Nước, Đất, View
 
-## 1. Mục tiêu học tập
+## 1. Vai trò của module trong toàn bộ giáo trình
 
-- Biết quan sát khu đất trước khi đề xuất ý tưởng.
-- Lập được bản đồ nắng, gió, nước, đất, view ở mức nền tảng.
-- Phân biệt cơ hội và rủi ro của khu đất.
-- Chuyển dữ liệu khảo sát thành yêu cầu thiết kế.
+Module này chuyển tư duy nền tảng thành dữ liệu hiện trạng. Nó nhận nguyên tắc sống từ Module 01 và tạo bản đồ đầu vào cho kiến trúc nhiệt đới, trải nghiệm con người, quan hệ nhà-vườn, cây xanh, thoát nước và brief.
 
-## 2. Vì sao module này quan trọng
+## 2. Mục tiêu học tập
 
-Một phương án nhà vườn tốt không thể sinh ra từ phối cảnh trước. Khu đất luôn có những quy luật sẵn: hướng nắng, hướng gió, điểm đọng nước, cây đang khỏe, view đẹp, view xấu, tiếng ồn và vùng riêng tư. Nếu không đọc đúng, nhà có thể nóng, vườn có thể úng, lối đi có thể trơn và những khung nhìn quan trọng có thể bị lãng phí.
+- Nhận biết khu đất như một hệ có sẵn nắng, gió, nước, đất, cây, view, tiếng ồn và ranh giới.
+- Giải thích được vì sao quan sát theo thời điểm quan trọng hơn nhìn một lần.
+- Phân tích được cơ hội và rủi ro trên sơ đồ hiện trạng.
+- Tạo được bản đồ đọc đất đủ rõ để đưa vào brief thiết kế.
 
 ## 3. Tư duy cốt lõi
 
 > Khu đất không phải tờ giấy trắng. Nó là một hệ đang vận hành; nhiệm vụ đầu tiên là đọc đúng hệ đó.
 
-## 4. Kiến thức nền cần hiểu đúng
+## 4. Bản chất vấn đề
 
-### 4.1. Nắng
+Đọc khu đất là tìm quy luật trước khi can thiệp. Nắng đi theo giờ, nước đi theo cao độ, gió đi theo khoảng trống và vật cản, cây phản ánh đất, còn view và tiếng ồn quyết định cách mở hoặc che.
 
-Nắng sáng thường dễ chịu hơn nắng chiều. Nắng Tây và Tây Nam thường gây nóng, chói và tăng tải nhiệt cho tường, kính, sân.
+Người mới thường nhìn khu đất như diện tích trống để đặt nhà và trồng cây. Cách đọc đúng là xem khu đất đang buộc ta phải tôn trọng điều gì và đang trao cơ hội gì.
 
-### 4.2. Gió
+Dữ liệu tốt phải có vị trí trên sơ đồ. Nhận xét bằng lời mà không gắn vào hướng, cao độ, khoảng cách và thời điểm sẽ khó dùng để thiết kế.
 
-Gió tốt giúp nhà thoáng và giảm cảm giác nóng. Nhưng gió cũng có thể mang bụi, mùi, tiếng ồn hoặc mưa tạt.
+## 5. Kiến thức nền cần hiểu đúng
 
-### 4.3. Nước
+### 5.1. Nắng
 
-Nước mưa cho biết cao độ và dòng chảy thật. Điểm đọng nước là dấu hiệu cần xử lý trước khi lát sân hoặc trồng cây.
+**Khái niệm:** Nắng thay đổi theo giờ và theo mùa, nắng sáng thường dễ chịu hơn nắng chiều.
 
-### 4.4. Đất
+**Bản chất:** Nắng Tây/Tây Nam có bức xạ xiên, kéo dài, làm nóng tường, kính, sân và không gian sau đó.
 
-Đất cát thoát nhanh nhưng giữ dinh dưỡng kém; đất sét giữ nước nhưng dễ bí; đất nén chặt làm rễ khó thở.
+**Hệ quả thiết kế:** Lập bản đồ nắng sáng, trưa, chiều và đánh dấu vùng cần che.
 
-### 4.5. View
+### 5.2. Gió
 
-View đẹp cần được mở có chủ đích. View xấu, hướng nhìn từ hàng xóm và nguồn tiếng ồn cần được che hoặc làm mềm.
+**Khái niệm:** Gió có hướng, tốc độ, mùa và chất lượng khác nhau.
 
-### 4.6. Cây hiện trạng
+**Bản chất:** Gió tốt làm mát nhưng cũng có thể mang bụi, mùi, tiếng ồn hoặc mưa tạt.
 
-Cây lớn khỏe là tài sản thời gian. Cây sâu bệnh, rễ nguy hiểm hoặc che sai hướng cần đánh giá kỹ.
-## 5. Nguyên lý thiết kế
+**Hệ quả thiết kế:** Ghi hướng gió tốt/xấu, vùng bí và vật cản gió.
 
-| Nguyên lý | Cách áp dụng |
-|---|---|
-| Quan sát theo thời điểm | Ít nhất cần xem sáng, trưa, chiều và sau mưa. |
-| Ghi nhận bằng bản đồ | Thông tin phải được đặt lên sơ đồ, không chỉ ghi bằng lời. |
-| Kết luận thiết kế | Mỗi quan sát cần dẫn tới một quyết định: mở, che, nâng, thoát, giữ, bỏ. |
-| Không chống lại khu đất | Ý tưởng đẹp nhưng trái với nắng, nước, gió thường tốn chi phí và khó bền. |
+### 5.3. Nước
 
-## 6. Sơ đồ trực quan
+**Khái niệm:** Nước mưa cho thấy cao độ thật và lỗi mặt bằng.
 
-```mermaid
-flowchart TD
-  A["Khảo sát hiện trạng"] --> B["Nắng"]
-  A --> C["Gió"]
-  A --> D["Nước"]
-  A --> E["Đất và cây"]
-  A --> F["View và tiếng ồn"]
-  B --> G["Cơ hội / rủi ro"]
-  C --> G
-  D --> G
-  E --> G
-  F --> G
-  G --> H["Yêu cầu thiết kế"]
-```
+**Bản chất:** Điểm đọng nước thường báo trước nguy cơ trơn, bẩn, muỗi, úng cây và hư vật liệu.
 
-## 7. Quy trình áp dụng từng bước
+**Hệ quả thiết kế:** Quan sát sau mưa, vẽ hướng nước chảy và điểm cần thoát.
 
-1. Vẽ sơ đồ đất, đánh dấu hướng chính và các mốc cố định.
-2. Chụp ảnh từ cổng, các góc đất và từ trong nhà nhìn ra nếu đã có nhà.
-3. Ghi vùng nắng sáng, trưa, chiều; đặc biệt chú ý mặt Tây.
-4. Quan sát gió tốt, gió xấu, vùng bí và nguồn tiếng ồn.
-5. Sau mưa, đánh dấu hướng nước chảy và điểm đọng.
-6. Kiểm tra đất bằng quan sát độ tơi, độ dính, thoát nước và cây đang sống.
-7. Lập bảng cây hiện trạng: giữ, cắt tỉa, di dời, loại bỏ.
-8. Tóm tắt thành 10 nhận định thiết kế quan trọng nhất.
+### 5.4. Đất
 
-## 8. Ví dụ thực tế
+**Khái niệm:** Đất quyết định sức khỏe rễ, khả năng thoát nước và lựa chọn cây.
 
-| Tình huống | Cách đọc hoặc xử lý |
-|---|---|
-| Phía Tây trống và nóng | Cần che nắng bằng mái, lam, cây bóng mát hoặc giảm cửa kính trực tiếp. |
-| Góc Đông Nam có gió mát | Có thể ưu tiên hiên, cửa mở hoặc điểm nghỉ. |
-| Nước đọng ở lối vào | Phải xử lý cao độ, rãnh hoặc vật liệu thấm trước khi làm đẹp. |
-| Có view ruộng/vườn xa | Nên giữ trục nhìn, không trồng cây chắn view quý. |
-| Hàng xóm nhìn trực diện vào sân | Cần lớp cây đệm hoặc thay đổi vị trí điểm ngồi. |
+**Bản chất:** Đất cát thoát nhanh nhưng nghèo dinh dưỡng, đất sét giữ nước nhưng dễ bí, đất nén làm rễ khó thở.
 
-## 9. Lỗi thường gặp và cách tránh
+**Hệ quả thiết kế:** Ghi loại đất sơ bộ, vùng đất nén, vùng cần cải tạo.
 
-| Lỗi thường gặp | Hậu quả |
-|---|---|
-| Chỉ khảo sát một lần | Bỏ sót thay đổi theo giờ và theo mưa. |
-| Không chụp ảnh hiện trạng | Khó trao đổi chính xác với đơn vị thiết kế. |
-| Xem cây hiện trạng là vật cản | Dễ mất tài sản bóng mát có sẵn. |
-| Không kiểm tra nước | Lỗi ngập, trơn, bẩn thường lộ sau thi công. |
-| Không ghi view xấu | Cửa và hiên có thể mở sai hướng. |
+### 5.5. View và riêng tư
 
-## 10. Checklist kiểm tra
+**Khái niệm:** View đẹp cần mở có chủ đích, view xấu và hướng nhìn từ hàng xóm cần xử lý.
 
-### Nắng - gió
+**Bản chất:** Không phải mọi hướng trống đều đáng mở cửa.
 
-| Câu hỏi | Đạt/Chưa | Ghi chú |
+**Hệ quả thiết kế:** Đánh dấu view nên mở, view cần che, điểm nhìn bị lộ.
+
+### 5.6. Cây hiện trạng
+
+**Khái niệm:** Cây lớn khỏe là tài sản thời gian.
+
+**Bản chất:** Loại bỏ cây sai có thể làm mất bóng mát nhiều năm; giữ cây bệnh có thể tạo rủi ro.
+
+**Hệ quả thiết kế:** Lập bảng giữ, cắt tỉa, di dời, loại bỏ.
+
+## 6. Các nguyên lý thiết kế chính
+
+| Nguyên lý | Vì sao quan trọng | Cách áp dụng |
 |---|---|---|
-| Có bản đồ nắng 3 thời điểm chưa? |  |  |
-| Có ghi hướng gió tốt/xấu chưa? |  |  |
-| Có xác định vùng bí chưa? |  |  |
+| Quan sát theo thời điểm | Khu đất thay đổi theo giờ và sau mưa. | Khảo sát sáng, trưa, chiều và ít nhất một lần sau mưa. |
+| Ghi nhận bằng bản đồ | Dữ liệu không có vị trí thì khó thiết kế. | Đặt nắng, gió, nước, view, cây lên cùng sơ đồ. |
+| Tách cơ hội và rủi ro | Không phải yếu tố nào cũng cần sửa. | Ghi mỗi điểm là giữ, mở, che, nâng, thoát, tránh hoặc xử lý. |
+| Không chống lại khu đất | Chống quy luật tự nhiên thường tốn chi phí. | Đặt hoạt động phù hợp với nắng, gió, nước và view. |
+| Chuyển quan sát thành yêu cầu | Khảo sát chỉ có giá trị khi dẫn tới quyết định. | Mỗi dữ liệu phải có hệ quả thiết kế. |
 
-### Nước - đất - cây
+## 7. Công cụ phân tích
 
-| Câu hỏi | Đạt/Chưa | Ghi chú |
-|---|---|---|
-| Có điểm đọng nước sau mưa chưa? |  |  |
-| Có nhận xét đất sơ bộ chưa? |  |  |
-| Có danh sách cây hiện trạng chưa? |  |  |
+- Bản đồ 7 lớp: nắng, gió, nước, đất, cây, view, tiếng ồn.
+- Bảng cơ hội - rủi ro - quyết định thiết kế.
+- Album ảnh hiện trạng theo vị trí chụp và thời điểm.
+- Danh sách 10 nhận định thiết kế quan trọng nhất.
 
-### View - riêng tư
+## 8. Quy trình áp dụng từng bước
 
-| Câu hỏi | Đạt/Chưa | Ghi chú |
-|---|---|---|
-| Có view nên mở chưa? |  |  |
-| Có view nên che chưa? |  |  |
-| Có nguồn tiếng ồn/rủi ro riêng tư chưa? |  |  |
+1. Vẽ sơ đồ đất, hướng Bắc, ranh, cổng, công trình, cây lớn, cao độ tương đối.
+2. Chụp ảnh từ cổng, các góc đất, vị trí dự kiến hiên, cửa và điểm nhìn.
+3. Đánh dấu nắng sáng, trưa, chiều, đặc biệt hướng Tây và Tây Nam.
+4. Ghi gió tốt, gió xấu, vùng bí, nguồn bụi, mùi, tiếng ồn.
+5. Sau mưa, đánh dấu hướng nước chảy, điểm đọng, vùng bùn, vùng trơn.
+6. Kiểm tra đất và cây hiện trạng ở mức sơ bộ.
+7. Tóm tắt thành 10 quyết định thiết kế ban đầu.
 
-## 11. Bài tập thực hành
+## 9. Ví dụ thực tế
 
-Hoàn thành một “bản đồ đọc đất” gồm sơ đồ tay, ảnh hiện trạng, bảng 7 lớp khảo sát và danh sách 10 quyết định thiết kế rút ra từ khảo sát.
+| Tình huống | Dấu hiệu nhận biết | Nguyên nhân | Hướng xử lý |
+|---|---|---|---|
+| Phía Tây trống và nóng | Tường, sân hoặc phòng chính nhận nắng chiều. | Bức xạ xiên tích nhiệt mạnh. | Giảm kính, thêm hiên, lam, cây bóng mát hoặc đặt chức năng ít ở lâu. |
+| Góc Đông Nam có gió mát | Có gió dễ chịu vào thời điểm sử dụng. | Hướng gió phù hợp với khoảng mở. | Ưu tiên hiên, cửa mở hoặc điểm nghỉ. |
+| Nước đọng ở lối vào | Sau mưa có vũng hoặc bùn. | Cao độ và độ dốc mặt sân sai. | Xử lý cao độ, rãnh, vật liệu thấm trước khi trang trí. |
+| Có view ruộng hoặc vườn xa | Tầm nhìn có chiều sâu. | View là tài sản không gian. | Giữ trục nhìn, không trồng cây chắn view quý. |
+| Hàng xóm nhìn trực diện | Vị trí ngồi hoặc phòng ngủ bị lộ. | Thiếu lớp riêng tư. | Dùng cây, cao độ, lam hoặc đổi hướng mở. |
 
-## 12. Tiêu chí tự đánh giá
+## 10. Lỗi thường gặp và cách tránh
+
+| Lỗi | Vì sao sai | Hậu quả | Cách tránh |
+|---|---|---|---|
+| Chỉ khảo sát một lần | Một thời điểm không đại diện cho cả ngày và mùa. | Bỏ sót nắng chiều, nước sau mưa, gió xấu. | Khảo sát ít nhất sáng, trưa, chiều và sau mưa. |
+| Không chụp ảnh hiện trạng | Ký ức dễ sai khi trao đổi. | Brief và thiết kế thiếu bằng chứng. | Chụp theo vị trí, đánh số và ghi hướng. |
+| Xem cây hiện trạng là vật cản | Không định giá bóng mát và thời gian. | Mất cây lớn khỏe, khu đất nóng hơn. | Đánh giá cây trước khi quyết định bỏ. |
+| Không kiểm tra nước | Lỗi nước thường lộ sau thi công. | Ngập, trơn, bẩn, úng cây. | Quan sát khi mưa và sau mưa. |
+| Không ghi view xấu | Chỉ chú ý view đẹp. | Cửa và hiên mở sai hướng. | Đánh dấu cả view nên mở và view cần che. |
+
+## 11. Checklist kiểm tra
+
+| Câu hỏi kiểm tra | Dấu hiệu đạt | Rủi ro nếu chưa đạt | Hành động sửa |
+|---|---|---|---|
+| Có bản đồ nắng 3 thời điểm chưa? | Đánh dấu sáng, trưa, chiều trên sơ đồ. | Mở cửa, đặt hiên hoặc cây sai hướng. | Khảo sát lại theo giờ và bổ sung sơ đồ. |
+| Có bản đồ nước sau mưa chưa? | Có hướng nước chảy và điểm đọng. | Ngập, trơn, bẩn, úng rễ. | Bổ sung cao độ, rãnh, vật liệu thấm. |
+| Có phân loại cây hiện trạng chưa? | Có bảng giữ, tỉa, di dời, bỏ. | Mất tài sản bóng mát hoặc giữ cây rủi ro. | Mời chuyên gia cây kiểm tra cây lớn nếu cần. |
+| Có ghi view và riêng tư chưa? | Có view mở, view che, điểm bị nhìn. | Cửa lớn mở sai hướng. | Điều chỉnh khung nhìn và lớp che. |
+| Mỗi quan sát đã thành quyết định chưa? | Có hành động mở, che, nâng, thoát, giữ, bỏ. | Khảo sát không giúp thiết kế. | Viết bảng cơ hội - rủi ro - quyết định. |
+
+## 12. Bài tập thực hành
+
+| Mức | Bài tập |
+|---|---|
+| Cơ bản | Chụp 12 ảnh hiện trạng và ghi hướng, giờ, điều quan sát được. |
+| Trung cấp | Vẽ bản đồ 7 lớp của một khu đất thật hoặc giả định. |
+| Nâng cao | Tạo bảng 10 nhận định thiết kế, mỗi nhận định có dữ liệu, rủi ro và quyết định tương ứng. |
+
+## 13. Tiêu chí tự đánh giá
 
 | Mức | Biểu hiện |
 |---|---|
-| Đạt | Có ghi nhận hiện trạng cơ bản. |
-| Tốt | Biết phân loại cơ hội và rủi ro. |
-| Xuất sắc | Mỗi dữ liệu khảo sát đều chuyển thành yêu cầu thiết kế rõ ràng. |
+| Cơ bản | Ghi nhận được hiện trạng chính nhưng còn rời rạc. |
+| Khá | Phân biệt được cơ hội và rủi ro. |
+| Tốt | Chuyển được dữ liệu hiện trạng thành yêu cầu thiết kế. |
+| Xuất sắc | Bản đồ đọc đất đủ rõ để kiến trúc sư và cảnh quan dùng làm đầu vào. |
 
-## 13. Liên kết với các module khác
+## 14. Liên kết với các module khác
 
-Dữ liệu từ module này là đầu vào trực tiếp cho Module 03, 04, 05, 06 và brief ở Module 12.
+Đầu vào từ Module 01. Đầu ra trực tiếp cho Module 03, 04, 05, 06, 07 và Module 12.
 
-## 14. Ghi chú giới hạn chuyên môn
+## 15. Ghi chú giới hạn chuyên môn
 
-Khảo sát trong module này là nền tảng cho chủ nhà; các vấn đề cao độ, địa chất, thoát nước phức tạp vẫn cần chuyên gia.
+Khảo sát trong module này là nền tảng cho chủ nhà. Cao độ, địa chất, cây lớn, thoát nước phức tạp và ranh pháp lý vẫn cần chuyên gia kiểm tra.
