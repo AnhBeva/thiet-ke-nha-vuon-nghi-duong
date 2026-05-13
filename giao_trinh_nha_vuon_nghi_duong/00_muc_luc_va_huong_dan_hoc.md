@@ -2,37 +2,40 @@
 
 ## Mục tiêu tổng quát
 
-Bộ giáo trình này giúp người mới bắt đầu hiểu đúng và đủ bản chất của một nhà vườn nghỉ dưỡng: không phải là một ngôi nhà xây xong rồi thêm cây xanh, mà là một hệ sống trong đó kiến trúc, cảnh quan, con người, ánh sáng, gió, nước, đất và thời gian vận hành cùng nhau.
+Bộ giáo trình này giúp người học hiểu bản chất của nhà vườn nghỉ dưỡng và làm chủ quá trình triển khai dự án từ tư duy, brief, khảo sát, thiết kế, thi công, nghiệm thu đến bảo trì. Mục tiêu không phải thay thế chuyên gia, mà là đủ năng lực đặt đề bài đúng, hỏi đúng, duyệt đúng và kiểm soát chất lượng bằng tiêu chí.
 
 Sau khi học xong, người học cần có khả năng:
 
-- Đọc một khu đất ở mức nền tảng nhưng đúng trọng tâm.
-- Hiểu vì sao một phương án nhà vườn mát, bền, có chiều sâu và dễ chăm.
-- Nhận ra các lỗi phổ biến trong bố cục, cây xanh, thoát nước, vật liệu và bảo trì.
-- Xây dựng được một brief thiết kế đủ rõ để làm việc hiệu quả với kiến trúc sư, kiến trúc sư cảnh quan và đội thi công.
-- Tự kiểm soát chất lượng phương án thay vì chỉ đánh giá bằng cảm tính.
+- Đọc khu đất, khí hậu, trải nghiệm, cây, nước, vật liệu và bảo trì ở mức nền tảng vững.
+- Xây dựng brief thiết kế và brief triển khai đủ rõ.
+- Kiểm soát concept, thiết kế cơ sở, hồ sơ kỹ thuật, BOQ, mẫu, tiến độ, thi công, nghiệm thu và bảo trì.
+- Làm việc hiệu quả với kiến trúc sư, cảnh quan, kỹ sư, nhà thầu và đơn vị bảo trì.
+- Tự kiểm tra dự án bằng checklist thay vì duyệt cảm tính.
 
 ## Tư duy xuyên suốt
 
 ```mermaid
 flowchart TD
-  A["Con người muốn sống như thế nào?"] --> B["Khu đất đang vận hành ra sao?"]
-  B --> C["Nhà nên đặt ở đâu và mở ra đâu?"]
-  C --> D["Vườn cần tạo bóng, khoảng thở và hành trình gì?"]
-  D --> E["Đất, nước, vật liệu, ánh sáng hỗ trợ thế nào?"]
-  E --> F["Sau 5-10 năm nơi này có đẹp và sống tốt hơn không?"]
+  A["Phần I: Hiểu bản chất nhà vườn"] --> B["Brief thiết kế"]
+  B --> C["Phần II: Triển khai dự án"]
+  C --> D["Khảo sát / Concept / Thiết kế cơ sở"]
+  D --> E["Kỹ thuật / BOQ / Mẫu / Hợp đồng"]
+  E --> F["Thi công nhà và cảnh quan"]
+  F --> G["Nghiệm thu / Bàn giao / Bảo trì"]
 ```
 
 ## Cách học khuyến nghị
 
 | Giai đoạn | Cách học | Kết quả cần đạt |
 |---|---|---|
-| 1. Nắm nền tảng | Học module 1-3 | Có ngôn ngữ tư duy đúng về cảm xúc, khu đất và trải nghiệm |
-| 2. Hiểu cấu trúc thiết kế | Học module 4-7 | Biết kiểm tra nhà, vườn, cây, đất, nước và tính bền |
-| 3. Hoàn thiện chất lượng sống | Học module 8-10 | Hiểu vật liệu, giác quan và bảo trì dài hạn |
-| 4. Chuyển thành dự án thật | Học module 11-12 | Có brief, checklist và quy trình làm việc |
+| 1. Nắm nền tảng | Học Module 01-12 | Có ngôn ngữ đúng về nhà vườn, khí hậu, trải nghiệm, cây, nước, vật liệu, bảo trì và brief |
+| 2. Làm chủ triển khai | Học Module 13-19 | Biết kiểm soát brief, khảo sát, concept, thiết kế cơ sở, kỹ thuật, BOQ và ngân sách |
+| 3. Kiểm soát thi công | Học Module 20-25 | Biết duyệt mẫu, chọn đội ngũ, quản lý hiện trường, thi công nhà-vườn, nghiệm thu và bàn giao |
+| 4. Vận hành dài hạn | Học Module 26 và phụ lục | Có kế hoạch bảo trì 12 tháng và kịch bản 1-3-5 năm |
 
 ## Mục lục chi tiết
+
+### Phần I. Nền tảng thiết kế nhà vườn
 
 | Tài liệu | Nội dung | Đầu ra chính |
 |---|---|---|
@@ -41,15 +44,57 @@ flowchart TD
 | [Module 03](modules/module-03-trai-nghiem-con-nguoi.md) | Trải nghiệm con người | Hành trình không gian và điểm dừng |
 | [Module 04](modules/module-04-kien-truc-nhiet-doi.md) | Kiến trúc nhiệt đới | Checklist nhà mát và hiên sống được |
 | [Module 05](modules/module-05-quan-he-nha-va-vuon.md) | Quan hệ nhà - vườn | Sơ đồ kết nối trong nhà, hiên, sân, vườn |
-| [Module 06](modules/module-06-cay-xanh-nhieu-tang.md) | Cây xanh nhiều tầng | Cụm cây có cấu trúc và vai trò rõ |
+| [Module 06](modules/module-06-cay-xanh-nhieu-tang.md) | Cây xanh nhiều tầng | Sơ đồ tầng cây và vai trò cây |
 | [Module 07](modules/module-07-dat-nuoc-thoat-nuoc-tuoi.md) | Đất, nước, thoát nước, tưới | Bản đồ nước và yêu cầu kỹ thuật nền |
-| [Module 08](modules/module-08-vat-lieu-mau-sac-chat-cam.md) | Vật liệu, màu sắc, chất cảm | Bảng vật liệu sơ bộ có lý do chọn |
-| [Module 09](modules/module-09-anh-sang-am-thanh-mui-huong.md) | Ánh sáng và giác quan | Một góc nghỉ dưỡng thiết kế bằng 5 giác quan |
-| [Module 10](modules/module-10-thoi-gian-va-bao-tri.md) | Thời gian và bảo trì | Kế hoạch chăm sóc 12 tháng và nhìn trước 5-10 năm |
-| [Module 11](modules/module-11-quy-trinh-lam-viec.md) | Quy trình làm việc | Bộ câu hỏi kiểm soát đơn vị thiết kế và thi công |
+| [Module 08](modules/module-08-vat-lieu-mau-sac-chat-cam.md) | Vật liệu, màu sắc, chất cảm | Bảng vật liệu có lý do chọn |
+| [Module 09](modules/module-09-anh-sang-am-thanh-mui-huong.md) | Ánh sáng và giác quan | Bản đồ giác quan |
+| [Module 10](modules/module-10-thoi-gian-va-bao-tri.md) | Thời gian và bảo trì | Kế hoạch chăm sóc và kịch bản 5 năm |
+| [Module 11](modules/module-11-quy-trinh-lam-viec.md) | Quy trình làm việc | Bộ câu hỏi kiểm soát thiết kế-thi công |
 | [Module 12](modules/module-12-brief-thiet-ke.md) | Brief tổng hợp | Brief thiết kế nhà vườn hoàn chỉnh |
 
-## Chuẩn trình bày trong từng bài
+### Phần II. Triển khai dự án nhà vườn từ brief đến bảo trì
+
+| Tài liệu | Nội dung | Đầu ra chính |
+|---|---|---|
+| [Module 13](modules/module-13-tong-quan-lo-trinh-trien-khai-du-an.md) | Tổng quan lộ trình triển khai | Master roadmap dự án |
+| [Module 14](modules/module-14-brief-trien-khai-va-yeu-cau-dau-bai.md) | Brief triển khai | Master brief triển khai |
+| [Module 15](modules/module-15-khao-sat-hien-trang-phap-ly-do-dac-ha-tang.md) | Khảo sát hiện trạng, pháp lý, đo đạc, hạ tầng | Báo cáo khảo sát đầu vào |
+| [Module 16](modules/module-16-concept-tong-the-nha-vuon.md) | Concept tổng thể nhà - vườn | Checklist duyệt concept |
+| [Module 17](modules/module-17-thiet-ke-co-so-va-phuong-an-thiet-ke.md) | Thiết kế cơ sở | Checklist duyệt thiết kế cơ sở |
+| [Module 18](modules/module-18-ho-so-ky-thuat-kien-truc-ket-cau-mep-canh-quan.md) | Hồ sơ kỹ thuật | Ma trận hồ sơ kỹ thuật |
+| [Module 19](modules/module-19-du-toan-boq-pham-vi-cong-viec-ngan-sach.md) | Dự toán, BOQ, phạm vi, ngân sách | BOQ và kiểm soát ngân sách |
+| [Module 20](modules/module-20-mau-mockup-vat-lieu-cay-thiet-bi-duyet-mau.md) | Mẫu, mockup và duyệt mẫu | Phiếu duyệt mẫu |
+| [Module 21](modules/module-21-lua-chon-doi-ngu-hop-dong-tien-do-quan-ly-thay-doi.md) | Đội ngũ, hợp đồng, tiến độ, thay đổi | Khung quản lý hợp đồng-tiến độ |
+| [Module 22](modules/module-22-chuan-bi-thi-cong-quan-ly-hien-truong-an-toan-chat-luong.md) | Chuẩn bị thi công và hiện trường | Checklist trước khởi công |
+| [Module 23](modules/module-23-thi-cong-phan-nha-tho-hoan-thien-he-thong-ky-thuat.md) | Thi công phần nhà | Checklist mốc che lấp và hoàn thiện |
+| [Module 24](modules/module-24-thi-cong-canh-quan-dat-nuoc-cay-tuoi-den-vat-lieu-ngoai-troi.md) | Thi công cảnh quan | Checklist đất-nước-cây-tưới-đèn |
+| [Module 25](modules/module-25-nghiem-thu-ban-giao-van-hanh-thu-ho-so-hoan-cong.md) | Nghiệm thu và bàn giao | Checklist bàn giao và hồ sơ hoàn công |
+| [Module 26](modules/module-26-bao-tri-theo-doi-sau-ban-giao-kich-ban-1-3-5-nam.md) | Bảo trì sau bàn giao | Kế hoạch 12 tháng và kịch bản 1-3-5 năm |
+
+## Phụ lục thực hành
+
+| Phụ lục | Nội dung |
+|---|---|
+| [Phụ lục A](phu_luc/checklist_tong_hop.md) | Checklist tổng hợp đánh giá nhà vườn |
+| [Phụ lục B](phu_luc/lo_trinh_hoc_30_ngay.md) | Lộ trình học 30 ngày |
+| [Phụ lục C](phu_luc/mau_phieu_khao_sat_khu_dat.md) | Mẫu phiếu khảo sát khu đất |
+| [Phụ lục D](phu_luc/mau_brief_thiet_ke.md) | Mẫu brief thiết kế nhà vườn nghỉ dưỡng |
+| [Phụ lục E](phu_luc/mau_danh_gia_thiet_ke.md) | Mẫu đánh giá phương án thiết kế |
+| [Phụ lục F](phu_luc/ban_tom_tat_1_trang.md) | Bản tóm tắt 1 trang |
+| [Phụ lục G](phu_luc/mau_master_brief_trien_khai_du_an.md) | Mẫu master brief triển khai dự án |
+| [Phụ lục H](phu_luc/phieu_khao_sat_hien_trang_phap_ly.md) | Phiếu khảo sát hiện trạng và pháp lý |
+| [Phụ lục I](phu_luc/checklist_duyet_concept.md) | Checklist duyệt concept |
+| [Phụ lục J](phu_luc/checklist_duyet_thiet_ke_co_so.md) | Checklist duyệt thiết kế cơ sở |
+| [Phụ lục K](phu_luc/ma_tran_ho_so_ky_thuat_can_co.md) | Ma trận hồ sơ kỹ thuật cần có |
+| [Phụ lục L](phu_luc/mau_duyet_vat_lieu_cay_thiet_bi.md) | Mẫu duyệt vật liệu/cây/thiết bị |
+| [Phụ lục M](phu_luc/mau_boq_pham_vi_cong_viec.md) | Mẫu BOQ/phạm vi công việc |
+| [Phụ lục N](phu_luc/mau_tien_do_tong_the.md) | Mẫu tiến độ tổng thể |
+| [Phụ lục O](phu_luc/mau_nhat_ky_thay_doi_phat_sinh.md) | Mẫu nhật ký thay đổi và phát sinh |
+| [Phụ lục P](phu_luc/checklist_kiem_tra_hien_truong.md) | Checklist kiểm tra hiện trường |
+| [Phụ lục Q](phu_luc/checklist_nghiem_thu_ban_giao.md) | Checklist nghiệm thu bàn giao |
+| [Phụ lục R](phu_luc/ke_hoach_bao_tri_12_thang_1_3_5_nam.md) | Kế hoạch bảo trì 12 tháng và kịch bản 1-3-5 năm |
+
+## Chuẩn trình bày trong từng module
 
 Mỗi module đều dùng cùng một khung 15 phần để dễ học, dễ rà soát và đủ sâu khi áp dụng vào dự án thật:
 
@@ -58,7 +103,7 @@ Mỗi module đều dùng cùng một khung 15 phần để dễ học, dễ rà
 3. Tư duy cốt lõi.
 4. Bản chất vấn đề.
 5. Kiến thức nền cần hiểu đúng.
-6. Các nguyên lý thiết kế chính.
+6. Các nguyên lý chính.
 7. Công cụ phân tích.
 8. Quy trình áp dụng từng bước.
 9. Ví dụ thực tế.
@@ -69,28 +114,6 @@ Mỗi module đều dùng cùng một khung 15 phần để dễ học, dễ rà
 14. Liên kết với các module khác.
 15. Ghi chú giới hạn chuyên môn.
 
-## Thứ tự thiết kế đúng
-
-```text
-Cảm xúc sống
--> Đọc khu đất
--> Phân khu không gian
--> Đặt nhà
--> Tổ chức hiên và vùng chuyển tiếp
--> Tạo lối đi, điểm dừng, khung nhìn
--> Đặt cây lớn và khoảng mở
--> Hoàn thiện tầng cây thấp
--> Xử lý đất, nước, thoát nước, tưới
--> Chọn vật liệu, màu sắc, ánh sáng
--> Lập kế hoạch bảo trì theo thời gian
-```
-
 ## Giới hạn của giáo trình
 
-Giáo trình này đủ để hiểu bản chất, lập đề bài, đánh giá phương án và làm việc tốt hơn với chuyên gia. Tài liệu không thay thế:
-
-- Hồ sơ thiết kế kiến trúc, kết cấu, cơ điện, cấp thoát nước.
-- Tư vấn pháp lý xây dựng.
-- Tính toán kỹ thuật chuyên sâu.
-- Khuyến nghị cây trồng chính xác cho mọi vùng khí hậu.
-- Dự toán chi phí và hồ sơ mời thầu.
+Giáo trình đủ để chủ nhà hiểu bản chất, lập đề bài, kiểm soát thiết kế, làm việc với chuyên gia, theo dõi thi công và nghiệm thu ở mức có tiêu chí. Tài liệu không thay thế hồ sơ thiết kế, tư vấn pháp lý, tính toán kỹ thuật, giám sát chuyên môn, hợp đồng pháp lý hoặc trách nhiệm nghề nghiệp của các đơn vị tư vấn-thi công.

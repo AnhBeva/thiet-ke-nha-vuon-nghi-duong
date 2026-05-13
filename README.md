@@ -1,6 +1,8 @@
 # Giáo Trình Thiết Kế Nhà Vườn Nghỉ Dưỡng Nhiệt Đới
 
-Bộ giáo trình nền tảng giúp người mới hiểu đúng bản chất thiết kế nhà vườn nghỉ dưỡng: đọc khu đất, tổ chức trải nghiệm, kiến trúc nhiệt đới, cây xanh nhiều tầng, đất nước, vật liệu, ánh sáng, bảo trì và quy trình làm việc với kiến trúc sư/cảnh quan/thi công.
+Bộ giáo trình giúp chủ nhà hiểu đúng bản chất thiết kế nhà vườn nghỉ dưỡng và làm chủ quá trình triển khai dự án từ brief, khảo sát, concept, thiết kế cơ sở, hồ sơ kỹ thuật, dự toán, mẫu, hợp đồng, tiến độ, thi công, nghiệm thu đến bảo trì.
+
+Phiên bản này gồm 26 module và 18 phụ lục thực hành. Mục tiêu không phải thay thế kiến trúc sư, kỹ sư, luật sư hoặc nhà thầu, mà giúp chủ nhà đặt đề bài đúng, hỏi đúng, duyệt đúng và kiểm soát chất lượng bằng tiêu chí.
 
 ## Xem Bản HTML
 
@@ -19,29 +21,37 @@ https://<github-user>.github.io/<repo-name>/
 |---|---|
 | `giao_trinh_nen_tang_thiet_ke_nha_vuon_nghi_duong.md` | File khung gốc |
 | `giao_trinh_nha_vuon_nghi_duong/00_muc_luc_va_huong_dan_hoc.md` | Mục lục và hướng dẫn học |
-| `giao_trinh_nha_vuon_nghi_duong/modules/` | 12 module bài học chi tiết |
-| `giao_trinh_nha_vuon_nghi_duong/phu_luc/` | Checklist, mẫu brief, mẫu khảo sát, lộ trình học |
-| `giao_trinh_nha_vuon_nghi_duong/giao_trinh_hoan_chinh.html` | Bản HTML hợp nhất, giao diện đẹp, có Mermaid |
+| `giao_trinh_nha_vuon_nghi_duong/modules/` | 26 module bài học chi tiết |
+| `giao_trinh_nha_vuon_nghi_duong/phu_luc/` | 18 phụ lục: checklist, mẫu brief, mẫu khảo sát, BOQ, tiến độ, nghiệm thu, bảo trì |
+| `giao_trinh_nha_vuon_nghi_duong/giao_trinh_hoan_chinh.html` | Bản HTML hợp nhất |
 | `giao_trinh_nha_vuon_nghi_duong/kiem_dinh_chat_luong.md` | Báo cáo kiểm định chất lượng |
+
+## Cấu Trúc Module
+
+| Phần | Module | Nội dung chính |
+|---|---|---|
+| Phần I | 01-12 | Nền tảng thiết kế nhà vườn: khu đất, khí hậu, trải nghiệm, cây, nước, vật liệu, ánh sáng, bảo trì, quy trình và brief |
+| Phần II | 13-26 | Triển khai dự án từ brief đến bảo trì: khảo sát, concept, thiết kế cơ sở, kỹ thuật, BOQ, mẫu, hợp đồng, thi công, nghiệm thu và vận hành |
 
 ## Chuẩn Module
 
-Mỗi module được chuẩn hóa theo 14 phần:
+Mỗi module được chuẩn hóa theo 15 phần:
 
-1. Mục tiêu học tập.
-2. Vì sao module này quan trọng.
+1. Vai trò của module trong toàn bộ giáo trình.
+2. Mục tiêu học tập.
 3. Tư duy cốt lõi.
-4. Kiến thức nền cần hiểu đúng.
-5. Nguyên lý thiết kế.
-6. Sơ đồ trực quan Mermaid.
-7. Quy trình áp dụng từng bước.
-8. Ví dụ thực tế.
-9. Lỗi thường gặp và cách tránh.
-10. Checklist kiểm tra.
-11. Bài tập thực hành.
-12. Tiêu chí tự đánh giá.
-13. Liên kết với các module khác.
-14. Ghi chú giới hạn chuyên môn.
+4. Bản chất vấn đề.
+5. Kiến thức nền cần hiểu đúng.
+6. Các nguyên lý chính.
+7. Công cụ phân tích.
+8. Quy trình áp dụng từng bước.
+9. Ví dụ thực tế.
+10. Lỗi thường gặp và cách tránh.
+11. Checklist kiểm tra.
+12. Bài tập thực hành.
+13. Tiêu chí tự đánh giá.
+14. Liên kết với các module khác.
+15. Ghi chú giới hạn chuyên môn.
 
 ## GitHub Pages
 
@@ -53,12 +63,6 @@ Repo này dùng GitHub Pages dạng tĩnh:
 
 File `.nojekyll` được thêm để GitHub Pages phục vụ nguyên trạng các file tĩnh.
 
-## Ghi Chú Mermaid
+## Ghi Chú
 
-Bản HTML tải Mermaid qua CDN:
-
-```text
-https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs
-```
-
-Vì vậy, sơ đồ Mermaid cần internet để render. Nội dung chữ, bảng và bố cục vẫn đọc được khi offline.
+Bản HTML là tài liệu tĩnh, có thể mở trực tiếp bằng trình duyệt hoặc phục vụ qua GitHub Pages. Nội dung chữ, bảng và bố cục đọc được offline.

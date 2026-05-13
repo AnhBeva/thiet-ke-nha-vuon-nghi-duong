@@ -150,7 +150,7 @@ Người mới thường viết brief bằng cảm xúc chung chung hoặc danh 
 
 ## 14. Liên kết với các module khác
 
-Tổng hợp đầu ra từ Module 01-11. Đây là đầu ra cuối của giáo trình và là tài liệu làm việc với đội ngũ thiết kế, thi công, bảo trì.
+Tổng hợp đầu ra từ Module 01-11. Đây là đầu ra cuối của Phần I và là đầu vào trực tiếp cho Phần II, bắt đầu từ Module 13 về lộ trình triển khai dự án.
 
 ## 15. Ghi chú giới hạn chuyên môn
 
