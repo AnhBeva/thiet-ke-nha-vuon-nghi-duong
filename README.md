@@ -33,6 +33,19 @@ https://<github-user>.github.io/<repo-name>/
 | Phần I | 01-12 | Nền tảng thiết kế nhà vườn: khu đất, khí hậu, trải nghiệm, cây, nước, vật liệu, ánh sáng, bảo trì, quy trình và brief |
 | Phần II | 13-26 | Triển khai dự án từ brief đến bảo trì: khảo sát, concept, thiết kế cơ sở, kỹ thuật, BOQ, mẫu, hợp đồng, thi công, nghiệm thu và vận hành |
 
+## Cụm Thiết Kế Nhà Mới
+
+| Module | Nội dung | Đầu ra chính |
+|---|---|---|
+| 27 | Nhiệm vụ thiết kế nhà và chuẩn đầu vào dự án | Brief kiến trúc, ma trận người dùng-hoạt động |
+| 28 | Pháp lý, quy hoạch, giấy phép và giới hạn thiết kế | Checklist pháp lý, sơ đồ vùng được xây |
+| 29 | Công năng, zoning và ma trận quan hệ phòng | Sơ đồ zoning, ma trận quan hệ phòng |
+| 30 | Mặt bằng, mặt cắt, cao độ và tổ chức hình khối | Mặt cắt chính, sơ đồ cao độ, bảng so sánh phương án |
+| 31 | Thiết kế khí hậu cho vỏ nhà | Ma trận mái-hiên-cửa-kính-lam |
+| 32 | Phối hợp kết cấu, MEP và kỹ thuật vận hành | Checklist phối hợp bộ môn, sơ đồ vùng kỹ thuật |
+| 33 | Vật liệu, cấu tạo, chống thấm, chống nóng và bảo trì | Bảng vật liệu, checklist cấu tạo rủi ro |
+| 34 | Hồ sơ thiết kế, checklist duyệt và nghiệm thu | Danh mục hồ sơ, mẫu nghiệm thu thiết kế |
+
 ## Chuẩn Module
 
 Mỗi module được chuẩn hóa theo 15 phần:

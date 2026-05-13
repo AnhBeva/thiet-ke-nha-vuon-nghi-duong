@@ -11,6 +11,7 @@ Sau khi học xong, người học cần có khả năng:
 - Kiểm soát concept, thiết kế cơ sở, hồ sơ kỹ thuật, BOQ, mẫu, tiến độ, thi công, nghiệm thu và bảo trì.
 - Làm việc hiệu quả với kiến trúc sư, cảnh quan, kỹ sư, nhà thầu và đơn vị bảo trì.
 - Tự kiểm tra dự án bằng checklist thay vì duyệt cảm tính.
+- Đọc, lập nhiệm vụ và duyệt thiết kế phần nhà: pháp lý, công năng, mặt bằng, mặt cắt, vỏ nhà, kết cấu, MEP, vật liệu và hồ sơ.
 
 ## Tư duy xuyên suốt
 
@@ -32,6 +33,7 @@ flowchart TD
 | 2. Làm chủ triển khai | Học Module 13-19 | Biết kiểm soát brief, khảo sát, concept, thiết kế cơ sở, kỹ thuật, BOQ và ngân sách |
 | 3. Kiểm soát thi công | Học Module 20-25 | Biết duyệt mẫu, chọn đội ngũ, quản lý hiện trường, thi công nhà-vườn, nghiệm thu và bàn giao |
 | 4. Vận hành dài hạn | Học Module 26 và phụ lục | Có kế hoạch bảo trì 12 tháng và kịch bản 1-3-5 năm |
+| 5. Đi sâu thiết kế nhà | Học Module 27-34 | Có brief kiến trúc, zoning, mặt cắt, checklist vỏ nhà, phối hợp kỹ thuật và tiêu chuẩn duyệt hồ sơ |
 
 ## Mục lục chi tiết
 
@@ -70,6 +72,19 @@ flowchart TD
 | [Module 24](modules/module-24-thi-cong-canh-quan-dat-nuoc-cay-tuoi-den-vat-lieu-ngoai-troi.md) | Thi công cảnh quan | Checklist đất-nước-cây-tưới-đèn |
 | [Module 25](modules/module-25-nghiem-thu-ban-giao-van-hanh-thu-ho-so-hoan-cong.md) | Nghiệm thu và bàn giao | Checklist bàn giao và hồ sơ hoàn công |
 | [Module 26](modules/module-26-bao-tri-theo-doi-sau-ban-giao-kich-ban-1-3-5-nam.md) | Bảo trì sau bàn giao | Kế hoạch 12 tháng và kịch bản 1-3-5 năm |
+
+### Phần III. Thiết kế nhà nghỉ dưỡng gia đình trong khu nhà vườn
+
+| Tài liệu | Nội dung | Đầu ra chính |
+|---|---|---|
+| [Module 27](modules/module-27-nhiem-vu-thiet-ke-nha-va-chuan-dau-vao-du-an.md) | Nhiệm vụ thiết kế nhà và chuẩn đầu vào dự án | Brief kiến trúc, ma trận người dùng-hoạt động-không gian |
+| [Module 28](modules/module-28-phap-ly-quy-hoach-giay-phep-va-gioi-han-thiet-ke.md) | Pháp lý, quy hoạch, giấy phép và giới hạn thiết kế | Checklist pháp lý, sơ đồ vùng được xây |
+| [Module 29](modules/module-29-cong-nang-zoning-va-ma-tran-quan-he-phong.md) | Công năng, zoning và ma trận quan hệ phòng | Sơ đồ zoning, ma trận quan hệ phòng |
+| [Module 30](modules/module-30-mat-bang-mat-cat-cao-do-va-to-chuc-hinh-khoi.md) | Mặt bằng, mặt cắt, cao độ và tổ chức hình khối | Mặt cắt chính, sơ đồ cao độ, bảng so sánh phương án |
+| [Module 31](modules/module-31-thiet-ke-khi-hau-cho-vo-nha-mai-hien-cua-kinh-lam.md) | Thiết kế khí hậu cho vỏ nhà | Ma trận mái-hiên-cửa-kính-lam |
+| [Module 32](modules/module-32-phoi-hop-ket-cau-mep-va-ky-thuat-van-hanh.md) | Phối hợp kết cấu, MEP và kỹ thuật vận hành | Checklist phối hợp bộ môn, sơ đồ vùng kỹ thuật |
+| [Module 33](modules/module-33-vat-lieu-cau-tao-chong-tham-chong-nong-va-bao-tri.md) | Vật liệu, cấu tạo, chống thấm, chống nóng và bảo trì | Bảng vật liệu, checklist cấu tạo rủi ro |
+| [Module 34](modules/module-34-ho-so-thiet-ke-checklist-duyet-phuong-an-va-tieu-chuan-nghiem-thu.md) | Hồ sơ thiết kế, checklist duyệt và tiêu chuẩn nghiệm thu | Danh mục hồ sơ, mẫu nghiệm thu thiết kế |
 
 ## Phụ lục thực hành
 
@@ -113,6 +128,8 @@ Mỗi module đều dùng cùng một khung 15 phần để dễ học, dễ rà
 13. Tiêu chí tự đánh giá.
 14. Liên kết với các module khác.
 15. Ghi chú giới hạn chuyên môn.
+
+Module 27-34 dùng khung chuyên sâu hơn cho phần nhà: vai trò, mục tiêu, kiến thức đầu vào, khái niệm cốt lõi, nguyên lý thiết kế, quy chuẩn/pháp lý cần kiểm tra, công cụ phân tích, quy trình, đầu ra bắt buộc, ví dụ, lỗi thường gặp, checklist, bài tập, tiêu chí tự đánh giá và giới hạn chuyên môn.
 
 ## Giới hạn của giáo trình
 
