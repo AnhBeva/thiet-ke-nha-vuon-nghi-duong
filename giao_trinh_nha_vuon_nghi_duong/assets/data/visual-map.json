@@ -7,14 +7,13 @@
     "cover_kind": "real-photo",
     "source": {
       "file": "assets/images/module-01-photo.jpg",
-      "title": "Tagged Flickr photo for tropical,garden,villa,landscape",
-      "source_url": "https://loremflickr.com/1400/900/tropical,garden,villa,landscape/all?lock=1001",
-      "direct_url": "https://loremflickr.com/cache/resized/7813_33392366898_8456122994_1280_822_nofilter.jpg",
-      "provider": "loremflickr/flickr",
-      "license": "Flickr tagged image via LoremFlickr",
-      "tags": "tropical,garden,villa,landscape",
-      "lock": "1001",
-      "sha256": "d8badef8235bb67e08823a043a028d2a939912f0a1452098b36c15e4b8400e7c"
+      "title": "Tropical garden pathway leading to villa",
+      "source_url": "https://www.pexels.com/photo/33581364/",
+      "direct_url": "https://images.pexels.com/photos/33581364/pexels-photo-33581364.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "provider": "Pexels",
+      "license": "Pexels free-use image",
+      "photo_id": "33581364",
+      "sha256": "34e82adb3f480df9e00e01b2ff93f84112db5dd6d2fe8843905d393a8ec77015"
     },
     "diagram": "assets/diagrams/module-01-diagram.svg",
     "gallery": [
@@ -37,14 +36,13 @@
     "cover_kind": "real-photo",
     "source": {
       "file": "assets/images/module-02-photo.jpg",
-      "title": "Tagged Flickr photo for aerial,landscape,garden,site",
-      "source_url": "https://loremflickr.com/1400/900/aerial,landscape,garden,site/all?lock=1002",
-      "direct_url": "https://loremflickr.com/cache/resized/defaultImage.small_1280_822_nofilter.jpg",
-      "provider": "loremflickr/flickr",
-      "license": "Flickr tagged image via LoremFlickr",
-      "tags": "aerial,landscape,garden,site",
-      "lock": "1002",
-      "sha256": "3bf36b77f82fbc1926091cfbd4afcd1e6afb095cf6d34bbbc9f746193feff9ce"
+      "title": "Tropical garden landscape with palm trees",
+      "source_url": "https://www.pexels.com/photo/30840332/",
+      "direct_url": "https://images.pexels.com/photos/30840332/pexels-photo-30840332.png?auto=compress&cs=tinysrgb&w=1600",
+      "provider": "Pexels",
+      "license": "Pexels free-use image",
+      "photo_id": "30840332",
+      "sha256": "ca02dccc8c32007c4d570ae911fdfffb15f01b0cee055d0fe277876fa44d1353"
     },
     "diagram": "assets/diagrams/module-02-diagram.svg",
     "gallery": [
@@ -67,14 +65,13 @@
     "cover_kind": "real-photo",
     "source": {
       "file": "assets/images/module-03-photo.jpg",
-      "title": "Tagged Flickr photo for garden,path,terrace",
-      "source_url": "https://loremflickr.com/1400/900/garden,path,terrace/all?lock=11003",
-      "direct_url": "https://loremflickr.com/cache/resized/3627_3456783630_98da676168_1280_822_nofilter.jpg",
-      "provider": "loremflickr/flickr",
-      "license": "Flickr tagged image via LoremFlickr",
-      "tags": "garden,path,terrace",
-      "lock": "11003",
-      "sha256": "6b5839c6b7b55c3a81cf26884abf9a4ed18bee7005a5604a46cb9c5f9cb1fac4"
+      "title": "Outdoor garden lounge and terrace",
+      "source_url": "https://www.pexels.com/photo/16371355/",
+      "direct_url": "https://images.pexels.com/photos/16371355/pexels-photo-16371355.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "provider": "Pexels",
+      "license": "Pexels free-use image",
+      "photo_id": "16371355",
+      "sha256": "d646e69ef8fa68aa18584340d3bfd3623834fb85a269445a0c4f38562f0e93bc"
     },
     "diagram": "assets/diagrams/module-03-diagram.svg",
     "gallery": [
@@ -97,14 +94,13 @@
     "cover_kind": "real-photo",
     "source": {
       "file": "assets/images/module-04-photo.jpg",
-      "title": "Tagged Flickr photo for tropical,house,veranda",
-      "source_url": "https://loremflickr.com/1400/900/tropical,house,veranda/all?lock=11004",
-      "direct_url": "https://loremflickr.com/cache/resized/65535_53129169448_ad1a2dbce7_h_1280_822_nofilter.jpg",
-      "provider": "loremflickr/flickr",
-      "license": "Flickr tagged image via LoremFlickr",
-      "tags": "tropical,house,veranda",
-      "lock": "11004",
-      "sha256": "e6da13167bb4915c6c332d9ac25973084ad33b32169b4ad37929634d652f18a9"
+      "title": "Tropical villa with wooden architecture",
+      "source_url": "https://www.pexels.com/photo/36107525/",
+      "direct_url": "https://images.pexels.com/photos/36107525/pexels-photo-36107525.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "provider": "Pexels",
+      "license": "Pexels free-use image",
+      "photo_id": "36107525",
+      "sha256": "95d06128da13af2db4123fc239e5486001ac746710cea147e3164980735d27aa"
     },
     "diagram": "assets/diagrams/module-04-diagram.svg",
     "gallery": [
@@ -127,14 +123,13 @@
     "cover_kind": "real-photo",
     "source": {
       "file": "assets/images/module-05-photo.jpg",
-      "title": "Tagged Flickr photo for house,garden,terrace",
-      "source_url": "https://loremflickr.com/1400/900/house,garden,terrace/all?lock=11005",
-      "direct_url": "https://loremflickr.com/cache/resized/65535_49914197856_59b2298747_h_1280_822_nofilter.jpg",
-      "provider": "loremflickr/flickr",
-      "license": "Flickr tagged image via LoremFlickr",
-      "tags": "house,garden,terrace",
-      "lock": "11005",
-      "sha256": "6d0243d55ea22c88af521232539e72a404ae4968b6232a1b410a96a1ff1ca099"
+      "title": "Tropical villa with lush garden",
+      "source_url": "https://www.pexels.com/photo/36183959/",
+      "direct_url": "https://images.pexels.com/photos/36183959/pexels-photo-36183959.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "provider": "Pexels",
+      "license": "Pexels free-use image",
+      "photo_id": "36183959",
+      "sha256": "6db6134a3fdde02a86a955c0d48270bb8e4a1f472c0c6a2890920df8268f8632"
     },
     "diagram": "assets/diagrams/module-05-diagram.svg",
     "gallery": [
@@ -157,14 +152,13 @@
     "cover_kind": "real-photo",
     "source": {
       "file": "assets/images/module-06-photo.jpg",
-      "title": "Tagged Flickr photo for tropical,plants,garden,botanical",
-      "source_url": "https://loremflickr.com/1400/900/tropical,plants,garden,botanical/all?lock=1006",
-      "direct_url": "https://loremflickr.com/cache/resized/65535_52164128399_2c4af3017f_h_1280_822_nofilter.jpg",
-      "provider": "loremflickr/flickr",
-      "license": "Flickr tagged image via LoremFlickr",
-      "tags": "tropical,plants,garden,botanical",
-      "lock": "1006",
-      "sha256": "0a0b40c343dbaf6c01aaa244b931dd6cded27c7217a258d5c92cb9d4d4b5765d"
+      "title": "Tropical garden vegetation and planting",
+      "source_url": "https://www.pexels.com/photo/16371439/",
+      "direct_url": "https://images.pexels.com/photos/16371439/pexels-photo-16371439.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "provider": "Pexels",
+      "license": "Pexels free-use image",
+      "photo_id": "16371439",
+      "sha256": "4857a89ae23925a1d29129b2cf05c31a62512c3aab2abb5b264d0bb65b415bad"
     },
     "diagram": "assets/diagrams/module-06-diagram.svg",
     "gallery": [
@@ -187,14 +181,13 @@
     "cover_kind": "real-photo",
     "source": {
       "file": "assets/images/module-07-photo.jpg",
-      "title": "Tagged Flickr photo for rain,garden,drainage",
-      "source_url": "https://loremflickr.com/1400/900/rain,garden,drainage/all?lock=11007",
-      "direct_url": "https://loremflickr.com/cache/resized/3142_2578681024_ed71b11d53_h_1280_822_nofilter.jpg",
-      "provider": "loremflickr/flickr",
-      "license": "Flickr tagged image via LoremFlickr",
-      "tags": "rain,garden,drainage",
-      "lock": "11007",
-      "sha256": "db3747471aa8e31983a4c16baba560ea9d5be1d9267d7f069440d0cd730636a5"
+      "title": "Rainy lush tropical garden",
+      "source_url": "https://www.pexels.com/photo/29494947/",
+      "direct_url": "https://images.pexels.com/photos/29494947/pexels-photo-29494947.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "provider": "Pexels",
+      "license": "Pexels free-use image",
+      "photo_id": "29494947",
+      "sha256": "62282b12bdd6c7fa1d46b5019249d1c266994b6f621d34b2b1f162b22970ae90"
     },
     "diagram": "assets/diagrams/module-07-diagram.svg",
     "gallery": [
@@ -217,14 +210,13 @@
     "cover_kind": "real-photo",
     "source": {
       "file": "assets/images/module-08-photo.jpg",
-      "title": "Tagged Flickr photo for stone,wood,architecture,material",
-      "source_url": "https://loremflickr.com/1400/900/stone,wood,architecture,material/all?lock=1008",
-      "direct_url": "https://loremflickr.com/cache/resized/65535_51280625302_411d55535e_h_1280_822_nofilter.jpg",
-      "provider": "loremflickr/flickr",
-      "license": "Flickr tagged image via LoremFlickr",
-      "tags": "stone,wood,architecture,material",
-      "lock": "1008",
-      "sha256": "711327c40c6f973a068f79abd185a35cd7d605df8ff88b8ac021229cd4f9a246"
+      "title": "Stone and wood architectural material",
+      "source_url": "https://www.pexels.com/photo/31688478/",
+      "direct_url": "https://images.pexels.com/photos/31688478/pexels-photo-31688478.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "provider": "Pexels",
+      "license": "Pexels free-use image",
+      "photo_id": "31688478",
+      "sha256": "e708f97a0421bdb6beeb6bba68c01a096be0df370ae838b6f6fd207773d359be"
     },
     "diagram": "assets/diagrams/module-08-diagram.svg",
     "gallery": [
@@ -247,14 +239,13 @@
     "cover_kind": "real-photo",
     "source": {
       "file": "assets/images/module-09-photo.jpg",
-      "title": "Tagged Flickr photo for garden,lighting,night,landscape",
-      "source_url": "https://loremflickr.com/1400/900/garden,lighting,night,landscape/all?lock=1009",
-      "direct_url": "https://loremflickr.com/cache/resized/7171_6804891817_c433fc5a4c_h_1280_822_nofilter.jpg",
-      "provider": "loremflickr/flickr",
-      "license": "Flickr tagged image via LoremFlickr",
-      "tags": "garden,lighting,night,landscape",
-      "lock": "1009",
-      "sha256": "03b11ce56d0361c00ddc8b41bc0e98afcc1ccd19abdad6ce3afba57cfc14bbe9"
+      "title": "Decorative garden lighting at night",
+      "source_url": "https://www.pexels.com/photo/18473577/",
+      "direct_url": "https://images.pexels.com/photos/18473577/pexels-photo-18473577.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "provider": "Pexels",
+      "license": "Pexels free-use image",
+      "photo_id": "18473577",
+      "sha256": "22af3fbfc48f59dbec5874beab350660b4e4f14ed8e698b89506055cc4506035"
     },
     "diagram": "assets/diagrams/module-09-diagram.svg",
     "gallery": [
@@ -277,14 +268,13 @@
     "cover_kind": "real-photo",
     "source": {
       "file": "assets/images/module-10-photo.jpg",
-      "title": "Tagged Flickr photo for mature,garden",
-      "source_url": "https://loremflickr.com/1400/900/mature,garden/all?lock=21010",
-      "direct_url": "https://loremflickr.com/cache/resized/65535_51281990390_1dc113702d_h_1280_822_nofilter.jpg",
-      "provider": "loremflickr/flickr",
-      "license": "Flickr tagged image via LoremFlickr",
-      "tags": "mature,garden",
-      "lock": "21010",
-      "sha256": "3015577b344bda0bf5569a377bd644f4a00af266034960f3e1243014a7d26e11"
+      "title": "Scenic mature tropical garden",
+      "source_url": "https://www.pexels.com/photo/30338212/",
+      "direct_url": "https://images.pexels.com/photos/30338212/pexels-photo-30338212.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "provider": "Pexels",
+      "license": "Pexels free-use image",
+      "photo_id": "30338212",
+      "sha256": "0c75f39e1de8f0099ae16296a723def48f7e241a8eec801aff5386c723352851"
     },
     "diagram": "assets/diagrams/module-10-diagram.svg",
     "gallery": [
@@ -307,14 +297,13 @@
     "cover_kind": "real-photo",
     "source": {
       "file": "assets/images/module-11-photo.jpg",
-      "title": "Tagged Flickr photo for architect,meeting,design",
-      "source_url": "https://loremflickr.com/1400/900/architect,meeting,design/all?lock=11011",
-      "direct_url": "https://loremflickr.com/cache/resized/5068_5669975560_640c0e54ac_h_1280_822_nofilter.jpg",
-      "provider": "loremflickr/flickr",
-      "license": "Flickr tagged image via LoremFlickr",
-      "tags": "architect,meeting,design",
-      "lock": "11011",
-      "sha256": "2251e59ef740a6d755df8b126c57a639bc3a2be4c27436c835c4d98b604e499e"
+      "title": "Engineers reviewing project blueprints",
+      "source_url": "https://www.pexels.com/photo/3862135/",
+      "direct_url": "https://images.pexels.com/photos/3862135/pexels-photo-3862135.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "provider": "Pexels",
+      "license": "Pexels free-use image",
+      "photo_id": "3862135",
+      "sha256": "693a1abe4f0bc812a0ecb1d28c0a4b7726d614b65d158243744b36e0eba1a7be"
     },
     "diagram": "assets/diagrams/module-11-diagram.svg",
     "gallery": [
@@ -337,14 +326,13 @@
     "cover_kind": "real-photo",
     "source": {
       "file": "assets/images/module-12-photo.jpg",
-      "title": "Tagged Flickr photo for materials,design,architecture",
-      "source_url": "https://loremflickr.com/1400/900/materials,design,architecture/all?lock=702",
-      "direct_url": "https://loremflickr.com/1400/900/materials,design,architecture/all?lock=702",
-      "provider": "loremflickr/flickr",
-      "license": "Flickr tagged image via LoremFlickr",
-      "tags": "materials,design,architecture",
-      "lock": "702",
-      "sha256": "016fa04f272458725664abd00ffc99e5ba6a013977f81540148c750c19ec6a99"
+      "title": "Architectural sketches and workspace",
+      "source_url": "https://www.pexels.com/photo/6615229/",
+      "direct_url": "https://images.pexels.com/photos/6615229/pexels-photo-6615229.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "provider": "Pexels",
+      "license": "Pexels free-use image",
+      "photo_id": "6615229",
+      "sha256": "2a0c2b3dd89735ab188162f853b95d48ea7cff54c7cdd92ce29a1779aca962cf"
     },
     "diagram": "assets/diagrams/module-12-diagram.svg",
     "gallery": [
@@ -367,14 +355,13 @@
     "cover_kind": "real-photo",
     "source": {
       "file": "assets/images/module-13-photo.jpg",
-      "title": "Tagged Flickr photo for construction,planning,project,meeting",
-      "source_url": "https://loremflickr.com/1400/900/construction,planning,project,meeting/all?lock=1013",
-      "direct_url": "https://loremflickr.com/cache/resized/4098_4748464887_d138299876_h_1280_822_nofilter.jpg",
-      "provider": "loremflickr/flickr",
-      "license": "Flickr tagged image via LoremFlickr",
-      "tags": "construction,planning,project,meeting",
-      "lock": "1013",
-      "sha256": "5b012282826e1147a351015252a25f206f73371ef0e4e45e83aee408ed014cb4"
+      "title": "Construction project site activity",
+      "source_url": "https://www.pexels.com/photo/19386931/",
+      "direct_url": "https://images.pexels.com/photos/19386931/pexels-photo-19386931.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "provider": "Pexels",
+      "license": "Pexels free-use image",
+      "photo_id": "19386931",
+      "sha256": "415bcd3ddbfce64c9b60bdd276017eff2414bcc68168ca475a69b4a599ff4fe7"
     },
     "diagram": "assets/diagrams/module-13-diagram.svg",
     "gallery": [
@@ -397,14 +384,13 @@
     "cover_kind": "real-photo",
     "source": {
       "file": "assets/images/module-14-photo.jpg",
-      "title": "Tagged Flickr photo for architecture,presentation,board",
-      "source_url": "https://loremflickr.com/1400/900/architecture,presentation,board/all?lock=11014",
-      "direct_url": "https://loremflickr.com/cache/resized/5084_5376086398_e7ef7b7d96_k_1280_822_nofilter.jpg",
-      "provider": "loremflickr/flickr",
-      "license": "Flickr tagged image via LoremFlickr",
-      "tags": "architecture,presentation,board",
-      "lock": "11014",
-      "sha256": "4de95594b8350f17a25d52fdc1879b11ce58be5df1d1d455707b70ad3bf2a15f"
+      "title": "Team discussing architectural blueprints",
+      "source_url": "https://www.pexels.com/photo/23496705/",
+      "direct_url": "https://images.pexels.com/photos/23496705/pexels-photo-23496705.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "provider": "Pexels",
+      "license": "Pexels free-use image",
+      "photo_id": "23496705",
+      "sha256": "97c0da58970df9c253362c8781670ca14b7b43f90a0fd577452f3fcc7658f371"
     },
     "diagram": "assets/diagrams/module-14-diagram.svg",
     "gallery": [
@@ -427,14 +413,13 @@
     "cover_kind": "real-photo",
     "source": {
       "file": "assets/images/module-15-photo.jpg",
-      "title": "Tagged Flickr photo for land,survey,construction,site",
-      "source_url": "https://loremflickr.com/1400/900/land,survey,construction,site/all?lock=1015",
-      "direct_url": "https://loremflickr.com/cache/resized/65535_49916891318_dc6de264d7_h_1280_822_nofilter.jpg",
-      "provider": "loremflickr/flickr",
-      "license": "Flickr tagged image via LoremFlickr",
-      "tags": "land,survey,construction,site",
-      "lock": "1015",
-      "sha256": "1eea0e9f4f5f5d74d8fe844b0c5cca498c86fb1a5ab381cfe5c49031277d3d43"
+      "title": "Site preparation and field work",
+      "source_url": "https://www.pexels.com/photo/4575150/",
+      "direct_url": "https://images.pexels.com/photos/4575150/pexels-photo-4575150.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "provider": "Pexels",
+      "license": "Pexels free-use image",
+      "photo_id": "4575150",
+      "sha256": "c4810a4c56581854a58226bd91a5db93beaab1a4162d82911afd4003858a0abc"
     },
     "diagram": "assets/diagrams/module-15-diagram.svg",
     "gallery": [
@@ -457,14 +442,13 @@
     "cover_kind": "real-photo",
     "source": {
       "file": "assets/images/module-16-photo.jpg",
-      "title": "Tagged Flickr photo for landscape,architecture,model",
-      "source_url": "https://loremflickr.com/1400/900/landscape,architecture,model/all?lock=11016",
-      "direct_url": "https://loremflickr.com/cache/resized/1925_45133109902_ceb70eaea4_1280_822_nofilter.jpg",
-      "provider": "loremflickr/flickr",
-      "license": "Flickr tagged image via LoremFlickr",
-      "tags": "landscape,architecture,model",
-      "lock": "11016",
-      "sha256": "23153a0ab35ce89b5fff06c62686aded8177a41ea6cd4e36c98ae79fe56546e0"
+      "title": "Thatched tropical house in greenery",
+      "source_url": "https://www.pexels.com/photo/8680960/",
+      "direct_url": "https://images.pexels.com/photos/8680960/pexels-photo-8680960.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "provider": "Pexels",
+      "license": "Pexels free-use image",
+      "photo_id": "8680960",
+      "sha256": "011936151ec7172e53b5651bc81f07ea8dac4d0218bdab4249b58340e6f48114"
     },
     "diagram": "assets/diagrams/module-16-diagram.svg",
     "gallery": [
@@ -487,14 +471,13 @@
     "cover_kind": "real-photo",
     "source": {
       "file": "assets/images/module-17-photo.jpg",
-      "title": "Tagged Flickr photo for architecture,model,design,studio",
-      "source_url": "https://loremflickr.com/1400/900/architecture,model,design,studio/all?lock=1017",
-      "direct_url": "https://loremflickr.com/cache/resized/8609_16160618675_60a8038dff_k_1280_822_nofilter.jpg",
-      "provider": "loremflickr/flickr",
-      "license": "Flickr tagged image via LoremFlickr",
-      "tags": "architecture,model,design,studio",
-      "lock": "1017",
-      "sha256": "98331ee31fc1759895f009831871bcda57ec95f9ddabf2c9331d336ca7edad82"
+      "title": "Villa architecture with garden setting",
+      "source_url": "https://www.pexels.com/photo/35767028/",
+      "direct_url": "https://images.pexels.com/photos/35767028/pexels-photo-35767028.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "provider": "Pexels",
+      "license": "Pexels free-use image",
+      "photo_id": "35767028",
+      "sha256": "79719e1295602e699c9be355db6b992a7ba7e3c1cdeb1de3182b8ba588024b13"
     },
     "diagram": "assets/diagrams/module-17-diagram.svg",
     "gallery": [
@@ -517,14 +500,13 @@
     "cover_kind": "real-photo",
     "source": {
       "file": "assets/images/module-18-photo.jpg",
-      "title": "Tagged Flickr photo for blueprint,architecture,drawing",
-      "source_url": "https://loremflickr.com/1400/900/blueprint,architecture,drawing/all?lock=501",
-      "direct_url": "https://loremflickr.com/1400/900/blueprint,architecture,drawing/all?lock=501",
-      "provider": "loremflickr/flickr",
-      "license": "Flickr tagged image via LoremFlickr",
-      "tags": "blueprint,architecture,drawing",
-      "lock": "501",
-      "sha256": "d001b81b359459c8bef56c65dc01a36af0b09aead575c1a719d0d20e19702414"
+      "title": "Detailed architectural blueprints on desk",
+      "source_url": "https://www.pexels.com/photo/34573691/",
+      "direct_url": "https://images.pexels.com/photos/34573691/pexels-photo-34573691.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "provider": "Pexels",
+      "license": "Pexels free-use image",
+      "photo_id": "34573691",
+      "sha256": "09a7cc2c7d86d937ba353c8bc49e53c05afa3e89176eb7a3ca90eec5744ae4c7"
     },
     "diagram": "assets/diagrams/module-18-diagram.svg",
     "gallery": [
@@ -547,14 +529,13 @@
     "cover_kind": "real-photo",
     "source": {
       "file": "assets/images/module-19-photo.jpg",
-      "title": "Tagged Flickr photo for construction,budget",
-      "source_url": "https://loremflickr.com/1400/900/construction,budget/all?lock=21019",
-      "direct_url": "https://loremflickr.com/cache/resized/2100_2242056238_aa055feabd_h_1280_822_nofilter.jpg",
-      "provider": "loremflickr/flickr",
-      "license": "Flickr tagged image via LoremFlickr",
-      "tags": "construction,budget",
-      "lock": "21019",
-      "sha256": "f6ab8fdd554a6b4275f65720375c92112c98fa9038a6655791b96276496dbbc8"
+      "title": "Construction materials and planning",
+      "source_url": "https://www.pexels.com/photo/6474206/",
+      "direct_url": "https://images.pexels.com/photos/6474206/pexels-photo-6474206.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "provider": "Pexels",
+      "license": "Pexels free-use image",
+      "photo_id": "6474206",
+      "sha256": "64683ed4f478981ebef8e592ab7d89f323cc3853cd0b3d17296c1f4ab927ff7b"
     },
     "diagram": "assets/diagrams/module-19-diagram.svg",
     "gallery": [
@@ -577,14 +558,13 @@
     "cover_kind": "real-photo",
     "source": {
       "file": "assets/images/module-20-photo.jpg",
-      "title": "Tagged Flickr photo for architecture,material",
-      "source_url": "https://loremflickr.com/1400/900/architecture,material/all?lock=21020",
-      "direct_url": "https://loremflickr.com/cache/resized/65535_54401392603_a041b8eb24_h_1280_822_nofilter.jpg",
-      "provider": "loremflickr/flickr",
-      "license": "Flickr tagged image via LoremFlickr",
-      "tags": "architecture,material",
-      "lock": "21020",
-      "sha256": "bfd5c8cc15df3c5cc46d609f89351ea2ae9cfe410b519c3107244e865007e3dd"
+      "title": "Stone and wood material palette",
+      "source_url": "https://www.pexels.com/photo/13213841/",
+      "direct_url": "https://images.pexels.com/photos/13213841/pexels-photo-13213841.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "provider": "Pexels",
+      "license": "Pexels free-use image",
+      "photo_id": "13213841",
+      "sha256": "a0a87ee7b88cb6f46d7949cb88f5f83567ebfac3df53b53679967ef89b37f531"
     },
     "diagram": "assets/diagrams/module-20-diagram.svg",
     "gallery": [
@@ -607,14 +587,13 @@
     "cover_kind": "real-photo",
     "source": {
       "file": "assets/images/module-21-photo.jpg",
-      "title": "Tagged Flickr photo for construction,team,meeting",
-      "source_url": "https://loremflickr.com/1400/900/construction,team,meeting/all?lock=11021",
-      "direct_url": "https://loremflickr.com/cache/resized/65535_54436372234_f791c00a78_h_1280_822_nofilter.jpg",
-      "provider": "loremflickr/flickr",
-      "license": "Flickr tagged image via LoremFlickr",
-      "tags": "construction,team,meeting",
-      "lock": "11021",
-      "sha256": "22aedff341aa1df72b81d8825e11c77b2e0250ebd0c238c17bb8cbc4725d8ac5"
+      "title": "Architects reviewing blueprints",
+      "source_url": "https://www.pexels.com/photo/6285152/",
+      "direct_url": "https://images.pexels.com/photos/6285152/pexels-photo-6285152.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "provider": "Pexels",
+      "license": "Pexels free-use image",
+      "photo_id": "6285152",
+      "sha256": "113c83daba64a7213522999a012ff03f2ae121f9b2a0d0a0b688e57676ad7338"
     },
     "diagram": "assets/diagrams/module-21-diagram.svg",
     "gallery": [
@@ -637,14 +616,13 @@
     "cover_kind": "real-photo",
     "source": {
       "file": "assets/images/module-22-photo.jpg",
-      "title": "Tagged Flickr photo for construction,site,safety,workers",
-      "source_url": "https://loremflickr.com/1400/900/construction,site,safety,workers/all?lock=1022",
-      "direct_url": "https://loremflickr.com/cache/resized/65535_54553404000_051b0cc838_h_1280_822_nofilter.jpg",
-      "provider": "loremflickr/flickr",
-      "license": "Flickr tagged image via LoremFlickr",
-      "tags": "construction,site,safety,workers",
-      "lock": "1022",
-      "sha256": "dbc14267c1e85080cec1d30f64a5f310716b1a2727dc7a4e119fba24f3770b1d"
+      "title": "Construction workers with safety gear",
+      "source_url": "https://www.pexels.com/photo/24889953/",
+      "direct_url": "https://images.pexels.com/photos/24889953/pexels-photo-24889953.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "provider": "Pexels",
+      "license": "Pexels free-use image",
+      "photo_id": "24889953",
+      "sha256": "1d2e4e16d5452805cd5ce36317112aa55ac99e2b51b798d397cc3bd3dfdc91fc"
     },
     "diagram": "assets/diagrams/module-22-diagram.svg",
     "gallery": [
@@ -667,14 +645,13 @@
     "cover_kind": "real-photo",
     "source": {
       "file": "assets/images/module-23-photo.jpg",
-      "title": "Tagged Flickr photo for house,construction,concrete,structure",
-      "source_url": "https://loremflickr.com/1400/900/house,construction,concrete,structure/all?lock=1023",
-      "direct_url": "https://loremflickr.com/cache/resized/5025_5681575835_ec4c7bf927_h_1280_822_nofilter.jpg",
-      "provider": "loremflickr/flickr",
-      "license": "Flickr tagged image via LoremFlickr",
-      "tags": "house,construction,concrete,structure",
-      "lock": "1023",
-      "sha256": "904d146d1c047b18be0ed20df013a22ac2578ab7ee63475a94eb8549a75c2eb0"
+      "title": "Building construction structure",
+      "source_url": "https://www.pexels.com/photo/11580364/",
+      "direct_url": "https://images.pexels.com/photos/11580364/pexels-photo-11580364.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "provider": "Pexels",
+      "license": "Pexels free-use image",
+      "photo_id": "11580364",
+      "sha256": "f0cd8d650fad4f906d9bf09a10222e958829600940c7008674d6f2713c1bd495"
     },
     "diagram": "assets/diagrams/module-23-diagram.svg",
     "gallery": [
@@ -697,14 +674,13 @@
     "cover_kind": "real-photo",
     "source": {
       "file": "assets/images/module-24-photo.jpg",
-      "title": "Tagged Flickr photo for landscape,construction,planting",
-      "source_url": "https://loremflickr.com/1400/900/landscape,construction,planting/all?lock=11024",
-      "direct_url": "https://loremflickr.com/cache/resized/443_18873940198_d374fae644_h_1280_822_nofilter.jpg",
-      "provider": "loremflickr/flickr",
-      "license": "Flickr tagged image via LoremFlickr",
-      "tags": "landscape,construction,planting",
-      "lock": "11024",
-      "sha256": "f04027883cf5fc03203f21cfe19f7e8b0f9ce75e706c37906dca37efc7645a3f"
+      "title": "Building materials on construction site",
+      "source_url": "https://www.pexels.com/photo/9026149/",
+      "direct_url": "https://images.pexels.com/photos/9026149/pexels-photo-9026149.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "provider": "Pexels",
+      "license": "Pexels free-use image",
+      "photo_id": "9026149",
+      "sha256": "439dff48b2851c82db504ce1be75b2323bdf89eb881bc920cec72d12f43cef05"
     },
     "diagram": "assets/diagrams/module-24-diagram.svg",
     "gallery": [
@@ -727,14 +703,13 @@
     "cover_kind": "real-photo",
     "source": {
       "file": "assets/images/module-25-photo.jpg",
-      "title": "Tagged Flickr photo for building,inspection,construction",
-      "source_url": "https://loremflickr.com/1400/900/building,inspection,construction/all?lock=11025",
-      "direct_url": "https://loremflickr.com/cache/resized/8115_8691421231_b45e37a867_k_1280_822_nofilter.jpg",
-      "provider": "loremflickr/flickr",
-      "license": "Flickr tagged image via LoremFlickr",
-      "tags": "building,inspection,construction",
-      "lock": "11025",
-      "sha256": "5b5ca63f7919278e7c0c8de3f2617602d059824051798f7b19841fe306075a7a"
+      "title": "Construction workers in safety gear",
+      "source_url": "https://www.pexels.com/photo/34670929/",
+      "direct_url": "https://images.pexels.com/photos/34670929/pexels-photo-34670929.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "provider": "Pexels",
+      "license": "Pexels free-use image",
+      "photo_id": "34670929",
+      "sha256": "f08c520222e94bb75e72ba5b654447e0844bdbc011e47f2452c5fdeb9c529823"
     },
     "diagram": "assets/diagrams/module-25-diagram.svg",
     "gallery": [
@@ -757,14 +732,13 @@
     "cover_kind": "real-photo",
     "source": {
       "file": "assets/images/module-26-photo.jpg",
-      "title": "Tagged Flickr photo for garden,maintenance,pruning",
-      "source_url": "https://loremflickr.com/1400/900/garden,maintenance,pruning/all?lock=11026",
-      "direct_url": "https://loremflickr.com/cache/resized/2167_2424152904_213f2c3f6d_h_1280_822_nofilter.jpg",
-      "provider": "loremflickr/flickr",
-      "license": "Flickr tagged image via LoremFlickr",
-      "tags": "garden,maintenance,pruning",
-      "lock": "11026",
-      "sha256": "8d74e008089aadb88dd9d7747cd0363edcae4882725616e55de8c69c6faf22b1"
+      "title": "Tropical garden for maintenance planning",
+      "source_url": "https://www.pexels.com/photo/32363063/",
+      "direct_url": "https://images.pexels.com/photos/32363063/pexels-photo-32363063.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "provider": "Pexels",
+      "license": "Pexels free-use image",
+      "photo_id": "32363063",
+      "sha256": "cc96ef2566fb58d9414c77203036ac849ededa0a5ab58ddadc679997f261136a"
     },
     "diagram": "assets/diagrams/module-26-diagram.svg",
     "gallery": [
@@ -787,14 +761,13 @@
     "cover_kind": "real-photo",
     "source": {
       "file": "assets/images/module-27-photo.jpg",
-      "title": "Tagged Flickr photo for architect,client",
-      "source_url": "https://loremflickr.com/1400/900/architect,client/all?lock=21027",
-      "direct_url": "https://loremflickr.com/cache/resized/37_76455812_2c99e36fd9_1280_822_nofilter.jpg",
-      "provider": "loremflickr/flickr",
-      "license": "Flickr tagged image via LoremFlickr",
-      "tags": "architect,client",
-      "lock": "21027",
-      "sha256": "12551a05be9d120cf401d4715e7047de07ebfa378ecb5ce979681844c5e119cb"
+      "title": "People discussing house blueprints",
+      "source_url": "https://www.pexels.com/photo/9049745/",
+      "direct_url": "https://images.pexels.com/photos/9049745/pexels-photo-9049745.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "provider": "Pexels",
+      "license": "Pexels free-use image",
+      "photo_id": "9049745",
+      "sha256": "76aa8e1b154a551e5e7abbcc487d816807695d371b8d347c4997a685370e2071"
     },
     "diagram": "assets/diagrams/module-27-diagram.svg",
     "gallery": [
@@ -817,14 +790,13 @@
     "cover_kind": "real-photo",
     "source": {
       "file": "assets/images/module-28-photo.jpg",
-      "title": "Tagged Flickr photo for urban,planning",
-      "source_url": "https://loremflickr.com/1400/900/urban,planning/all?lock=21028",
-      "direct_url": "https://loremflickr.com/cache/resized/65535_53285912538_a75f7f88da_h_1280_822_nofilter.jpg",
-      "provider": "loremflickr/flickr",
-      "license": "Flickr tagged image via LoremFlickr",
-      "tags": "urban,planning",
-      "lock": "21028",
-      "sha256": "cfa1af10c52063adeeb91998e7bdb6dcebd5235c931e960cedf18d8d961740ed"
+      "title": "Architect analyzing plans",
+      "source_url": "https://www.pexels.com/photo/5582870/",
+      "direct_url": "https://images.pexels.com/photos/5582870/pexels-photo-5582870.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "provider": "Pexels",
+      "license": "Pexels free-use image",
+      "photo_id": "5582870",
+      "sha256": "09da717cb904092404d8506513c03d6d1159a6cac211f8e9643040d338ccfefa"
     },
     "diagram": "assets/diagrams/module-28-diagram.svg",
     "gallery": [
@@ -847,14 +819,13 @@
     "cover_kind": "real-photo",
     "source": {
       "file": "assets/images/module-29-photo.jpg",
-      "title": "Tagged Flickr photo for floorplan,architecture,drawing",
-      "source_url": "https://loremflickr.com/1400/900/floorplan,architecture,drawing/all?lock=901",
-      "direct_url": "https://loremflickr.com/1400/900/floorplan,architecture,drawing/all?lock=901",
-      "provider": "loremflickr/flickr",
-      "license": "Flickr tagged image via LoremFlickr",
-      "tags": "floorplan,architecture,drawing",
-      "lock": "901",
-      "sha256": "621743947eeb928fd452844390513f20c155103b2333c66919d76f92034285e7"
+      "title": "Architect working on floor plans",
+      "source_url": "https://www.pexels.com/photo/6615098/",
+      "direct_url": "https://images.pexels.com/photos/6615098/pexels-photo-6615098.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "provider": "Pexels",
+      "license": "Pexels free-use image",
+      "photo_id": "6615098",
+      "sha256": "94ef1cb91fc32c9c9bc0b6317dee812f71f3e0124a048c215e24ef5ae699cf51"
     },
     "diagram": "assets/diagrams/module-29-diagram.svg",
     "gallery": [
@@ -877,14 +848,13 @@
     "cover_kind": "real-photo",
     "source": {
       "file": "assets/images/module-30-photo.jpg",
-      "title": "Tagged Flickr photo for architectural,model",
-      "source_url": "https://loremflickr.com/1400/900/architectural,model/all?lock=21030",
-      "direct_url": "https://loremflickr.com/cache/resized/672_32057087012_f7192321f5_h_1280_822_nofilter.jpg",
-      "provider": "loremflickr/flickr",
-      "license": "Flickr tagged image via LoremFlickr",
-      "tags": "architectural,model",
-      "lock": "21030",
-      "sha256": "d5dcfe2ebf67daae7f7365422fbd331d1a9a65ae4c791fa1a539d1325563d222"
+      "title": "Architects reviewing drawings",
+      "source_url": "https://www.pexels.com/photo/31120870/",
+      "direct_url": "https://images.pexels.com/photos/31120870/pexels-photo-31120870.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "provider": "Pexels",
+      "license": "Pexels free-use image",
+      "photo_id": "31120870",
+      "sha256": "69cb3da802709a8ab3e83b86b806b02baf912b83ca91c3624c3564925571d657"
     },
     "diagram": "assets/diagrams/module-30-diagram.svg",
     "gallery": [
@@ -907,14 +877,13 @@
     "cover_kind": "real-photo",
     "source": {
       "file": "assets/images/module-31-photo.jpg",
-      "title": "Tagged Flickr photo for architecture,shading",
-      "source_url": "https://loremflickr.com/1400/900/architecture,shading/all?lock=21031",
-      "direct_url": "https://loremflickr.com/cache/resized/872_41706455142_772586eed6_h_1280_822_nofilter.jpg",
-      "provider": "loremflickr/flickr",
-      "license": "Flickr tagged image via LoremFlickr",
-      "tags": "architecture,shading",
-      "lock": "21031",
-      "sha256": "2c5c64c1a9002bb62b17241a47d4fdeadb36e3fa57e7e53c1c3900644e1a0a93"
+      "title": "Pathway lighting and shading mood",
+      "source_url": "https://www.pexels.com/photo/35793502/",
+      "direct_url": "https://images.pexels.com/photos/35793502/pexels-photo-35793502.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "provider": "Pexels",
+      "license": "Pexels free-use image",
+      "photo_id": "35793502",
+      "sha256": "b82fa802337fdb00c5f20a20d9e9a20e581281a334ae05c1d4bfd0aec9e28c82"
     },
     "diagram": "assets/diagrams/module-31-diagram.svg",
     "gallery": [
@@ -937,14 +906,13 @@
     "cover_kind": "real-photo",
     "source": {
       "file": "assets/images/module-32-photo.jpg",
-      "title": "Tagged Flickr photo for mechanical,electrical,plumbing",
-      "source_url": "https://loremflickr.com/1400/900/mechanical,electrical,plumbing/all?lock=11032",
-      "direct_url": "https://loremflickr.com/cache/resized/2651_3906460731_d59f291afe_h_1280_822_nofilter.jpg",
-      "provider": "loremflickr/flickr",
-      "license": "Flickr tagged image via LoremFlickr",
-      "tags": "mechanical,electrical,plumbing",
-      "lock": "11032",
-      "sha256": "dcb7d4e8b8626a909757892181a0a608df169beca07089bbd3a5a0c2645d6b5a"
+      "title": "Engineering team reviewing blueprint",
+      "source_url": "https://www.pexels.com/photo/37198883/",
+      "direct_url": "https://images.pexels.com/photos/37198883/pexels-photo-37198883.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "provider": "Pexels",
+      "license": "Pexels free-use image",
+      "photo_id": "37198883",
+      "sha256": "a1d98ffabcb6c4fc422b0c3e15d39c3704da9777a2c2fb79e1f3f18de521a6b8"
     },
     "diagram": "assets/diagrams/module-32-diagram.svg",
     "gallery": [
@@ -967,14 +935,13 @@
     "cover_kind": "real-photo",
     "source": {
       "file": "assets/images/module-33-photo.jpg",
-      "title": "Tagged Flickr photo for roof,waterproofing",
-      "source_url": "https://loremflickr.com/1400/900/roof,waterproofing/all?lock=21033",
-      "direct_url": "https://loremflickr.com/cache/resized/24_41855233_8cd21ca316_h_1280_822_nofilter.jpg",
-      "provider": "loremflickr/flickr",
-      "license": "Flickr tagged image via LoremFlickr",
-      "tags": "roof,waterproofing",
-      "lock": "21033",
-      "sha256": "bf1c96a6a4c2686785a538d9fc8120cfc6da3090e97588479973293eb6cfba33"
+      "title": "Tile and construction detail",
+      "source_url": "https://www.pexels.com/photo/11806490/",
+      "direct_url": "https://images.pexels.com/photos/11806490/pexels-photo-11806490.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "provider": "Pexels",
+      "license": "Pexels free-use image",
+      "photo_id": "11806490",
+      "sha256": "7d640ebc4a41c5285602ba24c758e7f5b573ccc4eff8572deb52e33602d1a373"
     },
     "diagram": "assets/diagrams/module-33-diagram.svg",
     "gallery": [
@@ -997,14 +964,13 @@
     "cover_kind": "real-photo",
     "source": {
       "file": "assets/images/module-34-photo.jpg",
-      "title": "Tagged Flickr photo for construction,inspection",
-      "source_url": "https://loremflickr.com/1400/900/construction,inspection/all?lock=21034",
-      "direct_url": "https://loremflickr.com/cache/resized/1232_5104583967_699fedd2fd_k_1280_822_nofilter.jpg",
-      "provider": "loremflickr/flickr",
-      "license": "Flickr tagged image via LoremFlickr",
-      "tags": "construction,inspection",
-      "lock": "21034",
-      "sha256": "0a62ee0fee5b849cd28b5fc037a86aa355d17f188b5fac6a1cd26d3830fafee0"
+      "title": "Construction inspection with plans",
+      "source_url": "https://www.pexels.com/photo/8961027/",
+      "direct_url": "https://images.pexels.com/photos/8961027/pexels-photo-8961027.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "provider": "Pexels",
+      "license": "Pexels free-use image",
+      "photo_id": "8961027",
+      "sha256": "40448b1ae65b9e8ab3eb2fa5af584ac2f9f582fb3492c9ff2ad5cec89466b4d5"
     },
     "diagram": "assets/diagrams/module-34-diagram.svg",
     "gallery": [
