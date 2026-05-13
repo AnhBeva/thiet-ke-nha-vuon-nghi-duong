@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+<title id="title">Nhà vườn nghỉ dưỡng nhiệt đới</title><desc id="desc">Nhà thấp tầng, hiên rộng, cây nhiều lớp và mặt nước trong ánh sáng nhiệt đới.</desc>
+<defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#f8f1df"/><stop offset=".48" stop-color="#9fbf93"/><stop offset="1" stop-color="#16372a"/></linearGradient><filter id="d"><feDropShadow dx="0" dy="20" stdDeviation="24" flood-color="#06150f" flood-opacity=".25"/></filter></defs>
+<rect width="1600" height="900" fill="url(#g)"/><circle cx="1260" cy="170" r="105" fill="#f1c46c" opacity=".9"/>
+<path d="M0 620 C260 520 405 620 650 500 C880 390 1040 480 1260 350 C1420 255 1510 290 1600 240 L1600 900 L0 900 Z" fill="#193c2c"/>
+<path d="M0 720 C260 650 470 720 710 620 C930 530 1160 610 1600 470 L1600 900 L0 900 Z" fill="#5d965f"/>
+<g filter="url(#d)"><rect x="520" y="380" width="540" height="205" rx="10" fill="#fff5df"/><path d="M470 395 L790 220 L1110 395 Z" fill="#18382a"/><rect x="610" y="430" width="145" height="155" fill="#c99455"/><rect x="790" y="422" width="205" height="104" fill="#9fc6c5"/></g>
+<path d="M170 650 C220 470 315 360 430 255 C380 430 430 560 560 700 Z" fill="#2f6b42"/><path d="M90 735 C75 545 135 395 250 270 C230 480 285 620 420 775 Z" fill="#6fa66f"/>
+</svg>

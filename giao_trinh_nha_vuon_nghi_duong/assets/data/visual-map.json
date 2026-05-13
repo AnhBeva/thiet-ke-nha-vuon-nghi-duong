@@ -1,0 +1,614 @@
+{
+  "module-01": {
+    "title": "Tư Duy Nền Tảng",
+    "visual": "Hệ sống",
+    "caption": "Visual trọng tâm: hệ sống cho nhà, vườn, người dùng và bảo trì.",
+    "cover": "assets/images/module-01-cover.svg",
+    "diagram": "assets/diagrams/module-01-diagram.svg",
+    "gallery": [
+      "assets/images/module-01-cover.svg",
+      "assets/diagrams/module-01-diagram.svg",
+      "assets/images/module-01-moodboard.svg"
+    ],
+    "tags": [
+      "Hệ sống",
+      "Chất lượng sống",
+      "Bảo trì"
+    ],
+    "slug": "tu-duy-nen-tang"
+  },
+  "module-02": {
+    "title": "Đọc Khu Đất",
+    "visual": "Bản đồ khu đất",
+    "caption": "Visual trọng tâm: bản đồ khu đất cho nắng, gió, nước, đất, view và riêng tư.",
+    "cover": "assets/images/module-02-cover.svg",
+    "diagram": "assets/diagrams/module-02-diagram.svg",
+    "gallery": [
+      "assets/images/module-02-cover.svg",
+      "assets/diagrams/module-02-diagram.svg",
+      "assets/images/module-02-moodboard.svg"
+    ],
+    "tags": [
+      "Nắng",
+      "Gió",
+      "Nước"
+    ],
+    "slug": "doc-khu-dat"
+  },
+  "module-03": {
+    "title": "Trải Nghiệm Con Người",
+    "visual": "Journey map",
+    "caption": "Visual trọng tâm: journey map cho hành trình, điểm dừng và nhịp mở-kín.",
+    "cover": "assets/images/module-03-cover.svg",
+    "diagram": "assets/diagrams/module-03-diagram.svg",
+    "gallery": [
+      "assets/images/module-03-cover.svg",
+      "assets/diagrams/module-03-diagram.svg",
+      "assets/images/module-03-moodboard.svg"
+    ],
+    "tags": [
+      "Hành trình",
+      "Điểm dừng",
+      "Mở-kín"
+    ],
+    "slug": "trai-nghiem-con-nguoi"
+  },
+  "module-04": {
+    "title": "Kiến Trúc Nhiệt Đới",
+    "visual": "Mặt cắt khí hậu",
+    "caption": "Visual trọng tâm: mặt cắt khí hậu cho mái, hiên, thông gió, kính và mưa tạt.",
+    "cover": "assets/images/module-04-cover.svg",
+    "diagram": "assets/diagrams/module-04-diagram.svg",
+    "gallery": [
+      "assets/images/module-04-cover.svg",
+      "assets/diagrams/module-04-diagram.svg",
+      "assets/images/module-04-moodboard.svg"
+    ],
+    "tags": [
+      "Mái",
+      "Hiên",
+      "Thông gió"
+    ],
+    "slug": "kien-truc-nhiet-doi"
+  },
+  "module-05": {
+    "title": "Quan Hệ Nhà Và Vườn",
+    "visual": "Liên kết trong-ngoài",
+    "caption": "Visual trọng tâm: liên kết trong-ngoài cho cửa, hiên, sân, cây và khung nhìn.",
+    "cover": "assets/images/module-05-cover.svg",
+    "diagram": "assets/diagrams/module-05-diagram.svg",
+    "gallery": [
+      "assets/images/module-05-cover.svg",
+      "assets/diagrams/module-05-diagram.svg",
+      "assets/images/module-05-moodboard.svg"
+    ],
+    "tags": [
+      "Hiên",
+      "Sân",
+      "Khung nhìn"
+    ],
+    "slug": "quan-he-nha-va-vuon"
+  },
+  "module-06": {
+    "title": "Cây Xanh Nhiều Tầng",
+    "visual": "Tầng cây",
+    "caption": "Visual trọng tâm: tầng cây cho cây chủ, tầng cao, trung, bụi, nền và khoảng mở.",
+    "cover": "assets/images/module-06-cover.svg",
+    "diagram": "assets/diagrams/module-06-diagram.svg",
+    "gallery": [
+      "assets/images/module-06-cover.svg",
+      "assets/diagrams/module-06-diagram.svg",
+      "assets/images/module-06-moodboard.svg"
+    ],
+    "tags": [
+      "Cây chủ",
+      "Tầng cây",
+      "Khoảng mở"
+    ],
+    "slug": "cay-xanh-nhieu-tang"
+  },
+  "module-07": {
+    "title": "Đất, Nước Và Tưới",
+    "visual": "Dòng nước",
+    "caption": "Visual trọng tâm: dòng nước cho cao độ, thoát nước, bồn cây và vùng tưới.",
+    "cover": "assets/images/module-07-cover.svg",
+    "diagram": "assets/diagrams/module-07-diagram.svg",
+    "gallery": [
+      "assets/images/module-07-cover.svg",
+      "assets/diagrams/module-07-diagram.svg",
+      "assets/images/module-07-moodboard.svg"
+    ],
+    "tags": [
+      "Cao độ",
+      "Thoát nước",
+      "Tưới"
+    ],
+    "slug": "dat-nuoc-thoat-nuoc-tuoi"
+  },
+  "module-08": {
+    "title": "Vật Liệu Và Chất Cảm",
+    "visual": "Moodboard",
+    "caption": "Visual trọng tâm: moodboard cho đá, gỗ, bê tông, gạch, cây và màu nền.",
+    "cover": "assets/images/module-08-cover.svg",
+    "diagram": "assets/diagrams/module-08-diagram.svg",
+    "gallery": [
+      "assets/images/module-08-cover.svg",
+      "assets/diagrams/module-08-diagram.svg",
+      "assets/images/module-08-moodboard.svg"
+    ],
+    "tags": [
+      "Vật liệu",
+      "Màu",
+      "Chất cảm"
+    ],
+    "slug": "vat-lieu-mau-sac-chat-cam"
+  },
+  "module-09": {
+    "title": "Giác Quan",
+    "visual": "Đêm và giác quan",
+    "caption": "Visual trọng tâm: đêm và giác quan cho ánh sáng, âm thanh, mùi hương và cảm giác ở lại.",
+    "cover": "assets/images/module-09-cover.svg",
+    "diagram": "assets/diagrams/module-09-diagram.svg",
+    "gallery": [
+      "assets/images/module-09-cover.svg",
+      "assets/diagrams/module-09-diagram.svg",
+      "assets/images/module-09-moodboard.svg"
+    ],
+    "tags": [
+      "Ánh sáng",
+      "Âm thanh",
+      "Mùi hương"
+    ],
+    "slug": "anh-sang-am-thanh-mui-huong"
+  },
+  "module-10": {
+    "title": "Thời Gian Và Bảo Trì",
+    "visual": "Vườn trưởng thành",
+    "caption": "Visual trọng tâm: vườn trưởng thành cho các mốc 6 tháng, 1 năm, 3 năm, 5 năm.",
+    "cover": "assets/images/module-10-cover.svg",
+    "diagram": "assets/diagrams/module-10-diagram.svg",
+    "gallery": [
+      "assets/images/module-10-cover.svg",
+      "assets/diagrams/module-10-diagram.svg",
+      "assets/images/module-10-moodboard.svg"
+    ],
+    "tags": [
+      "1 năm",
+      "3 năm",
+      "5 năm"
+    ],
+    "slug": "thoi-gian-va-bao-tri"
+  },
+  "module-11": {
+    "title": "Quy Trình Làm Việc",
+    "visual": "Process map",
+    "caption": "Visual trọng tâm: process map cho vai trò của chủ nhà, thiết kế, thi công và bảo trì.",
+    "cover": "assets/images/module-11-cover.svg",
+    "diagram": "assets/diagrams/module-11-diagram.svg",
+    "gallery": [
+      "assets/images/module-11-cover.svg",
+      "assets/diagrams/module-11-diagram.svg",
+      "assets/images/module-11-moodboard.svg"
+    ],
+    "tags": [
+      "Vai trò",
+      "Duyệt",
+      "Phối hợp"
+    ],
+    "slug": "quy-trinh-lam-viec"
+  },
+  "module-12": {
+    "title": "Brief Thiết Kế",
+    "visual": "Template brief",
+    "caption": "Visual trọng tâm: template brief cho nhu cầu, khu đất, ngân sách, phong cách và vận hành.",
+    "cover": "assets/images/module-12-cover.svg",
+    "diagram": "assets/diagrams/module-12-diagram.svg",
+    "gallery": [
+      "assets/images/module-12-cover.svg",
+      "assets/diagrams/module-12-diagram.svg",
+      "assets/images/module-12-moodboard.svg"
+    ],
+    "tags": [
+      "Nhu cầu",
+      "Ngân sách",
+      "Vận hành"
+    ],
+    "slug": "brief-thiet-ke"
+  },
+  "module-13": {
+    "title": "Lộ Trình Dự Án",
+    "visual": "Roadmap",
+    "caption": "Visual trọng tâm: roadmap cho brief, khảo sát, concept, kỹ thuật, thi công và bảo trì.",
+    "cover": "assets/images/module-13-cover.svg",
+    "diagram": "assets/diagrams/module-13-diagram.svg",
+    "gallery": [
+      "assets/images/module-13-cover.svg",
+      "assets/diagrams/module-13-diagram.svg",
+      "assets/images/module-13-moodboard.svg"
+    ],
+    "tags": [
+      "Brief",
+      "Concept",
+      "Thi công"
+    ],
+    "slug": "tong-quan-lo-trinh-trien-khai-du-an"
+  },
+  "module-14": {
+    "title": "Brief Triển Khai",
+    "visual": "Đầu bài",
+    "caption": "Visual trọng tâm: đầu bài cho phạm vi, yêu cầu, ưu tiên và ranh giới trách nhiệm.",
+    "cover": "assets/images/module-14-cover.svg",
+    "diagram": "assets/diagrams/module-14-diagram.svg",
+    "gallery": [
+      "assets/images/module-14-cover.svg",
+      "assets/diagrams/module-14-diagram.svg",
+      "assets/images/module-14-moodboard.svg"
+    ],
+    "tags": [
+      "Phạm vi",
+      "Ưu tiên",
+      "Trách nhiệm"
+    ],
+    "slug": "brief-trien-khai-va-yeu-cau-dau-bai"
+  },
+  "module-15": {
+    "title": "Khảo Sát Hiện Trạng",
+    "visual": "Checklist khảo sát",
+    "caption": "Visual trọng tâm: checklist khảo sát cho pháp lý, đo đạc, cây, hạ tầng và thi công.",
+    "cover": "assets/images/module-15-cover.svg",
+    "diagram": "assets/diagrams/module-15-diagram.svg",
+    "gallery": [
+      "assets/images/module-15-cover.svg",
+      "assets/diagrams/module-15-diagram.svg",
+      "assets/images/module-15-moodboard.svg"
+    ],
+    "tags": [
+      "Pháp lý",
+      "Đo đạc",
+      "Hạ tầng"
+    ],
+    "slug": "khao-sat-hien-trang-phap-ly-do-dac-ha-tang"
+  },
+  "module-16": {
+    "title": "Concept Tổng Thể",
+    "visual": "Concept board",
+    "caption": "Visual trọng tâm: concept board cho zoning, mood, view, vật liệu và cây chủ.",
+    "cover": "assets/images/module-16-cover.svg",
+    "diagram": "assets/diagrams/module-16-diagram.svg",
+    "gallery": [
+      "assets/images/module-16-cover.svg",
+      "assets/diagrams/module-16-diagram.svg",
+      "assets/images/module-16-moodboard.svg"
+    ],
+    "tags": [
+      "Zoning",
+      "Mood",
+      "Cây chủ"
+    ],
+    "slug": "concept-tong-the-nha-vuon"
+  },
+  "module-17": {
+    "title": "Thiết Kế Cơ Sở",
+    "visual": "So sánh phương án",
+    "caption": "Visual trọng tâm: so sánh phương án cho phương án A/B/C và tiêu chí duyệt.",
+    "cover": "assets/images/module-17-cover.svg",
+    "diagram": "assets/diagrams/module-17-diagram.svg",
+    "gallery": [
+      "assets/images/module-17-cover.svg",
+      "assets/diagrams/module-17-diagram.svg",
+      "assets/images/module-17-moodboard.svg"
+    ],
+    "tags": [
+      "A/B/C",
+      "Tradeoff",
+      "Duyệt"
+    ],
+    "slug": "thiet-ke-co-so-va-phuong-an-thiet-ke"
+  },
+  "module-18": {
+    "title": "Hồ Sơ Kỹ Thuật",
+    "visual": "Bộ hồ sơ",
+    "caption": "Visual trọng tâm: bộ hồ sơ cho kiến trúc, kết cấu, MEP và cảnh quan.",
+    "cover": "assets/images/module-18-cover.svg",
+    "diagram": "assets/diagrams/module-18-diagram.svg",
+    "gallery": [
+      "assets/images/module-18-cover.svg",
+      "assets/diagrams/module-18-diagram.svg",
+      "assets/images/module-18-moodboard.svg"
+    ],
+    "tags": [
+      "Kiến trúc",
+      "MEP",
+      "Cảnh quan"
+    ],
+    "slug": "ho-so-ky-thuat-kien-truc-ket-cau-mep-canh-quan"
+  },
+  "module-19": {
+    "title": "Dự Toán Và BOQ",
+    "visual": "Ngân sách",
+    "caption": "Visual trọng tâm: ngân sách cho nhóm chi phí, phạm vi công việc và dự phòng.",
+    "cover": "assets/images/module-19-cover.svg",
+    "diagram": "assets/diagrams/module-19-diagram.svg",
+    "gallery": [
+      "assets/images/module-19-cover.svg",
+      "assets/diagrams/module-19-diagram.svg",
+      "assets/images/module-19-moodboard.svg"
+    ],
+    "tags": [
+      "BOQ",
+      "Phạm vi",
+      "Dự phòng"
+    ],
+    "slug": "du-toan-boq-pham-vi-cong-viec-ngan-sach"
+  },
+  "module-20": {
+    "title": "Duyệt Mẫu",
+    "visual": "Sample gallery",
+    "caption": "Visual trọng tâm: sample gallery cho vật liệu, cây, thiết bị, mockup và mẫu thực địa.",
+    "cover": "assets/images/module-20-cover.svg",
+    "diagram": "assets/diagrams/module-20-diagram.svg",
+    "gallery": [
+      "assets/images/module-20-cover.svg",
+      "assets/diagrams/module-20-diagram.svg",
+      "assets/images/module-20-moodboard.svg"
+    ],
+    "tags": [
+      "Mẫu",
+      "Mockup",
+      "Duyệt"
+    ],
+    "slug": "mau-mockup-vat-lieu-cay-thiet-bi-duyet-mau"
+  },
+  "module-21": {
+    "title": "Đội Ngũ Và Hợp Đồng",
+    "visual": "Timeline quản lý",
+    "caption": "Visual trọng tâm: timeline quản lý cho hợp đồng, tiến độ, thay đổi và cổng duyệt.",
+    "cover": "assets/images/module-21-cover.svg",
+    "diagram": "assets/diagrams/module-21-diagram.svg",
+    "gallery": [
+      "assets/images/module-21-cover.svg",
+      "assets/diagrams/module-21-diagram.svg",
+      "assets/images/module-21-moodboard.svg"
+    ],
+    "tags": [
+      "Hợp đồng",
+      "Tiến độ",
+      "Thay đổi"
+    ],
+    "slug": "lua-chon-doi-ngu-hop-dong-tien-do-quan-ly-thay-doi"
+  },
+  "module-22": {
+    "title": "Chuẩn Bị Thi Công",
+    "visual": "Hiện trường",
+    "caption": "Visual trọng tâm: hiện trường cho tổ chức công trường, an toàn và chất lượng.",
+    "cover": "assets/images/module-22-cover.svg",
+    "diagram": "assets/diagrams/module-22-diagram.svg",
+    "gallery": [
+      "assets/images/module-22-cover.svg",
+      "assets/diagrams/module-22-diagram.svg",
+      "assets/images/module-22-moodboard.svg"
+    ],
+    "tags": [
+      "Công trường",
+      "An toàn",
+      "QC"
+    ],
+    "slug": "chuan-bi-thi-cong-quan-ly-hien-truong-an-toan-chat-luong"
+  },
+  "module-23": {
+    "title": "Thi Công Phần Nhà",
+    "visual": "Chuỗi thi công nhà",
+    "caption": "Visual trọng tâm: chuỗi thi công nhà cho móng, thô, hoàn thiện và hệ thống kỹ thuật.",
+    "cover": "assets/images/module-23-cover.svg",
+    "diagram": "assets/diagrams/module-23-diagram.svg",
+    "gallery": [
+      "assets/images/module-23-cover.svg",
+      "assets/diagrams/module-23-diagram.svg",
+      "assets/images/module-23-moodboard.svg"
+    ],
+    "tags": [
+      "Móng",
+      "Thô",
+      "MEP"
+    ],
+    "slug": "thi-cong-phan-nha-tho-hoan-thien-he-thong-ky-thuat"
+  },
+  "module-24": {
+    "title": "Thi Công Cảnh Quan",
+    "visual": "Chuỗi cảnh quan",
+    "caption": "Visual trọng tâm: chuỗi cảnh quan cho đất, cây, tưới, đèn, nước và vật liệu ngoài trời.",
+    "cover": "assets/images/module-24-cover.svg",
+    "diagram": "assets/diagrams/module-24-diagram.svg",
+    "gallery": [
+      "assets/images/module-24-cover.svg",
+      "assets/diagrams/module-24-diagram.svg",
+      "assets/images/module-24-moodboard.svg"
+    ],
+    "tags": [
+      "Đất",
+      "Cây",
+      "Đèn"
+    ],
+    "slug": "thi-cong-canh-quan-dat-nuoc-cay-tuoi-den-vat-lieu-ngoai-troi"
+  },
+  "module-25": {
+    "title": "Nghiệm Thu Bàn Giao",
+    "visual": "Flow bàn giao",
+    "caption": "Visual trọng tâm: flow bàn giao cho nghiệm thu, vận hành thử và hồ sơ hoàn công.",
+    "cover": "assets/images/module-25-cover.svg",
+    "diagram": "assets/diagrams/module-25-diagram.svg",
+    "gallery": [
+      "assets/images/module-25-cover.svg",
+      "assets/diagrams/module-25-diagram.svg",
+      "assets/images/module-25-moodboard.svg"
+    ],
+    "tags": [
+      "Nghiệm thu",
+      "Chạy thử",
+      "Hồ sơ"
+    ],
+    "slug": "nghiem-thu-ban-giao-van-hanh-thu-ho-so-hoan-cong"
+  },
+  "module-26": {
+    "title": "Theo Dõi Sau Bàn Giao",
+    "visual": "Dashboard bảo trì",
+    "caption": "Visual trọng tâm: dashboard bảo trì cho theo dõi 1-3-5 năm và điều chỉnh vận hành.",
+    "cover": "assets/images/module-26-cover.svg",
+    "diagram": "assets/diagrams/module-26-diagram.svg",
+    "gallery": [
+      "assets/images/module-26-cover.svg",
+      "assets/diagrams/module-26-diagram.svg",
+      "assets/images/module-26-moodboard.svg"
+    ],
+    "tags": [
+      "1-3-5",
+      "Theo dõi",
+      "Bảo trì"
+    ],
+    "slug": "bao-tri-theo-doi-sau-ban-giao-kich-ban-1-3-5-nam"
+  },
+  "module-27": {
+    "title": "Nhiệm Vụ Thiết Kế Nhà",
+    "visual": "Chuẩn đầu vào",
+    "caption": "Visual trọng tâm: chuẩn đầu vào cho người dùng, hoạt động, giới hạn và đầu ra.",
+    "cover": "assets/images/module-27-cover.svg",
+    "diagram": "assets/diagrams/module-27-diagram.svg",
+    "gallery": [
+      "assets/images/module-27-cover.svg",
+      "assets/diagrams/module-27-diagram.svg",
+      "assets/images/module-27-moodboard.svg"
+    ],
+    "tags": [
+      "Đầu vào",
+      "Nhiệm vụ",
+      "Đầu ra"
+    ],
+    "slug": "nhiem-vu-thiet-ke-nha-va-chuan-dau-vao-du-an"
+  },
+  "module-28": {
+    "title": "Pháp Lý Và Quy Hoạch",
+    "visual": "Khung pháp lý",
+    "caption": "Visual trọng tâm: khung pháp lý cho chỉ giới, mật độ, tầng cao, giấy phép và hạ tầng.",
+    "cover": "assets/images/module-28-cover.svg",
+    "diagram": "assets/diagrams/module-28-diagram.svg",
+    "gallery": [
+      "assets/images/module-28-cover.svg",
+      "assets/diagrams/module-28-diagram.svg",
+      "assets/images/module-28-moodboard.svg"
+    ],
+    "tags": [
+      "Chỉ giới",
+      "Mật độ",
+      "Giấy phép"
+    ],
+    "slug": "phap-ly-quy-hoach-giay-phep-va-gioi-han-thiet-ke"
+  },
+  "module-29": {
+    "title": "Công Năng Và Zoning",
+    "visual": "Bubble diagram",
+    "caption": "Visual trọng tâm: bubble diagram cho zoning chung-riêng, quan hệ phòng và luồng đi.",
+    "cover": "assets/images/module-29-cover.svg",
+    "diagram": "assets/diagrams/module-29-diagram.svg",
+    "gallery": [
+      "assets/images/module-29-cover.svg",
+      "assets/diagrams/module-29-diagram.svg",
+      "assets/images/module-29-moodboard.svg"
+    ],
+    "tags": [
+      "Zoning",
+      "Ma trận",
+      "Luồng đi"
+    ],
+    "slug": "cong-nang-zoning-va-ma-tran-quan-he-phong"
+  },
+  "module-30": {
+    "title": "Mặt Bằng Mặt Cắt",
+    "visual": "Không gian 2D/3D",
+    "caption": "Visual trọng tâm: không gian 2d/3d cho mặt bằng, mặt cắt, cao độ và khối tích.",
+    "cover": "assets/images/module-30-cover.svg",
+    "diagram": "assets/diagrams/module-30-diagram.svg",
+    "gallery": [
+      "assets/images/module-30-cover.svg",
+      "assets/diagrams/module-30-diagram.svg",
+      "assets/images/module-30-moodboard.svg"
+    ],
+    "tags": [
+      "Mặt bằng",
+      "Mặt cắt",
+      "Cao độ"
+    ],
+    "slug": "mat-bang-mat-cat-cao-do-va-to-chuc-hinh-khoi"
+  },
+  "module-31": {
+    "title": "Vỏ Nhà Khí Hậu",
+    "visual": "Lớp vỏ nhà",
+    "caption": "Visual trọng tâm: lớp vỏ nhà cho mái, hiên, cửa, kính, lam và che nắng.",
+    "cover": "assets/images/module-31-cover.svg",
+    "diagram": "assets/diagrams/module-31-diagram.svg",
+    "gallery": [
+      "assets/images/module-31-cover.svg",
+      "assets/diagrams/module-31-diagram.svg",
+      "assets/images/module-31-moodboard.svg"
+    ],
+    "tags": [
+      "Mái",
+      "Kính",
+      "Lam"
+    ],
+    "slug": "thiet-ke-khi-hau-cho-vo-nha-mai-hien-cua-kinh-lam"
+  },
+  "module-32": {
+    "title": "Phối Hợp Kết Cấu MEP",
+    "visual": "Coordination",
+    "caption": "Visual trọng tâm: coordination cho lưới cột, hộp kỹ thuật, thoát nước và bảo trì.",
+    "cover": "assets/images/module-32-cover.svg",
+    "diagram": "assets/diagrams/module-32-diagram.svg",
+    "gallery": [
+      "assets/images/module-32-cover.svg",
+      "assets/diagrams/module-32-diagram.svg",
+      "assets/images/module-32-moodboard.svg"
+    ],
+    "tags": [
+      "Kết cấu",
+      "MEP",
+      "Vận hành"
+    ],
+    "slug": "phoi-hop-ket-cau-mep-va-ky-thuat-van-hanh"
+  },
+  "module-33": {
+    "title": "Cấu Tạo Và Vật Liệu",
+    "visual": "Chi tiết cấu tạo",
+    "caption": "Visual trọng tâm: chi tiết cấu tạo cho chống thấm, chống nóng, chống trơn và bảo trì.",
+    "cover": "assets/images/module-33-cover.svg",
+    "diagram": "assets/diagrams/module-33-diagram.svg",
+    "gallery": [
+      "assets/images/module-33-cover.svg",
+      "assets/diagrams/module-33-diagram.svg",
+      "assets/images/module-33-moodboard.svg"
+    ],
+    "tags": [
+      "Chống thấm",
+      "Chống nóng",
+      "Bảo trì"
+    ],
+    "slug": "vat-lieu-cau-tao-chong-tham-chong-nong-va-bao-tri"
+  },
+  "module-34": {
+    "title": "Hồ Sơ Và Nghiệm Thu",
+    "visual": "Ma trận duyệt",
+    "caption": "Visual trọng tâm: ma trận duyệt cho hồ sơ, checklist, tiêu chuẩn và nghiệm thu.",
+    "cover": "assets/images/module-34-cover.svg",
+    "diagram": "assets/diagrams/module-34-diagram.svg",
+    "gallery": [
+      "assets/images/module-34-cover.svg",
+      "assets/diagrams/module-34-diagram.svg",
+      "assets/images/module-34-moodboard.svg"
+    ],
+    "tags": [
+      "Hồ sơ",
+      "Checklist",
+      "Tiêu chuẩn"
+    ],
+    "slug": "ho-so-thiet-ke-checklist-duyet-phuong-an-va-tieu-chuan-nghiem-thu"
+  }
+}

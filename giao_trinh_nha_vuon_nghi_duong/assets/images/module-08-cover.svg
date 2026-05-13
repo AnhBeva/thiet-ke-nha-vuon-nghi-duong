@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+<title id="title">Module 08: Vật Liệu Và Chất Cảm</title><desc id="desc">đá, gỗ, bê tông, gạch, cây và màu nền</desc>
+<defs><linearGradient id="sky" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#f8f4ec"/><stop offset=".55" stop-color="#dcebdc"/><stop offset="1" stop-color="#8dbf88"/></linearGradient><filter id="soft"><feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#10251c" flood-opacity=".22"/></filter></defs>
+<rect width="1280" height="720" fill="url(#sky)"/>
+<circle cx="1040" cy="150" r="78" fill="#b99566" opacity=".9"/>
+<path d="M0 520 C180 450 300 500 450 430 C610 360 760 410 900 340 C1050 265 1170 325 1280 250 L1280 720 L0 720 Z" fill="#233327" opacity=".96"/>
+<path d="M0 605 C180 565 330 590 505 530 C660 476 800 502 960 450 C1110 400 1210 420 1280 380 L1280 720 L0 720 Z" fill="#8dbf88" opacity=".78"/>
+<g filter="url(#soft)"><rect x="456" y="306" width="360" height="165" rx="10" fill="#fff8ea"/><path d="M420 315 L636 190 L855 315 Z" fill="#233327"/><rect x="510" y="350" width="92" height="121" fill="#d8a75b"/><rect x="630" y="346" width="136" height="82" fill="#9fc6c5"/></g>
+<path d="M220 460 C250 350 310 280 375 215 C340 320 355 396 430 480 Z" fill="#2f6b42"/><path d="M180 500 C170 385 205 306 270 230 C252 335 275 420 350 515 Z" fill="#5e9d5f"/>
+<rect x="72" y="72" width="520" height="240" rx="26" fill="#fffdf6" opacity=".92"/>
+<text x="108" y="128" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="800" fill="#8dbf88">MODULE 08</text>
+<text x="108" y="190" font-family="Inter, Arial, sans-serif" font-size="46" font-weight="800" fill="#233327">Vật Liệu Và Chất Cảm</text>
+<text x="108" y="242" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#6f6047">Moodboard</text>
+<text x="108" y="282" font-family="Inter, Arial, sans-serif" font-size="18" fill="#4b5b4b">đá, gỗ, bê tông, gạch, cây và màu nền</text>
+<g><rect x="108" y="318" width="112" height="34" rx="17" fill="#233327" opacity=".9"/><text x="124" y="341" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" fill="#fff">Vật liệu</text><rect x="236" y="318" width="112" height="34" rx="17" fill="#233327" opacity=".9"/><text x="252" y="341" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" fill="#fff">Màu</text><rect x="364" y="318" width="112" height="34" rx="17" fill="#233327" opacity=".9"/><text x="380" y="341" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" fill="#fff">Chất cảm</text></g>
+</svg>
