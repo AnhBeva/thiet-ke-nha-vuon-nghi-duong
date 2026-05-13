@@ -1,0 +1,868 @@
+<!doctype html><html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Bộ Giáo Trình Thiết Kế Nhà Vườn Nghỉ Dưỡng Nhiệt Đới</title><script type="module">import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs'; mermaid.initialize({startOnLoad:true,theme:'base',securityLevel:'loose',themeVariables:{primaryColor:'#f5f7fb',primaryTextColor:'#111827',primaryBorderColor:'#c7d2fe',lineColor:'#6b7280',fontFamily:'-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif'}});</script><style>
+:root{--bg:#f5f5f7;--text:#1d1d1f;--muted:#6e6e73;--blue:#0071e3;--line:#ddd;--panel:rgba(255,255,255,.84);--shadow:0 18px 50px rgba(0,0,0,.08)}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at top left,#fff,#f5f5f7 42%,#eef2f7);font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","Segoe UI",sans-serif;color:var(--text);line-height:1.65}.layout{display:grid;grid-template-columns:320px minmax(0,1fr)}aside{position:sticky;top:0;height:100vh;overflow:auto;padding:22px;background:rgba(245,245,247,.78);backdrop-filter:blur(26px);border-right:1px solid rgba(0,0,0,.08)}.brand{display:flex;gap:12px;align-items:center;margin-bottom:18px}.mark{width:42px;height:42px;border-radius:14px;background:linear-gradient(145deg,#111827,#0071e3);box-shadow:0 12px 26px rgba(0,113,227,.22)}.brand h1{font-size:18px;margin:0;line-height:1.18}.brand p{margin:3px 0 0;color:var(--muted);font-size:13px}.search{width:100%;border:1px solid rgba(0,0,0,.08);border-radius:14px;padding:12px 14px;font-size:15px;background:white}.toc-label{margin:18px 0 8px;font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;font-weight:700}.nav-link{display:flex;justify-content:space-between;gap:10px;text-decoration:none;color:var(--text);padding:10px 12px;border-radius:14px;margin:3px 0}.nav-link:hover,.nav-link.active{background:#fff;box-shadow:0 8px 22px rgba(0,0,0,.06)}.nav-link span{font-size:14px;font-weight:650}.nav-link small{color:var(--muted);white-space:nowrap;font-size:11px}.hero{padding:72px 56px 38px;max-width:1180px;margin:0 auto}.eyebrow{color:var(--blue);font-weight:750;margin-bottom:12px}.hero h2{font-size:clamp(42px,6vw,78px);line-height:.96;margin:0;letter-spacing:-.02em;max-width:980px}.hero p{max-width:780px;font-size:20px;color:var(--muted);margin:24px 0 0}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:32px}.stat{background:var(--panel);border:1px solid rgba(255,255,255,.8);border-radius:20px;padding:18px;box-shadow:0 10px 28px rgba(0,0,0,.05)}.stat b{display:block;font-size:27px}.stat span{color:var(--muted);font-size:13px}.content{max-width:1180px;margin:0 auto;padding:0 56px 80px}.doc-card{background:var(--panel);backdrop-filter:blur(22px);border:1px solid rgba(255,255,255,.85);border-radius:22px;box-shadow:var(--shadow);padding:42px;margin:26px 0;scroll-margin-top:24px}.doc-meta{display:inline-flex;padding:6px 10px;border-radius:999px;background:#eaf3ff;color:#07559f;font-size:12px;font-weight:700;margin-bottom:18px}h1.chapter-title{font-size:clamp(32px,4vw,52px);line-height:1.05;margin:8px 0 22px;letter-spacing:-.015em}h2{font-size:28px;margin:34px 0 12px}h3{font-size:21px;margin:26px 0 10px}a{color:var(--blue)}ul,ol{padding-left:24px}li{margin:6px 0}blockquote{border-left:4px solid var(--blue);background:#eaf3ff;margin:20px 0;padding:14px 18px;border-radius:14px;color:#1d3557}.table-wrap{overflow:auto;border:1px solid var(--line);border-radius:16px;margin:18px 0;background:#fff}table{width:100%;border-collapse:collapse;min-width:640px}th{background:#f8f8fa;text-align:left;font-size:13px}th,td{padding:13px 15px;border-bottom:1px solid #ececf0;vertical-align:top}tr:last-child td{border-bottom:0}code{background:#f2f2f5;padding:2px 6px;border-radius:7px}.diagram-shell{background:linear-gradient(180deg,#fff,#f8fafc);border:1px solid #e5e7eb;border-radius:20px;padding:20px;margin:20px 0;overflow:auto}.mermaid{min-width:520px}.tools{position:fixed;right:24px;bottom:24px;display:flex;gap:10px;z-index:5}button{border:0;border-radius:999px;padding:12px 16px;background:#1d1d1f;color:#fff;font-weight:700;box-shadow:0 12px 30px rgba(0,0,0,.18);cursor:pointer}.progress{position:fixed;top:0;left:0;height:3px;background:linear-gradient(90deg,#0071e3,#2f7d59);width:0;z-index:10}@media(max-width:920px){.layout{grid-template-columns:1fr}aside{position:relative;height:auto}.hero,.content{padding-left:22px;padding-right:22px}.stats{grid-template-columns:repeat(2,1fr)}.doc-card{padding:24px}}@media print{aside,.tools,.progress{display:none}.layout{display:block}.doc-card{break-inside:avoid;box-shadow:none;border:1px solid #ddd}body{background:white}}
+</style></head><body><div class="progress" id="progress"></div><div class="layout"><aside><div class="brand"><div class="mark"></div><div><h1>Giáo trình nhà vườn</h1><p>Thiết kế nghỉ dưỡng nhiệt đới</p></div></div><input id="search" class="search" placeholder="Tìm module, phụ lục, từ khóa..."><div class="toc-label">Mục lục</div><nav><a class="nav-link" href="#doc-00-muc-luc-va-huong-dan-hoc" data-title="bộ giáo trình thiết kế nhà vườn nghỉ dưỡng nhiệt đới" data-group="Mở đầu"><span>Bộ Giáo Trình Thiết Kế Nhà Vườn Nghỉ Dưỡng Nhiệt Đới</span><small>Mở đầu</small></a><a class="nav-link" href="#doc-modules-module-01-tu-duy-nen-tang" data-title="module 01. tư duy nền tảng về nhà vườn nghỉ dưỡng" data-group="Module"><span>Module 01. Tư Duy Nền Tảng Về Nhà Vườn Nghỉ Dưỡng</span><small>Module</small></a><a class="nav-link" href="#doc-modules-module-02-doc-khu-dat" data-title="module 02. đọc khu đất: nắng, gió, nước, đất, view" data-group="Module"><span>Module 02. Đọc Khu Đất: Nắng, Gió, Nước, Đất, View</span><small>Module</small></a><a class="nav-link" href="#doc-modules-module-03-trai-nghiem-con-nguoi" data-title="module 03. thiết kế trải nghiệm con người" data-group="Module"><span>Module 03. Thiết Kế Trải Nghiệm Con Người</span><small>Module</small></a><a class="nav-link" href="#doc-modules-module-04-kien-truc-nhiet-doi" data-title="module 04. nguyên lý kiến trúc nhiệt đới" data-group="Module"><span>Module 04. Nguyên Lý Kiến Trúc Nhiệt Đới</span><small>Module</small></a><a class="nav-link" href="#doc-modules-module-05-quan-he-nha-va-vuon" data-title="module 05. quan hệ giữa nhà và vườn" data-group="Module"><span>Module 05. Quan Hệ Giữa Nhà Và Vườn</span><small>Module</small></a><a class="nav-link" href="#doc-modules-module-06-cay-xanh-nhieu-tang" data-title="module 06. thiết kế cây xanh nhiều tầng" data-group="Module"><span>Module 06. Thiết Kế Cây Xanh Nhiều Tầng</span><small>Module</small></a><a class="nav-link" href="#doc-modules-module-07-dat-nuoc-thoat-nuoc-tuoi" data-title="module 07. đất, nước, thoát nước và tưới" data-group="Module"><span>Module 07. Đất, Nước, Thoát Nước Và Tưới</span><small>Module</small></a><a class="nav-link" href="#doc-modules-module-08-vat-lieu-mau-sac-chat-cam" data-title="module 08. vật liệu, màu sắc và chất cảm" data-group="Module"><span>Module 08. Vật Liệu, Màu Sắc Và Chất Cảm</span><small>Module</small></a><a class="nav-link" href="#doc-modules-module-09-anh-sang-am-thanh-mui-huong" data-title="module 09. ánh sáng, âm thanh, mùi hương và giác quan" data-group="Module"><span>Module 09. Ánh Sáng, Âm Thanh, Mùi Hương Và Giác Quan</span><small>Module</small></a><a class="nav-link" href="#doc-modules-module-10-thoi-gian-va-bao-tri" data-title="module 10. thiết kế theo thời gian và bảo trì" data-group="Module"><span>Module 10. Thiết Kế Theo Thời Gian Và Bảo Trì</span><small>Module</small></a><a class="nav-link" href="#doc-modules-module-11-quy-trinh-lam-viec" data-title="module 11. quy trình làm việc với kiến trúc sư, cảnh quan và thi công" data-group="Module"><span>Module 11. Quy Trình Làm Việc Với Kiến Trúc Sư, Cảnh Quan Và Thi Công</span><small>Module</small></a><a class="nav-link" href="#doc-modules-module-12-brief-thiet-ke" data-title="module 12. bài tập tổng hợp: xây brief thiết kế nhà vườn" data-group="Module"><span>Module 12. Bài Tập Tổng Hợp: Xây Brief Thiết Kế Nhà Vườn</span><small>Module</small></a><a class="nav-link" href="#doc-phu-luc-checklist-tong-hop" data-title="phụ lục a. checklist tổng hợp đánh giá nhà vườn" data-group="Phụ lục"><span>Phụ Lục A. Checklist Tổng Hợp Đánh Giá Nhà Vườn</span><small>Phụ lục</small></a><a class="nav-link" href="#doc-phu-luc-lo-trinh-hoc-30-ngay" data-title="phụ lục b. lộ trình học 30 ngày" data-group="Phụ lục"><span>Phụ Lục B. Lộ Trình Học 30 Ngày</span><small>Phụ lục</small></a><a class="nav-link" href="#doc-phu-luc-mau-phieu-khao-sat-khu-dat" data-title="phụ lục c. mẫu phiếu khảo sát khu đất" data-group="Phụ lục"><span>Phụ Lục C. Mẫu Phiếu Khảo Sát Khu Đất</span><small>Phụ lục</small></a><a class="nav-link" href="#doc-phu-luc-mau-brief-thiet-ke" data-title="phụ lục d. mẫu brief thiết kế nhà vườn nghỉ dưỡng" data-group="Phụ lục"><span>Phụ Lục D. Mẫu Brief Thiết Kế Nhà Vườn Nghỉ Dưỡng</span><small>Phụ lục</small></a><a class="nav-link" href="#doc-phu-luc-mau-danh-gia-thiet-ke" data-title="phụ lục e. mẫu đánh giá phương án thiết kế" data-group="Phụ lục"><span>Phụ Lục E. Mẫu Đánh Giá Phương Án Thiết Kế</span><small>Phụ lục</small></a><a class="nav-link" href="#doc-phu-luc-ban-tom-tat-1-trang" data-title="phụ lục f. bản tóm tắt 1 trang" data-group="Phụ lục"><span>Phụ Lục F. Bản Tóm Tắt 1 Trang</span><small>Phụ lục</small></a><a class="nav-link" href="#doc-kiem-dinh-chat-luong" data-title="kiểm định chất lượng bộ giáo trình" data-group="Kiểm định"><span>Kiểm Định Chất Lượng Bộ Giáo Trình</span><small>Kiểm định</small></a></nav></aside><main><section class="hero"><div class="eyebrow">Bản HTML hoàn chỉnh</div><h2>Thiết kế nhà vườn như một hệ sống.</h2><p>Tài liệu được chuẩn hóa thành các bài học đầy đủ, dễ tra cứu, có sơ đồ Mermaid, bảng kiểm và bài tập thực hành.</p><div class="stats"><div class="stat"><b>12</b><span>module xuất sắc</span></div><div class="stat"><b>14</b><span>phần chuẩn mỗi module</span></div><div class="stat"><b>6</b><span>phụ lục thực hành</span></div><div class="stat"><b>Mermaid</b><span>sơ đồ trực quan</span></div></div></section><section class="content"><article class="doc-card" id="doc-00-muc-luc-va-huong-dan-hoc"><div class="doc-meta">00_muc_luc_va_huong_dan_hoc.md</div><h1 id="00-muc-luc-va-huong-dan-hoc-bo-giao-trinh-thiet-ke-nha-vuon-nghi-duong-nhiet-doi" class="chapter-title">Bộ Giáo Trình Thiết Kế Nhà Vườn Nghỉ Dưỡng Nhiệt Đới</h1>
+<h2 id="00-muc-luc-va-huong-dan-hoc-muc-tieu-tong-quat" class="">Mục tiêu tổng quát</h2>
+<p>Bộ giáo trình này giúp người mới bắt đầu hiểu đúng và đủ bản chất của một nhà vườn nghỉ dưỡng: không phải là một ngôi nhà xây xong rồi thêm cây xanh, mà là một hệ sống trong đó kiến trúc, cảnh quan, con người, ánh sáng, gió, nước, đất và thời gian vận hành cùng nhau.</p>
+<p>Sau khi học xong, người học cần có khả năng:</p>
+<ul>
+<li>Đọc một khu đất ở mức nền tảng nhưng đúng trọng tâm.</li>
+<li>Hiểu vì sao một phương án nhà vườn mát, bền, có chiều sâu và dễ chăm.</li>
+<li>Nhận ra các lỗi phổ biến trong bố cục, cây xanh, thoát nước, vật liệu và bảo trì.</li>
+<li>Xây dựng được một brief thiết kế đủ rõ để làm việc hiệu quả với kiến trúc sư, kiến trúc sư cảnh quan và đội thi công.</li>
+<li>Tự kiểm soát chất lượng phương án thay vì chỉ đánh giá bằng cảm tính.</li>
+</ul>
+<h2 id="00-muc-luc-va-huong-dan-hoc-tu-duy-xuyen-suot" class="">Tư duy xuyên suốt</h2>
+<div class="diagram-shell"><div class="mermaid">flowchart TD
+  A[&quot;Con người muốn sống như thế nào?&quot;] --&gt; B[&quot;Khu đất đang vận hành ra sao?&quot;]
+  B --&gt; C[&quot;Nhà nên đặt ở đâu và mở ra đâu?&quot;]
+  C --&gt; D[&quot;Vườn cần tạo bóng, khoảng thở và hành trình gì?&quot;]
+  D --&gt; E[&quot;Đất, nước, vật liệu, ánh sáng hỗ trợ thế nào?&quot;]
+  E --&gt; F[&quot;Sau 5-10 năm nơi này có đẹp và sống tốt hơn không?&quot;]</div></div>
+<h2 id="00-muc-luc-va-huong-dan-hoc-cach-hoc-khuyen-nghi" class="">Cách học khuyến nghị</h2>
+<div class="table-wrap"><table><thead><tr><th>Giai đoạn</th><th>Cách học</th><th>Kết quả cần đạt</th></tr></thead><tbody><tr><td>1. Nắm nền tảng</td><td>Học module 1-3</td><td>Có ngôn ngữ tư duy đúng về cảm xúc, khu đất và trải nghiệm</td></tr><tr><td>2. Hiểu cấu trúc thiết kế</td><td>Học module 4-7</td><td>Biết kiểm tra nhà, vườn, cây, đất, nước và tính bền</td></tr><tr><td>3. Hoàn thiện chất lượng sống</td><td>Học module 8-10</td><td>Hiểu vật liệu, giác quan và bảo trì dài hạn</td></tr><tr><td>4. Chuyển thành dự án thật</td><td>Học module 11-12</td><td>Có brief, checklist và quy trình làm việc</td></tr></tbody></table></div>
+<h2 id="00-muc-luc-va-huong-dan-hoc-muc-luc-chi-tiet" class="">Mục lục chi tiết</h2>
+<div class="table-wrap"><table><thead><tr><th>Tài liệu</th><th>Nội dung</th><th>Đầu ra chính</th></tr></thead><tbody><tr><td><a href="modules/module-01-tu-duy-nen-tang.md">Module 01</a></td><td>Tư duy nền tảng</td><td>Tuyên ngôn thiết kế nhà vườn</td></tr><tr><td><a href="modules/module-02-doc-khu-dat.md">Module 02</a></td><td>Đọc khu đất</td><td>Phiếu khảo sát nắng, gió, nước, đất, view</td></tr><tr><td><a href="modules/module-03-trai-nghiem-con-nguoi.md">Module 03</a></td><td>Trải nghiệm con người</td><td>Hành trình không gian và điểm dừng</td></tr><tr><td><a href="modules/module-04-kien-truc-nhiet-doi.md">Module 04</a></td><td>Kiến trúc nhiệt đới</td><td>Checklist nhà mát và hiên sống được</td></tr><tr><td><a href="modules/module-05-quan-he-nha-va-vuon.md">Module 05</a></td><td>Quan hệ nhà - vườn</td><td>Sơ đồ kết nối trong nhà, hiên, sân, vườn</td></tr><tr><td><a href="modules/module-06-cay-xanh-nhieu-tang.md">Module 06</a></td><td>Cây xanh nhiều tầng</td><td>Cụm cây có cấu trúc và vai trò rõ</td></tr><tr><td><a href="modules/module-07-dat-nuoc-thoat-nuoc-tuoi.md">Module 07</a></td><td>Đất, nước, thoát nước, tưới</td><td>Bản đồ nước và yêu cầu kỹ thuật nền</td></tr><tr><td><a href="modules/module-08-vat-lieu-mau-sac-chat-cam.md">Module 08</a></td><td>Vật liệu, màu sắc, chất cảm</td><td>Bảng vật liệu sơ bộ có lý do chọn</td></tr><tr><td><a href="modules/module-09-anh-sang-am-thanh-mui-huong.md">Module 09</a></td><td>Ánh sáng và giác quan</td><td>Một góc nghỉ dưỡng thiết kế bằng 5 giác quan</td></tr><tr><td><a href="modules/module-10-thoi-gian-va-bao-tri.md">Module 10</a></td><td>Thời gian và bảo trì</td><td>Kế hoạch chăm sóc 12 tháng và nhìn trước 5-10 năm</td></tr><tr><td><a href="modules/module-11-quy-trinh-lam-viec.md">Module 11</a></td><td>Quy trình làm việc</td><td>Bộ câu hỏi kiểm soát đơn vị thiết kế và thi công</td></tr><tr><td><a href="modules/module-12-brief-thiet-ke.md">Module 12</a></td><td>Brief tổng hợp</td><td>Brief thiết kế nhà vườn hoàn chỉnh</td></tr></tbody></table></div>
+<h2 id="00-muc-luc-va-huong-dan-hoc-chuan-trinh-bay-trong-tung-bai" class="">Chuẩn trình bày trong từng bài</h2>
+<p>Mỗi module đều có cùng một cấu trúc để dễ học, dễ rà soát:</p>
+<ol>
+<li>Mục tiêu học tập.</li>
+<li>Tư duy cốt lõi.</li>
+<li>Kiến thức nền cần hiểu đúng.</li>
+<li>Nguyên lý thiết kế.</li>
+<li>Quy trình áp dụng.</li>
+<li>Ví dụ minh họa.</li>
+<li>Lỗi thường gặp.</li>
+<li>Checklist kiểm tra.</li>
+<li>Bài tập thực hành.</li>
+<li>Tiêu chí tự đánh giá đầu ra.</li>
+</ol>
+<h2 id="00-muc-luc-va-huong-dan-hoc-thu-tu-thiet-ke-dung" class="">Thứ tự thiết kế đúng</h2>
+<pre><code>Cảm xúc sống
+-&gt; Đọc khu đất
+-&gt; Phân khu không gian
+-&gt; Đặt nhà
+-&gt; Tổ chức hiên và vùng chuyển tiếp
+-&gt; Tạo lối đi, điểm dừng, khung nhìn
+-&gt; Đặt cây lớn và khoảng mở
+-&gt; Hoàn thiện tầng cây thấp
+-&gt; Xử lý đất, nước, thoát nước, tưới
+-&gt; Chọn vật liệu, màu sắc, ánh sáng
+-&gt; Lập kế hoạch bảo trì theo thời gian</code></pre>
+<h2 id="00-muc-luc-va-huong-dan-hoc-gioi-han-cua-giao-trinh" class="">Giới hạn của giáo trình</h2>
+<p>Giáo trình này đủ để hiểu bản chất, lập đề bài, đánh giá phương án và làm việc tốt hơn với chuyên gia. Tài liệu không thay thế:</p>
+<ul>
+<li>Hồ sơ thiết kế kiến trúc, kết cấu, cơ điện, cấp thoát nước.</li>
+<li>Tư vấn pháp lý xây dựng.</li>
+<li>Tính toán kỹ thuật chuyên sâu.</li>
+<li>Khuyến nghị cây trồng chính xác cho mọi vùng khí hậu.</li>
+<li>Dự toán chi phí và hồ sơ mời thầu.</li>
+</ul></article><article class="doc-card" id="doc-modules-module-01-tu-duy-nen-tang"><div class="doc-meta">modules/module-01-tu-duy-nen-tang.md</div><h1 id="modules-module-01-tu-duy-nen-tang-module-01-tu-duy-nen-tang-ve-nha-vuon-nghi-duong" class="chapter-title">Module 01. Tư Duy Nền Tảng Về Nhà Vườn Nghỉ Dưỡng</h1>
+<h2 id="modules-module-01-tu-duy-nen-tang-1-muc-tieu-hoc-tap" class="">1. Mục tiêu học tập</h2>
+<ul>
+<li>Hiểu nhà vườn nghỉ dưỡng là một hệ sống, không phải phép cộng giữa nhà và cây.</li>
+<li>Biết đặt câu hỏi đúng trước khi chọn phong cách, cây, vật liệu hoặc phối cảnh.</li>
+<li>Nhận ra các lỗi tư duy khiến nhà vườn nhanh xuống cấp sau 1-3 năm.</li>
+<li>Tạo được tuyên ngôn thiết kế làm nền cho toàn bộ dự án.</li>
+</ul>
+<h2 id="modules-module-01-tu-duy-nen-tang-2-vi-sao-module-nay-quan-trong" class="">2. Vì sao module này quan trọng</h2>
+<p>Module này là nền móng của toàn bộ giáo trình. Nếu tư duy ban đầu sai, các quyết định sau như đặt nhà, mở cửa, chọn cây, làm hồ nước, lát sân hoặc bố trí đèn đều dễ trở thành trang trí rời rạc. Một khu nhà vườn nghỉ dưỡng chỉ thật sự có giá trị khi nó tạo ra chất lượng sống lâu dài: mát, thoáng, có chiều sâu, dễ chăm và càng ở càng thấy gắn bó.</p>
+<h2 id="modules-module-01-tu-duy-nen-tang-3-tu-duy-cot-loi" class="">3. Tư duy cốt lõi</h2>
+<blockquote>Đừng thiết kế “nhà + cây”. Hãy thiết kế một hệ sống nơi con người, kiến trúc, vườn, đất, nước, ánh sáng, gió và thời gian hỗ trợ lẫn nhau.</blockquote>
+<h2 id="modules-module-01-tu-duy-nen-tang-4-kien-thuc-nen-can-hieu-dung" class="">4. Kiến thức nền cần hiểu đúng</h2>
+<h3 id="modules-module-01-tu-duy-nen-tang-4-1-he-song" class="">4.1. Hệ sống</h3>
+<p>Một hệ sống là tổng thể có nhiều phần liên quan với nhau. Nhà che chở con người, vườn điều hòa vi khí hậu, đất nuôi cây, nước quyết định sức khỏe cảnh quan, ánh sáng tạo nhịp ngày đêm, còn thời gian làm mọi thứ thay đổi. Nếu một phần sai, các phần khác bị ảnh hưởng.</p>
+<h3 id="modules-module-01-tu-duy-nen-tang-4-2-chat-luong-song" class="">4.2. Chất lượng sống</h3>
+<p>Nhà vườn nghỉ dưỡng không chỉ để ngắm. Nó phải giúp người ở cảm thấy thư giãn, an toàn, được riêng tư vừa đủ, có nơi sinh hoạt ngoài trời và có lý do để đi chậm lại.</p>
+<h3 id="modules-module-01-tu-duy-nen-tang-4-3-thu-tu-thiet-ke" class="">4.3. Thứ tự thiết kế</h3>
+<p>Thứ tự đúng là cảm xúc sống, đọc khu đất, phân khu, đặt nhà, tổ chức hiên/lối đi/khoảng mở, rồi mới chọn cây, vật liệu, đèn và trang trí.</p>
+<h3 id="modules-module-01-tu-duy-nen-tang-4-4-tinh-truong-thanh" class="">4.4. Tính trưởng thành</h3>
+<p>Cây lớn lên, vật liệu cũ đi, thói quen gia đình thay đổi. Vì vậy, thiết kế tốt không dừng ở ngày bàn giao mà phải hình dung được sau 5-10 năm.</p>
+<h3 id="modules-module-01-tu-duy-nen-tang-4-5-bao-tri" class="">4.5. Bảo trì</h3>
+<p>Bảo trì không phải việc phụ. Một phương án cần nhiều chăm sóc hơn khả năng thực tế sẽ nhanh mất chất lượng, dù ban đầu rất đẹp.</p>
+<h2 id="modules-module-01-tu-duy-nen-tang-5-nguyen-ly-thiet-ke" class="">5. Nguyên lý thiết kế</h2>
+<div class="table-wrap"><table><thead><tr><th>Nguyên lý</th><th>Cách áp dụng</th></tr></thead><tbody><tr><td>Cảm xúc trước hình thức</td><td>Nói rõ muốn yên tĩnh, ấm cúng, mộc mạc, sang trọng hay gần rừng trước khi chọn vật liệu và cây.</td></tr><tr><td>Tổng thể trước chi tiết</td><td>Không chọn cây, đá, đèn khi chưa rõ bố cục, khoảng mở và hành trình.</td></tr><tr><td>Ít nhưng đúng vai</td><td>Một cây chủ đúng chỗ tốt hơn nhiều cây đặt ngẫu hứng.</td></tr><tr><td>Thiết kế cho thời gian</td><td>Mọi cây lớn, vật liệu, mặt nước và lối đi đều cần kịch bản sau vài năm.</td></tr><tr><td>Dễ sống là tiêu chí cao</td><td>Không gian đẹp nhưng nóng, trơn, muỗi, ẩm, khó chăm thì chưa đạt.</td></tr></tbody></table></div>
+<h2 id="modules-module-01-tu-duy-nen-tang-6-so-do-truc-quan" class="">6. Sơ đồ trực quan</h2>
+<div class="diagram-shell"><div class="mermaid">flowchart LR
+  A[&quot;Con người&quot;] --&gt; B[&quot;Cảm xúc sống&quot;]
+  B --&gt; C[&quot;Khu đất&quot;]
+  C --&gt; D[&quot;Nhà&quot;]
+  D &lt;--&gt; E[&quot;Hiên và vùng chuyển tiếp&quot;]
+  E &lt;--&gt; F[&quot;Vườn&quot;]
+  F &lt;--&gt; G[&quot;Đất - nước - cây&quot;]
+  G --&gt; H[&quot;Thời gian và bảo trì&quot;]</div></div>
+<h2 id="modules-module-01-tu-duy-nen-tang-7-quy-trinh-ap-dung-tung-buoc" class="">7. Quy trình áp dụng từng bước</h2>
+<ol>
+<li>Viết 3 cảm xúc chủ đạo mà dự án phải tạo ra.</li>
+<li>Liệt kê người sử dụng thường xuyên và nhu cầu thật của họ.</li>
+<li>Ghi 5 hoạt động quan trọng nhất sẽ diễn ra trong nhà vườn.</li>
+<li>Xác định mức bảo trì có thể chấp nhận: thấp, vừa hay cao.</li>
+<li>Ghi 5 điều không muốn xảy ra, ví dụ nóng, ẩm, muỗi, rối, khó chăm.</li>
+<li>Chuyển các ý trên thành 5-7 nguyên tắc thiết kế để dùng xuyên suốt dự án.</li>
+</ol>
+<h2 id="modules-module-01-tu-duy-nen-tang-8-vi-du-thuc-te" class="">8. Ví dụ thực tế</h2>
+<div class="table-wrap"><table><thead><tr><th>Tình huống</th><th>Cách đọc hoặc xử lý</th></tr></thead><tbody><tr><td>Gia đình muốn nơi nghỉ cuối tuần</td><td>Ưu tiên hiên rộng, phòng ngủ nhìn ra vườn, bếp kết nối bàn ăn ngoài trời, ít chi tiết khó chăm.</td></tr><tr><td>Chủ nhà thích cảm giác như rừng nhỏ</td><td>Cần cây nhiều tầng nhưng vẫn phải có khoảng thở, lối bảo trì và kiểm soát muỗi/ẩm.</td></tr><tr><td>Đất nhỏ nhưng muốn nghỉ dưỡng</td><td>Không cố nhồi nhiều tiểu cảnh; tập trung một khung nhìn đẹp, một hiên tốt và vài lớp cây chọn lọc.</td></tr><tr><td>Muốn vườn ít chăm</td><td>Chọn cây khỏe, cấu trúc đơn giản, giảm hoa mùa vụ, dùng phủ gốc và tưới theo vùng.</td></tr></tbody></table></div>
+<h2 id="modules-module-01-tu-duy-nen-tang-9-loi-thuong-gap-va-cach-tranh" class="">9. Lỗi thường gặp và cách tránh</h2>
+<div class="table-wrap"><table><thead><tr><th>Lỗi thường gặp</th><th>Hậu quả</th></tr></thead><tbody><tr><td>Bắt đầu bằng phong cách ảnh mẫu</td><td>Dễ sao chép hình thức mà bỏ qua khu đất thật.</td></tr><tr><td>Mua cây trước khi có tổng thể</td><td>Cây sai vị trí, khó sống, tốn chi phí di dời.</td></tr><tr><td>Làm quá nhiều điểm nhấn</td><td>Không gian mất sự nghỉ dưỡng, mắt không có nơi nghỉ.</td></tr><tr><td>Không dự đoán cây lớn</td><td>Sau vài năm nhà tối, ẩm, rễ ảnh hưởng sân hoặc đường ống.</td></tr><tr><td>Không tính người chăm</td><td>Thiết kế vượt quá khả năng vận hành thực tế.</td></tr></tbody></table></div>
+<h2 id="modules-module-01-tu-duy-nen-tang-10-checklist-kiem-tra" class="">10. Checklist kiểm tra</h2>
+<h3 id="modules-module-01-tu-duy-nen-tang-tu-duy" class="">Tư duy</h3>
+<div class="table-wrap"><table><thead><tr><th>Câu hỏi</th><th>Đạt/Chưa</th><th>Ghi chú</th></tr></thead><tbody><tr><td>Đã định nghĩa 3 cảm xúc chủ đạo chưa?</td><td></td><td></td></tr><tr><td>Đã biết dự án phục vụ ai trước tiên chưa?</td><td></td><td></td></tr><tr><td>Đã có thứ tự ưu tiên rõ chưa?</td><td></td><td></td></tr></tbody></table></div>
+<h3 id="modules-module-01-tu-duy-nen-tang-van-hanh" class="">Vận hành</h3>
+<div class="table-wrap"><table><thead><tr><th>Câu hỏi</th><th>Đạt/Chưa</th><th>Ghi chú</th></tr></thead><tbody><tr><td>Đã xác định mức bảo trì chưa?</td><td></td><td></td></tr><tr><td>Đã nghĩ tới trạng thái sau 5 năm chưa?</td><td></td><td></td></tr><tr><td>Đã ghi các điều không chấp nhận chưa?</td><td></td><td></td></tr></tbody></table></div>
+<h2 id="modules-module-01-tu-duy-nen-tang-11-bai-tap-thuc-hanh" class="">11. Bài tập thực hành</h2>
+<p>Viết “Tuyên ngôn thiết kế nhà vườn” dài 10-12 câu. Bài làm phải có: người sử dụng chính, cảm xúc mong muốn, hoạt động quan trọng, mức bảo trì, điều cần tránh và hình ảnh khu vườn sau 5 năm.</p>
+<h2 id="modules-module-01-tu-duy-nen-tang-12-tieu-chi-tu-danh-gia" class="">12. Tiêu chí tự đánh giá</h2>
+<div class="table-wrap"><table><thead><tr><th>Mức</th><th>Biểu hiện</th></tr></thead><tbody><tr><td>Đạt</td><td>Nêu được cảm xúc và nhu cầu nhưng còn chung chung.</td></tr><tr><td>Tốt</td><td>Có nguyên tắc thiết kế rõ và liên hệ với cách sống thật.</td></tr><tr><td>Xuất sắc</td><td>Tuyên ngôn đủ cụ thể để làm tiêu chuẩn kiểm tra mọi quyết định thiết kế sau này.</td></tr></tbody></table></div>
+<h2 id="modules-module-01-tu-duy-nen-tang-13-lien-ket-voi-cac-module-khac" class="">13. Liên kết với các module khác</h2>
+<p>Module này tạo đầu vào cho Module 02 khi đọc khu đất và Module 12 khi viết brief tổng hợp.</p>
+<h2 id="modules-module-01-tu-duy-nen-tang-14-ghi-chu-gioi-han-chuyen-mon" class="">14. Ghi chú giới hạn chuyên môn</h2>
+<p>Đây là module tư duy, chưa thay thế khảo sát hiện trạng hoặc tư vấn thiết kế cụ thể.</p></article><article class="doc-card" id="doc-modules-module-02-doc-khu-dat"><div class="doc-meta">modules/module-02-doc-khu-dat.md</div><h1 id="modules-module-02-doc-khu-dat-module-02-doc-khu-dat-nang-gio-nuoc-dat-view" class="chapter-title">Module 02. Đọc Khu Đất: Nắng, Gió, Nước, Đất, View</h1>
+<h2 id="modules-module-02-doc-khu-dat-1-muc-tieu-hoc-tap" class="">1. Mục tiêu học tập</h2>
+<ul>
+<li>Biết quan sát khu đất trước khi đề xuất ý tưởng.</li>
+<li>Lập được bản đồ nắng, gió, nước, đất, view ở mức nền tảng.</li>
+<li>Phân biệt cơ hội và rủi ro của khu đất.</li>
+<li>Chuyển dữ liệu khảo sát thành yêu cầu thiết kế.</li>
+</ul>
+<h2 id="modules-module-02-doc-khu-dat-2-vi-sao-module-nay-quan-trong" class="">2. Vì sao module này quan trọng</h2>
+<p>Một phương án nhà vườn tốt không thể sinh ra từ phối cảnh trước. Khu đất luôn có những quy luật sẵn: hướng nắng, hướng gió, điểm đọng nước, cây đang khỏe, view đẹp, view xấu, tiếng ồn và vùng riêng tư. Nếu không đọc đúng, nhà có thể nóng, vườn có thể úng, lối đi có thể trơn và những khung nhìn quan trọng có thể bị lãng phí.</p>
+<h2 id="modules-module-02-doc-khu-dat-3-tu-duy-cot-loi" class="">3. Tư duy cốt lõi</h2>
+<blockquote>Khu đất không phải tờ giấy trắng. Nó là một hệ đang vận hành; nhiệm vụ đầu tiên là đọc đúng hệ đó.</blockquote>
+<h2 id="modules-module-02-doc-khu-dat-4-kien-thuc-nen-can-hieu-dung" class="">4. Kiến thức nền cần hiểu đúng</h2>
+<h3 id="modules-module-02-doc-khu-dat-4-1-nang" class="">4.1. Nắng</h3>
+<p>Nắng sáng thường dễ chịu hơn nắng chiều. Nắng Tây và Tây Nam thường gây nóng, chói và tăng tải nhiệt cho tường, kính, sân.</p>
+<h3 id="modules-module-02-doc-khu-dat-4-2-gio" class="">4.2. Gió</h3>
+<p>Gió tốt giúp nhà thoáng và giảm cảm giác nóng. Nhưng gió cũng có thể mang bụi, mùi, tiếng ồn hoặc mưa tạt.</p>
+<h3 id="modules-module-02-doc-khu-dat-4-3-nuoc" class="">4.3. Nước</h3>
+<p>Nước mưa cho biết cao độ và dòng chảy thật. Điểm đọng nước là dấu hiệu cần xử lý trước khi lát sân hoặc trồng cây.</p>
+<h3 id="modules-module-02-doc-khu-dat-4-4-dat" class="">4.4. Đất</h3>
+<p>Đất cát thoát nhanh nhưng giữ dinh dưỡng kém; đất sét giữ nước nhưng dễ bí; đất nén chặt làm rễ khó thở.</p>
+<h3 id="modules-module-02-doc-khu-dat-4-5-view" class="">4.5. View</h3>
+<p>View đẹp cần được mở có chủ đích. View xấu, hướng nhìn từ hàng xóm và nguồn tiếng ồn cần được che hoặc làm mềm.</p>
+<h3 id="modules-module-02-doc-khu-dat-4-6-cay-hien-trang" class="">4.6. Cây hiện trạng</h3>
+<p>Cây lớn khỏe là tài sản thời gian. Cây sâu bệnh, rễ nguy hiểm hoặc che sai hướng cần đánh giá kỹ.</p>
+<h2 id="modules-module-02-doc-khu-dat-5-nguyen-ly-thiet-ke" class="">5. Nguyên lý thiết kế</h2>
+<div class="table-wrap"><table><thead><tr><th>Nguyên lý</th><th>Cách áp dụng</th></tr></thead><tbody><tr><td>Quan sát theo thời điểm</td><td>Ít nhất cần xem sáng, trưa, chiều và sau mưa.</td></tr><tr><td>Ghi nhận bằng bản đồ</td><td>Thông tin phải được đặt lên sơ đồ, không chỉ ghi bằng lời.</td></tr><tr><td>Kết luận thiết kế</td><td>Mỗi quan sát cần dẫn tới một quyết định: mở, che, nâng, thoát, giữ, bỏ.</td></tr><tr><td>Không chống lại khu đất</td><td>Ý tưởng đẹp nhưng trái với nắng, nước, gió thường tốn chi phí và khó bền.</td></tr></tbody></table></div>
+<h2 id="modules-module-02-doc-khu-dat-6-so-do-truc-quan" class="">6. Sơ đồ trực quan</h2>
+<div class="diagram-shell"><div class="mermaid">flowchart TD
+  A[&quot;Khảo sát hiện trạng&quot;] --&gt; B[&quot;Nắng&quot;]
+  A --&gt; C[&quot;Gió&quot;]
+  A --&gt; D[&quot;Nước&quot;]
+  A --&gt; E[&quot;Đất và cây&quot;]
+  A --&gt; F[&quot;View và tiếng ồn&quot;]
+  B --&gt; G[&quot;Cơ hội / rủi ro&quot;]
+  C --&gt; G
+  D --&gt; G
+  E --&gt; G
+  F --&gt; G
+  G --&gt; H[&quot;Yêu cầu thiết kế&quot;]</div></div>
+<h2 id="modules-module-02-doc-khu-dat-7-quy-trinh-ap-dung-tung-buoc" class="">7. Quy trình áp dụng từng bước</h2>
+<ol>
+<li>Vẽ sơ đồ đất, đánh dấu hướng chính và các mốc cố định.</li>
+<li>Chụp ảnh từ cổng, các góc đất và từ trong nhà nhìn ra nếu đã có nhà.</li>
+<li>Ghi vùng nắng sáng, trưa, chiều; đặc biệt chú ý mặt Tây.</li>
+<li>Quan sát gió tốt, gió xấu, vùng bí và nguồn tiếng ồn.</li>
+<li>Sau mưa, đánh dấu hướng nước chảy và điểm đọng.</li>
+<li>Kiểm tra đất bằng quan sát độ tơi, độ dính, thoát nước và cây đang sống.</li>
+<li>Lập bảng cây hiện trạng: giữ, cắt tỉa, di dời, loại bỏ.</li>
+<li>Tóm tắt thành 10 nhận định thiết kế quan trọng nhất.</li>
+</ol>
+<h2 id="modules-module-02-doc-khu-dat-8-vi-du-thuc-te" class="">8. Ví dụ thực tế</h2>
+<div class="table-wrap"><table><thead><tr><th>Tình huống</th><th>Cách đọc hoặc xử lý</th></tr></thead><tbody><tr><td>Phía Tây trống và nóng</td><td>Cần che nắng bằng mái, lam, cây bóng mát hoặc giảm cửa kính trực tiếp.</td></tr><tr><td>Góc Đông Nam có gió mát</td><td>Có thể ưu tiên hiên, cửa mở hoặc điểm nghỉ.</td></tr><tr><td>Nước đọng ở lối vào</td><td>Phải xử lý cao độ, rãnh hoặc vật liệu thấm trước khi làm đẹp.</td></tr><tr><td>Có view ruộng/vườn xa</td><td>Nên giữ trục nhìn, không trồng cây chắn view quý.</td></tr><tr><td>Hàng xóm nhìn trực diện vào sân</td><td>Cần lớp cây đệm hoặc thay đổi vị trí điểm ngồi.</td></tr></tbody></table></div>
+<h2 id="modules-module-02-doc-khu-dat-9-loi-thuong-gap-va-cach-tranh" class="">9. Lỗi thường gặp và cách tránh</h2>
+<div class="table-wrap"><table><thead><tr><th>Lỗi thường gặp</th><th>Hậu quả</th></tr></thead><tbody><tr><td>Chỉ khảo sát một lần</td><td>Bỏ sót thay đổi theo giờ và theo mưa.</td></tr><tr><td>Không chụp ảnh hiện trạng</td><td>Khó trao đổi chính xác với đơn vị thiết kế.</td></tr><tr><td>Xem cây hiện trạng là vật cản</td><td>Dễ mất tài sản bóng mát có sẵn.</td></tr><tr><td>Không kiểm tra nước</td><td>Lỗi ngập, trơn, bẩn thường lộ sau thi công.</td></tr><tr><td>Không ghi view xấu</td><td>Cửa và hiên có thể mở sai hướng.</td></tr></tbody></table></div>
+<h2 id="modules-module-02-doc-khu-dat-10-checklist-kiem-tra" class="">10. Checklist kiểm tra</h2>
+<h3 id="modules-module-02-doc-khu-dat-nang-gio" class="">Nắng - gió</h3>
+<div class="table-wrap"><table><thead><tr><th>Câu hỏi</th><th>Đạt/Chưa</th><th>Ghi chú</th></tr></thead><tbody><tr><td>Có bản đồ nắng 3 thời điểm chưa?</td><td></td><td></td></tr><tr><td>Có ghi hướng gió tốt/xấu chưa?</td><td></td><td></td></tr><tr><td>Có xác định vùng bí chưa?</td><td></td><td></td></tr></tbody></table></div>
+<h3 id="modules-module-02-doc-khu-dat-nuoc-dat-cay" class="">Nước - đất - cây</h3>
+<div class="table-wrap"><table><thead><tr><th>Câu hỏi</th><th>Đạt/Chưa</th><th>Ghi chú</th></tr></thead><tbody><tr><td>Có điểm đọng nước sau mưa chưa?</td><td></td><td></td></tr><tr><td>Có nhận xét đất sơ bộ chưa?</td><td></td><td></td></tr><tr><td>Có danh sách cây hiện trạng chưa?</td><td></td><td></td></tr></tbody></table></div>
+<h3 id="modules-module-02-doc-khu-dat-view-rieng-tu" class="">View - riêng tư</h3>
+<div class="table-wrap"><table><thead><tr><th>Câu hỏi</th><th>Đạt/Chưa</th><th>Ghi chú</th></tr></thead><tbody><tr><td>Có view nên mở chưa?</td><td></td><td></td></tr><tr><td>Có view nên che chưa?</td><td></td><td></td></tr><tr><td>Có nguồn tiếng ồn/rủi ro riêng tư chưa?</td><td></td><td></td></tr></tbody></table></div>
+<h2 id="modules-module-02-doc-khu-dat-11-bai-tap-thuc-hanh" class="">11. Bài tập thực hành</h2>
+<p>Hoàn thành một “bản đồ đọc đất” gồm sơ đồ tay, ảnh hiện trạng, bảng 7 lớp khảo sát và danh sách 10 quyết định thiết kế rút ra từ khảo sát.</p>
+<h2 id="modules-module-02-doc-khu-dat-12-tieu-chi-tu-danh-gia" class="">12. Tiêu chí tự đánh giá</h2>
+<div class="table-wrap"><table><thead><tr><th>Mức</th><th>Biểu hiện</th></tr></thead><tbody><tr><td>Đạt</td><td>Có ghi nhận hiện trạng cơ bản.</td></tr><tr><td>Tốt</td><td>Biết phân loại cơ hội và rủi ro.</td></tr><tr><td>Xuất sắc</td><td>Mỗi dữ liệu khảo sát đều chuyển thành yêu cầu thiết kế rõ ràng.</td></tr></tbody></table></div>
+<h2 id="modules-module-02-doc-khu-dat-13-lien-ket-voi-cac-module-khac" class="">13. Liên kết với các module khác</h2>
+<p>Dữ liệu từ module này là đầu vào trực tiếp cho Module 03, 04, 05, 06 và brief ở Module 12.</p>
+<h2 id="modules-module-02-doc-khu-dat-14-ghi-chu-gioi-han-chuyen-mon" class="">14. Ghi chú giới hạn chuyên môn</h2>
+<p>Khảo sát trong module này là nền tảng cho chủ nhà; các vấn đề cao độ, địa chất, thoát nước phức tạp vẫn cần chuyên gia.</p></article><article class="doc-card" id="doc-modules-module-03-trai-nghiem-con-nguoi"><div class="doc-meta">modules/module-03-trai-nghiem-con-nguoi.md</div><h1 id="modules-module-03-trai-nghiem-con-nguoi-module-03-thiet-ke-trai-nghiem-con-nguoi" class="chapter-title">Module 03. Thiết Kế Trải Nghiệm Con Người</h1>
+<h2 id="modules-module-03-trai-nghiem-con-nguoi-1-muc-tieu-hoc-tap" class="">1. Mục tiêu học tập</h2>
+<ul>
+<li>Hiểu nhà vườn như một chuỗi trải nghiệm chứ không chỉ là mặt bằng.</li>
+<li>Biết tổ chức hành trình từ cổng vào, hiên, sân, lối đi và điểm nghỉ.</li>
+<li>Áp dụng được các nguyên lý mở - kín, điểm dừng, khung nhìn và prospect - refuge.</li>
+<li>Tạo được bài tập hành trình một ngày làm đầu vào cho thiết kế.</li>
+</ul>
+<h2 id="modules-module-03-trai-nghiem-con-nguoi-2-vi-sao-module-nay-quan-trong" class="">2. Vì sao module này quan trọng</h2>
+<p>Nhiều khu vườn đẹp trên ảnh nhưng ít được sử dụng vì không có hành trình hợp lý, không có điểm dừng dễ chịu hoặc chỗ ngồi bị nắng, gió, thiếu riêng tư. Module này giúp chuyển từ tư duy “bố trí đồ vật” sang tư duy “thiết kế cảm giác khi con người di chuyển và ở lại”.</p>
+<h2 id="modules-module-03-trai-nghiem-con-nguoi-3-tu-duy-cot-loi" class="">3. Tư duy cốt lõi</h2>
+<blockquote>Một không gian nghỉ dưỡng tốt không phơi bày mọi thứ cùng lúc; nó dẫn người đi chậm lại qua các lớp mở - kín, sáng - tối, động - tĩnh.</blockquote>
+<h2 id="modules-module-03-trai-nghiem-con-nguoi-4-kien-thuc-nen-can-hieu-dung" class="">4. Kiến thức nền cần hiểu đúng</h2>
+<h3 id="modules-module-03-trai-nghiem-con-nguoi-4-1-hanh-trinh-khong-gian" class="">4.1. Hành trình không gian</h3>
+<p>Hành trình là chuỗi chuyển động từ lúc tiếp cận khu đất đến khi vào nhà, ra hiên, đi trong vườn và dừng lại. Hành trình tốt có nhịp, có bất ngờ vừa đủ và không làm người dùng bị lạc hoặc mệt.</p>
+<h3 id="modules-module-03-trai-nghiem-con-nguoi-4-2-diem-dung" class="">4.2. Điểm dừng</h3>
+<p>Điểm dừng là nơi người dùng có lý do ở lại: ngồi uống trà, đọc sách, nhìn cây, nghe nước, trò chuyện hoặc đơn giản là thở. Điểm dừng phải có bóng, tầm nhìn, chỗ tựa và cảm giác an toàn.</p>
+<h3 id="modules-module-03-trai-nghiem-con-nguoi-4-3-mo-kin" class="">4.3. Mở - kín</h3>
+<p>Không gian mở cho cảm giác thở và nhìn xa; không gian kín cho cảm giác được ôm và riêng tư. Thiết kế tốt cần luân phiên hai trạng thái này.</p>
+<h3 id="modules-module-03-trai-nghiem-con-nguoi-4-4-prospect-refuge" class="">4.4. Prospect - refuge</h3>
+<p>Prospect là khả năng nhìn ra; refuge là cảm giác được che chở. Một chỗ ngồi tốt thường có tầm nhìn phía trước và điểm tựa phía sau hoặc bên cạnh.</p>
+<h3 id="modules-module-03-trai-nghiem-con-nguoi-4-5-khung-nhin" class="">4.5. Khung nhìn</h3>
+<p>Khung nhìn là cảnh được chọn có chủ đích qua cửa, hiên, lối đi hoặc kẽ cây. Không phải view nào cũng nên mở; có view cần che.</p>
+<h3 id="modules-module-03-trai-nghiem-con-nguoi-4-6-ty-le-co-the" class="">4.6. Tỷ lệ cơ thể</h3>
+<p>Lối đi, bậc, ghế, khoảng cách tới cây và chiều cao tường/cây đều cần phù hợp cơ thể người thật, đặc biệt nếu có trẻ nhỏ hoặc người già.</p>
+<h2 id="modules-module-03-trai-nghiem-con-nguoi-5-nguyen-ly-thiet-ke" class="">5. Nguyên lý thiết kế</h2>
+<div class="table-wrap"><table><thead><tr><th>Nguyên lý</th><th>Cách áp dụng</th></tr></thead><tbody><tr><td>Đi chậm có chủ đích</td><td>Lối đi nên dẫn dắt, không chỉ nối thẳng điểm đầu và điểm cuối.</td></tr><tr><td>Mỗi điểm ngồi phải có lý do</td><td>Không đặt ghế nếu không biết người ngồi nhìn gì và được che ra sao.</td></tr><tr><td>Tạo nhịp mở - kín</td><td>Dùng cây, tường thấp, mái, ánh sáng để tạo lớp chuyển tiếp.</td></tr><tr><td>Ưu tiên cảm giác an toàn</td><td>Chỗ nghỉ cần đủ sáng, không trơn, không bị nhìn trực diện.</td></tr><tr><td>Thiết kế theo thời điểm</td><td>Sáng, chiều và tối có ánh sáng, gió và nhu cầu khác nhau.</td></tr></tbody></table></div>
+<h2 id="modules-module-03-trai-nghiem-con-nguoi-6-so-do-truc-quan" class="">6. Sơ đồ trực quan</h2>
+<div class="diagram-shell"><div class="mermaid">flowchart LR
+  A[&quot;Cổng&quot;] --&gt; B[&quot;Lớp đệm&quot;]
+  B --&gt; C[&quot;Lối đi chậm&quot;]
+  C --&gt; D[&quot;Khoảng mở&quot;]
+  D --&gt; E[&quot;Hiên&quot;]
+  E --&gt; F[&quot;Điểm ngồi chính&quot;]
+  F --&gt; G[&quot;Góc riêng tư&quot;]</div></div>
+<h2 id="modules-module-03-trai-nghiem-con-nguoi-7-quy-trinh-ap-dung-tung-buoc" class="">7. Quy trình áp dụng từng bước</h2>
+<ol>
+<li>Lập danh sách hoạt động trong một ngày: về nhà, ăn, nghỉ, đọc sách, tiếp khách, đi dạo.</li>
+<li>Vẽ đường di chuyển của từng hoạt động trên sơ đồ.</li>
+<li>Chọn 3 điểm dừng quan trọng nhất và mô tả cảm giác mong muốn.</li>
+<li>Kiểm tra từng điểm dừng theo bốn câu: có bóng không, nhìn gì, tựa vào đâu, đi tới có dễ không.</li>
+<li>Đánh dấu vùng cần mở để nhìn xa và vùng cần kín để riêng tư.</li>
+<li>Điều chỉnh lối đi để tránh cắt ngang nơi nghỉ tĩnh hoặc mở thẳng vào view xấu.</li>
+</ol>
+<h2 id="modules-module-03-trai-nghiem-con-nguoi-8-vi-du-thuc-te" class="">8. Ví dụ thực tế</h2>
+<div class="table-wrap"><table><thead><tr><th>Tình huống</th><th>Cách đọc hoặc xử lý</th></tr></thead><tbody><tr><td>Từ cổng vào nhà</td><td>Nên có lớp cây hoặc tường mềm làm chậm nhịp, tránh nhìn thẳng toàn bộ nhà.</td></tr><tr><td>Góc uống trà sáng</td><td>Đặt ở nơi có nắng nhẹ hoặc bóng dịu, nhìn ra khoảng cây thấp và không bị lối đi chính quấy nhiễu.</td></tr><tr><td>Bàn ăn ngoài hiên</td><td>Cần gần bếp, đủ rộng, có đèn ấm, tránh gió mạnh và mưa tạt.</td></tr><tr><td>Lối đi trong vườn</td><td>Nên có đoạn mở ra, đoạn khép lại và một vài điểm dừng nhỏ.</td></tr><tr><td>Khu trẻ chơi</td><td>Cần nền an toàn và có tầm nhìn từ nơi người lớn thường ngồi.</td></tr></tbody></table></div>
+<h2 id="modules-module-03-trai-nghiem-con-nguoi-9-loi-thuong-gap-va-cach-tranh" class="">9. Lỗi thường gặp và cách tránh</h2>
+<div class="table-wrap"><table><thead><tr><th>Lỗi thường gặp</th><th>Hậu quả</th></tr></thead><tbody><tr><td>Thiết kế chỉ theo mặt bằng đẹp</td><td>Không gian có thể thiếu trải nghiệm sống thật.</td></tr><tr><td>Lối đi quá thẳng</td><td>Mất cảm giác khám phá và nghỉ dưỡng.</td></tr><tr><td>Điểm ngồi không có bóng</td><td>Không ai dùng vào thời điểm nóng.</td></tr><tr><td>Mở toàn bộ view</td><td>Không gian thiếu riêng tư và thiếu chiều sâu.</td></tr><tr><td>Quên người già/trẻ nhỏ</td><td>Bậc, nền và lối đi có thể trở thành rủi ro.</td></tr></tbody></table></div>
+<h2 id="modules-module-03-trai-nghiem-con-nguoi-10-checklist-kiem-tra" class="">10. Checklist kiểm tra</h2>
+<h3 id="modules-module-03-trai-nghiem-con-nguoi-hanh-trinh" class="">Hành trình</h3>
+<div class="table-wrap"><table><thead><tr><th>Câu hỏi</th><th>Đạt/Chưa</th><th>Ghi chú</th></tr></thead><tbody><tr><td>Có lối vào rõ và dễ chịu chưa?</td><td></td><td></td></tr><tr><td>Có nhịp chuyển tiếp từ ngoài vào trong chưa?</td><td></td><td></td></tr><tr><td>Lối đi có tránh cắt ngang vùng nghỉ không?</td><td></td><td></td></tr></tbody></table></div>
+<h3 id="modules-module-03-trai-nghiem-con-nguoi-diem-dung" class="">Điểm dừng</h3>
+<div class="table-wrap"><table><thead><tr><th>Câu hỏi</th><th>Đạt/Chưa</th><th>Ghi chú</th></tr></thead><tbody><tr><td>Có ít nhất 3 điểm dừng có lý do chưa?</td><td></td><td></td></tr><tr><td>Mỗi điểm dừng có bóng và tầm nhìn chưa?</td><td></td><td></td></tr><tr><td>Có điểm riêng tư và điểm sinh hoạt chung chưa?</td><td></td><td></td></tr></tbody></table></div>
+<h3 id="modules-module-03-trai-nghiem-con-nguoi-an-toan" class="">An toàn</h3>
+<div class="table-wrap"><table><thead><tr><th>Câu hỏi</th><th>Đạt/Chưa</th><th>Ghi chú</th></tr></thead><tbody><tr><td>Bậc, nền, lối đi có an toàn không?</td><td></td><td></td></tr><tr><td>Có xét nhu cầu trẻ nhỏ/người già không?</td><td></td><td></td></tr><tr><td>Ban đêm có đọc được hành trình không?</td><td></td><td></td></tr></tbody></table></div>
+<h2 id="modules-module-03-trai-nghiem-con-nguoi-11-bai-tap-thuc-hanh" class="">11. Bài tập thực hành</h2>
+<p>Vẽ “hành trình một ngày” của một người sử dụng chính. Bài nộp gồm sơ đồ đường đi, 3 điểm dừng, cảm giác mong muốn ở từng điểm và 5 lỗi cần tránh.</p>
+<h2 id="modules-module-03-trai-nghiem-con-nguoi-12-tieu-chi-tu-danh-gia" class="">12. Tiêu chí tự đánh giá</h2>
+<div class="table-wrap"><table><thead><tr><th>Mức</th><th>Biểu hiện</th></tr></thead><tbody><tr><td>Đạt</td><td>Có sơ đồ đường đi và một số điểm dừng.</td></tr><tr><td>Tốt</td><td>Mỗi điểm dừng có lý do, view và điều kiện sử dụng rõ.</td></tr><tr><td>Xuất sắc</td><td>Hành trình tạo được nhịp cảm xúc và có thể dùng để chỉnh mặt bằng thật.</td></tr></tbody></table></div>
+<h2 id="modules-module-03-trai-nghiem-con-nguoi-13-lien-ket-voi-cac-module-khac" class="">13. Liên kết với các module khác</h2>
+<p>Dùng dữ liệu từ Module 01 và 02; tạo nền cho Module 05 khi tổ chức quan hệ nhà - vườn.</p>
+<h2 id="modules-module-03-trai-nghiem-con-nguoi-14-ghi-chu-gioi-han-chuyen-mon" class="">14. Ghi chú giới hạn chuyên môn</h2>
+<p>Phần này định hướng trải nghiệm; các chi tiết kích thước, bậc, lan can và an toàn cần kiểm tra theo thiết kế kỹ thuật.</p></article><article class="doc-card" id="doc-modules-module-04-kien-truc-nhiet-doi"><div class="doc-meta">modules/module-04-kien-truc-nhiet-doi.md</div><h1 id="modules-module-04-kien-truc-nhiet-doi-module-04-nguyen-ly-kien-truc-nhiet-doi" class="chapter-title">Module 04. Nguyên Lý Kiến Trúc Nhiệt Đới</h1>
+<h2 id="modules-module-04-kien-truc-nhiet-doi-1-muc-tieu-hoc-tap" class="">1. Mục tiêu học tập</h2>
+<ul>
+<li>Hiểu vì sao kiến trúc nhiệt đới phải ưu tiên che nắng, thông gió và vùng chuyển tiếp.</li>
+<li>Biết phân tích mái, hiên, cửa, kính, bóng đổ và vật liệu theo tác động khí hậu.</li>
+<li>Nhận ra các lỗi khiến nhà vườn nóng, bí, mưa tạt hoặc phụ thuộc điều hòa.</li>
+<li>Tạo được checklist kiểm tra một phương án nhà ở khí hậu nóng ẩm.</li>
+</ul>
+<h2 id="modules-module-04-kien-truc-nhiet-doi-2-vi-sao-module-nay-quan-trong" class="">2. Vì sao module này quan trọng</h2>
+<p>Khí hậu nóng ẩm, nắng gắt và mưa nhiều đòi hỏi kiến trúc phải biết che, thở, chuyển tiếp và phối hợp với cảnh quan.</p>
+<h2 id="modules-module-04-kien-truc-nhiet-doi-3-tu-duy-cot-loi" class="">3. Tư duy cốt lõi</h2>
+<blockquote>Nhà mát không bắt đầu từ điều hòa mà từ lớp vỏ biết che nắng, đón gió, giảm bức xạ và tránh mưa tạt.</blockquote>
+<h2 id="modules-module-04-kien-truc-nhiet-doi-4-kien-thuc-nen-can-hieu-dung" class="">4. Kiến thức nền cần hiểu đúng</h2>
+<h3 id="modules-module-04-kien-truc-nhiet-doi-4-1-nang-va-buc-xa" class="">4.1. Nắng và bức xạ</h3>
+<p>Nhiệt không chỉ đến từ không khí nóng mà còn từ bức xạ mặt trời lên mái, tường, kính và sân. Mặt Tây thường nguy hiểm vì nắng xiên, mạnh và kéo dài vào cuối ngày.</p>
+<h3 id="modules-module-04-kien-truc-nhiet-doi-4-2-mai" class="">4.2. Mái</h3>
+<p>Mái là lớp phòng thủ đầu tiên. Mái tốt không chỉ che mưa mà còn giảm nhiệt truyền xuống trong nhà, tạo bóng và bảo vệ tường/cửa.</p>
+<h3 id="modules-module-04-kien-truc-nhiet-doi-4-3-hien" class="">4.3. Hiên</h3>
+<p>Hiên là phòng bán ngoài trời. Một hiên tốt phải đủ sâu, đủ bóng, có gió, có view và dùng được thật chứ không chỉ làm đẹp mặt đứng.</p>
+<h3 id="modules-module-04-kien-truc-nhiet-doi-4-4-thong-gio-cheo" class="">4.4. Thông gió chéo</h3>
+<p>Gió cần cửa vào và cửa ra. Nếu chỉ có một phía mở, không khí dễ đứng lại; nếu cửa sai hướng, gió tốt không đi qua vùng người ở.</p>
+<h3 id="modules-module-04-kien-truc-nhiet-doi-4-5-cua-kinh" class="">4.5. Cửa kính</h3>
+<p>Kính mở view nhưng cũng đưa nhiệt và chói vào nhà. Kính lớn cần được lùi, che, lọc sáng hoặc đặt ở hướng phù hợp.</p>
+<h3 id="modules-module-04-kien-truc-nhiet-doi-4-6-bong-cay" class="">4.6. Bóng cây</h3>
+<p>Cây là lớp che nắng sống. Tuy nhiên cây cần đặt đúng để làm mát mà không làm nhà tối, ẩm hoặc bí.</p>
+<h3 id="modules-module-04-kien-truc-nhiet-doi-4-7-vat-lieu-vo-nha" class="">4.7. Vật liệu vỏ nhà</h3>
+<p>Màu, độ nhám, độ dày, khả năng tích nhiệt và chống trơn của vật liệu ảnh hưởng trực tiếp tới cảm giác nóng/lạnh và an toàn.</p>
+<h2 id="modules-module-04-kien-truc-nhiet-doi-5-nguyen-ly-thiet-ke" class="">5. Nguyên lý thiết kế</h2>
+<div class="table-wrap"><table><thead><tr><th>Nguyên lý</th><th>Cách áp dụng</th></tr></thead><tbody><tr><td>Che nắng trước khi làm mát</td><td>Giảm nhiệt ngay từ mái, hiên, lam, cây và lớp vỏ.</td></tr><tr><td>Đón gió có kiểm soát</td><td>Mở cửa theo hướng gió tốt, vẫn kiểm soát mưa, bụi và riêng tư.</td></tr><tr><td>Tạo vùng đệm</td><td>Hiên, sân bán ngoài trời, cây và mái đua giúp giảm sốc nhiệt giữa trong và ngoài.</td></tr><tr><td>Kiểm soát kính</td><td>Kính lớn phải đi kèm giải pháp che và thông gió.</td></tr><tr><td>Phối hợp nhà với vườn</td><td>Cây, mặt đất và bóng đổ là một phần của chiến lược khí hậu.</td></tr></tbody></table></div>
+<h2 id="modules-module-04-kien-truc-nhiet-doi-6-so-do-truc-quan" class="">6. Sơ đồ trực quan</h2>
+<div class="diagram-shell"><div class="mermaid">flowchart TD
+  A[&quot;Nắng gắt / mưa nhiều / nóng ẩm&quot;] --&gt; B[&quot;Mái che và cách nhiệt&quot;]
+  A --&gt; C[&quot;Hiên và vùng đệm&quot;]
+  A --&gt; D[&quot;Cửa và thông gió chéo&quot;]
+  A --&gt; E[&quot;Cây tạo bóng&quot;]
+  B --&gt; F[&quot;Giảm nhiệt&quot;]
+  C --&gt; F
+  D --&gt; G[&quot;Tăng thoáng&quot;]
+  E --&gt; F
+  F --&gt; H[&quot;Nhà sống được&quot;]
+  G --&gt; H</div></div>
+<h2 id="modules-module-04-kien-truc-nhiet-doi-7-quy-trinh-ap-dung-tung-buoc" class="">7. Quy trình áp dụng từng bước</h2>
+<ol>
+<li>Đánh dấu các mặt nhà chịu nắng sáng, trưa, chiều; đặc biệt là hướng Tây và Tây Nam.</li>
+<li>Kiểm tra mái: độ vươn, lớp che, khả năng giảm nhiệt và bảo vệ tường/cửa.</li>
+<li>Kiểm tra hiên: có đủ sâu, đủ bóng, đủ gió và đủ diện tích sử dụng không.</li>
+<li>Kiểm tra thông gió: mỗi phòng chính có đường gió vào và ra không.</li>
+<li>Kiểm tra cửa kính: hướng, kích thước, mức chói, che mưa, che nắng và riêng tư.</li>
+<li>Kiểm tra vật liệu sân/hiên: có nóng chân, trơn khi mưa hoặc tích nhiệt quá mạnh không.</li>
+<li>Kết luận thành danh sách sửa: che thêm, mở thêm, giảm kính, lùi cửa, thêm cây, đổi vật liệu hoặc xử lý cao độ.</li>
+</ol>
+<h2 id="modules-module-04-kien-truc-nhiet-doi-8-vi-du-thuc-te" class="">8. Ví dụ thực tế</h2>
+<div class="table-wrap"><table><thead><tr><th>Tình huống</th><th>Cách đọc hoặc xử lý</th></tr></thead><tbody><tr><td>Nhà mặt Tây dùng kính lớn</td><td>Cần giảm kính trực tiếp, thêm lam/hiên/cây hoặc chuyển chức năng ít ở lâu về hướng này.</td></tr><tr><td>Phòng khách chỉ mở một mặt</td><td>Dù cửa lớn vẫn có thể bí; cần cửa thoát gió hoặc ô thoáng ở hướng khác.</td></tr><tr><td>Hiên đẹp nhưng nông</td><td>Không đặt được bàn ghế, mưa tạt và nắng chiếu, nên không thành không gian sống.</td></tr><tr><td>Sân bê tông rộng không bóng</td><td>Tích nhiệt mạnh, làm nóng quanh nhà; cần cây, vật liệu thấm hoặc mảng xanh.</td></tr><tr><td>Cây trồng sát cửa quá dày</td><td>Có bóng nhưng gây ẩm, tối, muỗi; cần khoảng cách và tầng cây hợp lý.</td></tr></tbody></table></div>
+<h2 id="modules-module-04-kien-truc-nhiet-doi-9-loi-thuong-gap-va-cach-tranh" class="">9. Lỗi thường gặp và cách tránh</h2>
+<div class="table-wrap"><table><thead><tr><th>Lỗi thường gặp</th><th>Hậu quả</th></tr></thead><tbody><tr><td>Nghĩ nhiều cửa kính là gần thiên nhiên</td><td>Nếu không che, nhà nóng và chói.</td></tr><tr><td>Chỉ dựa vào điều hòa</td><td>Tăng chi phí vận hành và bỏ lỡ chất lượng sống tự nhiên.</td></tr><tr><td>Làm hiên như chi tiết trang trí</td><td>Hiên không đủ sâu sẽ ít được dùng.</td></tr><tr><td>Không tính mưa tạt</td><td>Vùng cửa, bậc và hiên nhanh bẩn, trơn và xuống cấp.</td></tr><tr><td>Cây che sai hướng</td><td>Cản gió tốt hoặc làm nhà thiếu sáng.</td></tr></tbody></table></div>
+<h2 id="modules-module-04-kien-truc-nhiet-doi-10-checklist-kiem-tra" class="">10. Checklist kiểm tra</h2>
+<h3 id="modules-module-04-kien-truc-nhiet-doi-mai-va-hien" class="">Mái và hiên</h3>
+<div class="table-wrap"><table><thead><tr><th>Câu hỏi</th><th>Đạt/Chưa</th><th>Ghi chú</th></tr></thead><tbody><tr><td>Mái có che được mưa nắng chính chưa?</td><td></td><td></td></tr><tr><td>Hiên có đủ sâu để dùng thật chưa?</td><td></td><td></td></tr><tr><td>Vùng chuyển tiếp có giảm nóng và mưa tạt chưa?</td><td></td><td></td></tr></tbody></table></div>
+<h3 id="modules-module-04-kien-truc-nhiet-doi-gio-va-cua" class="">Gió và cửa</h3>
+<div class="table-wrap"><table><thead><tr><th>Câu hỏi</th><th>Đạt/Chưa</th><th>Ghi chú</th></tr></thead><tbody><tr><td>Phòng chính có thông gió chéo chưa?</td><td></td><td></td></tr><tr><td>Cửa có mở vào hướng gió tốt không?</td><td></td><td></td></tr><tr><td>Cửa kính có được che nắng và kiểm soát chói không?</td><td></td><td></td></tr></tbody></table></div>
+<h3 id="modules-module-04-kien-truc-nhiet-doi-vuon-va-vat-lieu" class="">Vườn và vật liệu</h3>
+<div class="table-wrap"><table><thead><tr><th>Câu hỏi</th><th>Đạt/Chưa</th><th>Ghi chú</th></tr></thead><tbody><tr><td>Cây có hỗ trợ bóng mát mà không gây bí không?</td><td></td><td></td></tr><tr><td>Sân/hiên có vật liệu không quá nóng và không trơn không?</td><td></td><td></td></tr><tr><td>Có kiểm tra phương án trong mùa mưa chưa?</td><td></td><td></td></tr></tbody></table></div>
+<h2 id="modules-module-04-kien-truc-nhiet-doi-11-bai-tap-thuc-hanh" class="">11. Bài tập thực hành</h2>
+<p>Chọn một mặt bằng hoặc ảnh nhà nhiệt đới. Lập bảng 4 cột: điểm nóng, nguyên nhân, giải pháp kiến trúc/cảnh quan, cách kiểm tra sau khi sửa. Cần có ít nhất 6 nhận xét, trong đó có mái, hiên, cửa, gió, kính và sân ngoài trời.</p>
+<h2 id="modules-module-04-kien-truc-nhiet-doi-12-tieu-chi-tu-danh-gia" class="">12. Tiêu chí tự đánh giá</h2>
+<div class="table-wrap"><table><thead><tr><th>Mức</th><th>Biểu hiện</th></tr></thead><tbody><tr><td>Đạt</td><td>Nhận ra được các điểm nóng hoặc bí cơ bản.</td></tr><tr><td>Tốt</td><td>Phân tích được nguyên nhân và đề xuất giải pháp phù hợp khí hậu.</td></tr><tr><td>Xuất sắc</td><td>Tạo được checklist kiểm tra nhà mát có thể dùng để review bản vẽ thật.</td></tr></tbody></table></div>
+<h2 id="modules-module-04-kien-truc-nhiet-doi-13-lien-ket-voi-cac-module-khac" class="">13. Liên kết với các module khác</h2>
+<p>Module này sử dụng dữ liệu từ các module trước và tạo đầu vào cho Module 12 khi lập brief tổng hợp.</p>
+<h2 id="modules-module-04-kien-truc-nhiet-doi-14-ghi-chu-gioi-han-chuyen-mon" class="">14. Ghi chú giới hạn chuyên môn</h2>
+<p>Các nội dung kỹ thuật chi tiết cần được kiểm tra bởi kiến trúc sư, kỹ sư hoặc chuyên gia phù hợp khi triển khai dự án thật.</p></article><article class="doc-card" id="doc-modules-module-05-quan-he-nha-va-vuon"><div class="doc-meta">modules/module-05-quan-he-nha-va-vuon.md</div><h1 id="modules-module-05-quan-he-nha-va-vuon-module-05-quan-he-giua-nha-va-vuon" class="chapter-title">Module 05. Quan Hệ Giữa Nhà Và Vườn</h1>
+<h2 id="modules-module-05-quan-he-nha-va-vuon-1-muc-tieu-hoc-tap" class="">1. Mục tiêu học tập</h2>
+<ul>
+<li>Hiểu cách nhà, hiên, sân và vườn liên kết thành một tổng thể.</li>
+<li>Biết đánh giá cửa, khung nhìn, vùng chuyển tiếp và lối đi.</li>
+<li>Tránh lỗi nhà đẹp riêng, vườn đẹp riêng nhưng sống không hay.</li>
+<li>Tạo được sơ đồ quan hệ nhà - vườn làm cơ sở cho brief.</li>
+</ul>
+<h2 id="modules-module-05-quan-he-nha-va-vuon-2-vi-sao-module-nay-quan-trong" class="">2. Vì sao module này quan trọng</h2>
+<p>Trong nhà vườn nghỉ dưỡng, giá trị lớn nằm ở ranh giới giữa trong và ngoài: hiên, cửa, deck, sân, bóng cây, bậc chuyển tiếp. Nếu ranh giới này yếu, người ở ít ra vườn, vườn ít được nhìn thấy và ngôi nhà mất tinh thần nghỉ dưỡng.</p>
+<h2 id="modules-module-05-quan-he-nha-va-vuon-3-tu-duy-cot-loi" class="">3. Tư duy cốt lõi</h2>
+<blockquote>Nhà và vườn không nối với nhau bằng diện tích trống, mà bằng những lớp chuyển tiếp sống được.</blockquote>
+<h2 id="modules-module-05-quan-he-nha-va-vuon-4-kien-thuc-nen-can-hieu-dung" class="">4. Kiến thức nền cần hiểu đúng</h2>
+<h3 id="modules-module-05-quan-he-nha-va-vuon-4-1-vi-tri-nha" class="">4.1. Vị trí nhà</h3>
+<p>Nhà đặt ở đâu quyết định phần vườn nào còn đủ đất để sống. Đặt nhà quá sát ranh hoặc chiếm trung tâm sai cách có thể làm vườn bị chia vụn.</p>
+<h3 id="modules-module-05-quan-he-nha-va-vuon-4-2-hien-va-deck" class="">4.2. Hiên và deck</h3>
+<p>Hiên/deck là phòng bán ngoài trời. Nó cần đủ sâu, đủ bóng, đủ riêng tư và đủ gần chức năng trong nhà.</p>
+<h3 id="modules-module-05-quan-he-nha-va-vuon-4-3-cua-va-khung-nhin" class="">4.3. Cửa và khung nhìn</h3>
+<p>Cửa không chỉ để đi và lấy sáng. Cửa tạo khung nhìn, dẫn gió, mở quan hệ với vườn và cũng có thể làm mất riêng tư nếu đặt sai.</p>
+<h3 id="modules-module-05-quan-he-nha-va-vuon-4-4-san-gan-nha" class="">4.4. Sân gần nhà</h3>
+<p>Sân gần nhà là vùng sử dụng hằng ngày: ăn sáng, uống trà, trẻ chơi, tiếp khách. Nó cần khác với vườn trang trí xa.</p>
+<h3 id="modules-module-05-quan-he-nha-va-vuon-4-5-lop-cay-sat-nha" class="">4.5. Lớp cây sát nhà</h3>
+<p>Cây gần nhà làm mềm kiến trúc nhưng cần kiểm soát ẩm, muỗi, rễ và ánh sáng.</p>
+<h3 id="modules-module-05-quan-he-nha-va-vuon-4-6-loi-di-ket-noi" class="">4.6. Lối đi kết nối</h3>
+<p>Lối đi phải làm người ở muốn ra vườn, không chỉ phục vụ kỹ thuật.</p>
+<h2 id="modules-module-05-quan-he-nha-va-vuon-5-nguyen-ly-thiet-ke" class="">5. Nguyên lý thiết kế</h2>
+<div class="table-wrap"><table><thead><tr><th>Nguyên lý</th><th>Cách áp dụng</th></tr></thead><tbody><tr><td>Trong - ngoài liên tục</td><td>Từ phòng ra hiên ra sân ra vườn phải có chuyển tiếp tự nhiên.</td></tr><tr><td>Mở đúng view</td><td>Cửa lớn nên mở vào cảnh đáng nhìn và tránh view xấu.</td></tr><tr><td>Hiên là không gian sống</td><td>Không làm hiên quá hẹp hoặc chỉ để trang trí.</td></tr><tr><td>Vườn ôm nhà nhưng không bịt nhà</td><td>Cây cần tạo mềm và mát mà vẫn giữ thoáng.</td></tr><tr><td>Riêng tư có lớp</td><td>Dùng cây, khoảng cách, cao độ và hướng nhìn thay vì chỉ dựng tường kín.</td></tr></tbody></table></div>
+<h2 id="modules-module-05-quan-he-nha-va-vuon-6-so-do-truc-quan" class="">6. Sơ đồ trực quan</h2>
+<div class="diagram-shell"><div class="mermaid">flowchart LR
+  A[&quot;Phòng trong nhà&quot;] --&gt; B[&quot;Cửa / khung nhìn&quot;]
+  B --&gt; C[&quot;Hiên / deck&quot;]
+  C --&gt; D[&quot;Sân gần nhà&quot;]
+  D --&gt; E[&quot;Lối đi&quot;]
+  E --&gt; F[&quot;Điểm dừng&quot;]
+  F --&gt; G[&quot;Vườn sâu&quot;]</div></div>
+<h2 id="modules-module-05-quan-he-nha-va-vuon-7-quy-trinh-ap-dung-tung-buoc" class="">7. Quy trình áp dụng từng bước</h2>
+<ol>
+<li>Xác định các phòng cần kết nối mạnh với vườn: khách, ăn, ngủ, làm việc.</li>
+<li>Với mỗi phòng, chọn view nên mở và view cần che.</li>
+<li>Xác định hiên/deck chính và hoạt động diễn ra tại đó.</li>
+<li>Tổ chức sân gần nhà theo nhu cầu dùng hằng ngày.</li>
+<li>Nối sân và hiên với các lối đi, điểm dừng trong vườn.</li>
+<li>Bố trí cây thành lớp: cây xa tạo nền, cây gần tạo khung, cây thấp làm mềm mép nhà.</li>
+</ol>
+<h2 id="modules-module-05-quan-he-nha-va-vuon-8-vi-du-thuc-te" class="">8. Ví dụ thực tế</h2>
+<div class="table-wrap"><table><thead><tr><th>Tình huống</th><th>Cách đọc hoặc xử lý</th></tr></thead><tbody><tr><td>Phòng khách nhìn ra vườn chính</td><td>Cửa lớn cần có hiên che và view được thiết kế, không mở ra khoảng trống lộn xộn.</td></tr><tr><td>Bếp muốn ăn ngoài trời</td><td>Sân ăn nên gần bếp, tránh phải đi xa qua lối hẹp.</td></tr><tr><td>Phòng ngủ tầng trệt</td><td>Cần view xanh nhưng tránh lối đi chính nhìn thẳng vào giường.</td></tr><tr><td>Nhà có cây lớn hiện trạng</td><td>Có thể xoay hiên hoặc lối đi để cây thành điểm tựa không gian.</td></tr><tr><td>Vườn nhỏ</td><td>Tập trung một khung nhìn sâu thay vì chia nhiều tiểu cảnh.</td></tr></tbody></table></div>
+<h2 id="modules-module-05-quan-he-nha-va-vuon-9-loi-thuong-gap-va-cach-tranh" class="">9. Lỗi thường gặp và cách tránh</h2>
+<div class="table-wrap"><table><thead><tr><th>Lỗi thường gặp</th><th>Hậu quả</th></tr></thead><tbody><tr><td>Xây nhà xong mới nghĩ vườn</td><td>Cảnh quan chỉ còn phần thừa khó xử lý.</td></tr><tr><td>Cửa lớn không có hiên</td><td>Nắng, mưa và chói làm cửa ít được mở.</td></tr><tr><td>Cây sát nhà quá dày</td><td>Gây ẩm, tối, muỗi và khó bảo trì.</td></tr><tr><td>Lối đi không gắn với hoạt động</td><td>Vườn đẹp nhưng ít được dùng.</td></tr><tr><td>Che riêng tư bằng tường kín</td><td>Mất thoáng và cảm giác nghỉ dưỡng.</td></tr></tbody></table></div>
+<h2 id="modules-module-05-quan-he-nha-va-vuon-10-checklist-kiem-tra" class="">10. Checklist kiểm tra</h2>
+<h3 id="modules-module-05-quan-he-nha-va-vuon-ket-noi" class="">Kết nối</h3>
+<div class="table-wrap"><table><thead><tr><th>Câu hỏi</th><th>Đạt/Chưa</th><th>Ghi chú</th></tr></thead><tbody><tr><td>Phòng chính có nhìn ra vườn tốt chưa?</td><td></td><td></td></tr><tr><td>Hiên/deck có đủ dùng thật chưa?</td><td></td><td></td></tr><tr><td>Sân gần nhà có vai trò rõ chưa?</td><td></td><td></td></tr></tbody></table></div>
+<h3 id="modules-module-05-quan-he-nha-va-vuon-view-va-rieng-tu" class="">View và riêng tư</h3>
+<div class="table-wrap"><table><thead><tr><th>Câu hỏi</th><th>Đạt/Chưa</th><th>Ghi chú</th></tr></thead><tbody><tr><td>Cửa lớn có view có chủ đích chưa?</td><td></td><td></td></tr><tr><td>Có che được view xấu không?</td><td></td><td></td></tr><tr><td>Phòng ngủ có đủ riêng tư không?</td><td></td><td></td></tr></tbody></table></div>
+<h3 id="modules-module-05-quan-he-nha-va-vuon-cay-va-van-hanh" class="">Cây và vận hành</h3>
+<div class="table-wrap"><table><thead><tr><th>Câu hỏi</th><th>Đạt/Chưa</th><th>Ghi chú</th></tr></thead><tbody><tr><td>Cây gần nhà có gây ẩm/bí không?</td><td></td><td></td></tr><tr><td>Lối đi có nối các điểm dùng chính không?</td><td></td><td></td></tr><tr><td>Có lối bảo trì quanh nhà không?</td><td></td><td></td></tr></tbody></table></div>
+<h2 id="modules-module-05-quan-he-nha-va-vuon-11-bai-tap-thuc-hanh" class="">11. Bài tập thực hành</h2>
+<p>Vẽ sơ đồ 5 lớp: trong nhà, cửa/khung nhìn, hiên/deck, sân gần nhà, vườn sâu. Ghi vai trò, hoạt động và rủi ro của từng lớp.</p>
+<h2 id="modules-module-05-quan-he-nha-va-vuon-12-tieu-chi-tu-danh-gia" class="">12. Tiêu chí tự đánh giá</h2>
+<div class="table-wrap"><table><thead><tr><th>Mức</th><th>Biểu hiện</th></tr></thead><tbody><tr><td>Đạt</td><td>Xác định được các lớp chính.</td></tr><tr><td>Tốt</td><td>Mỗi lớp có vai trò và quan hệ rõ.</td></tr><tr><td>Xuất sắc</td><td>Sơ đồ có thể dùng để chỉnh mặt bằng và brief thiết kế.</td></tr></tbody></table></div>
+<h2 id="modules-module-05-quan-he-nha-va-vuon-13-lien-ket-voi-cac-module-khac" class="">13. Liên kết với các module khác</h2>
+<p>Dùng kết quả Module 03 về hành trình và chuẩn bị cho Module 06 về cây nhiều tầng.</p>
+<h2 id="modules-module-05-quan-he-nha-va-vuon-14-ghi-chu-gioi-han-chuyen-mon" class="">14. Ghi chú giới hạn chuyên môn</h2>
+<p>Quan hệ nhà - vườn cần phối hợp với kiến trúc, kết cấu, cao độ và thoát nước khi triển khai kỹ thuật.</p></article><article class="doc-card" id="doc-modules-module-06-cay-xanh-nhieu-tang"><div class="doc-meta">modules/module-06-cay-xanh-nhieu-tang.md</div><h1 id="modules-module-06-cay-xanh-nhieu-tang-module-06-thiet-ke-cay-xanh-nhieu-tang" class="chapter-title">Module 06. Thiết Kế Cây Xanh Nhiều Tầng</h1>
+<h2 id="modules-module-06-cay-xanh-nhieu-tang-1-muc-tieu-hoc-tap" class="">1. Mục tiêu học tập</h2>
+<ul>
+<li>Hiểu đúng bản chất của thiết kế cây xanh nhiều tầng.</li>
+<li>Biết áp dụng kiến thức vào một khu đất hoặc phương án cụ thể.</li>
+<li>Nhận diện lỗi thường gặp và hậu quả vận hành.</li>
+<li>Tạo được đầu ra thực hành có thể đưa vào brief hoặc checklist.</li>
+</ul>
+<h2 id="modules-module-06-cay-xanh-nhieu-tang-2-vi-sao-module-nay-quan-trong" class="">2. Vì sao module này quan trọng</h2>
+<p>Cây không chỉ là trang trí mà là vật liệu không gian sống. Thiết kế cây sai sẽ tạo vườn rối, tối, ẩm, tốn chăm và mất kiểm soát sau vài năm.</p>
+<h2 id="modules-module-06-cay-xanh-nhieu-tang-3-tu-duy-cot-loi" class="">3. Tư duy cốt lõi</h2>
+<blockquote>Vườn đẹp lâu dài cần cấu trúc tầng lớp rõ: cây lớn tạo mái, cây trung tầng tạo chiều sâu, cây bụi làm mềm, cây nền giữ đất và khoảng mở để không gian thở.</blockquote>
+<h2 id="modules-module-06-cay-xanh-nhieu-tang-4-kien-thuc-nen-can-hieu-dung" class="">4. Kiến thức nền cần hiểu đúng</h2>
+<h3 id="modules-module-06-cay-xanh-nhieu-tang-4-1-cay-chu" class="">4.1. Cây chủ</h3>
+<p>Cây tạo bản sắc hoặc bóng mát chính, cần chọn kỹ vì ảnh hưởng lâu dài.</p>
+<h3 id="modules-module-06-cay-xanh-nhieu-tang-4-2-tang-cao" class="">4.2. Tầng cao</h3>
+<p>Tạo mái xanh và vi khí hậu nhưng cần kiểm soát tán, rễ, khoảng cách công trình.</p>
+<h3 id="modules-module-06-cay-xanh-nhieu-tang-4-3-tang-trung" class="">4.3. Tầng trung</h3>
+<p>Che view xấu, tạo lớp chuyển tiếp và chiều sâu.</p>
+<h3 id="modules-module-06-cay-xanh-nhieu-tang-4-4-cay-bui" class="">4.4. Cây bụi</h3>
+<p>Làm mềm chân tường, mép lối đi, quanh điểm ngồi.</p>
+<h3 id="modules-module-06-cay-xanh-nhieu-tang-4-5-cay-nen" class="">4.5. Cây nền</h3>
+<p>Phủ đất, giảm bùn, giữ ẩm, hạn chế cỏ dại.</p>
+<h3 id="modules-module-06-cay-xanh-nhieu-tang-4-6-khoang-mo" class="">4.6. Khoảng mở</h3>
+<p>Là nơi mắt nghỉ, nơi sinh hoạt và nơi vườn không bị ngột ngạt.</p>
+<h2 id="modules-module-06-cay-xanh-nhieu-tang-5-nguyen-ly-thiet-ke" class="">5. Nguyên lý thiết kế</h2>
+<div class="table-wrap"><table><thead><tr><th>Nguyên lý</th><th>Cách áp dụng</th></tr></thead><tbody><tr><td>Bắt đầu từ vai trò</td><td>Mỗi yếu tố phải trả lời nó phục vụ điều gì.</td></tr><tr><td>Phù hợp khu đất</td><td>Không áp công thức chung lên mọi dự án.</td></tr><tr><td>Cân bằng cảm xúc và vận hành</td><td>Đẹp phải đi cùng an toàn, bền và dễ chăm.</td></tr><tr><td>Thiết kế theo lớp</td><td>Mọi quyết định cần liên hệ với các lớp không gian khác.</td></tr><tr><td>Kiểm tra bằng thời gian</td><td>Luôn hỏi sau 1 năm, 3 năm, 5 năm sẽ ra sao.</td></tr></tbody></table></div>
+<h2 id="modules-module-06-cay-xanh-nhieu-tang-6-so-do-truc-quan" class="">6. Sơ đồ trực quan</h2>
+<div class="diagram-shell"><div class="mermaid">flowchart TD
+  A[&quot;Dữ liệu đầu vào&quot;] --&gt; B[&quot;Phân tích Thiết Kế Cây Xanh Nhiều Tầng&quot;]
+  B --&gt; C[&quot;Nguyên lý&quot;]
+  C --&gt; D[&quot;Giải pháp&quot;]
+  D --&gt; E[&quot;Kiểm tra lỗi&quot;]
+  E --&gt; F[&quot;Đưa vào brief&quot;]</div></div>
+<h2 id="modules-module-06-cay-xanh-nhieu-tang-7-quy-trinh-ap-dung-tung-buoc" class="">7. Quy trình áp dụng từng bước</h2>
+<ol>
+<li>Thu thập dữ liệu từ các module trước: cảm xúc, khu đất, hành trình, khí hậu.</li>
+<li>Xác định các vị trí quan trọng trên sơ đồ.</li>
+<li>Phân tích vấn đề theo từng khái niệm nền trong bài.</li>
+<li>Đề xuất giải pháp có lý do, tránh chọn theo sở thích rời rạc.</li>
+<li>Kiểm tra rủi ro vận hành và bảo trì.</li>
+<li>Ghi kết luận thành checklist hoặc yêu cầu brief.</li>
+</ol>
+<h2 id="modules-module-06-cay-xanh-nhieu-tang-8-vi-du-thuc-te" class="">8. Ví dụ thực tế</h2>
+<div class="table-wrap"><table><thead><tr><th>Tình huống</th><th>Cách đọc hoặc xử lý</th></tr></thead><tbody><tr><td>Phương án đẹp nhưng khó dùng</td><td>Cần kiểm lại vị trí, khí hậu, lối đi, ánh sáng và bảo trì.</td></tr><tr><td>Một chi tiết được lặp quá nhiều</td><td>Cần giảm để tổng thể có nhịp và khoảng nghỉ.</td></tr><tr><td>Khu vực ít được dùng</td><td>Thường do thiếu bóng, thiếu tiện tiếp cận, thiếu riêng tư hoặc thiếu lý do ở lại.</td></tr><tr><td>Giải pháp tốt nhưng sai chỗ</td><td>Cần đưa về đúng điều kiện nắng, gió, nước, hoạt động.</td></tr></tbody></table></div>
+<h2 id="modules-module-06-cay-xanh-nhieu-tang-9-loi-thuong-gap-va-cach-tranh" class="">9. Lỗi thường gặp và cách tránh</h2>
+<div class="table-wrap"><table><thead><tr><th>Lỗi thường gặp</th><th>Hậu quả</th></tr></thead><tbody><tr><td>Chỉ chọn theo thẩm mỹ</td><td>Dễ sai vận hành.</td></tr><tr><td>Không liên hệ khu đất</td><td>Giải pháp thiếu căn cứ.</td></tr><tr><td>Không xét bảo trì</td><td>Nhanh xuống cấp.</td></tr><tr><td>Thiếu tiêu chí đánh giá</td><td>Khó review với đơn vị thiết kế.</td></tr><tr><td>Tách khỏi tổng thể</td><td>Không gian bị rời rạc.</td></tr></tbody></table></div>
+<h2 id="modules-module-06-cay-xanh-nhieu-tang-10-checklist-kiem-tra" class="">10. Checklist kiểm tra</h2>
+<h3 id="modules-module-06-cay-xanh-nhieu-tang-hieu-dung" class="">Hiểu đúng</h3>
+<div class="table-wrap"><table><thead><tr><th>Câu hỏi</th><th>Đạt/Chưa</th><th>Ghi chú</th></tr></thead><tbody><tr><td>Đã xác định vai trò của chủ đề trong dự án chưa?</td><td></td><td></td></tr><tr><td>Đã liên hệ với khu đất và người dùng chưa?</td><td></td><td></td></tr><tr><td>Đã biết rủi ro nếu làm sai chưa?</td><td></td><td></td></tr></tbody></table></div>
+<h3 id="modules-module-06-cay-xanh-nhieu-tang-ap-dung" class="">Áp dụng</h3>
+<div class="table-wrap"><table><thead><tr><th>Câu hỏi</th><th>Đạt/Chưa</th><th>Ghi chú</th></tr></thead><tbody><tr><td>Đã có giải pháp cụ thể chưa?</td><td></td><td></td></tr><tr><td>Đã có tiêu chí kiểm tra chưa?</td><td></td><td></td></tr><tr><td>Đã đưa được vào brief/ch checklist chưa?</td><td></td><td></td></tr></tbody></table></div>
+<h2 id="modules-module-06-cay-xanh-nhieu-tang-11-bai-tap-thuc-hanh" class="">11. Bài tập thực hành</h2>
+<p>Lập bảng phân tích thiết kế cây xanh nhiều tầng cho một khu vực cụ thể. Bảng gồm: hiện trạng, vấn đề, nguyên lý liên quan, giải pháp, rủi ro và tiêu chí kiểm tra.</p>
+<h2 id="modules-module-06-cay-xanh-nhieu-tang-12-tieu-chi-tu-danh-gia" class="">12. Tiêu chí tự đánh giá</h2>
+<div class="table-wrap"><table><thead><tr><th>Mức</th><th>Biểu hiện</th></tr></thead><tbody><tr><td>Đạt</td><td>Nhận diện được các yếu tố chính.</td></tr><tr><td>Tốt</td><td>Phân tích được vấn đề và giải pháp tương ứng.</td></tr><tr><td>Xuất sắc</td><td>Đầu ra đủ rõ để dùng trong brief hoặc review phương án thật.</td></tr></tbody></table></div>
+<h2 id="modules-module-06-cay-xanh-nhieu-tang-13-lien-ket-voi-cac-module-khac" class="">13. Liên kết với các module khác</h2>
+<p>Module này liên kết với các module trước và tạo đầu vào cho Module 12.</p>
+<h2 id="modules-module-06-cay-xanh-nhieu-tang-14-ghi-chu-gioi-han-chuyen-mon" class="">14. Ghi chú giới hạn chuyên môn</h2>
+<p>Khi triển khai thật, các chi tiết kỹ thuật cần chuyên gia kiểm tra theo điều kiện dự án.</p></article><article class="doc-card" id="doc-modules-module-07-dat-nuoc-thoat-nuoc-tuoi"><div class="doc-meta">modules/module-07-dat-nuoc-thoat-nuoc-tuoi.md</div><h1 id="modules-module-07-dat-nuoc-thoat-nuoc-tuoi-module-07-dat-nuoc-thoat-nuoc-va-tuoi" class="chapter-title">Module 07. Đất, Nước, Thoát Nước Và Tưới</h1>
+<h2 id="modules-module-07-dat-nuoc-thoat-nuoc-tuoi-1-muc-tieu-hoc-tap" class="">1. Mục tiêu học tập</h2>
+<ul>
+<li>Hiểu đúng bản chất của đất, nước, thoát nước và tưới.</li>
+<li>Biết áp dụng kiến thức vào một khu đất hoặc phương án cụ thể.</li>
+<li>Nhận diện lỗi thường gặp và hậu quả vận hành.</li>
+<li>Tạo được đầu ra thực hành có thể đưa vào brief hoặc checklist.</li>
+</ul>
+<h2 id="modules-module-07-dat-nuoc-thoat-nuoc-tuoi-2-vi-sao-module-nay-quan-trong" class="">2. Vì sao module này quan trọng</h2>
+<p>Đây là phần ít hào nhoáng nhưng quyết định tuổi thọ khu vườn. Nhiều vườn xuống cấp không phải vì chọn cây xấu mà vì nước, đất, cao độ và tưới sai.</p>
+<h2 id="modules-module-07-dat-nuoc-thoat-nuoc-tuoi-3-tu-duy-cot-loi" class="">3. Tư duy cốt lõi</h2>
+<blockquote>Nước phải có đường đi, đất phải cho rễ thở, tưới phải đúng vùng; nếu ba điều này sai, mọi lớp cảnh quan phía trên đều yếu.</blockquote>
+<h2 id="modules-module-07-dat-nuoc-thoat-nuoc-tuoi-4-kien-thuc-nen-can-hieu-dung" class="">4. Kiến thức nền cần hiểu đúng</h2>
+<h3 id="modules-module-07-dat-nuoc-thoat-nuoc-tuoi-4-1-dat-trong" class="">4.1. Đất trồng</h3>
+<p>Đất cần thoáng, có hữu cơ, giữ ẩm vừa đủ và phù hợp từng nhóm cây.</p>
+<h3 id="modules-module-07-dat-nuoc-thoat-nuoc-tuoi-4-2-cao-do" class="">4.2. Cao độ</h3>
+<p>Cao độ quyết định nước chảy về đâu và có hắt vào nhà hay không.</p>
+<h3 id="modules-module-07-dat-nuoc-thoat-nuoc-tuoi-4-3-thoat-nuoc-mat" class="">4.3. Thoát nước mặt</h3>
+<p>Nước trên sân, lối đi, hiên cần thoát nhanh và an toàn.</p>
+<h3 id="modules-module-07-dat-nuoc-thoat-nuoc-tuoi-4-4-thoat-nuoc-trong-bon-cay" class="">4.4. Thoát nước trong bồn cây</h3>
+<p>Bồn cây phải tránh úng rễ và có lớp thoát phù hợp.</p>
+<h3 id="modules-module-07-dat-nuoc-thoat-nuoc-tuoi-4-5-tuoi-theo-vung" class="">4.5. Tưới theo vùng</h3>
+<p>Vùng nắng, vùng râm, cây mới, cây lớn cần lượng nước khác nhau.</p>
+<h3 id="modules-module-07-dat-nuoc-thoat-nuoc-tuoi-4-6-phu-goc" class="">4.6. Phủ gốc</h3>
+<p>Giảm bốc hơi, bắn bùn, cỏ dại và biến động nhiệt đất.</p>
+<h2 id="modules-module-07-dat-nuoc-thoat-nuoc-tuoi-5-nguyen-ly-thiet-ke" class="">5. Nguyên lý thiết kế</h2>
+<div class="table-wrap"><table><thead><tr><th>Nguyên lý</th><th>Cách áp dụng</th></tr></thead><tbody><tr><td>Bắt đầu từ vai trò</td><td>Mỗi yếu tố phải trả lời nó phục vụ điều gì.</td></tr><tr><td>Phù hợp khu đất</td><td>Không áp công thức chung lên mọi dự án.</td></tr><tr><td>Cân bằng cảm xúc và vận hành</td><td>Đẹp phải đi cùng an toàn, bền và dễ chăm.</td></tr><tr><td>Thiết kế theo lớp</td><td>Mọi quyết định cần liên hệ với các lớp không gian khác.</td></tr><tr><td>Kiểm tra bằng thời gian</td><td>Luôn hỏi sau 1 năm, 3 năm, 5 năm sẽ ra sao.</td></tr></tbody></table></div>
+<h2 id="modules-module-07-dat-nuoc-thoat-nuoc-tuoi-6-so-do-truc-quan" class="">6. Sơ đồ trực quan</h2>
+<div class="diagram-shell"><div class="mermaid">flowchart TD
+  A[&quot;Dữ liệu đầu vào&quot;] --&gt; B[&quot;Phân tích Đất, Nước, Thoát Nước Và Tưới&quot;]
+  B --&gt; C[&quot;Nguyên lý&quot;]
+  C --&gt; D[&quot;Giải pháp&quot;]
+  D --&gt; E[&quot;Kiểm tra lỗi&quot;]
+  E --&gt; F[&quot;Đưa vào brief&quot;]</div></div>
+<h2 id="modules-module-07-dat-nuoc-thoat-nuoc-tuoi-7-quy-trinh-ap-dung-tung-buoc" class="">7. Quy trình áp dụng từng bước</h2>
+<ol>
+<li>Thu thập dữ liệu từ các module trước: cảm xúc, khu đất, hành trình, khí hậu.</li>
+<li>Xác định các vị trí quan trọng trên sơ đồ.</li>
+<li>Phân tích vấn đề theo từng khái niệm nền trong bài.</li>
+<li>Đề xuất giải pháp có lý do, tránh chọn theo sở thích rời rạc.</li>
+<li>Kiểm tra rủi ro vận hành và bảo trì.</li>
+<li>Ghi kết luận thành checklist hoặc yêu cầu brief.</li>
+</ol>
+<h2 id="modules-module-07-dat-nuoc-thoat-nuoc-tuoi-8-vi-du-thuc-te" class="">8. Ví dụ thực tế</h2>
+<div class="table-wrap"><table><thead><tr><th>Tình huống</th><th>Cách đọc hoặc xử lý</th></tr></thead><tbody><tr><td>Phương án đẹp nhưng khó dùng</td><td>Cần kiểm lại vị trí, khí hậu, lối đi, ánh sáng và bảo trì.</td></tr><tr><td>Một chi tiết được lặp quá nhiều</td><td>Cần giảm để tổng thể có nhịp và khoảng nghỉ.</td></tr><tr><td>Khu vực ít được dùng</td><td>Thường do thiếu bóng, thiếu tiện tiếp cận, thiếu riêng tư hoặc thiếu lý do ở lại.</td></tr><tr><td>Giải pháp tốt nhưng sai chỗ</td><td>Cần đưa về đúng điều kiện nắng, gió, nước, hoạt động.</td></tr></tbody></table></div>
+<h2 id="modules-module-07-dat-nuoc-thoat-nuoc-tuoi-9-loi-thuong-gap-va-cach-tranh" class="">9. Lỗi thường gặp và cách tránh</h2>
+<div class="table-wrap"><table><thead><tr><th>Lỗi thường gặp</th><th>Hậu quả</th></tr></thead><tbody><tr><td>Chỉ chọn theo thẩm mỹ</td><td>Dễ sai vận hành.</td></tr><tr><td>Không liên hệ khu đất</td><td>Giải pháp thiếu căn cứ.</td></tr><tr><td>Không xét bảo trì</td><td>Nhanh xuống cấp.</td></tr><tr><td>Thiếu tiêu chí đánh giá</td><td>Khó review với đơn vị thiết kế.</td></tr><tr><td>Tách khỏi tổng thể</td><td>Không gian bị rời rạc.</td></tr></tbody></table></div>
+<h2 id="modules-module-07-dat-nuoc-thoat-nuoc-tuoi-10-checklist-kiem-tra" class="">10. Checklist kiểm tra</h2>
+<h3 id="modules-module-07-dat-nuoc-thoat-nuoc-tuoi-hieu-dung" class="">Hiểu đúng</h3>
+<div class="table-wrap"><table><thead><tr><th>Câu hỏi</th><th>Đạt/Chưa</th><th>Ghi chú</th></tr></thead><tbody><tr><td>Đã xác định vai trò của chủ đề trong dự án chưa?</td><td></td><td></td></tr><tr><td>Đã liên hệ với khu đất và người dùng chưa?</td><td></td><td></td></tr><tr><td>Đã biết rủi ro nếu làm sai chưa?</td><td></td><td></td></tr></tbody></table></div>
+<h3 id="modules-module-07-dat-nuoc-thoat-nuoc-tuoi-ap-dung" class="">Áp dụng</h3>
+<div class="table-wrap"><table><thead><tr><th>Câu hỏi</th><th>Đạt/Chưa</th><th>Ghi chú</th></tr></thead><tbody><tr><td>Đã có giải pháp cụ thể chưa?</td><td></td><td></td></tr><tr><td>Đã có tiêu chí kiểm tra chưa?</td><td></td><td></td></tr><tr><td>Đã đưa được vào brief/ch checklist chưa?</td><td></td><td></td></tr></tbody></table></div>
+<h2 id="modules-module-07-dat-nuoc-thoat-nuoc-tuoi-11-bai-tap-thuc-hanh" class="">11. Bài tập thực hành</h2>
+<p>Lập bảng phân tích đất, nước, thoát nước và tưới cho một khu vực cụ thể. Bảng gồm: hiện trạng, vấn đề, nguyên lý liên quan, giải pháp, rủi ro và tiêu chí kiểm tra.</p>
+<h2 id="modules-module-07-dat-nuoc-thoat-nuoc-tuoi-12-tieu-chi-tu-danh-gia" class="">12. Tiêu chí tự đánh giá</h2>
+<div class="table-wrap"><table><thead><tr><th>Mức</th><th>Biểu hiện</th></tr></thead><tbody><tr><td>Đạt</td><td>Nhận diện được các yếu tố chính.</td></tr><tr><td>Tốt</td><td>Phân tích được vấn đề và giải pháp tương ứng.</td></tr><tr><td>Xuất sắc</td><td>Đầu ra đủ rõ để dùng trong brief hoặc review phương án thật.</td></tr></tbody></table></div>
+<h2 id="modules-module-07-dat-nuoc-thoat-nuoc-tuoi-13-lien-ket-voi-cac-module-khac" class="">13. Liên kết với các module khác</h2>
+<p>Module này liên kết với các module trước và tạo đầu vào cho Module 12.</p>
+<h2 id="modules-module-07-dat-nuoc-thoat-nuoc-tuoi-14-ghi-chu-gioi-han-chuyen-mon" class="">14. Ghi chú giới hạn chuyên môn</h2>
+<p>Khi triển khai thật, các chi tiết kỹ thuật cần chuyên gia kiểm tra theo điều kiện dự án.</p></article><article class="doc-card" id="doc-modules-module-08-vat-lieu-mau-sac-chat-cam"><div class="doc-meta">modules/module-08-vat-lieu-mau-sac-chat-cam.md</div><h1 id="modules-module-08-vat-lieu-mau-sac-chat-cam-module-08-vat-lieu-mau-sac-va-chat-cam" class="chapter-title">Module 08. Vật Liệu, Màu Sắc Và Chất Cảm</h1>
+<h2 id="modules-module-08-vat-lieu-mau-sac-chat-cam-1-muc-tieu-hoc-tap" class="">1. Mục tiêu học tập</h2>
+<ul>
+<li>Hiểu đúng bản chất của vật liệu, màu sắc và chất cảm.</li>
+<li>Biết áp dụng kiến thức vào một khu đất hoặc phương án cụ thể.</li>
+<li>Nhận diện lỗi thường gặp và hậu quả vận hành.</li>
+<li>Tạo được đầu ra thực hành có thể đưa vào brief hoặc checklist.</li>
+</ul>
+<h2 id="modules-module-08-vat-lieu-mau-sac-chat-cam-2-vi-sao-module-nay-quan-trong" class="">2. Vì sao module này quan trọng</h2>
+<p>Vật liệu quyết định cảm giác chạm, bước đi, độ nóng, độ trơn, tuổi thọ và sự hòa hợp giữa nhà với vườn.</p>
+<h2 id="modules-module-08-vat-lieu-mau-sac-chat-cam-3-tu-duy-cot-loi" class="">3. Tư duy cốt lõi</h2>
+<blockquote>Vật liệu tốt trong nhà vườn phải đẹp khi mới, an toàn khi dùng và già đi có phẩm chất.</blockquote>
+<h2 id="modules-module-08-vat-lieu-mau-sac-chat-cam-4-kien-thuc-nen-can-hieu-dung" class="">4. Kiến thức nền cần hiểu đúng</h2>
+<h3 id="modules-module-08-vat-lieu-mau-sac-chat-cam-4-1-chat-cam" class="">4.1. Chất cảm</h3>
+<p>Bề mặt thô, nhám, mịn, ấm, lạnh tạo cảm nhận khác nhau cho tay và chân.</p>
+<h3 id="modules-module-08-vat-lieu-mau-sac-chat-cam-4-2-mau-nen" class="">4.2. Màu nền</h3>
+<p>Màu nên hỗ trợ cây xanh và bóng đổ, không cạnh tranh quá mạnh.</p>
+<h3 id="modules-module-08-vat-lieu-mau-sac-chat-cam-4-3-tich-nhiet" class="">4.3. Tích nhiệt</h3>
+<p>Sân, tường, đá, bê tông có thể hấp nhiệt và làm khu vực quanh nhà nóng hơn.</p>
+<h3 id="modules-module-08-vat-lieu-mau-sac-chat-cam-4-4-chong-tron" class="">4.4. Chống trơn</h3>
+<p>Ngoài trời luôn phải xét mưa, rêu, đất và dép ướt.</p>
+<h3 id="modules-module-08-vat-lieu-mau-sac-chat-cam-4-5-gia-di-dep" class="">4.5. Già đi đẹp</h3>
+<p>Một số vật liệu có patina đẹp; một số chỉ bạc màu, bong tróc hoặc bẩn.</p>
+<h3 id="modules-module-08-vat-lieu-mau-sac-chat-cam-4-6-bao-tri" class="">4.6. Bảo trì</h3>
+<p>Không có vật liệu nào “không cần chăm”; chỉ có mức chăm phù hợp hoặc không phù hợp.</p>
+<h2 id="modules-module-08-vat-lieu-mau-sac-chat-cam-5-nguyen-ly-thiet-ke" class="">5. Nguyên lý thiết kế</h2>
+<div class="table-wrap"><table><thead><tr><th>Nguyên lý</th><th>Cách áp dụng</th></tr></thead><tbody><tr><td>Bắt đầu từ vai trò</td><td>Mỗi yếu tố phải trả lời nó phục vụ điều gì.</td></tr><tr><td>Phù hợp khu đất</td><td>Không áp công thức chung lên mọi dự án.</td></tr><tr><td>Cân bằng cảm xúc và vận hành</td><td>Đẹp phải đi cùng an toàn, bền và dễ chăm.</td></tr><tr><td>Thiết kế theo lớp</td><td>Mọi quyết định cần liên hệ với các lớp không gian khác.</td></tr><tr><td>Kiểm tra bằng thời gian</td><td>Luôn hỏi sau 1 năm, 3 năm, 5 năm sẽ ra sao.</td></tr></tbody></table></div>
+<h2 id="modules-module-08-vat-lieu-mau-sac-chat-cam-6-so-do-truc-quan" class="">6. Sơ đồ trực quan</h2>
+<div class="diagram-shell"><div class="mermaid">flowchart TD
+  A[&quot;Dữ liệu đầu vào&quot;] --&gt; B[&quot;Phân tích Vật Liệu, Màu Sắc Và Chất Cảm&quot;]
+  B --&gt; C[&quot;Nguyên lý&quot;]
+  C --&gt; D[&quot;Giải pháp&quot;]
+  D --&gt; E[&quot;Kiểm tra lỗi&quot;]
+  E --&gt; F[&quot;Đưa vào brief&quot;]</div></div>
+<h2 id="modules-module-08-vat-lieu-mau-sac-chat-cam-7-quy-trinh-ap-dung-tung-buoc" class="">7. Quy trình áp dụng từng bước</h2>
+<ol>
+<li>Thu thập dữ liệu từ các module trước: cảm xúc, khu đất, hành trình, khí hậu.</li>
+<li>Xác định các vị trí quan trọng trên sơ đồ.</li>
+<li>Phân tích vấn đề theo từng khái niệm nền trong bài.</li>
+<li>Đề xuất giải pháp có lý do, tránh chọn theo sở thích rời rạc.</li>
+<li>Kiểm tra rủi ro vận hành và bảo trì.</li>
+<li>Ghi kết luận thành checklist hoặc yêu cầu brief.</li>
+</ol>
+<h2 id="modules-module-08-vat-lieu-mau-sac-chat-cam-8-vi-du-thuc-te" class="">8. Ví dụ thực tế</h2>
+<div class="table-wrap"><table><thead><tr><th>Tình huống</th><th>Cách đọc hoặc xử lý</th></tr></thead><tbody><tr><td>Phương án đẹp nhưng khó dùng</td><td>Cần kiểm lại vị trí, khí hậu, lối đi, ánh sáng và bảo trì.</td></tr><tr><td>Một chi tiết được lặp quá nhiều</td><td>Cần giảm để tổng thể có nhịp và khoảng nghỉ.</td></tr><tr><td>Khu vực ít được dùng</td><td>Thường do thiếu bóng, thiếu tiện tiếp cận, thiếu riêng tư hoặc thiếu lý do ở lại.</td></tr><tr><td>Giải pháp tốt nhưng sai chỗ</td><td>Cần đưa về đúng điều kiện nắng, gió, nước, hoạt động.</td></tr></tbody></table></div>
+<h2 id="modules-module-08-vat-lieu-mau-sac-chat-cam-9-loi-thuong-gap-va-cach-tranh" class="">9. Lỗi thường gặp và cách tránh</h2>
+<div class="table-wrap"><table><thead><tr><th>Lỗi thường gặp</th><th>Hậu quả</th></tr></thead><tbody><tr><td>Chỉ chọn theo thẩm mỹ</td><td>Dễ sai vận hành.</td></tr><tr><td>Không liên hệ khu đất</td><td>Giải pháp thiếu căn cứ.</td></tr><tr><td>Không xét bảo trì</td><td>Nhanh xuống cấp.</td></tr><tr><td>Thiếu tiêu chí đánh giá</td><td>Khó review với đơn vị thiết kế.</td></tr><tr><td>Tách khỏi tổng thể</td><td>Không gian bị rời rạc.</td></tr></tbody></table></div>
+<h2 id="modules-module-08-vat-lieu-mau-sac-chat-cam-10-checklist-kiem-tra" class="">10. Checklist kiểm tra</h2>
+<h3 id="modules-module-08-vat-lieu-mau-sac-chat-cam-hieu-dung" class="">Hiểu đúng</h3>
+<div class="table-wrap"><table><thead><tr><th>Câu hỏi</th><th>Đạt/Chưa</th><th>Ghi chú</th></tr></thead><tbody><tr><td>Đã xác định vai trò của chủ đề trong dự án chưa?</td><td></td><td></td></tr><tr><td>Đã liên hệ với khu đất và người dùng chưa?</td><td></td><td></td></tr><tr><td>Đã biết rủi ro nếu làm sai chưa?</td><td></td><td></td></tr></tbody></table></div>
+<h3 id="modules-module-08-vat-lieu-mau-sac-chat-cam-ap-dung" class="">Áp dụng</h3>
+<div class="table-wrap"><table><thead><tr><th>Câu hỏi</th><th>Đạt/Chưa</th><th>Ghi chú</th></tr></thead><tbody><tr><td>Đã có giải pháp cụ thể chưa?</td><td></td><td></td></tr><tr><td>Đã có tiêu chí kiểm tra chưa?</td><td></td><td></td></tr><tr><td>Đã đưa được vào brief/ch checklist chưa?</td><td></td><td></td></tr></tbody></table></div>
+<h2 id="modules-module-08-vat-lieu-mau-sac-chat-cam-11-bai-tap-thuc-hanh" class="">11. Bài tập thực hành</h2>
+<p>Lập bảng phân tích vật liệu, màu sắc và chất cảm cho một khu vực cụ thể. Bảng gồm: hiện trạng, vấn đề, nguyên lý liên quan, giải pháp, rủi ro và tiêu chí kiểm tra.</p>
+<h2 id="modules-module-08-vat-lieu-mau-sac-chat-cam-12-tieu-chi-tu-danh-gia" class="">12. Tiêu chí tự đánh giá</h2>
+<div class="table-wrap"><table><thead><tr><th>Mức</th><th>Biểu hiện</th></tr></thead><tbody><tr><td>Đạt</td><td>Nhận diện được các yếu tố chính.</td></tr><tr><td>Tốt</td><td>Phân tích được vấn đề và giải pháp tương ứng.</td></tr><tr><td>Xuất sắc</td><td>Đầu ra đủ rõ để dùng trong brief hoặc review phương án thật.</td></tr></tbody></table></div>
+<h2 id="modules-module-08-vat-lieu-mau-sac-chat-cam-13-lien-ket-voi-cac-module-khac" class="">13. Liên kết với các module khác</h2>
+<p>Module này liên kết với các module trước và tạo đầu vào cho Module 12.</p>
+<h2 id="modules-module-08-vat-lieu-mau-sac-chat-cam-14-ghi-chu-gioi-han-chuyen-mon" class="">14. Ghi chú giới hạn chuyên môn</h2>
+<p>Khi triển khai thật, các chi tiết kỹ thuật cần chuyên gia kiểm tra theo điều kiện dự án.</p></article><article class="doc-card" id="doc-modules-module-09-anh-sang-am-thanh-mui-huong"><div class="doc-meta">modules/module-09-anh-sang-am-thanh-mui-huong.md</div><h1 id="modules-module-09-anh-sang-am-thanh-mui-huong-module-09-anh-sang-am-thanh-mui-huong-va-giac-quan" class="chapter-title">Module 09. Ánh Sáng, Âm Thanh, Mùi Hương Và Giác Quan</h1>
+<h2 id="modules-module-09-anh-sang-am-thanh-mui-huong-1-muc-tieu-hoc-tap" class="">1. Mục tiêu học tập</h2>
+<ul>
+<li>Hiểu đúng bản chất của ánh sáng, âm thanh, mùi hương và giác quan.</li>
+<li>Biết áp dụng kiến thức vào một khu đất hoặc phương án cụ thể.</li>
+<li>Nhận diện lỗi thường gặp và hậu quả vận hành.</li>
+<li>Tạo được đầu ra thực hành có thể đưa vào brief hoặc checklist.</li>
+</ul>
+<h2 id="modules-module-09-anh-sang-am-thanh-mui-huong-2-vi-sao-module-nay-quan-trong" class="">2. Vì sao module này quan trọng</h2>
+<p>Không gian nghỉ dưỡng thật sự được cảm bằng nhiều giác quan. Nếu chỉ đẹp để nhìn, nơi đó có thể vẫn khó chịu khi ở lâu.</p>
+<h2 id="modules-module-09-anh-sang-am-thanh-mui-huong-3-tu-duy-cot-loi" class="">3. Tư duy cốt lõi</h2>
+<blockquote>Thiết kế giác quan là thiết kế cường độ: sáng vừa đủ, âm vừa đủ, mùi vừa đủ, vật liệu vừa đủ và cảm giác an toàn luôn rõ.</blockquote>
+<h2 id="modules-module-09-anh-sang-am-thanh-mui-huong-4-kien-thuc-nen-can-hieu-dung" class="">4. Kiến thức nền cần hiểu đúng</h2>
+<h3 id="modules-module-09-anh-sang-am-thanh-mui-huong-4-1-anh-sang-ban-ngay" class="">4.1. Ánh sáng ban ngày</h3>
+<p>Bóng cây, hiên và ánh sáng lọc qua lá tạo cảm giác dịu.</p>
+<h3 id="modules-module-09-anh-sang-am-thanh-mui-huong-4-2-anh-sang-ban-dem" class="">4.2. Ánh sáng ban đêm</h3>
+<p>Đèn cần giúp đi lại an toàn, tạo điểm nhấn và không gây chói.</p>
+<h3 id="modules-module-09-anh-sang-am-thanh-mui-huong-4-3-am-thanh" class="">4.3. Âm thanh</h3>
+<p>Tiếng nước, lá, gió có thể làm dịu; tiếng máy, xe, hàng xóm cần được giảm.</p>
+<h3 id="modules-module-09-anh-sang-am-thanh-mui-huong-4-4-mui-huong" class="">4.4. Mùi hương</h3>
+<p>Cây thơm nên đặt gần lối đi hoặc điểm ngồi, không phủ quá mạnh.</p>
+<h3 id="modules-module-09-anh-sang-am-thanh-mui-huong-4-5-xuc-giac" class="">4.5. Xúc giác</h3>
+<p>Nền, ghế, tay vịn, gió và độ ẩm đều là trải nghiệm xúc giác.</p>
+<h3 id="modules-module-09-anh-sang-am-thanh-mui-huong-4-6-cam-giac-an-toan" class="">4.6. Cảm giác an toàn</h3>
+<p>Không gian tối, trơn, khuất hoặc bị nhìn trộm làm người dùng không muốn ở lại.</p>
+<h2 id="modules-module-09-anh-sang-am-thanh-mui-huong-5-nguyen-ly-thiet-ke" class="">5. Nguyên lý thiết kế</h2>
+<div class="table-wrap"><table><thead><tr><th>Nguyên lý</th><th>Cách áp dụng</th></tr></thead><tbody><tr><td>Bắt đầu từ vai trò</td><td>Mỗi yếu tố phải trả lời nó phục vụ điều gì.</td></tr><tr><td>Phù hợp khu đất</td><td>Không áp công thức chung lên mọi dự án.</td></tr><tr><td>Cân bằng cảm xúc và vận hành</td><td>Đẹp phải đi cùng an toàn, bền và dễ chăm.</td></tr><tr><td>Thiết kế theo lớp</td><td>Mọi quyết định cần liên hệ với các lớp không gian khác.</td></tr><tr><td>Kiểm tra bằng thời gian</td><td>Luôn hỏi sau 1 năm, 3 năm, 5 năm sẽ ra sao.</td></tr></tbody></table></div>
+<h2 id="modules-module-09-anh-sang-am-thanh-mui-huong-6-so-do-truc-quan" class="">6. Sơ đồ trực quan</h2>
+<div class="diagram-shell"><div class="mermaid">flowchart TD
+  A[&quot;Dữ liệu đầu vào&quot;] --&gt; B[&quot;Phân tích Ánh Sáng, Âm Thanh, Mùi Hương Và Giác Quan&quot;]
+  B --&gt; C[&quot;Nguyên lý&quot;]
+  C --&gt; D[&quot;Giải pháp&quot;]
+  D --&gt; E[&quot;Kiểm tra lỗi&quot;]
+  E --&gt; F[&quot;Đưa vào brief&quot;]</div></div>
+<h2 id="modules-module-09-anh-sang-am-thanh-mui-huong-7-quy-trinh-ap-dung-tung-buoc" class="">7. Quy trình áp dụng từng bước</h2>
+<ol>
+<li>Thu thập dữ liệu từ các module trước: cảm xúc, khu đất, hành trình, khí hậu.</li>
+<li>Xác định các vị trí quan trọng trên sơ đồ.</li>
+<li>Phân tích vấn đề theo từng khái niệm nền trong bài.</li>
+<li>Đề xuất giải pháp có lý do, tránh chọn theo sở thích rời rạc.</li>
+<li>Kiểm tra rủi ro vận hành và bảo trì.</li>
+<li>Ghi kết luận thành checklist hoặc yêu cầu brief.</li>
+</ol>
+<h2 id="modules-module-09-anh-sang-am-thanh-mui-huong-8-vi-du-thuc-te" class="">8. Ví dụ thực tế</h2>
+<div class="table-wrap"><table><thead><tr><th>Tình huống</th><th>Cách đọc hoặc xử lý</th></tr></thead><tbody><tr><td>Phương án đẹp nhưng khó dùng</td><td>Cần kiểm lại vị trí, khí hậu, lối đi, ánh sáng và bảo trì.</td></tr><tr><td>Một chi tiết được lặp quá nhiều</td><td>Cần giảm để tổng thể có nhịp và khoảng nghỉ.</td></tr><tr><td>Khu vực ít được dùng</td><td>Thường do thiếu bóng, thiếu tiện tiếp cận, thiếu riêng tư hoặc thiếu lý do ở lại.</td></tr><tr><td>Giải pháp tốt nhưng sai chỗ</td><td>Cần đưa về đúng điều kiện nắng, gió, nước, hoạt động.</td></tr></tbody></table></div>
+<h2 id="modules-module-09-anh-sang-am-thanh-mui-huong-9-loi-thuong-gap-va-cach-tranh" class="">9. Lỗi thường gặp và cách tránh</h2>
+<div class="table-wrap"><table><thead><tr><th>Lỗi thường gặp</th><th>Hậu quả</th></tr></thead><tbody><tr><td>Chỉ chọn theo thẩm mỹ</td><td>Dễ sai vận hành.</td></tr><tr><td>Không liên hệ khu đất</td><td>Giải pháp thiếu căn cứ.</td></tr><tr><td>Không xét bảo trì</td><td>Nhanh xuống cấp.</td></tr><tr><td>Thiếu tiêu chí đánh giá</td><td>Khó review với đơn vị thiết kế.</td></tr><tr><td>Tách khỏi tổng thể</td><td>Không gian bị rời rạc.</td></tr></tbody></table></div>
+<h2 id="modules-module-09-anh-sang-am-thanh-mui-huong-10-checklist-kiem-tra" class="">10. Checklist kiểm tra</h2>
+<h3 id="modules-module-09-anh-sang-am-thanh-mui-huong-hieu-dung" class="">Hiểu đúng</h3>
+<div class="table-wrap"><table><thead><tr><th>Câu hỏi</th><th>Đạt/Chưa</th><th>Ghi chú</th></tr></thead><tbody><tr><td>Đã xác định vai trò của chủ đề trong dự án chưa?</td><td></td><td></td></tr><tr><td>Đã liên hệ với khu đất và người dùng chưa?</td><td></td><td></td></tr><tr><td>Đã biết rủi ro nếu làm sai chưa?</td><td></td><td></td></tr></tbody></table></div>
+<h3 id="modules-module-09-anh-sang-am-thanh-mui-huong-ap-dung" class="">Áp dụng</h3>
+<div class="table-wrap"><table><thead><tr><th>Câu hỏi</th><th>Đạt/Chưa</th><th>Ghi chú</th></tr></thead><tbody><tr><td>Đã có giải pháp cụ thể chưa?</td><td></td><td></td></tr><tr><td>Đã có tiêu chí kiểm tra chưa?</td><td></td><td></td></tr><tr><td>Đã đưa được vào brief/ch checklist chưa?</td><td></td><td></td></tr></tbody></table></div>
+<h2 id="modules-module-09-anh-sang-am-thanh-mui-huong-11-bai-tap-thuc-hanh" class="">11. Bài tập thực hành</h2>
+<p>Lập bảng phân tích ánh sáng, âm thanh, mùi hương và giác quan cho một khu vực cụ thể. Bảng gồm: hiện trạng, vấn đề, nguyên lý liên quan, giải pháp, rủi ro và tiêu chí kiểm tra.</p>
+<h2 id="modules-module-09-anh-sang-am-thanh-mui-huong-12-tieu-chi-tu-danh-gia" class="">12. Tiêu chí tự đánh giá</h2>
+<div class="table-wrap"><table><thead><tr><th>Mức</th><th>Biểu hiện</th></tr></thead><tbody><tr><td>Đạt</td><td>Nhận diện được các yếu tố chính.</td></tr><tr><td>Tốt</td><td>Phân tích được vấn đề và giải pháp tương ứng.</td></tr><tr><td>Xuất sắc</td><td>Đầu ra đủ rõ để dùng trong brief hoặc review phương án thật.</td></tr></tbody></table></div>
+<h2 id="modules-module-09-anh-sang-am-thanh-mui-huong-13-lien-ket-voi-cac-module-khac" class="">13. Liên kết với các module khác</h2>
+<p>Module này liên kết với các module trước và tạo đầu vào cho Module 12.</p>
+<h2 id="modules-module-09-anh-sang-am-thanh-mui-huong-14-ghi-chu-gioi-han-chuyen-mon" class="">14. Ghi chú giới hạn chuyên môn</h2>
+<p>Khi triển khai thật, các chi tiết kỹ thuật cần chuyên gia kiểm tra theo điều kiện dự án.</p></article><article class="doc-card" id="doc-modules-module-10-thoi-gian-va-bao-tri"><div class="doc-meta">modules/module-10-thoi-gian-va-bao-tri.md</div><h1 id="modules-module-10-thoi-gian-va-bao-tri-module-10-thiet-ke-theo-thoi-gian-va-bao-tri" class="chapter-title">Module 10. Thiết Kế Theo Thời Gian Và Bảo Trì</h1>
+<h2 id="modules-module-10-thoi-gian-va-bao-tri-1-muc-tieu-hoc-tap" class="">1. Mục tiêu học tập</h2>
+<ul>
+<li>Hiểu đúng bản chất của thiết kế theo thời gian và bảo trì.</li>
+<li>Biết áp dụng kiến thức vào một khu đất hoặc phương án cụ thể.</li>
+<li>Nhận diện lỗi thường gặp và hậu quả vận hành.</li>
+<li>Tạo được đầu ra thực hành có thể đưa vào brief hoặc checklist.</li>
+</ul>
+<h2 id="modules-module-10-thoi-gian-va-bao-tri-2-vi-sao-module-nay-quan-trong" class="">2. Vì sao module này quan trọng</h2>
+<p>Nhà vườn là công trình sống. Sau bàn giao, cây lớn lên, vật liệu cũ đi, nước bộc lộ lỗi, gia đình đổi nhu cầu và công chăm bắt đầu quyết định chất lượng.</p>
+<h2 id="modules-module-10-thoi-gian-va-bao-tri-3-tu-duy-cot-loi" class="">3. Tư duy cốt lõi</h2>
+<blockquote>Thiết kế đẹp ngày đầu chưa đủ; thiết kế xuất sắc phải có kịch bản trưởng thành và bảo trì.</blockquote>
+<h2 id="modules-module-10-thoi-gian-va-bao-tri-4-kien-thuc-nen-can-hieu-dung" class="">4. Kiến thức nền cần hiểu đúng</h2>
+<h3 id="modules-module-10-thoi-gian-va-bao-tri-4-1-6-thang-dau" class="">4.1. 6 tháng đầu</h3>
+<p>Giai đoạn cây hồi phục, hệ tưới cần chỉnh, lỗi nước dễ lộ.</p>
+<h3 id="modules-module-10-thoi-gian-va-bao-tri-4-2-1-nam" class="">4.2. 1 năm</h3>
+<p>Có thể đánh giá qua đủ mùa nắng/mưa.</p>
+<h3 id="modules-module-10-thoi-gian-va-bao-tri-4-3-3-nam" class="">4.3. 3 năm</h3>
+<p>Cấu trúc cây bắt đầu rõ, cần tỉa tạo khung.</p>
+<h3 id="modules-module-10-thoi-gian-va-bao-tri-4-4-5-nam" class="">4.4. 5 năm</h3>
+<p>Vườn có chiều sâu nhưng rủi ro tán/rễ/ẩm cũng tăng.</p>
+<h3 id="modules-module-10-thoi-gian-va-bao-tri-4-5-10-nam" class="">4.5. 10 năm</h3>
+<p>Cần cải tạo chọn lọc, thay cây sai vai, nâng cấp vật liệu/hệ thống.</p>
+<h3 id="modules-module-10-thoi-gian-va-bao-tri-4-6-lich-bao-tri" class="">4.6. Lịch bảo trì</h3>
+<p>Phải chia theo cây, đất, nước, đèn, vật liệu và vệ sinh.</p>
+<h2 id="modules-module-10-thoi-gian-va-bao-tri-5-nguyen-ly-thiet-ke" class="">5. Nguyên lý thiết kế</h2>
+<div class="table-wrap"><table><thead><tr><th>Nguyên lý</th><th>Cách áp dụng</th></tr></thead><tbody><tr><td>Bắt đầu từ vai trò</td><td>Mỗi yếu tố phải trả lời nó phục vụ điều gì.</td></tr><tr><td>Phù hợp khu đất</td><td>Không áp công thức chung lên mọi dự án.</td></tr><tr><td>Cân bằng cảm xúc và vận hành</td><td>Đẹp phải đi cùng an toàn, bền và dễ chăm.</td></tr><tr><td>Thiết kế theo lớp</td><td>Mọi quyết định cần liên hệ với các lớp không gian khác.</td></tr><tr><td>Kiểm tra bằng thời gian</td><td>Luôn hỏi sau 1 năm, 3 năm, 5 năm sẽ ra sao.</td></tr></tbody></table></div>
+<h2 id="modules-module-10-thoi-gian-va-bao-tri-6-so-do-truc-quan" class="">6. Sơ đồ trực quan</h2>
+<div class="diagram-shell"><div class="mermaid">flowchart TD
+  A[&quot;Dữ liệu đầu vào&quot;] --&gt; B[&quot;Phân tích Thiết Kế Theo Thời Gian Và Bảo Trì&quot;]
+  B --&gt; C[&quot;Nguyên lý&quot;]
+  C --&gt; D[&quot;Giải pháp&quot;]
+  D --&gt; E[&quot;Kiểm tra lỗi&quot;]
+  E --&gt; F[&quot;Đưa vào brief&quot;]</div></div>
+<h2 id="modules-module-10-thoi-gian-va-bao-tri-7-quy-trinh-ap-dung-tung-buoc" class="">7. Quy trình áp dụng từng bước</h2>
+<ol>
+<li>Thu thập dữ liệu từ các module trước: cảm xúc, khu đất, hành trình, khí hậu.</li>
+<li>Xác định các vị trí quan trọng trên sơ đồ.</li>
+<li>Phân tích vấn đề theo từng khái niệm nền trong bài.</li>
+<li>Đề xuất giải pháp có lý do, tránh chọn theo sở thích rời rạc.</li>
+<li>Kiểm tra rủi ro vận hành và bảo trì.</li>
+<li>Ghi kết luận thành checklist hoặc yêu cầu brief.</li>
+</ol>
+<h2 id="modules-module-10-thoi-gian-va-bao-tri-8-vi-du-thuc-te" class="">8. Ví dụ thực tế</h2>
+<div class="table-wrap"><table><thead><tr><th>Tình huống</th><th>Cách đọc hoặc xử lý</th></tr></thead><tbody><tr><td>Phương án đẹp nhưng khó dùng</td><td>Cần kiểm lại vị trí, khí hậu, lối đi, ánh sáng và bảo trì.</td></tr><tr><td>Một chi tiết được lặp quá nhiều</td><td>Cần giảm để tổng thể có nhịp và khoảng nghỉ.</td></tr><tr><td>Khu vực ít được dùng</td><td>Thường do thiếu bóng, thiếu tiện tiếp cận, thiếu riêng tư hoặc thiếu lý do ở lại.</td></tr><tr><td>Giải pháp tốt nhưng sai chỗ</td><td>Cần đưa về đúng điều kiện nắng, gió, nước, hoạt động.</td></tr></tbody></table></div>
+<h2 id="modules-module-10-thoi-gian-va-bao-tri-9-loi-thuong-gap-va-cach-tranh" class="">9. Lỗi thường gặp và cách tránh</h2>
+<div class="table-wrap"><table><thead><tr><th>Lỗi thường gặp</th><th>Hậu quả</th></tr></thead><tbody><tr><td>Chỉ chọn theo thẩm mỹ</td><td>Dễ sai vận hành.</td></tr><tr><td>Không liên hệ khu đất</td><td>Giải pháp thiếu căn cứ.</td></tr><tr><td>Không xét bảo trì</td><td>Nhanh xuống cấp.</td></tr><tr><td>Thiếu tiêu chí đánh giá</td><td>Khó review với đơn vị thiết kế.</td></tr><tr><td>Tách khỏi tổng thể</td><td>Không gian bị rời rạc.</td></tr></tbody></table></div>
+<h2 id="modules-module-10-thoi-gian-va-bao-tri-10-checklist-kiem-tra" class="">10. Checklist kiểm tra</h2>
+<h3 id="modules-module-10-thoi-gian-va-bao-tri-hieu-dung" class="">Hiểu đúng</h3>
+<div class="table-wrap"><table><thead><tr><th>Câu hỏi</th><th>Đạt/Chưa</th><th>Ghi chú</th></tr></thead><tbody><tr><td>Đã xác định vai trò của chủ đề trong dự án chưa?</td><td></td><td></td></tr><tr><td>Đã liên hệ với khu đất và người dùng chưa?</td><td></td><td></td></tr><tr><td>Đã biết rủi ro nếu làm sai chưa?</td><td></td><td></td></tr></tbody></table></div>
+<h3 id="modules-module-10-thoi-gian-va-bao-tri-ap-dung" class="">Áp dụng</h3>
+<div class="table-wrap"><table><thead><tr><th>Câu hỏi</th><th>Đạt/Chưa</th><th>Ghi chú</th></tr></thead><tbody><tr><td>Đã có giải pháp cụ thể chưa?</td><td></td><td></td></tr><tr><td>Đã có tiêu chí kiểm tra chưa?</td><td></td><td></td></tr><tr><td>Đã đưa được vào brief/ch checklist chưa?</td><td></td><td></td></tr></tbody></table></div>
+<h2 id="modules-module-10-thoi-gian-va-bao-tri-11-bai-tap-thuc-hanh" class="">11. Bài tập thực hành</h2>
+<p>Lập bảng phân tích thiết kế theo thời gian và bảo trì cho một khu vực cụ thể. Bảng gồm: hiện trạng, vấn đề, nguyên lý liên quan, giải pháp, rủi ro và tiêu chí kiểm tra.</p>
+<h2 id="modules-module-10-thoi-gian-va-bao-tri-12-tieu-chi-tu-danh-gia" class="">12. Tiêu chí tự đánh giá</h2>
+<div class="table-wrap"><table><thead><tr><th>Mức</th><th>Biểu hiện</th></tr></thead><tbody><tr><td>Đạt</td><td>Nhận diện được các yếu tố chính.</td></tr><tr><td>Tốt</td><td>Phân tích được vấn đề và giải pháp tương ứng.</td></tr><tr><td>Xuất sắc</td><td>Đầu ra đủ rõ để dùng trong brief hoặc review phương án thật.</td></tr></tbody></table></div>
+<h2 id="modules-module-10-thoi-gian-va-bao-tri-13-lien-ket-voi-cac-module-khac" class="">13. Liên kết với các module khác</h2>
+<p>Module này liên kết với các module trước và tạo đầu vào cho Module 12.</p>
+<h2 id="modules-module-10-thoi-gian-va-bao-tri-14-ghi-chu-gioi-han-chuyen-mon" class="">14. Ghi chú giới hạn chuyên môn</h2>
+<p>Khi triển khai thật, các chi tiết kỹ thuật cần chuyên gia kiểm tra theo điều kiện dự án.</p></article><article class="doc-card" id="doc-modules-module-11-quy-trinh-lam-viec"><div class="doc-meta">modules/module-11-quy-trinh-lam-viec.md</div><h1 id="modules-module-11-quy-trinh-lam-viec-module-11-quy-trinh-lam-viec-voi-kien-truc-su-canh-quan-va-thi-cong" class="chapter-title">Module 11. Quy Trình Làm Việc Với Kiến Trúc Sư, Cảnh Quan Và Thi Công</h1>
+<h2 id="modules-module-11-quy-trinh-lam-viec-1-muc-tieu-hoc-tap" class="">1. Mục tiêu học tập</h2>
+<ul>
+<li>Hiểu đúng bản chất của quy trình làm việc với kiến trúc sư, cảnh quan và thi công.</li>
+<li>Biết áp dụng kiến thức vào một khu đất hoặc phương án cụ thể.</li>
+<li>Nhận diện lỗi thường gặp và hậu quả vận hành.</li>
+<li>Tạo được đầu ra thực hành có thể đưa vào brief hoặc checklist.</li>
+</ul>
+<h2 id="modules-module-11-quy-trinh-lam-viec-2-vi-sao-module-nay-quan-trong" class="">2. Vì sao module này quan trọng</h2>
+<p>Một chủ nhà hiểu việc không cần làm thay chuyên gia, nhưng phải biết đưa đề bài đúng, hỏi câu hỏi đúng và duyệt theo tiêu chí đúng.</p>
+<h2 id="modules-module-11-quy-trinh-lam-viec-3-tu-duy-cot-loi" class="">3. Tư duy cốt lõi</h2>
+<blockquote>Brief rõ giúp thiết kế ít lệch; checklist đúng giúp review bớt cảm tính; nghiệm thu tốt giúp tránh lỗi vận hành.</blockquote>
+<h2 id="modules-module-11-quy-trinh-lam-viec-4-kien-thuc-nen-can-hieu-dung" class="">4. Kiến thức nền cần hiểu đúng</h2>
+<h3 id="modules-module-11-quy-trinh-lam-viec-4-1-brief" class="">4.1. Brief</h3>
+<p>Tài liệu mô tả mục tiêu, người dùng, khu đất, ưu tiên, giới hạn và tiêu chí thành công.</p>
+<h3 id="modules-module-11-quy-trinh-lam-viec-4-2-khao-sat" class="">4.2. Khảo sát</h3>
+<p>Dữ liệu thật về nắng, gió, nước, đất, view và hiện trạng.</p>
+<h3 id="modules-module-11-quy-trinh-lam-viec-4-3-concept" class="">4.3. Concept</h3>
+<p>Ý tưởng không gian: zoning, vị trí nhà, hành trình, mood, cấu trúc cây.</p>
+<h3 id="modules-module-11-quy-trinh-lam-viec-4-4-ho-so-ky-thuat" class="">4.4. Hồ sơ kỹ thuật</h3>
+<p>Bản vẽ làm cho ý tưởng thi công được: cao độ, thoát nước, điện, tưới, vật liệu.</p>
+<h3 id="modules-module-11-quy-trinh-lam-viec-4-5-thi-cong" class="">4.5. Thi công</h3>
+<p>Giai đoạn cần kiểm soát mẫu, cao độ, chi tiết, cây và thay đổi hiện trường.</p>
+<h3 id="modules-module-11-quy-trinh-lam-viec-4-6-nghiem-thu" class="">4.6. Nghiệm thu</h3>
+<p>Không chỉ nhìn đẹp mà phải kiểm tra vận hành, an toàn, nước, đèn, bảo trì.</p>
+<h2 id="modules-module-11-quy-trinh-lam-viec-5-nguyen-ly-thiet-ke" class="">5. Nguyên lý thiết kế</h2>
+<div class="table-wrap"><table><thead><tr><th>Nguyên lý</th><th>Cách áp dụng</th></tr></thead><tbody><tr><td>Bắt đầu từ vai trò</td><td>Mỗi yếu tố phải trả lời nó phục vụ điều gì.</td></tr><tr><td>Phù hợp khu đất</td><td>Không áp công thức chung lên mọi dự án.</td></tr><tr><td>Cân bằng cảm xúc và vận hành</td><td>Đẹp phải đi cùng an toàn, bền và dễ chăm.</td></tr><tr><td>Thiết kế theo lớp</td><td>Mọi quyết định cần liên hệ với các lớp không gian khác.</td></tr><tr><td>Kiểm tra bằng thời gian</td><td>Luôn hỏi sau 1 năm, 3 năm, 5 năm sẽ ra sao.</td></tr></tbody></table></div>
+<h2 id="modules-module-11-quy-trinh-lam-viec-6-so-do-truc-quan" class="">6. Sơ đồ trực quan</h2>
+<div class="diagram-shell"><div class="mermaid">flowchart TD
+  A[&quot;Dữ liệu đầu vào&quot;] --&gt; B[&quot;Phân tích Quy Trình Làm Việc Với Kiến Trúc Sư, Cảnh Quan Và Thi Công&quot;]
+  B --&gt; C[&quot;Nguyên lý&quot;]
+  C --&gt; D[&quot;Giải pháp&quot;]
+  D --&gt; E[&quot;Kiểm tra lỗi&quot;]
+  E --&gt; F[&quot;Đưa vào brief&quot;]</div></div>
+<h2 id="modules-module-11-quy-trinh-lam-viec-7-quy-trinh-ap-dung-tung-buoc" class="">7. Quy trình áp dụng từng bước</h2>
+<ol>
+<li>Thu thập dữ liệu từ các module trước: cảm xúc, khu đất, hành trình, khí hậu.</li>
+<li>Xác định các vị trí quan trọng trên sơ đồ.</li>
+<li>Phân tích vấn đề theo từng khái niệm nền trong bài.</li>
+<li>Đề xuất giải pháp có lý do, tránh chọn theo sở thích rời rạc.</li>
+<li>Kiểm tra rủi ro vận hành và bảo trì.</li>
+<li>Ghi kết luận thành checklist hoặc yêu cầu brief.</li>
+</ol>
+<h2 id="modules-module-11-quy-trinh-lam-viec-8-vi-du-thuc-te" class="">8. Ví dụ thực tế</h2>
+<div class="table-wrap"><table><thead><tr><th>Tình huống</th><th>Cách đọc hoặc xử lý</th></tr></thead><tbody><tr><td>Phương án đẹp nhưng khó dùng</td><td>Cần kiểm lại vị trí, khí hậu, lối đi, ánh sáng và bảo trì.</td></tr><tr><td>Một chi tiết được lặp quá nhiều</td><td>Cần giảm để tổng thể có nhịp và khoảng nghỉ.</td></tr><tr><td>Khu vực ít được dùng</td><td>Thường do thiếu bóng, thiếu tiện tiếp cận, thiếu riêng tư hoặc thiếu lý do ở lại.</td></tr><tr><td>Giải pháp tốt nhưng sai chỗ</td><td>Cần đưa về đúng điều kiện nắng, gió, nước, hoạt động.</td></tr></tbody></table></div>
+<h2 id="modules-module-11-quy-trinh-lam-viec-9-loi-thuong-gap-va-cach-tranh" class="">9. Lỗi thường gặp và cách tránh</h2>
+<div class="table-wrap"><table><thead><tr><th>Lỗi thường gặp</th><th>Hậu quả</th></tr></thead><tbody><tr><td>Chỉ chọn theo thẩm mỹ</td><td>Dễ sai vận hành.</td></tr><tr><td>Không liên hệ khu đất</td><td>Giải pháp thiếu căn cứ.</td></tr><tr><td>Không xét bảo trì</td><td>Nhanh xuống cấp.</td></tr><tr><td>Thiếu tiêu chí đánh giá</td><td>Khó review với đơn vị thiết kế.</td></tr><tr><td>Tách khỏi tổng thể</td><td>Không gian bị rời rạc.</td></tr></tbody></table></div>
+<h2 id="modules-module-11-quy-trinh-lam-viec-10-checklist-kiem-tra" class="">10. Checklist kiểm tra</h2>
+<h3 id="modules-module-11-quy-trinh-lam-viec-hieu-dung" class="">Hiểu đúng</h3>
+<div class="table-wrap"><table><thead><tr><th>Câu hỏi</th><th>Đạt/Chưa</th><th>Ghi chú</th></tr></thead><tbody><tr><td>Đã xác định vai trò của chủ đề trong dự án chưa?</td><td></td><td></td></tr><tr><td>Đã liên hệ với khu đất và người dùng chưa?</td><td></td><td></td></tr><tr><td>Đã biết rủi ro nếu làm sai chưa?</td><td></td><td></td></tr></tbody></table></div>
+<h3 id="modules-module-11-quy-trinh-lam-viec-ap-dung" class="">Áp dụng</h3>
+<div class="table-wrap"><table><thead><tr><th>Câu hỏi</th><th>Đạt/Chưa</th><th>Ghi chú</th></tr></thead><tbody><tr><td>Đã có giải pháp cụ thể chưa?</td><td></td><td></td></tr><tr><td>Đã có tiêu chí kiểm tra chưa?</td><td></td><td></td></tr><tr><td>Đã đưa được vào brief/ch checklist chưa?</td><td></td><td></td></tr></tbody></table></div>
+<h2 id="modules-module-11-quy-trinh-lam-viec-11-bai-tap-thuc-hanh" class="">11. Bài tập thực hành</h2>
+<p>Lập bảng phân tích quy trình làm việc với kiến trúc sư, cảnh quan và thi công cho một khu vực cụ thể. Bảng gồm: hiện trạng, vấn đề, nguyên lý liên quan, giải pháp, rủi ro và tiêu chí kiểm tra.</p>
+<h2 id="modules-module-11-quy-trinh-lam-viec-12-tieu-chi-tu-danh-gia" class="">12. Tiêu chí tự đánh giá</h2>
+<div class="table-wrap"><table><thead><tr><th>Mức</th><th>Biểu hiện</th></tr></thead><tbody><tr><td>Đạt</td><td>Nhận diện được các yếu tố chính.</td></tr><tr><td>Tốt</td><td>Phân tích được vấn đề và giải pháp tương ứng.</td></tr><tr><td>Xuất sắc</td><td>Đầu ra đủ rõ để dùng trong brief hoặc review phương án thật.</td></tr></tbody></table></div>
+<h2 id="modules-module-11-quy-trinh-lam-viec-13-lien-ket-voi-cac-module-khac" class="">13. Liên kết với các module khác</h2>
+<p>Module này liên kết với các module trước và tạo đầu vào cho Module 12.</p>
+<h2 id="modules-module-11-quy-trinh-lam-viec-14-ghi-chu-gioi-han-chuyen-mon" class="">14. Ghi chú giới hạn chuyên môn</h2>
+<p>Khi triển khai thật, các chi tiết kỹ thuật cần chuyên gia kiểm tra theo điều kiện dự án.</p></article><article class="doc-card" id="doc-modules-module-12-brief-thiet-ke"><div class="doc-meta">modules/module-12-brief-thiet-ke.md</div><h1 id="modules-module-12-brief-thiet-ke-module-12-bai-tap-tong-hop-xay-brief-thiet-ke-nha-vuon" class="chapter-title">Module 12. Bài Tập Tổng Hợp: Xây Brief Thiết Kế Nhà Vườn</h1>
+<h2 id="modules-module-12-brief-thiet-ke-1-muc-tieu-hoc-tap" class="">1. Mục tiêu học tập</h2>
+<ul>
+<li>Hiểu đúng bản chất của bài tập tổng hợp: xây brief thiết kế nhà vườn.</li>
+<li>Biết áp dụng kiến thức vào một khu đất hoặc phương án cụ thể.</li>
+<li>Nhận diện lỗi thường gặp và hậu quả vận hành.</li>
+<li>Tạo được đầu ra thực hành có thể đưa vào brief hoặc checklist.</li>
+</ul>
+<h2 id="modules-module-12-brief-thiet-ke-2-vi-sao-module-nay-quan-trong" class="">2. Vì sao module này quan trọng</h2>
+<p>Brief là đầu ra thực tế quan trọng nhất của giáo trình. Nó biến mong muốn mơ hồ thành đề bài có thể thiết kế, báo giá, review và kiểm soát.</p>
+<h2 id="modules-module-12-brief-thiet-ke-3-tu-duy-cot-loi" class="">3. Tư duy cốt lõi</h2>
+<blockquote>Brief xuất sắc không nói “tôi muốn đẹp”; nó nói rõ đẹp theo nghĩa nào, cho ai, trên khu đất nào, ưu tiên gì, tránh gì và kiểm bằng tiêu chí nào.</blockquote>
+<h2 id="modules-module-12-brief-thiet-ke-4-kien-thuc-nen-can-hieu-dung" class="">4. Kiến thức nền cần hiểu đúng</h2>
+<h3 id="modules-module-12-brief-thiet-ke-4-1-tinh-than" class="">4.1. Tinh thần</h3>
+<p>3-5 từ khóa cảm xúc và một câu mô tả dự án.</p>
+<h3 id="modules-module-12-brief-thiet-ke-4-2-nguoi-dung" class="">4.2. Người dùng</h3>
+<p>Ai sống, ai ghé, ai chăm, ai cần an toàn đặc biệt.</p>
+<h3 id="modules-module-12-brief-thiet-ke-4-3-hoat-dong" class="">4.3. Hoạt động</h3>
+<p>Các hoạt động thật quyết định hiên, sân, lối đi và điểm dừng.</p>
+<h3 id="modules-module-12-brief-thiet-ke-4-4-hien-trang" class="">4.4. Hiện trạng</h3>
+<p>Tóm tắt nắng, gió, nước, đất, view, cây hiện trạng.</p>
+<h3 id="modules-module-12-brief-thiet-ke-4-5-yeu-cau-kien-truc" class="">4.5. Yêu cầu kiến trúc</h3>
+<p>Mái, hiên, cửa, thông gió, riêng tư, vật liệu.</p>
+<h3 id="modules-module-12-brief-thiet-ke-4-6-yeu-cau-canh-quan" class="">4.6. Yêu cầu cảnh quan</h3>
+<p>Tầng cây, khoảng mở, lối đi, điểm dừng, nước, ánh sáng.</p>
+<h3 id="modules-module-12-brief-thiet-ke-4-7-yeu-cau-ky-thuat" class="">4.7. Yêu cầu kỹ thuật</h3>
+<p>Cao độ, thoát nước, tưới, điện ngoài trời, chống trơn.</p>
+<h3 id="modules-module-12-brief-thiet-ke-4-8-tieu-chi-danh-gia" class="">4.8. Tiêu chí đánh giá</h3>
+<p>Mát, thoáng, có cảm xúc, bền, dễ chăm, đẹp hơn sau 5 năm.</p>
+<h2 id="modules-module-12-brief-thiet-ke-5-nguyen-ly-thiet-ke" class="">5. Nguyên lý thiết kế</h2>
+<div class="table-wrap"><table><thead><tr><th>Nguyên lý</th><th>Cách áp dụng</th></tr></thead><tbody><tr><td>Bắt đầu từ vai trò</td><td>Mỗi yếu tố phải trả lời nó phục vụ điều gì.</td></tr><tr><td>Phù hợp khu đất</td><td>Không áp công thức chung lên mọi dự án.</td></tr><tr><td>Cân bằng cảm xúc và vận hành</td><td>Đẹp phải đi cùng an toàn, bền và dễ chăm.</td></tr><tr><td>Thiết kế theo lớp</td><td>Mọi quyết định cần liên hệ với các lớp không gian khác.</td></tr><tr><td>Kiểm tra bằng thời gian</td><td>Luôn hỏi sau 1 năm, 3 năm, 5 năm sẽ ra sao.</td></tr></tbody></table></div>
+<h2 id="modules-module-12-brief-thiet-ke-6-so-do-truc-quan" class="">6. Sơ đồ trực quan</h2>
+<div class="diagram-shell"><div class="mermaid">flowchart TD
+  A[&quot;Dữ liệu đầu vào&quot;] --&gt; B[&quot;Phân tích Bài Tập Tổng Hợp: Xây Brief Thiết Kế Nhà Vườn&quot;]
+  B --&gt; C[&quot;Nguyên lý&quot;]
+  C --&gt; D[&quot;Giải pháp&quot;]
+  D --&gt; E[&quot;Kiểm tra lỗi&quot;]
+  E --&gt; F[&quot;Đưa vào brief&quot;]</div></div>
+<h2 id="modules-module-12-brief-thiet-ke-7-quy-trinh-ap-dung-tung-buoc" class="">7. Quy trình áp dụng từng bước</h2>
+<ol>
+<li>Thu thập dữ liệu từ các module trước: cảm xúc, khu đất, hành trình, khí hậu.</li>
+<li>Xác định các vị trí quan trọng trên sơ đồ.</li>
+<li>Phân tích vấn đề theo từng khái niệm nền trong bài.</li>
+<li>Đề xuất giải pháp có lý do, tránh chọn theo sở thích rời rạc.</li>
+<li>Kiểm tra rủi ro vận hành và bảo trì.</li>
+<li>Ghi kết luận thành checklist hoặc yêu cầu brief.</li>
+</ol>
+<h2 id="modules-module-12-brief-thiet-ke-8-vi-du-thuc-te" class="">8. Ví dụ thực tế</h2>
+<div class="table-wrap"><table><thead><tr><th>Tình huống</th><th>Cách đọc hoặc xử lý</th></tr></thead><tbody><tr><td>Phương án đẹp nhưng khó dùng</td><td>Cần kiểm lại vị trí, khí hậu, lối đi, ánh sáng và bảo trì.</td></tr><tr><td>Một chi tiết được lặp quá nhiều</td><td>Cần giảm để tổng thể có nhịp và khoảng nghỉ.</td></tr><tr><td>Khu vực ít được dùng</td><td>Thường do thiếu bóng, thiếu tiện tiếp cận, thiếu riêng tư hoặc thiếu lý do ở lại.</td></tr><tr><td>Giải pháp tốt nhưng sai chỗ</td><td>Cần đưa về đúng điều kiện nắng, gió, nước, hoạt động.</td></tr></tbody></table></div>
+<h2 id="modules-module-12-brief-thiet-ke-9-loi-thuong-gap-va-cach-tranh" class="">9. Lỗi thường gặp và cách tránh</h2>
+<div class="table-wrap"><table><thead><tr><th>Lỗi thường gặp</th><th>Hậu quả</th></tr></thead><tbody><tr><td>Chỉ chọn theo thẩm mỹ</td><td>Dễ sai vận hành.</td></tr><tr><td>Không liên hệ khu đất</td><td>Giải pháp thiếu căn cứ.</td></tr><tr><td>Không xét bảo trì</td><td>Nhanh xuống cấp.</td></tr><tr><td>Thiếu tiêu chí đánh giá</td><td>Khó review với đơn vị thiết kế.</td></tr><tr><td>Tách khỏi tổng thể</td><td>Không gian bị rời rạc.</td></tr></tbody></table></div>
+<h2 id="modules-module-12-brief-thiet-ke-10-checklist-kiem-tra" class="">10. Checklist kiểm tra</h2>
+<h3 id="modules-module-12-brief-thiet-ke-hieu-dung" class="">Hiểu đúng</h3>
+<div class="table-wrap"><table><thead><tr><th>Câu hỏi</th><th>Đạt/Chưa</th><th>Ghi chú</th></tr></thead><tbody><tr><td>Đã xác định vai trò của chủ đề trong dự án chưa?</td><td></td><td></td></tr><tr><td>Đã liên hệ với khu đất và người dùng chưa?</td><td></td><td></td></tr><tr><td>Đã biết rủi ro nếu làm sai chưa?</td><td></td><td></td></tr></tbody></table></div>
+<h3 id="modules-module-12-brief-thiet-ke-ap-dung" class="">Áp dụng</h3>
+<div class="table-wrap"><table><thead><tr><th>Câu hỏi</th><th>Đạt/Chưa</th><th>Ghi chú</th></tr></thead><tbody><tr><td>Đã có giải pháp cụ thể chưa?</td><td></td><td></td></tr><tr><td>Đã có tiêu chí kiểm tra chưa?</td><td></td><td></td></tr><tr><td>Đã đưa được vào brief/ch checklist chưa?</td><td></td><td></td></tr></tbody></table></div>
+<h2 id="modules-module-12-brief-thiet-ke-11-bai-tap-thuc-hanh" class="">11. Bài tập thực hành</h2>
+<p>Lập bảng phân tích bài tập tổng hợp: xây brief thiết kế nhà vườn cho một khu vực cụ thể. Bảng gồm: hiện trạng, vấn đề, nguyên lý liên quan, giải pháp, rủi ro và tiêu chí kiểm tra.</p>
+<h2 id="modules-module-12-brief-thiet-ke-12-tieu-chi-tu-danh-gia" class="">12. Tiêu chí tự đánh giá</h2>
+<div class="table-wrap"><table><thead><tr><th>Mức</th><th>Biểu hiện</th></tr></thead><tbody><tr><td>Đạt</td><td>Nhận diện được các yếu tố chính.</td></tr><tr><td>Tốt</td><td>Phân tích được vấn đề và giải pháp tương ứng.</td></tr><tr><td>Xuất sắc</td><td>Đầu ra đủ rõ để dùng trong brief hoặc review phương án thật.</td></tr></tbody></table></div>
+<h2 id="modules-module-12-brief-thiet-ke-13-lien-ket-voi-cac-module-khac" class="">13. Liên kết với các module khác</h2>
+<p>Module này liên kết với các module trước và tạo đầu vào cho Module 12.</p>
+<h2 id="modules-module-12-brief-thiet-ke-14-ghi-chu-gioi-han-chuyen-mon" class="">14. Ghi chú giới hạn chuyên môn</h2>
+<p>Khi triển khai thật, các chi tiết kỹ thuật cần chuyên gia kiểm tra theo điều kiện dự án.</p></article><article class="doc-card" id="doc-phu-luc-checklist-tong-hop"><div class="doc-meta">phu_luc/checklist_tong_hop.md</div><h1 id="phu-luc-checklist-tong-hop-phu-luc-a-checklist-tong-hop-danh-gia-nha-vuon" class="chapter-title">Phụ Lục A. Checklist Tổng Hợp Đánh Giá Nhà Vườn</h1>
+<h2 id="phu-luc-checklist-tong-hop-cach-su-dung" class="">Cách sử dụng</h2>
+<p>Checklist này dùng để rà nhanh một concept, một mặt bằng hoặc một phương án thiết kế đã phát triển. Không nên chỉ đánh dấu theo cảm tính. Mỗi câu trả lời “Đạt” cần đi kèm bản vẽ, ghi chú hoặc bằng chứng cụ thể.</p>
+<div class="table-wrap"><table><thead><tr><th>Nhóm kiểm tra</th><th>Câu hỏi</th><th>Đạt/Chưa</th><th>Ghi chú</th></tr></thead><tbody><tr><td>Tư duy</td><td>Phương án có diễn đạt rõ cảm xúc và tinh thần dự án không?</td><td></td><td></td></tr><tr><td>Khu đất</td><td>Nắng, gió, nước, view đã được khảo sát chưa?</td><td></td><td></td></tr><tr><td>Trải nghiệm</td><td>Có hành trình đi, điểm dừng và vùng chuyển tiếp rõ chưa?</td><td></td><td></td></tr><tr><td>Kiến trúc</td><td>Nhà có mái, hiên, bóng đổ và thông gió phù hợp chưa?</td><td></td><td></td></tr><tr><td>Nhà - vườn</td><td>Cửa, hiên, sân và lối đi liên kết hợp lý chưa?</td><td></td><td></td></tr><tr><td>Cây xanh</td><td>Có đủ tầng cây và khoảng mở chưa?</td><td></td><td></td></tr><tr><td>Kỹ thuật</td><td>Có cao độ, thoát nước, tưới, điện ngoài trời hợp lý chưa?</td><td></td><td></td></tr><tr><td>Vật liệu</td><td>Vật liệu có chống trơn, chịu khí hậu và già đi đẹp không?</td><td></td><td></td></tr><tr><td>Giác quan</td><td>Ánh sáng đêm, âm thanh, mùi hương có được kiểm soát không?</td><td></td><td></td></tr><tr><td>Bảo trì</td><td>Có kế hoạch chăm sóc và lối tiếp cận bảo trì không?</td><td></td><td></td></tr></tbody></table></div>
+<h2 id="phu-luc-checklist-tong-hop-goi-y-doc-ket-qua" class="">Gợi ý đọc kết quả</h2>
+<div class="table-wrap"><table><thead><tr><th>Số nhóm đạt</th><th>Nhận định</th></tr></thead><tbody><tr><td>0-3</td><td>Phương án còn rất sơ khai, cần quay lại brief và khảo sát</td></tr><tr><td>4-6</td><td>Đã có cấu trúc nhưng còn lỗ hổng quan trọng</td></tr><tr><td>7-8</td><td>Khá tốt, cần tinh chỉnh chi tiết và rủi ro vận hành</td></tr><tr><td>9-10</td><td>Có nền tảng tốt để chuyển sang bước kỹ thuật hoặc chốt thiết kế</td></tr></tbody></table></div></article><article class="doc-card" id="doc-phu-luc-lo-trinh-hoc-30-ngay"><div class="doc-meta">phu_luc/lo_trinh_hoc_30_ngay.md</div><h1 id="phu-luc-lo-trinh-hoc-30-ngay-phu-luc-b-lo-trinh-hoc-30-ngay" class="chapter-title">Phụ Lục B. Lộ Trình Học 30 Ngày</h1>
+<div class="table-wrap"><table><thead><tr><th>Ngày</th><th>Nội dung</th><th>Đầu ra cụ thể</th></tr></thead><tbody><tr><td>1</td><td>Hiểu nhà vườn là hệ sống</td><td>3 cảm xúc chủ đạo</td></tr><tr><td>2</td><td>Phân tích ảnh tham chiếu</td><td>10 điều thích và 10 điều không thích</td></tr><tr><td>3</td><td>Phác sơ đồ khu đất</td><td>Sơ đồ hiện trạng</td></tr><tr><td>4</td><td>Đọc nắng</td><td>Bản đồ nắng sáng - trưa - chiều</td></tr><tr><td>5</td><td>Đọc gió</td><td>Mũi tên hướng gió tốt/xấu</td></tr><tr><td>6</td><td>Đọc nước</td><td>Điểm đọng nước và hướng chảy</td></tr><tr><td>7</td><td>Tổng hợp khảo sát</td><td>Phiếu khảo sát khu đất</td></tr><tr><td>8</td><td>Hành trình từ cổng vào</td><td>Sơ đồ chuyển tiếp</td></tr><tr><td>9</td><td>Mở - kín</td><td>Vùng cần mở, vùng cần che</td></tr><tr><td>10</td><td>Điểm dừng</td><td>3 điểm ngồi có lý do</td></tr><tr><td>11</td><td>Góc refuge</td><td>Một góc vừa nhìn ra vừa được che chở</td></tr><tr><td>12</td><td>Hiên chính</td><td>Vị trí và vai trò hiên</td></tr><tr><td>13</td><td>Khung nhìn</td><td>5 view quan trọng</td></tr><tr><td>14</td><td>Tổng kết trải nghiệm</td><td>Zoning sơ bộ</td></tr><tr><td>15</td><td>Kiến trúc nhiệt đới</td><td>Checklist mái, hiên, thông gió</td></tr><tr><td>16</td><td>Bóng đổ</td><td>Điểm nóng và giải pháp che</td></tr><tr><td>17</td><td>Cửa và mưa tạt</td><td>Ghi chú rủi ro</td></tr><tr><td>18</td><td>Vật liệu</td><td>Bảng vật liệu sơ bộ</td></tr><tr><td>19</td><td>Màu sắc</td><td>Bảng màu nền và màu nhấn</td></tr><tr><td>20</td><td>Chiếu sáng đêm</td><td>Sơ đồ đèn cơ bản</td></tr><tr><td>21</td><td>Tổng kết kiến trúc</td><td>Concept nhà - vườn</td></tr><tr><td>22</td><td>Cây nhiều tầng</td><td>Sơ đồ 4 tầng cây</td></tr><tr><td>23</td><td>Cây theo sáng</td><td>Nhóm cây nắng, bán râm, râm</td></tr><tr><td>24</td><td>Cây chủ</td><td>Vị trí cây tạo bản sắc</td></tr><tr><td>25</td><td>Cây nền</td><td>Vùng phủ đất và chống bùn</td></tr><tr><td>26</td><td>Đất và tưới</td><td>Yêu cầu kỹ thuật sơ bộ</td></tr><tr><td>27</td><td>Thoát nước</td><td>Bản đồ nước</td></tr><tr><td>28</td><td>Bảo trì</td><td>Kế hoạch 12 tháng</td></tr><tr><td>29</td><td>Viết brief</td><td>Brief đầy đủ</td></tr><tr><td>30</td><td>Rà soát cuối</td><td>Bản brief 1 trang + checklist</td></tr></tbody></table></div></article><article class="doc-card" id="doc-phu-luc-mau-phieu-khao-sat-khu-dat"><div class="doc-meta">phu_luc/mau_phieu_khao_sat_khu_dat.md</div><h1 id="phu-luc-mau-phieu-khao-sat-khu-dat-phu-luc-c-mau-phieu-khao-sat-khu-dat" class="chapter-title">Phụ Lục C. Mẫu Phiếu Khảo Sát Khu Đất</h1>
+<h2 id="phu-luc-mau-phieu-khao-sat-khu-dat-1-thong-tin-chung" class="">1. Thông tin chung</h2>
+<div class="table-wrap"><table><thead><tr><th>Nội dung</th><th>Ghi chú</th></tr></thead><tbody><tr><td>Địa điểm</td><td></td></tr><tr><td>Diện tích ước tính</td><td></td></tr><tr><td>Hướng chính</td><td></td></tr><tr><td>Ngày khảo sát</td><td></td></tr><tr><td>Thời tiết</td><td></td></tr><tr><td>Người khảo sát</td><td></td></tr></tbody></table></div>
+<h2 id="phu-luc-mau-phieu-khao-sat-khu-dat-2-nang-gio-nuoc" class="">2. Nắng, gió, nước</h2>
+<div class="table-wrap"><table><thead><tr><th>Chủ đề</th><th>Ghi nhận</th></tr></thead><tbody><tr><td>Nắng buổi sáng</td><td></td></tr><tr><td>Nắng buổi trưa</td><td></td></tr><tr><td>Nắng buổi chiều</td><td></td></tr><tr><td>Hướng gió mát</td><td></td></tr><tr><td>Hướng gió nóng/bụi/mùi</td><td></td></tr><tr><td>Hướng nước chảy</td><td></td></tr><tr><td>Điểm đọng nước</td><td></td></tr></tbody></table></div>
+<h2 id="phu-luc-mau-phieu-khao-sat-khu-dat-3-dat-view-tieng-on" class="">3. Đất, view, tiếng ồn</h2>
+<div class="table-wrap"><table><thead><tr><th>Chủ đề</th><th>Ghi nhận</th></tr></thead><tbody><tr><td>Loại đất sơ bộ</td><td></td></tr><tr><td>Vùng đất yếu hoặc nén chặt</td><td></td></tr><tr><td>View đẹp nên mở</td><td></td></tr><tr><td>View xấu nên che</td><td></td></tr><tr><td>Nguồn tiếng ồn</td><td></td></tr><tr><td>Vị trí thiếu riêng tư</td><td></td></tr></tbody></table></div>
+<h2 id="phu-luc-mau-phieu-khao-sat-khu-dat-4-cay-hien-trang" class="">4. Cây hiện trạng</h2>
+<div class="table-wrap"><table><thead><tr><th>Cây/nhóm cây</th><th>Tình trạng</th><th>Đề xuất</th></tr></thead><tbody><tr><td></td><td></td><td>Giữ / cắt tỉa / di dời / loại bỏ</td></tr><tr><td></td><td></td><td>Giữ / cắt tỉa / di dời / loại bỏ</td></tr><tr><td></td><td></td><td>Giữ / cắt tỉa / di dời / loại bỏ</td></tr></tbody></table></div>
+<h2 id="phu-luc-mau-phieu-khao-sat-khu-dat-5-ket-luan-khao-sat" class="">5. Kết luận khảo sát</h2>
+<div class="table-wrap"><table><thead><tr><th>Nhóm</th><th>3 ý quan trọng nhất</th></tr></thead><tbody><tr><td>Cơ hội</td><td></td></tr><tr><td>Rủi ro</td><td></td></tr><tr><td>Cần kiểm tra thêm</td><td></td></tr></tbody></table></div></article><article class="doc-card" id="doc-phu-luc-mau-brief-thiet-ke"><div class="doc-meta">phu_luc/mau_brief_thiet_ke.md</div><h1 id="phu-luc-mau-brief-thiet-ke-phu-luc-d-mau-brief-thiet-ke-nha-vuon-nghi-duong" class="chapter-title">Phụ Lục D. Mẫu Brief Thiết Kế Nhà Vườn Nghỉ Dưỡng</h1>
+<h2 id="phu-luc-mau-brief-thiet-ke-1-tinh-than-du-an" class="">1. Tinh thần dự án</h2>
+<div class="table-wrap"><table><thead><tr><th>Câu hỏi</th><th>Trả lời</th></tr></thead><tbody><tr><td>Không gian này dành cho ai?</td><td></td></tr><tr><td>3 cảm xúc chủ đạo là gì?</td><td></td></tr><tr><td>Điều tuyệt đối không muốn?</td><td></td></tr><tr><td>Câu mô tả dự án trong 1 dòng?</td><td></td></tr></tbody></table></div>
+<h2 id="phu-luc-mau-brief-thiet-ke-2-nguoi-dung-va-hoat-dong" class="">2. Người dùng và hoạt động</h2>
+<div class="table-wrap"><table><thead><tr><th>Nhóm người</th><th>Hoạt động chính</th><th>Yêu cầu đặc biệt</th></tr></thead><tbody><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr></tbody></table></div>
+<h2 id="phu-luc-mau-brief-thiet-ke-3-khu-dat" class="">3. Khu đất</h2>
+<div class="table-wrap"><table><thead><tr><th>Lớp thông tin</th><th>Tóm tắt</th></tr></thead><tbody><tr><td>Nắng</td><td></td></tr><tr><td>Gió</td><td></td></tr><tr><td>Nước</td><td></td></tr><tr><td>Đất</td><td></td></tr><tr><td>View</td><td></td></tr><tr><td>Cây hiện trạng</td><td></td></tr></tbody></table></div>
+<h2 id="phu-luc-mau-brief-thiet-ke-4-yeu-cau-bat-buoc" class="">4. Yêu cầu bắt buộc</h2>
+<div class="table-wrap"><table><thead><tr><th>Ưu tiên</th><th>Yêu cầu</th></tr></thead><tbody><tr><td>1</td><td></td></tr><tr><td>2</td><td></td></tr><tr><td>3</td><td></td></tr><tr><td>4</td><td></td></tr><tr><td>5</td><td></td></tr></tbody></table></div>
+<h2 id="phu-luc-mau-brief-thiet-ke-5-yeu-cau-thiet-ke" class="">5. Yêu cầu thiết kế</h2>
+<div class="table-wrap"><table><thead><tr><th>Nhóm</th><th>Nội dung</th></tr></thead><tbody><tr><td>Kiến trúc</td><td></td></tr><tr><td>Cảnh quan</td><td></td></tr><tr><td>Vật liệu</td><td></td></tr><tr><td>Ánh sáng</td><td></td></tr><tr><td>Kỹ thuật</td><td></td></tr><tr><td>Bảo trì</td><td></td></tr></tbody></table></div>
+<h2 id="phu-luc-mau-brief-thiet-ke-6-tieu-chi-danh-gia-phuong-an" class="">6. Tiêu chí đánh giá phương án</h2>
+<div class="table-wrap"><table><thead><tr><th>Tiêu chí</th><th>Cách kiểm tra</th></tr></thead><tbody><tr><td>Mát</td><td></td></tr><tr><td>Thoáng</td><td></td></tr><tr><td>Có cảm xúc</td><td></td></tr><tr><td>Bền</td><td></td></tr><tr><td>Dễ chăm</td><td></td></tr></tbody></table></div></article><article class="doc-card" id="doc-phu-luc-mau-danh-gia-thiet-ke"><div class="doc-meta">phu_luc/mau_danh_gia_thiet_ke.md</div><h1 id="phu-luc-mau-danh-gia-thiet-ke-phu-luc-e-mau-danh-gia-phuong-an-thiet-ke" class="chapter-title">Phụ Lục E. Mẫu Đánh Giá Phương Án Thiết Kế</h1>
+<h2 id="phu-luc-mau-danh-gia-thiet-ke-thong-tin-chung" class="">Thông tin chung</h2>
+<div class="table-wrap"><table><thead><tr><th>Nội dung</th><th>Ghi chú</th></tr></thead><tbody><tr><td>Tên phương án</td><td></td></tr><tr><td>Đơn vị thiết kế</td><td></td></tr><tr><td>Ngày đánh giá</td><td></td></tr><tr><td>Hồ sơ đã xem</td><td></td></tr></tbody></table></div>
+<h2 id="phu-luc-mau-danh-gia-thiet-ke-bang-cham-diem" class="">Bảng chấm điểm</h2>
+<p>Chấm theo thang 1-5, trong đó 1 là yếu và 5 là rất tốt.</p>
+<div class="table-wrap"><table><thead><tr><th>Tiêu chí</th><th>Điểm</th><th>Nhận xét</th></tr></thead><tbody><tr><td>Đọc khu đất</td><td></td><td></td></tr><tr><td>Kiến trúc nhiệt đới</td><td></td><td></td></tr><tr><td>Quan hệ nhà - vườn</td><td></td><td></td></tr><tr><td>Trải nghiệm người dùng</td><td></td><td></td></tr><tr><td>Cây xanh nhiều tầng</td><td></td><td></td></tr><tr><td>Đất, nước, thoát nước</td><td></td><td></td></tr><tr><td>Vật liệu và chất cảm</td><td></td><td></td></tr><tr><td>Ánh sáng và giác quan</td><td></td><td></td></tr><tr><td>Bảo trì 5-10 năm</td><td></td><td></td></tr><tr><td>Khả năng thi công</td><td></td><td></td></tr></tbody></table></div>
+<h2 id="phu-luc-mau-danh-gia-thiet-ke-ket-luan-review" class="">Kết luận review</h2>
+<div class="table-wrap"><table><thead><tr><th>Nội dung</th><th>Ghi chú</th></tr></thead><tbody><tr><td>Điểm mạnh nhất</td><td></td></tr><tr><td>Rủi ro lớn nhất</td><td></td></tr><tr><td>Việc phải sửa trước khi duyệt</td><td></td></tr><tr><td>Việc có thể xử lý ở bước sau</td><td></td></tr><tr><td>Quyết định</td><td>Duyệt / Sửa / Tạm dừng</td></tr></tbody></table></div></article><article class="doc-card" id="doc-phu-luc-ban-tom-tat-1-trang"><div class="doc-meta">phu_luc/ban_tom_tat_1_trang.md</div><h1 id="phu-luc-ban-tom-tat-1-trang-phu-luc-f-ban-tom-tat-1-trang" class="chapter-title">Phụ Lục F. Bản Tóm Tắt 1 Trang</h1>
+<h2 id="phu-luc-ban-tom-tat-1-trang-cau-noi-cot-loi" class="">Câu nói cốt lõi</h2>
+<p>Nhà vườn nghỉ dưỡng đẹp không phải là nhà đẹp cộng nhiều cây, mà là một hệ sống nơi con người, kiến trúc, cây xanh, đất, nước, ánh sáng, gió và thời gian cùng tạo ra chất lượng sống bền vững.</p>
+<h2 id="phu-luc-ban-tom-tat-1-trang-thu-tu-thiet-ke-dung" class="">Thứ tự thiết kế đúng</h2>
+<pre><code>Cảm xúc sống
+-&gt; Đọc khu đất
+-&gt; Phân khu
+-&gt; Đặt nhà
+-&gt; Hiên và vùng chuyển tiếp
+-&gt; Lối đi và điểm dừng
+-&gt; Cây lớn và khoảng mở
+-&gt; Cây tầng thấp
+-&gt; Đất, nước, vật liệu, ánh sáng
+-&gt; Bảo trì dài hạn</code></pre>
+<h2 id="phu-luc-ban-tom-tat-1-trang-5-cau-hoi-kiem-tra" class="">5 câu hỏi kiểm tra</h2>
+<div class="table-wrap"><table><thead><tr><th>Câu hỏi</th><th>Ý nghĩa</th></tr></thead><tbody><tr><td>Có mát không?</td><td>Hợp khí hậu</td></tr><tr><td>Có thoáng không?</td><td>Có gió và khoảng thở</td></tr><tr><td>Có muốn ngồi lâu không?</td><td>Có cảm xúc</td></tr><tr><td>Có dễ chăm không?</td><td>Có khả năng vận hành</td></tr><tr><td>5 năm nữa có đẹp hơn không?</td><td>Có tư duy thời gian</td></tr></tbody></table></div></article><article class="doc-card" id="doc-kiem-dinh-chat-luong"><div class="doc-meta">kiem_dinh_chat_luong.md</div><h1 id="kiem-dinh-chat-luong-kiem-dinh-chat-luong-bo-giao-trinh" class="chapter-title">Kiểm Định Chất Lượng Bộ Giáo Trình</h1>
+<h2 id="kiem-dinh-chat-luong-pham-vi-ra-soat" class="">Phạm vi rà soát</h2>
+<p>Bộ tài liệu đã được kiểm soát lại theo ba yêu cầu chính:</p>
+<ol>
+<li>Toàn bộ nội dung là tiếng Việt có dấu đầy đủ.</li>
+<li>Mỗi bài học có chiều sâu hơn bản khung ban đầu, đủ để hiểu đúng bản chất trước khi áp dụng.</li>
+<li>Cấu trúc trình bày thống nhất giữa các module, phụ lục và mục lục.</li>
+</ol>
+<h2 id="kiem-dinh-chat-luong-tieu-chi-da-kiem-soat" class="">Tiêu chí đã kiểm soát</h2>
+<div class="table-wrap"><table><thead><tr><th>Nhóm</th><th>Tiêu chí</th><th>Trạng thái</th></tr></thead><tbody><tr><td>Ngôn ngữ</td><td>Tiêu đề, thân bài, bảng, checklist dùng tiếng Việt có dấu</td><td>Đạt</td></tr><tr><td>Cấu trúc</td><td>Đủ 12 module, 6 phụ lục, 1 mục lục, 1 báo cáo kiểm định</td><td>Đạt</td></tr><tr><td>Độ sâu</td><td>Mỗi module có phần kiến thức nền, nguyên lý, quy trình, ví dụ, lỗi, bài tập</td><td>Đạt</td></tr><tr><td>Trực quan</td><td>Có bảng, sơ đồ Mermaid ở các điểm cần làm rõ luồng tư duy</td><td>Đạt</td></tr><tr><td>Học tập</td><td>Mỗi bài đều có đầu ra và tiêu chí tự đánh giá</td><td>Đạt</td></tr><tr><td>Ứng dụng</td><td>Có brief, phiếu khảo sát, checklist và mẫu review phương án</td><td>Đạt</td></tr></tbody></table></div>
+<h2 id="kiem-dinh-chat-luong-nhung-nguyen-tac-noi-dung-duoc-giu-nhat-quan" class="">Những nguyên tắc nội dung được giữ nhất quán</h2>
+<ul>
+<li>Luôn bắt đầu từ con người và khu đất trước khi đi vào hình thức.</li>
+<li>Luôn phân biệt cảm giác sống thật với hình ảnh minh họa đẹp mắt.</li>
+<li>Luôn gắn cảnh quan với nước, đất, ánh sáng và bảo trì.</li>
+<li>Luôn xem thời gian 5-10 năm là một biến số thiết kế.</li>
+<li>Luôn coi brief và checklist là công cụ kiểm soát chất lượng.</li>
+</ul>
+<h2 id="kiem-dinh-chat-luong-diem-con-phu-thuoc-du-an-that" class="">Điểm còn phụ thuộc dự án thật</h2>
+<div class="table-wrap"><table><thead><tr><th>Nội dung</th><th>Vì sao cần chuyên gia khi áp dụng</th></tr></thead><tbody><tr><td>Cây trồng cụ thể</td><td>Phụ thuộc vi khí hậu, nguồn nước, đất và nguồn cây địa phương</td></tr><tr><td>Thoát nước chi tiết</td><td>Cần cao độ, lưu lượng và điều kiện thoát thực tế</td></tr><tr><td>Kết cấu, điện, chiếu sáng ngoài trời</td><td>Cần hồ sơ kỹ thuật và tiêu chuẩn an toàn</td></tr><tr><td>Dự toán và pháp lý</td><td>Phụ thuộc địa điểm, quy định và phạm vi công trình</td></tr></tbody></table></div>
+<h2 id="kiem-dinh-chat-luong-ket-luan" class="">Kết luận</h2>
+<p>Phiên bản hiện tại đã được nâng từ bộ khung sang bộ giáo trình tiếng Việt có dấu, trình bày thống nhất và có chiều sâu đủ để học tuần tự hoặc dùng như tài liệu làm việc. Mức độ hoàn chỉnh hiện phù hợp cho giai đoạn đào tạo nền tảng, lập brief và kiểm soát chất lượng thiết kế.</p></article></section></main></div><div class="tools"><button onclick="window.scrollTo({top:0,behavior:'smooth'})">Lên đầu</button><button onclick="window.print()">In / PDF</button></div><script>const search=document.getElementById('search'),links=[...document.querySelectorAll('.nav-link')],cards=[...document.querySelectorAll('.doc-card')],progress=document.getElementById('progress');search.addEventListener('input',()=>{const q=search.value.trim().toLowerCase();links.forEach(a=>a.style.display=!q||a.dataset.title.includes(q)||a.dataset.group.toLowerCase().includes(q)?'flex':'none');cards.forEach(c=>c.style.display=!q||c.innerText.toLowerCase().includes(q)?'block':'none')});window.addEventListener('scroll',()=>{const max=document.documentElement.scrollHeight-innerHeight;progress.style.width=(max>0?scrollY/max*100:0)+'%';const cur=cards.filter(c=>c.getBoundingClientRect().top<160).pop();if(cur)links.forEach(a=>a.classList.toggle('active',a.getAttribute('href')=='#'+cur.id))},{passive:true});</script></body></html>
