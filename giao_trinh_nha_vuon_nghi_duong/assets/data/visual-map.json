@@ -3,10 +3,22 @@
     "title": "Tư Duy Nền Tảng",
     "visual": "Hệ sống",
     "caption": "Visual trọng tâm: hệ sống cho nhà, vườn, người dùng và bảo trì.",
-    "cover": "assets/images/module-01-cover.svg",
+    "cover": "assets/images/module-01-photo.jpg",
+    "cover_kind": "real-photo",
+    "source": {
+      "file": "assets/images/module-01-photo.jpg",
+      "title": "Tagged Flickr photo for tropical,garden,villa,landscape",
+      "source_url": "https://loremflickr.com/1400/900/tropical,garden,villa,landscape/all?lock=1001",
+      "direct_url": "https://loremflickr.com/cache/resized/7813_33392366898_8456122994_1280_822_nofilter.jpg",
+      "provider": "loremflickr/flickr",
+      "license": "Flickr tagged image via LoremFlickr",
+      "tags": "tropical,garden,villa,landscape",
+      "lock": "1001",
+      "sha256": "d8badef8235bb67e08823a043a028d2a939912f0a1452098b36c15e4b8400e7c"
+    },
     "diagram": "assets/diagrams/module-01-diagram.svg",
     "gallery": [
-      "assets/images/module-01-cover.svg",
+      "assets/images/module-01-photo.jpg",
       "assets/diagrams/module-01-diagram.svg",
       "assets/images/module-01-moodboard.svg"
     ],
@@ -21,10 +33,22 @@
     "title": "Đọc Khu Đất",
     "visual": "Bản đồ khu đất",
     "caption": "Visual trọng tâm: bản đồ khu đất cho nắng, gió, nước, đất, view và riêng tư.",
-    "cover": "assets/images/module-02-cover.svg",
+    "cover": "assets/images/module-02-photo.jpg",
+    "cover_kind": "real-photo",
+    "source": {
+      "file": "assets/images/module-02-photo.jpg",
+      "title": "Tagged Flickr photo for aerial,landscape,garden,site",
+      "source_url": "https://loremflickr.com/1400/900/aerial,landscape,garden,site/all?lock=1002",
+      "direct_url": "https://loremflickr.com/cache/resized/defaultImage.small_1280_822_nofilter.jpg",
+      "provider": "loremflickr/flickr",
+      "license": "Flickr tagged image via LoremFlickr",
+      "tags": "aerial,landscape,garden,site",
+      "lock": "1002",
+      "sha256": "3bf36b77f82fbc1926091cfbd4afcd1e6afb095cf6d34bbbc9f746193feff9ce"
+    },
     "diagram": "assets/diagrams/module-02-diagram.svg",
     "gallery": [
-      "assets/images/module-02-cover.svg",
+      "assets/images/module-02-photo.jpg",
       "assets/diagrams/module-02-diagram.svg",
       "assets/images/module-02-moodboard.svg"
     ],
@@ -39,10 +63,22 @@
     "title": "Trải Nghiệm Con Người",
     "visual": "Journey map",
     "caption": "Visual trọng tâm: journey map cho hành trình, điểm dừng và nhịp mở-kín.",
-    "cover": "assets/images/module-03-cover.svg",
+    "cover": "assets/images/module-03-photo.jpg",
+    "cover_kind": "real-photo",
+    "source": {
+      "file": "assets/images/module-03-photo.jpg",
+      "title": "Tagged Flickr photo for garden,path,terrace",
+      "source_url": "https://loremflickr.com/1400/900/garden,path,terrace/all?lock=11003",
+      "direct_url": "https://loremflickr.com/cache/resized/3627_3456783630_98da676168_1280_822_nofilter.jpg",
+      "provider": "loremflickr/flickr",
+      "license": "Flickr tagged image via LoremFlickr",
+      "tags": "garden,path,terrace",
+      "lock": "11003",
+      "sha256": "6b5839c6b7b55c3a81cf26884abf9a4ed18bee7005a5604a46cb9c5f9cb1fac4"
+    },
     "diagram": "assets/diagrams/module-03-diagram.svg",
     "gallery": [
-      "assets/images/module-03-cover.svg",
+      "assets/images/module-03-photo.jpg",
       "assets/diagrams/module-03-diagram.svg",
       "assets/images/module-03-moodboard.svg"
     ],
@@ -57,10 +93,22 @@
     "title": "Kiến Trúc Nhiệt Đới",
     "visual": "Mặt cắt khí hậu",
     "caption": "Visual trọng tâm: mặt cắt khí hậu cho mái, hiên, thông gió, kính và mưa tạt.",
-    "cover": "assets/images/module-04-cover.svg",
+    "cover": "assets/images/module-04-photo.jpg",
+    "cover_kind": "real-photo",
+    "source": {
+      "file": "assets/images/module-04-photo.jpg",
+      "title": "Tagged Flickr photo for tropical,house,veranda",
+      "source_url": "https://loremflickr.com/1400/900/tropical,house,veranda/all?lock=11004",
+      "direct_url": "https://loremflickr.com/cache/resized/65535_53129169448_ad1a2dbce7_h_1280_822_nofilter.jpg",
+      "provider": "loremflickr/flickr",
+      "license": "Flickr tagged image via LoremFlickr",
+      "tags": "tropical,house,veranda",
+      "lock": "11004",
+      "sha256": "e6da13167bb4915c6c332d9ac25973084ad33b32169b4ad37929634d652f18a9"
+    },
     "diagram": "assets/diagrams/module-04-diagram.svg",
     "gallery": [
-      "assets/images/module-04-cover.svg",
+      "assets/images/module-04-photo.jpg",
       "assets/diagrams/module-04-diagram.svg",
       "assets/images/module-04-moodboard.svg"
     ],
@@ -75,10 +123,22 @@
     "title": "Quan Hệ Nhà Và Vườn",
     "visual": "Liên kết trong-ngoài",
     "caption": "Visual trọng tâm: liên kết trong-ngoài cho cửa, hiên, sân, cây và khung nhìn.",
-    "cover": "assets/images/module-05-cover.svg",
+    "cover": "assets/images/module-05-photo.jpg",
+    "cover_kind": "real-photo",
+    "source": {
+      "file": "assets/images/module-05-photo.jpg",
+      "title": "Tagged Flickr photo for house,garden,terrace",
+      "source_url": "https://loremflickr.com/1400/900/house,garden,terrace/all?lock=11005",
+      "direct_url": "https://loremflickr.com/cache/resized/65535_49914197856_59b2298747_h_1280_822_nofilter.jpg",
+      "provider": "loremflickr/flickr",
+      "license": "Flickr tagged image via LoremFlickr",
+      "tags": "house,garden,terrace",
+      "lock": "11005",
+      "sha256": "6d0243d55ea22c88af521232539e72a404ae4968b6232a1b410a96a1ff1ca099"
+    },
     "diagram": "assets/diagrams/module-05-diagram.svg",
     "gallery": [
-      "assets/images/module-05-cover.svg",
+      "assets/images/module-05-photo.jpg",
       "assets/diagrams/module-05-diagram.svg",
       "assets/images/module-05-moodboard.svg"
     ],
@@ -93,10 +153,22 @@
     "title": "Cây Xanh Nhiều Tầng",
     "visual": "Tầng cây",
     "caption": "Visual trọng tâm: tầng cây cho cây chủ, tầng cao, trung, bụi, nền và khoảng mở.",
-    "cover": "assets/images/module-06-cover.svg",
+    "cover": "assets/images/module-06-photo.jpg",
+    "cover_kind": "real-photo",
+    "source": {
+      "file": "assets/images/module-06-photo.jpg",
+      "title": "Tagged Flickr photo for tropical,plants,garden,botanical",
+      "source_url": "https://loremflickr.com/1400/900/tropical,plants,garden,botanical/all?lock=1006",
+      "direct_url": "https://loremflickr.com/cache/resized/65535_52164128399_2c4af3017f_h_1280_822_nofilter.jpg",
+      "provider": "loremflickr/flickr",
+      "license": "Flickr tagged image via LoremFlickr",
+      "tags": "tropical,plants,garden,botanical",
+      "lock": "1006",
+      "sha256": "0a0b40c343dbaf6c01aaa244b931dd6cded27c7217a258d5c92cb9d4d4b5765d"
+    },
     "diagram": "assets/diagrams/module-06-diagram.svg",
     "gallery": [
-      "assets/images/module-06-cover.svg",
+      "assets/images/module-06-photo.jpg",
       "assets/diagrams/module-06-diagram.svg",
       "assets/images/module-06-moodboard.svg"
     ],
@@ -111,10 +183,22 @@
     "title": "Đất, Nước Và Tưới",
     "visual": "Dòng nước",
     "caption": "Visual trọng tâm: dòng nước cho cao độ, thoát nước, bồn cây và vùng tưới.",
-    "cover": "assets/images/module-07-cover.svg",
+    "cover": "assets/images/module-07-photo.jpg",
+    "cover_kind": "real-photo",
+    "source": {
+      "file": "assets/images/module-07-photo.jpg",
+      "title": "Tagged Flickr photo for rain,garden,drainage",
+      "source_url": "https://loremflickr.com/1400/900/rain,garden,drainage/all?lock=11007",
+      "direct_url": "https://loremflickr.com/cache/resized/3142_2578681024_ed71b11d53_h_1280_822_nofilter.jpg",
+      "provider": "loremflickr/flickr",
+      "license": "Flickr tagged image via LoremFlickr",
+      "tags": "rain,garden,drainage",
+      "lock": "11007",
+      "sha256": "db3747471aa8e31983a4c16baba560ea9d5be1d9267d7f069440d0cd730636a5"
+    },
     "diagram": "assets/diagrams/module-07-diagram.svg",
     "gallery": [
-      "assets/images/module-07-cover.svg",
+      "assets/images/module-07-photo.jpg",
       "assets/diagrams/module-07-diagram.svg",
       "assets/images/module-07-moodboard.svg"
     ],
@@ -129,10 +213,22 @@
     "title": "Vật Liệu Và Chất Cảm",
     "visual": "Moodboard",
     "caption": "Visual trọng tâm: moodboard cho đá, gỗ, bê tông, gạch, cây và màu nền.",
-    "cover": "assets/images/module-08-cover.svg",
+    "cover": "assets/images/module-08-photo.jpg",
+    "cover_kind": "real-photo",
+    "source": {
+      "file": "assets/images/module-08-photo.jpg",
+      "title": "Tagged Flickr photo for stone,wood,architecture,material",
+      "source_url": "https://loremflickr.com/1400/900/stone,wood,architecture,material/all?lock=1008",
+      "direct_url": "https://loremflickr.com/cache/resized/65535_51280625302_411d55535e_h_1280_822_nofilter.jpg",
+      "provider": "loremflickr/flickr",
+      "license": "Flickr tagged image via LoremFlickr",
+      "tags": "stone,wood,architecture,material",
+      "lock": "1008",
+      "sha256": "711327c40c6f973a068f79abd185a35cd7d605df8ff88b8ac021229cd4f9a246"
+    },
     "diagram": "assets/diagrams/module-08-diagram.svg",
     "gallery": [
-      "assets/images/module-08-cover.svg",
+      "assets/images/module-08-photo.jpg",
       "assets/diagrams/module-08-diagram.svg",
       "assets/images/module-08-moodboard.svg"
     ],
@@ -147,10 +243,22 @@
     "title": "Giác Quan",
     "visual": "Đêm và giác quan",
     "caption": "Visual trọng tâm: đêm và giác quan cho ánh sáng, âm thanh, mùi hương và cảm giác ở lại.",
-    "cover": "assets/images/module-09-cover.svg",
+    "cover": "assets/images/module-09-photo.jpg",
+    "cover_kind": "real-photo",
+    "source": {
+      "file": "assets/images/module-09-photo.jpg",
+      "title": "Tagged Flickr photo for garden,lighting,night,landscape",
+      "source_url": "https://loremflickr.com/1400/900/garden,lighting,night,landscape/all?lock=1009",
+      "direct_url": "https://loremflickr.com/cache/resized/7171_6804891817_c433fc5a4c_h_1280_822_nofilter.jpg",
+      "provider": "loremflickr/flickr",
+      "license": "Flickr tagged image via LoremFlickr",
+      "tags": "garden,lighting,night,landscape",
+      "lock": "1009",
+      "sha256": "03b11ce56d0361c00ddc8b41bc0e98afcc1ccd19abdad6ce3afba57cfc14bbe9"
+    },
     "diagram": "assets/diagrams/module-09-diagram.svg",
     "gallery": [
-      "assets/images/module-09-cover.svg",
+      "assets/images/module-09-photo.jpg",
       "assets/diagrams/module-09-diagram.svg",
       "assets/images/module-09-moodboard.svg"
     ],
@@ -165,10 +273,22 @@
     "title": "Thời Gian Và Bảo Trì",
     "visual": "Vườn trưởng thành",
     "caption": "Visual trọng tâm: vườn trưởng thành cho các mốc 6 tháng, 1 năm, 3 năm, 5 năm.",
-    "cover": "assets/images/module-10-cover.svg",
+    "cover": "assets/images/module-10-photo.jpg",
+    "cover_kind": "real-photo",
+    "source": {
+      "file": "assets/images/module-10-photo.jpg",
+      "title": "Tagged Flickr photo for mature,garden",
+      "source_url": "https://loremflickr.com/1400/900/mature,garden/all?lock=21010",
+      "direct_url": "https://loremflickr.com/cache/resized/65535_51281990390_1dc113702d_h_1280_822_nofilter.jpg",
+      "provider": "loremflickr/flickr",
+      "license": "Flickr tagged image via LoremFlickr",
+      "tags": "mature,garden",
+      "lock": "21010",
+      "sha256": "3015577b344bda0bf5569a377bd644f4a00af266034960f3e1243014a7d26e11"
+    },
     "diagram": "assets/diagrams/module-10-diagram.svg",
     "gallery": [
-      "assets/images/module-10-cover.svg",
+      "assets/images/module-10-photo.jpg",
       "assets/diagrams/module-10-diagram.svg",
       "assets/images/module-10-moodboard.svg"
     ],
@@ -183,10 +303,22 @@
     "title": "Quy Trình Làm Việc",
     "visual": "Process map",
     "caption": "Visual trọng tâm: process map cho vai trò của chủ nhà, thiết kế, thi công và bảo trì.",
-    "cover": "assets/images/module-11-cover.svg",
+    "cover": "assets/images/module-11-photo.jpg",
+    "cover_kind": "real-photo",
+    "source": {
+      "file": "assets/images/module-11-photo.jpg",
+      "title": "Tagged Flickr photo for architect,meeting,design",
+      "source_url": "https://loremflickr.com/1400/900/architect,meeting,design/all?lock=11011",
+      "direct_url": "https://loremflickr.com/cache/resized/5068_5669975560_640c0e54ac_h_1280_822_nofilter.jpg",
+      "provider": "loremflickr/flickr",
+      "license": "Flickr tagged image via LoremFlickr",
+      "tags": "architect,meeting,design",
+      "lock": "11011",
+      "sha256": "2251e59ef740a6d755df8b126c57a639bc3a2be4c27436c835c4d98b604e499e"
+    },
     "diagram": "assets/diagrams/module-11-diagram.svg",
     "gallery": [
-      "assets/images/module-11-cover.svg",
+      "assets/images/module-11-photo.jpg",
       "assets/diagrams/module-11-diagram.svg",
       "assets/images/module-11-moodboard.svg"
     ],
@@ -201,10 +333,22 @@
     "title": "Brief Thiết Kế",
     "visual": "Template brief",
     "caption": "Visual trọng tâm: template brief cho nhu cầu, khu đất, ngân sách, phong cách và vận hành.",
-    "cover": "assets/images/module-12-cover.svg",
+    "cover": "assets/images/module-12-photo.jpg",
+    "cover_kind": "real-photo",
+    "source": {
+      "file": "assets/images/module-12-photo.jpg",
+      "title": "Tagged Flickr photo for materials,design,architecture",
+      "source_url": "https://loremflickr.com/1400/900/materials,design,architecture/all?lock=702",
+      "direct_url": "https://loremflickr.com/1400/900/materials,design,architecture/all?lock=702",
+      "provider": "loremflickr/flickr",
+      "license": "Flickr tagged image via LoremFlickr",
+      "tags": "materials,design,architecture",
+      "lock": "702",
+      "sha256": "016fa04f272458725664abd00ffc99e5ba6a013977f81540148c750c19ec6a99"
+    },
     "diagram": "assets/diagrams/module-12-diagram.svg",
     "gallery": [
-      "assets/images/module-12-cover.svg",
+      "assets/images/module-12-photo.jpg",
       "assets/diagrams/module-12-diagram.svg",
       "assets/images/module-12-moodboard.svg"
     ],
@@ -219,10 +363,22 @@
     "title": "Lộ Trình Dự Án",
     "visual": "Roadmap",
     "caption": "Visual trọng tâm: roadmap cho brief, khảo sát, concept, kỹ thuật, thi công và bảo trì.",
-    "cover": "assets/images/module-13-cover.svg",
+    "cover": "assets/images/module-13-photo.jpg",
+    "cover_kind": "real-photo",
+    "source": {
+      "file": "assets/images/module-13-photo.jpg",
+      "title": "Tagged Flickr photo for construction,planning,project,meeting",
+      "source_url": "https://loremflickr.com/1400/900/construction,planning,project,meeting/all?lock=1013",
+      "direct_url": "https://loremflickr.com/cache/resized/4098_4748464887_d138299876_h_1280_822_nofilter.jpg",
+      "provider": "loremflickr/flickr",
+      "license": "Flickr tagged image via LoremFlickr",
+      "tags": "construction,planning,project,meeting",
+      "lock": "1013",
+      "sha256": "5b012282826e1147a351015252a25f206f73371ef0e4e45e83aee408ed014cb4"
+    },
     "diagram": "assets/diagrams/module-13-diagram.svg",
     "gallery": [
-      "assets/images/module-13-cover.svg",
+      "assets/images/module-13-photo.jpg",
       "assets/diagrams/module-13-diagram.svg",
       "assets/images/module-13-moodboard.svg"
     ],
@@ -237,10 +393,22 @@
     "title": "Brief Triển Khai",
     "visual": "Đầu bài",
     "caption": "Visual trọng tâm: đầu bài cho phạm vi, yêu cầu, ưu tiên và ranh giới trách nhiệm.",
-    "cover": "assets/images/module-14-cover.svg",
+    "cover": "assets/images/module-14-photo.jpg",
+    "cover_kind": "real-photo",
+    "source": {
+      "file": "assets/images/module-14-photo.jpg",
+      "title": "Tagged Flickr photo for architecture,presentation,board",
+      "source_url": "https://loremflickr.com/1400/900/architecture,presentation,board/all?lock=11014",
+      "direct_url": "https://loremflickr.com/cache/resized/5084_5376086398_e7ef7b7d96_k_1280_822_nofilter.jpg",
+      "provider": "loremflickr/flickr",
+      "license": "Flickr tagged image via LoremFlickr",
+      "tags": "architecture,presentation,board",
+      "lock": "11014",
+      "sha256": "4de95594b8350f17a25d52fdc1879b11ce58be5df1d1d455707b70ad3bf2a15f"
+    },
     "diagram": "assets/diagrams/module-14-diagram.svg",
     "gallery": [
-      "assets/images/module-14-cover.svg",
+      "assets/images/module-14-photo.jpg",
       "assets/diagrams/module-14-diagram.svg",
       "assets/images/module-14-moodboard.svg"
     ],
@@ -255,10 +423,22 @@
     "title": "Khảo Sát Hiện Trạng",
     "visual": "Checklist khảo sát",
     "caption": "Visual trọng tâm: checklist khảo sát cho pháp lý, đo đạc, cây, hạ tầng và thi công.",
-    "cover": "assets/images/module-15-cover.svg",
+    "cover": "assets/images/module-15-photo.jpg",
+    "cover_kind": "real-photo",
+    "source": {
+      "file": "assets/images/module-15-photo.jpg",
+      "title": "Tagged Flickr photo for land,survey,construction,site",
+      "source_url": "https://loremflickr.com/1400/900/land,survey,construction,site/all?lock=1015",
+      "direct_url": "https://loremflickr.com/cache/resized/65535_49916891318_dc6de264d7_h_1280_822_nofilter.jpg",
+      "provider": "loremflickr/flickr",
+      "license": "Flickr tagged image via LoremFlickr",
+      "tags": "land,survey,construction,site",
+      "lock": "1015",
+      "sha256": "1eea0e9f4f5f5d74d8fe844b0c5cca498c86fb1a5ab381cfe5c49031277d3d43"
+    },
     "diagram": "assets/diagrams/module-15-diagram.svg",
     "gallery": [
-      "assets/images/module-15-cover.svg",
+      "assets/images/module-15-photo.jpg",
       "assets/diagrams/module-15-diagram.svg",
       "assets/images/module-15-moodboard.svg"
     ],
@@ -273,10 +453,22 @@
     "title": "Concept Tổng Thể",
     "visual": "Concept board",
     "caption": "Visual trọng tâm: concept board cho zoning, mood, view, vật liệu và cây chủ.",
-    "cover": "assets/images/module-16-cover.svg",
+    "cover": "assets/images/module-16-photo.jpg",
+    "cover_kind": "real-photo",
+    "source": {
+      "file": "assets/images/module-16-photo.jpg",
+      "title": "Tagged Flickr photo for landscape,architecture,model",
+      "source_url": "https://loremflickr.com/1400/900/landscape,architecture,model/all?lock=11016",
+      "direct_url": "https://loremflickr.com/cache/resized/1925_45133109902_ceb70eaea4_1280_822_nofilter.jpg",
+      "provider": "loremflickr/flickr",
+      "license": "Flickr tagged image via LoremFlickr",
+      "tags": "landscape,architecture,model",
+      "lock": "11016",
+      "sha256": "23153a0ab35ce89b5fff06c62686aded8177a41ea6cd4e36c98ae79fe56546e0"
+    },
     "diagram": "assets/diagrams/module-16-diagram.svg",
     "gallery": [
-      "assets/images/module-16-cover.svg",
+      "assets/images/module-16-photo.jpg",
       "assets/diagrams/module-16-diagram.svg",
       "assets/images/module-16-moodboard.svg"
     ],
@@ -291,10 +483,22 @@
     "title": "Thiết Kế Cơ Sở",
     "visual": "So sánh phương án",
     "caption": "Visual trọng tâm: so sánh phương án cho phương án A/B/C và tiêu chí duyệt.",
-    "cover": "assets/images/module-17-cover.svg",
+    "cover": "assets/images/module-17-photo.jpg",
+    "cover_kind": "real-photo",
+    "source": {
+      "file": "assets/images/module-17-photo.jpg",
+      "title": "Tagged Flickr photo for architecture,model,design,studio",
+      "source_url": "https://loremflickr.com/1400/900/architecture,model,design,studio/all?lock=1017",
+      "direct_url": "https://loremflickr.com/cache/resized/8609_16160618675_60a8038dff_k_1280_822_nofilter.jpg",
+      "provider": "loremflickr/flickr",
+      "license": "Flickr tagged image via LoremFlickr",
+      "tags": "architecture,model,design,studio",
+      "lock": "1017",
+      "sha256": "98331ee31fc1759895f009831871bcda57ec95f9ddabf2c9331d336ca7edad82"
+    },
     "diagram": "assets/diagrams/module-17-diagram.svg",
     "gallery": [
-      "assets/images/module-17-cover.svg",
+      "assets/images/module-17-photo.jpg",
       "assets/diagrams/module-17-diagram.svg",
       "assets/images/module-17-moodboard.svg"
     ],
@@ -309,10 +513,22 @@
     "title": "Hồ Sơ Kỹ Thuật",
     "visual": "Bộ hồ sơ",
     "caption": "Visual trọng tâm: bộ hồ sơ cho kiến trúc, kết cấu, MEP và cảnh quan.",
-    "cover": "assets/images/module-18-cover.svg",
+    "cover": "assets/images/module-18-photo.jpg",
+    "cover_kind": "real-photo",
+    "source": {
+      "file": "assets/images/module-18-photo.jpg",
+      "title": "Tagged Flickr photo for blueprint,architecture,drawing",
+      "source_url": "https://loremflickr.com/1400/900/blueprint,architecture,drawing/all?lock=501",
+      "direct_url": "https://loremflickr.com/1400/900/blueprint,architecture,drawing/all?lock=501",
+      "provider": "loremflickr/flickr",
+      "license": "Flickr tagged image via LoremFlickr",
+      "tags": "blueprint,architecture,drawing",
+      "lock": "501",
+      "sha256": "d001b81b359459c8bef56c65dc01a36af0b09aead575c1a719d0d20e19702414"
+    },
     "diagram": "assets/diagrams/module-18-diagram.svg",
     "gallery": [
-      "assets/images/module-18-cover.svg",
+      "assets/images/module-18-photo.jpg",
       "assets/diagrams/module-18-diagram.svg",
       "assets/images/module-18-moodboard.svg"
     ],
@@ -327,10 +543,22 @@
     "title": "Dự Toán Và BOQ",
     "visual": "Ngân sách",
     "caption": "Visual trọng tâm: ngân sách cho nhóm chi phí, phạm vi công việc và dự phòng.",
-    "cover": "assets/images/module-19-cover.svg",
+    "cover": "assets/images/module-19-photo.jpg",
+    "cover_kind": "real-photo",
+    "source": {
+      "file": "assets/images/module-19-photo.jpg",
+      "title": "Tagged Flickr photo for construction,budget",
+      "source_url": "https://loremflickr.com/1400/900/construction,budget/all?lock=21019",
+      "direct_url": "https://loremflickr.com/cache/resized/2100_2242056238_aa055feabd_h_1280_822_nofilter.jpg",
+      "provider": "loremflickr/flickr",
+      "license": "Flickr tagged image via LoremFlickr",
+      "tags": "construction,budget",
+      "lock": "21019",
+      "sha256": "f6ab8fdd554a6b4275f65720375c92112c98fa9038a6655791b96276496dbbc8"
+    },
     "diagram": "assets/diagrams/module-19-diagram.svg",
     "gallery": [
-      "assets/images/module-19-cover.svg",
+      "assets/images/module-19-photo.jpg",
       "assets/diagrams/module-19-diagram.svg",
       "assets/images/module-19-moodboard.svg"
     ],
@@ -345,10 +573,22 @@
     "title": "Duyệt Mẫu",
     "visual": "Sample gallery",
     "caption": "Visual trọng tâm: sample gallery cho vật liệu, cây, thiết bị, mockup và mẫu thực địa.",
-    "cover": "assets/images/module-20-cover.svg",
+    "cover": "assets/images/module-20-photo.jpg",
+    "cover_kind": "real-photo",
+    "source": {
+      "file": "assets/images/module-20-photo.jpg",
+      "title": "Tagged Flickr photo for architecture,material",
+      "source_url": "https://loremflickr.com/1400/900/architecture,material/all?lock=21020",
+      "direct_url": "https://loremflickr.com/cache/resized/65535_54401392603_a041b8eb24_h_1280_822_nofilter.jpg",
+      "provider": "loremflickr/flickr",
+      "license": "Flickr tagged image via LoremFlickr",
+      "tags": "architecture,material",
+      "lock": "21020",
+      "sha256": "bfd5c8cc15df3c5cc46d609f89351ea2ae9cfe410b519c3107244e865007e3dd"
+    },
     "diagram": "assets/diagrams/module-20-diagram.svg",
     "gallery": [
-      "assets/images/module-20-cover.svg",
+      "assets/images/module-20-photo.jpg",
       "assets/diagrams/module-20-diagram.svg",
       "assets/images/module-20-moodboard.svg"
     ],
@@ -363,10 +603,22 @@
     "title": "Đội Ngũ Và Hợp Đồng",
     "visual": "Timeline quản lý",
     "caption": "Visual trọng tâm: timeline quản lý cho hợp đồng, tiến độ, thay đổi và cổng duyệt.",
-    "cover": "assets/images/module-21-cover.svg",
+    "cover": "assets/images/module-21-photo.jpg",
+    "cover_kind": "real-photo",
+    "source": {
+      "file": "assets/images/module-21-photo.jpg",
+      "title": "Tagged Flickr photo for construction,team,meeting",
+      "source_url": "https://loremflickr.com/1400/900/construction,team,meeting/all?lock=11021",
+      "direct_url": "https://loremflickr.com/cache/resized/65535_54436372234_f791c00a78_h_1280_822_nofilter.jpg",
+      "provider": "loremflickr/flickr",
+      "license": "Flickr tagged image via LoremFlickr",
+      "tags": "construction,team,meeting",
+      "lock": "11021",
+      "sha256": "22aedff341aa1df72b81d8825e11c77b2e0250ebd0c238c17bb8cbc4725d8ac5"
+    },
     "diagram": "assets/diagrams/module-21-diagram.svg",
     "gallery": [
-      "assets/images/module-21-cover.svg",
+      "assets/images/module-21-photo.jpg",
       "assets/diagrams/module-21-diagram.svg",
       "assets/images/module-21-moodboard.svg"
     ],
@@ -381,10 +633,22 @@
     "title": "Chuẩn Bị Thi Công",
     "visual": "Hiện trường",
     "caption": "Visual trọng tâm: hiện trường cho tổ chức công trường, an toàn và chất lượng.",
-    "cover": "assets/images/module-22-cover.svg",
+    "cover": "assets/images/module-22-photo.jpg",
+    "cover_kind": "real-photo",
+    "source": {
+      "file": "assets/images/module-22-photo.jpg",
+      "title": "Tagged Flickr photo for construction,site,safety,workers",
+      "source_url": "https://loremflickr.com/1400/900/construction,site,safety,workers/all?lock=1022",
+      "direct_url": "https://loremflickr.com/cache/resized/65535_54553404000_051b0cc838_h_1280_822_nofilter.jpg",
+      "provider": "loremflickr/flickr",
+      "license": "Flickr tagged image via LoremFlickr",
+      "tags": "construction,site,safety,workers",
+      "lock": "1022",
+      "sha256": "dbc14267c1e85080cec1d30f64a5f310716b1a2727dc7a4e119fba24f3770b1d"
+    },
     "diagram": "assets/diagrams/module-22-diagram.svg",
     "gallery": [
-      "assets/images/module-22-cover.svg",
+      "assets/images/module-22-photo.jpg",
       "assets/diagrams/module-22-diagram.svg",
       "assets/images/module-22-moodboard.svg"
     ],
@@ -399,10 +663,22 @@
     "title": "Thi Công Phần Nhà",
     "visual": "Chuỗi thi công nhà",
     "caption": "Visual trọng tâm: chuỗi thi công nhà cho móng, thô, hoàn thiện và hệ thống kỹ thuật.",
-    "cover": "assets/images/module-23-cover.svg",
+    "cover": "assets/images/module-23-photo.jpg",
+    "cover_kind": "real-photo",
+    "source": {
+      "file": "assets/images/module-23-photo.jpg",
+      "title": "Tagged Flickr photo for house,construction,concrete,structure",
+      "source_url": "https://loremflickr.com/1400/900/house,construction,concrete,structure/all?lock=1023",
+      "direct_url": "https://loremflickr.com/cache/resized/5025_5681575835_ec4c7bf927_h_1280_822_nofilter.jpg",
+      "provider": "loremflickr/flickr",
+      "license": "Flickr tagged image via LoremFlickr",
+      "tags": "house,construction,concrete,structure",
+      "lock": "1023",
+      "sha256": "904d146d1c047b18be0ed20df013a22ac2578ab7ee63475a94eb8549a75c2eb0"
+    },
     "diagram": "assets/diagrams/module-23-diagram.svg",
     "gallery": [
-      "assets/images/module-23-cover.svg",
+      "assets/images/module-23-photo.jpg",
       "assets/diagrams/module-23-diagram.svg",
       "assets/images/module-23-moodboard.svg"
     ],
@@ -417,10 +693,22 @@
     "title": "Thi Công Cảnh Quan",
     "visual": "Chuỗi cảnh quan",
     "caption": "Visual trọng tâm: chuỗi cảnh quan cho đất, cây, tưới, đèn, nước và vật liệu ngoài trời.",
-    "cover": "assets/images/module-24-cover.svg",
+    "cover": "assets/images/module-24-photo.jpg",
+    "cover_kind": "real-photo",
+    "source": {
+      "file": "assets/images/module-24-photo.jpg",
+      "title": "Tagged Flickr photo for landscape,construction,planting",
+      "source_url": "https://loremflickr.com/1400/900/landscape,construction,planting/all?lock=11024",
+      "direct_url": "https://loremflickr.com/cache/resized/443_18873940198_d374fae644_h_1280_822_nofilter.jpg",
+      "provider": "loremflickr/flickr",
+      "license": "Flickr tagged image via LoremFlickr",
+      "tags": "landscape,construction,planting",
+      "lock": "11024",
+      "sha256": "f04027883cf5fc03203f21cfe19f7e8b0f9ce75e706c37906dca37efc7645a3f"
+    },
     "diagram": "assets/diagrams/module-24-diagram.svg",
     "gallery": [
-      "assets/images/module-24-cover.svg",
+      "assets/images/module-24-photo.jpg",
       "assets/diagrams/module-24-diagram.svg",
       "assets/images/module-24-moodboard.svg"
     ],
@@ -435,10 +723,22 @@
     "title": "Nghiệm Thu Bàn Giao",
     "visual": "Flow bàn giao",
     "caption": "Visual trọng tâm: flow bàn giao cho nghiệm thu, vận hành thử và hồ sơ hoàn công.",
-    "cover": "assets/images/module-25-cover.svg",
+    "cover": "assets/images/module-25-photo.jpg",
+    "cover_kind": "real-photo",
+    "source": {
+      "file": "assets/images/module-25-photo.jpg",
+      "title": "Tagged Flickr photo for building,inspection,construction",
+      "source_url": "https://loremflickr.com/1400/900/building,inspection,construction/all?lock=11025",
+      "direct_url": "https://loremflickr.com/cache/resized/8115_8691421231_b45e37a867_k_1280_822_nofilter.jpg",
+      "provider": "loremflickr/flickr",
+      "license": "Flickr tagged image via LoremFlickr",
+      "tags": "building,inspection,construction",
+      "lock": "11025",
+      "sha256": "5b5ca63f7919278e7c0c8de3f2617602d059824051798f7b19841fe306075a7a"
+    },
     "diagram": "assets/diagrams/module-25-diagram.svg",
     "gallery": [
-      "assets/images/module-25-cover.svg",
+      "assets/images/module-25-photo.jpg",
       "assets/diagrams/module-25-diagram.svg",
       "assets/images/module-25-moodboard.svg"
     ],
@@ -453,10 +753,22 @@
     "title": "Theo Dõi Sau Bàn Giao",
     "visual": "Dashboard bảo trì",
     "caption": "Visual trọng tâm: dashboard bảo trì cho theo dõi 1-3-5 năm và điều chỉnh vận hành.",
-    "cover": "assets/images/module-26-cover.svg",
+    "cover": "assets/images/module-26-photo.jpg",
+    "cover_kind": "real-photo",
+    "source": {
+      "file": "assets/images/module-26-photo.jpg",
+      "title": "Tagged Flickr photo for garden,maintenance,pruning",
+      "source_url": "https://loremflickr.com/1400/900/garden,maintenance,pruning/all?lock=11026",
+      "direct_url": "https://loremflickr.com/cache/resized/2167_2424152904_213f2c3f6d_h_1280_822_nofilter.jpg",
+      "provider": "loremflickr/flickr",
+      "license": "Flickr tagged image via LoremFlickr",
+      "tags": "garden,maintenance,pruning",
+      "lock": "11026",
+      "sha256": "8d74e008089aadb88dd9d7747cd0363edcae4882725616e55de8c69c6faf22b1"
+    },
     "diagram": "assets/diagrams/module-26-diagram.svg",
     "gallery": [
-      "assets/images/module-26-cover.svg",
+      "assets/images/module-26-photo.jpg",
       "assets/diagrams/module-26-diagram.svg",
       "assets/images/module-26-moodboard.svg"
     ],
@@ -471,10 +783,22 @@
     "title": "Nhiệm Vụ Thiết Kế Nhà",
     "visual": "Chuẩn đầu vào",
     "caption": "Visual trọng tâm: chuẩn đầu vào cho người dùng, hoạt động, giới hạn và đầu ra.",
-    "cover": "assets/images/module-27-cover.svg",
+    "cover": "assets/images/module-27-photo.jpg",
+    "cover_kind": "real-photo",
+    "source": {
+      "file": "assets/images/module-27-photo.jpg",
+      "title": "Tagged Flickr photo for architect,client",
+      "source_url": "https://loremflickr.com/1400/900/architect,client/all?lock=21027",
+      "direct_url": "https://loremflickr.com/cache/resized/37_76455812_2c99e36fd9_1280_822_nofilter.jpg",
+      "provider": "loremflickr/flickr",
+      "license": "Flickr tagged image via LoremFlickr",
+      "tags": "architect,client",
+      "lock": "21027",
+      "sha256": "12551a05be9d120cf401d4715e7047de07ebfa378ecb5ce979681844c5e119cb"
+    },
     "diagram": "assets/diagrams/module-27-diagram.svg",
     "gallery": [
-      "assets/images/module-27-cover.svg",
+      "assets/images/module-27-photo.jpg",
       "assets/diagrams/module-27-diagram.svg",
       "assets/images/module-27-moodboard.svg"
     ],
@@ -489,10 +813,22 @@
     "title": "Pháp Lý Và Quy Hoạch",
     "visual": "Khung pháp lý",
     "caption": "Visual trọng tâm: khung pháp lý cho chỉ giới, mật độ, tầng cao, giấy phép và hạ tầng.",
-    "cover": "assets/images/module-28-cover.svg",
+    "cover": "assets/images/module-28-photo.jpg",
+    "cover_kind": "real-photo",
+    "source": {
+      "file": "assets/images/module-28-photo.jpg",
+      "title": "Tagged Flickr photo for urban,planning",
+      "source_url": "https://loremflickr.com/1400/900/urban,planning/all?lock=21028",
+      "direct_url": "https://loremflickr.com/cache/resized/65535_53285912538_a75f7f88da_h_1280_822_nofilter.jpg",
+      "provider": "loremflickr/flickr",
+      "license": "Flickr tagged image via LoremFlickr",
+      "tags": "urban,planning",
+      "lock": "21028",
+      "sha256": "cfa1af10c52063adeeb91998e7bdb6dcebd5235c931e960cedf18d8d961740ed"
+    },
     "diagram": "assets/diagrams/module-28-diagram.svg",
     "gallery": [
-      "assets/images/module-28-cover.svg",
+      "assets/images/module-28-photo.jpg",
       "assets/diagrams/module-28-diagram.svg",
       "assets/images/module-28-moodboard.svg"
     ],
@@ -507,10 +843,22 @@
     "title": "Công Năng Và Zoning",
     "visual": "Bubble diagram",
     "caption": "Visual trọng tâm: bubble diagram cho zoning chung-riêng, quan hệ phòng và luồng đi.",
-    "cover": "assets/images/module-29-cover.svg",
+    "cover": "assets/images/module-29-photo.jpg",
+    "cover_kind": "real-photo",
+    "source": {
+      "file": "assets/images/module-29-photo.jpg",
+      "title": "Tagged Flickr photo for floorplan,architecture,drawing",
+      "source_url": "https://loremflickr.com/1400/900/floorplan,architecture,drawing/all?lock=901",
+      "direct_url": "https://loremflickr.com/1400/900/floorplan,architecture,drawing/all?lock=901",
+      "provider": "loremflickr/flickr",
+      "license": "Flickr tagged image via LoremFlickr",
+      "tags": "floorplan,architecture,drawing",
+      "lock": "901",
+      "sha256": "621743947eeb928fd452844390513f20c155103b2333c66919d76f92034285e7"
+    },
     "diagram": "assets/diagrams/module-29-diagram.svg",
     "gallery": [
-      "assets/images/module-29-cover.svg",
+      "assets/images/module-29-photo.jpg",
       "assets/diagrams/module-29-diagram.svg",
       "assets/images/module-29-moodboard.svg"
     ],
@@ -525,10 +873,22 @@
     "title": "Mặt Bằng Mặt Cắt",
     "visual": "Không gian 2D/3D",
     "caption": "Visual trọng tâm: không gian 2d/3d cho mặt bằng, mặt cắt, cao độ và khối tích.",
-    "cover": "assets/images/module-30-cover.svg",
+    "cover": "assets/images/module-30-photo.jpg",
+    "cover_kind": "real-photo",
+    "source": {
+      "file": "assets/images/module-30-photo.jpg",
+      "title": "Tagged Flickr photo for architectural,model",
+      "source_url": "https://loremflickr.com/1400/900/architectural,model/all?lock=21030",
+      "direct_url": "https://loremflickr.com/cache/resized/672_32057087012_f7192321f5_h_1280_822_nofilter.jpg",
+      "provider": "loremflickr/flickr",
+      "license": "Flickr tagged image via LoremFlickr",
+      "tags": "architectural,model",
+      "lock": "21030",
+      "sha256": "d5dcfe2ebf67daae7f7365422fbd331d1a9a65ae4c791fa1a539d1325563d222"
+    },
     "diagram": "assets/diagrams/module-30-diagram.svg",
     "gallery": [
-      "assets/images/module-30-cover.svg",
+      "assets/images/module-30-photo.jpg",
       "assets/diagrams/module-30-diagram.svg",
       "assets/images/module-30-moodboard.svg"
     ],
@@ -543,10 +903,22 @@
     "title": "Vỏ Nhà Khí Hậu",
     "visual": "Lớp vỏ nhà",
     "caption": "Visual trọng tâm: lớp vỏ nhà cho mái, hiên, cửa, kính, lam và che nắng.",
-    "cover": "assets/images/module-31-cover.svg",
+    "cover": "assets/images/module-31-photo.jpg",
+    "cover_kind": "real-photo",
+    "source": {
+      "file": "assets/images/module-31-photo.jpg",
+      "title": "Tagged Flickr photo for architecture,shading",
+      "source_url": "https://loremflickr.com/1400/900/architecture,shading/all?lock=21031",
+      "direct_url": "https://loremflickr.com/cache/resized/872_41706455142_772586eed6_h_1280_822_nofilter.jpg",
+      "provider": "loremflickr/flickr",
+      "license": "Flickr tagged image via LoremFlickr",
+      "tags": "architecture,shading",
+      "lock": "21031",
+      "sha256": "2c5c64c1a9002bb62b17241a47d4fdeadb36e3fa57e7e53c1c3900644e1a0a93"
+    },
     "diagram": "assets/diagrams/module-31-diagram.svg",
     "gallery": [
-      "assets/images/module-31-cover.svg",
+      "assets/images/module-31-photo.jpg",
       "assets/diagrams/module-31-diagram.svg",
       "assets/images/module-31-moodboard.svg"
     ],
@@ -561,10 +933,22 @@
     "title": "Phối Hợp Kết Cấu MEP",
     "visual": "Coordination",
     "caption": "Visual trọng tâm: coordination cho lưới cột, hộp kỹ thuật, thoát nước và bảo trì.",
-    "cover": "assets/images/module-32-cover.svg",
+    "cover": "assets/images/module-32-photo.jpg",
+    "cover_kind": "real-photo",
+    "source": {
+      "file": "assets/images/module-32-photo.jpg",
+      "title": "Tagged Flickr photo for mechanical,electrical,plumbing",
+      "source_url": "https://loremflickr.com/1400/900/mechanical,electrical,plumbing/all?lock=11032",
+      "direct_url": "https://loremflickr.com/cache/resized/2651_3906460731_d59f291afe_h_1280_822_nofilter.jpg",
+      "provider": "loremflickr/flickr",
+      "license": "Flickr tagged image via LoremFlickr",
+      "tags": "mechanical,electrical,plumbing",
+      "lock": "11032",
+      "sha256": "dcb7d4e8b8626a909757892181a0a608df169beca07089bbd3a5a0c2645d6b5a"
+    },
     "diagram": "assets/diagrams/module-32-diagram.svg",
     "gallery": [
-      "assets/images/module-32-cover.svg",
+      "assets/images/module-32-photo.jpg",
       "assets/diagrams/module-32-diagram.svg",
       "assets/images/module-32-moodboard.svg"
     ],
@@ -579,10 +963,22 @@
     "title": "Cấu Tạo Và Vật Liệu",
     "visual": "Chi tiết cấu tạo",
     "caption": "Visual trọng tâm: chi tiết cấu tạo cho chống thấm, chống nóng, chống trơn và bảo trì.",
-    "cover": "assets/images/module-33-cover.svg",
+    "cover": "assets/images/module-33-photo.jpg",
+    "cover_kind": "real-photo",
+    "source": {
+      "file": "assets/images/module-33-photo.jpg",
+      "title": "Tagged Flickr photo for roof,waterproofing",
+      "source_url": "https://loremflickr.com/1400/900/roof,waterproofing/all?lock=21033",
+      "direct_url": "https://loremflickr.com/cache/resized/24_41855233_8cd21ca316_h_1280_822_nofilter.jpg",
+      "provider": "loremflickr/flickr",
+      "license": "Flickr tagged image via LoremFlickr",
+      "tags": "roof,waterproofing",
+      "lock": "21033",
+      "sha256": "bf1c96a6a4c2686785a538d9fc8120cfc6da3090e97588479973293eb6cfba33"
+    },
     "diagram": "assets/diagrams/module-33-diagram.svg",
     "gallery": [
-      "assets/images/module-33-cover.svg",
+      "assets/images/module-33-photo.jpg",
       "assets/diagrams/module-33-diagram.svg",
       "assets/images/module-33-moodboard.svg"
     ],
@@ -597,10 +993,22 @@
     "title": "Hồ Sơ Và Nghiệm Thu",
     "visual": "Ma trận duyệt",
     "caption": "Visual trọng tâm: ma trận duyệt cho hồ sơ, checklist, tiêu chuẩn và nghiệm thu.",
-    "cover": "assets/images/module-34-cover.svg",
+    "cover": "assets/images/module-34-photo.jpg",
+    "cover_kind": "real-photo",
+    "source": {
+      "file": "assets/images/module-34-photo.jpg",
+      "title": "Tagged Flickr photo for construction,inspection",
+      "source_url": "https://loremflickr.com/1400/900/construction,inspection/all?lock=21034",
+      "direct_url": "https://loremflickr.com/cache/resized/1232_5104583967_699fedd2fd_k_1280_822_nofilter.jpg",
+      "provider": "loremflickr/flickr",
+      "license": "Flickr tagged image via LoremFlickr",
+      "tags": "construction,inspection",
+      "lock": "21034",
+      "sha256": "0a62ee0fee5b849cd28b5fc037a86aa355d17f188b5fac6a1cd26d3830fafee0"
+    },
     "diagram": "assets/diagrams/module-34-diagram.svg",
     "gallery": [
-      "assets/images/module-34-cover.svg",
+      "assets/images/module-34-photo.jpg",
       "assets/diagrams/module-34-diagram.svg",
       "assets/images/module-34-moodboard.svg"
     ],

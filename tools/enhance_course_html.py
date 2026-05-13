@@ -13,6 +13,7 @@ ASSET_DIR = COURSE / "assets"
 IMAGE_DIR = ASSET_DIR / "images"
 DIAGRAM_DIR = ASSET_DIR / "diagrams"
 DATA_DIR = ASSET_DIR / "data"
+ATTRIBUTION_PATH = DATA_DIR / "real-image-attributions.json"
 
 
 MODULES = [
@@ -140,6 +141,10 @@ def make_assets() -> dict[str, dict[str, object]]:
 </svg>'''
     (IMAGE_DIR / "hero-garden.svg").write_text(hero, encoding="utf-8")
 
+    attributions = {}
+    if ATTRIBUTION_PATH.exists():
+        attributions = json.loads(ATTRIBUTION_PATH.read_text(encoding="utf-8"))
+
     for idx, module in enumerate(MODULES):
         num, slug, title, visual, desc, tags = module
         cover = f"module-{num}-cover.svg"
@@ -148,13 +153,23 @@ def make_assets() -> dict[str, dict[str, object]]:
         (IMAGE_DIR / cover).write_text(cover_svg(module, idx), encoding="utf-8")
         (DIAGRAM_DIR / diagram).write_text(diagram_svg(module, idx), encoding="utf-8")
         (IMAGE_DIR / mood).write_text(mood_svg(module, idx), encoding="utf-8")
+        real_cover = next((p for p in sorted(IMAGE_DIR.glob(f"module-{num}-photo.*")) if p.suffix.lower() in {".jpg", ".jpeg", ".png", ".webp"}), None)
+        cover_path = f"assets/images/{cover}"
+        cover_kind = "svg"
+        source = None
+        if real_cover:
+            cover_path = str(real_cover.relative_to(COURSE))
+            cover_kind = "real-photo"
+            source = attributions.get(num, {})
         visual_map[f"module-{num}"] = {
             "title": title,
             "visual": visual,
             "caption": f"Visual trọng tâm: {visual.lower()} cho {desc}.",
-            "cover": f"assets/images/{cover}",
+            "cover": cover_path,
+            "cover_kind": cover_kind,
+            "source": source,
             "diagram": f"assets/diagrams/{diagram}",
-            "gallery": [f"assets/images/{cover}", f"assets/diagrams/{diagram}", f"assets/images/{mood}"],
+            "gallery": [cover_path, f"assets/diagrams/{diagram}", f"assets/images/{mood}"],
             "tags": tags,
             "slug": slug,
         }
@@ -166,14 +181,22 @@ def make_assets() -> dict[str, dict[str, object]]:
 ENHANCED_CSS = r'''body{margin:0;background:#eef1ed;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#18231c;line-height:1.65}.layout{display:grid;grid-template-columns:310px minmax(0,1fr)}aside{position:sticky;top:0;height:100vh;overflow:auto;padding:22px;background:#f7f5ef;border-right:1px solid #ded7c8}aside h1{font-size:22px;line-height:1.05;margin:0 0 8px}.search{width:100%;box-sizing:border-box;padding:12px 14px;border:1px solid #d7d0c1;border-radius:8px;background:#fffdf8}.filter-tabs{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin:14px 0}.filter-tabs button,.gallery-toggle{border:1px solid #d7d0c1;border-radius:8px;background:#fffdf8;color:#203428;padding:9px 10px;font-weight:750;cursor:pointer}.filter-tabs button.active{background:#18382a;color:#fff;border-color:#18382a}.nav-link{display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border-radius:8px;text-decoration:none;color:#1d1d1f;border:1px solid transparent}.nav-link:hover,.nav-link.active{background:#fffdf8;border-color:#d9d0bf}.nav-link span{font-size:14px;font-weight:700;line-height:1.25}.nav-link small{font-size:11px;color:#6e756c;white-space:nowrap}.hero,.content{max-width:1180px;margin:0 auto;padding:56px}.visual-hero{position:relative;min-height:560px;display:grid;align-items:end;overflow:hidden;background:#173528;color:#fff;padding:0;max-width:none;margin:0}.visual-hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.9}.visual-hero::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#102319e6 0%,#102319a8 44%,#10231924 100%)}.hero-panel{position:relative;z-index:1;max-width:860px;padding:76px 56px}.eyebrow,.module-kicker{font-size:12px;text-transform:uppercase;letter-spacing:.12em;font-weight:900;color:#8da66f}.visual-hero h2{font-size:clamp(44px,7vw,92px);line-height:.94;margin:14px 0 18px;max-width:820px}.visual-hero p{font-size:20px;max-width:680px;color:#f5efe2}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:32px}.stat,.doc-card{background:#fffdf8;border:1px solid #e1dacb;border-radius:8px;padding:22px;box-shadow:0 18px 45px #14201614}.stat b{display:block;font-size:32px}.doc-card{padding:42px;margin:26px 0;position:relative;overflow:hidden}.doc-card::before{content:attr(data-progress);position:absolute;right:28px;top:22px;color:#d8d0be;font-size:14px;font-weight:900}.doc-meta{display:inline-block;background:#edf4e7;color:#36592f;border-radius:999px;padding:6px 10px;font-size:12px;font-weight:800}.chapter-title{font-size:clamp(32px,4vw,52px);line-height:1.05;margin-bottom:24px}.visual-header{display:grid;grid-template-columns:minmax(280px,42%) 1fr;gap:24px;margin:26px 0 34px;padding:18px;background:#f4efe4;border:1px solid #ddd3c1;border-radius:8px}.module-cover,.diagram-card,.module-gallery figure{margin:0}.module-cover img,.diagram-card img,.module-gallery img{display:block;width:100%;height:auto;border-radius:8px;background:#e8e0d0}.module-cover img{aspect-ratio:16/9;object-fit:cover}.module-cover figcaption,.diagram-card figcaption,.module-gallery figcaption{font-size:13px;color:#5e665d;margin-top:8px}.visual-summary h2{font-size:28px;line-height:1.08;margin:8px 0}.concept-strip{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0}.concept-strip span{background:#18382a;color:#fff;border-radius:999px;padding:7px 10px;font-size:12px;font-weight:800}.image-grid{display:grid;grid-template-columns:1fr;gap:14px}.diagram-card{background:#fffdf8;border:1px solid #ded7c8;border-radius:8px;padding:12px}.module-gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:14px}.module-gallery[hidden]{display:none}.module-gallery figure{background:#fffdf8;border:1px solid #ded7c8;border-radius:8px;padding:10px}.module-gallery img{aspect-ratio:4/3;object-fit:cover}.table-wrap{overflow:auto;border:1px solid #ddd3c1;border-radius:8px;margin:18px 0;background:#fff}table{width:100%;border-collapse:collapse;min-width:640px}th,td{padding:12px 14px;border-bottom:1px solid #eee7db;text-align:left;vertical-align:top}th{background:#f4efe4}blockquote{border-left:4px solid #6d8f4f;background:#edf4e7;padding:14px 18px;border-radius:8px}.diagram-shell{border:1px solid #ddd3c1;border-radius:8px;padding:18px;overflow:auto;background:#fffdf8}code{background:#f1ece2;padding:2px 6px;border-radius:6px}.tools{position:fixed;right:20px;bottom:20px;display:flex;gap:8px;z-index:20}.tools button{border:0;border-radius:999px;background:#18382a;color:white;padding:12px 16px;font-weight:800;box-shadow:0 12px 28px #10231929}.before-after,.process-timeline,.checklist-panel,.material-board{border:1px solid #ded7c8;border-radius:8px;background:#fffdf8;padding:18px;margin:18px 0}@media(max-width:1060px){.layout{grid-template-columns:280px minmax(0,1fr)}.hero,.content{padding:36px}.visual-hero{padding:0}.visual-header{grid-template-columns:1fr}.stats{grid-template-columns:repeat(2,1fr)}}@media(max-width:760px){.layout{display:block}aside{position:relative;height:auto}.hero,.content{padding:20px}.visual-hero{padding:0;min-height:620px}.hero-panel{padding:52px 24px}.visual-hero h2{font-size:44px}.stats,.module-gallery{grid-template-columns:1fr}.doc-card{padding:24px}.filter-tabs{grid-template-columns:1fr 1fr}}@media print{aside,.tools,.filter-tabs,.gallery-toggle{display:none!important}.layout{display:block}.visual-hero{min-height:auto;color:#18231c;background:#fff}.visual-hero img{display:none}.visual-hero::after{display:none}.hero-panel{padding:24px}.doc-card{box-shadow:none;border:1px solid #ddd;break-inside:avoid}.visual-header{break-inside:avoid;grid-template-columns:1fr}.module-gallery{display:none!important}.table-wrap{break-inside:auto}img{max-width:100%;page-break-inside:avoid}}'''
 
 
+def real_image_path(num: str) -> str:
+    real_cover = next((p for p in sorted(IMAGE_DIR.glob(f"module-{num}-photo.*")) if p.suffix.lower() in {".jpg", ".jpeg", ".png", ".webp"}), None)
+    if real_cover:
+        return str(real_cover.relative_to(COURSE))
+    return f"assets/images/module-{num}-cover.svg"
+
+
 def visual_header(module: tuple[str, str, str, str, str, list[str]], total: int) -> str:
     num, _, title, visual, desc, tags = module
+    cover_src = real_image_path(num)
     tag_html = "".join(f"<span>{escape(tag)}</span>" for tag in tags)
     gallery = "".join(
         f'<figure><img src="{src}" loading="lazy" alt="{escape(title)} - hình trực quan {i}"><figcaption>{escape(label)}</figcaption></figure>'
         for i, (src, label) in enumerate(
             [
-                (f"assets/images/module-{num}-cover.svg", "Ảnh bối cảnh"),
+                (cover_src, "Ảnh thật bối cảnh"),
                 (f"assets/diagrams/module-{num}-diagram.svg", "Sơ đồ trọng tâm"),
                 (f"assets/images/module-{num}-moodboard.svg", "Moodboard mẫu"),
             ],
@@ -181,7 +204,7 @@ def visual_header(module: tuple[str, str, str, str, str, list[str]], total: int)
         )
     )
     return f'''<section class="visual-header" data-visual-module="{num}">
-<figure class="module-cover"><img src="assets/images/module-{num}-cover.svg" loading="lazy" alt="Module {num}: {escape(title)}"><figcaption>{escape(visual)}: {escape(desc)}.</figcaption></figure>
+<figure class="module-cover"><img src="{cover_src}" loading="lazy" alt="Module {num}: {escape(title)}"><figcaption>{escape(visual)}: {escape(desc)}.</figcaption></figure>
 <div class="visual-summary"><div class="module-kicker">Module {num} / {total}</div><h2>{escape(title)}</h2><p>Visual header này giúp đọc nhanh trọng tâm bài học qua {escape(desc)} trước khi đi vào bảng, checklist và bài tập.</p><div class="concept-strip">{tag_html}</div><figure class="diagram-card"><img src="assets/diagrams/module-{num}-diagram.svg" loading="lazy" alt="Sơ đồ trọng tâm module {num}: {escape(visual)}"><figcaption>Sơ đồ trọng tâm để chuyển nội dung lý thuyết thành logic nhìn được.</figcaption></figure><button class="gallery-toggle" type="button" aria-expanded="false">Hiện gallery trực quan</button><div class="module-gallery" hidden>{gallery}</div></div>
 </section>'''
 
@@ -191,8 +214,12 @@ def enhance_html() -> None:
     html = re.sub(r"<style>.*?</style>", f"<style>{ENHANCED_CSS}</style>", html, count=1, flags=re.S)
     html = re.sub(r'<section class="visual-header"[\s\S]*?</section>', "", html)
 
-    hero = '''<section class="hero visual-hero"><img src="assets/images/hero-garden.svg" alt="Nhà vườn nghỉ dưỡng nhiệt đới với hiên rộng, cây nhiều lớp và mặt nước"><div class="hero-panel"><div class="eyebrow">Bản HTML thị giác</div><h2>Thiết kế nhà vườn như một hệ sống.</h2><p>Giáo trình được nâng cấp thành trải nghiệm học trực quan: mỗi module có cover, sơ đồ trọng tâm, gallery minh họa, checklist và bảng vẫn giữ đầy đủ để tra cứu và in ấn.</p><div class="stats"><div class="stat"><b>34</b><span> module chuyên sâu</span></div><div class="stat"><b>102</b><span> visual assets SVG</span></div><div class="stat"><b>18</b><span> phụ lục thực hành</span></div><div class="stat"><b>Static</b><span> HTML + assets</span></div></div></div></section>'''
-    html = re.sub(r'<section class="hero">.*?</section><section class="content">', hero + '<section class="content">', html, count=1, flags=re.S)
+    hero_src = "assets/images/hero-garden.svg"
+    hero_real = next((p for p in sorted(IMAGE_DIR.glob("hero-garden-real.*")) if p.suffix.lower() in {".jpg", ".jpeg", ".png", ".webp"}), None)
+    if hero_real:
+        hero_src = str(hero_real.relative_to(COURSE))
+    hero = f'''<section class="hero visual-hero"><img src="{hero_src}" alt="Nhà vườn nghỉ dưỡng nhiệt đới với hiên rộng, cây nhiều lớp và mặt nước"><div class="hero-panel"><div class="eyebrow">Bản HTML thị giác</div><h2>Thiết kế nhà vườn như một hệ sống.</h2><p>Giáo trình được nâng cấp thành trải nghiệm học trực quan: mỗi module có ảnh thật không trùng lặp, sơ đồ trọng tâm, gallery minh họa, checklist và bảng vẫn giữ đầy đủ để tra cứu và in ấn.</p><div class="stats"><div class="stat"><b>34</b><span> module chuyên sâu</span></div><div class="stat"><b>35</b><span> ảnh thật bối cảnh</span></div><div class="stat"><b>18</b><span> phụ lục thực hành</span></div><div class="stat"><b>Static</b><span> HTML + assets</span></div></div></div></section>'''
+    html = re.sub(r'<section class="hero(?: visual-hero)?">.*?</section><section class="content">', hero + '<section class="content">', html, count=1, flags=re.S)
 
     filters = '<div class="filter-tabs" role="group" aria-label="Lọc nhóm module"><button type="button" class="active" data-filter="all">Tất cả</button><button type="button" data-filter="foundation">Nền tảng</button><button type="button" data-filter="delivery">Triển khai</button><button type="button" data-filter="house">Phần nhà</button></div>'
     html = html.replace('<input id="search" class="search" placeholder="Tìm module, phụ lục, từ khóa...">', '<input id="search" class="search" placeholder="Tìm module, phụ lục, từ khóa...">' + filters, 1)
