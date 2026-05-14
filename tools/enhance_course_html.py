@@ -51,6 +51,34 @@ MODULES = [
     ("32", "phoi-hop-ket-cau-mep-va-ky-thuat-van-hanh", "Phối Hợp Kết Cấu MEP", "Coordination", "lưới cột, hộp kỹ thuật, thoát nước và bảo trì", ["Kết cấu", "MEP", "Vận hành"]),
     ("33", "vat-lieu-cau-tao-chong-tham-chong-nong-va-bao-tri", "Cấu Tạo Và Vật Liệu", "Chi tiết cấu tạo", "chống thấm, chống nóng, chống trơn và bảo trì", ["Chống thấm", "Chống nóng", "Bảo trì"]),
     ("34", "ho-so-thiet-ke-checklist-duyet-phuong-an-va-tieu-chuan-nghiem-thu", "Hồ Sơ Và Nghiệm Thu", "Ma trận duyệt", "hồ sơ, checklist, tiêu chuẩn và nghiệm thu", ["Hồ sơ", "Checklist", "Tiêu chuẩn"]),
+    ("35", "ngon-ngu-thiet-ke-tong-the-noi-that-ngoai-that-canh-quan", "Ngôn Ngữ Thiết Kế", "Design language", "tinh thần, tỷ lệ, vật liệu, ánh sáng và chi tiết", ["Tinh thần", "Vật liệu", "Chi tiết"]),
+    ("36", "cong-nghe-an-an-ninh-an-toan-tien-nghi-khong-pho-truong", "Công Nghệ Ẩn", "Hidden technology", "an ninh, an toàn, tiện nghi, cảm biến và bàn giao số", ["An ninh", "Cảm biến", "Bàn giao"]),
+    ("37", "van-hanh-tu-dong-bao-tri-du-bao-ho-so-tai-san-di-san", "Vận Hành Di Sản", "Legacy operations", "asset register, bảo trì dự báo và kế hoạch 20-50 năm", ["Tài sản", "Dự báo", "Di sản"]),
+]
+
+
+APPENDICES = [
+    "checklist_tong_hop.md",
+    "lo_trinh_hoc_30_ngay.md",
+    "mau_phieu_khao_sat_khu_dat.md",
+    "mau_brief_thiet_ke.md",
+    "mau_danh_gia_thiet_ke.md",
+    "ban_tom_tat_1_trang.md",
+    "mau_master_brief_trien_khai_du_an.md",
+    "phieu_khao_sat_hien_trang_phap_ly.md",
+    "checklist_duyet_concept.md",
+    "checklist_duyet_thiet_ke_co_so.md",
+    "ma_tran_ho_so_ky_thuat_can_co.md",
+    "mau_duyet_vat_lieu_cay_thiet_bi.md",
+    "mau_boq_pham_vi_cong_viec.md",
+    "mau_tien_do_tong_the.md",
+    "mau_nhat_ky_thay_doi_phat_sinh.md",
+    "checklist_kiem_tra_hien_truong.md",
+    "checklist_nghiem_thu_ban_giao.md",
+    "ke_hoach_bao_tri_12_thang_1_3_5_nam.md",
+    "checklist_ngon_ngu_thiet_ke_tong_the.md",
+    "ma_tran_cong_nghe_an_an_ninh_an_toan_tien_nghi.md",
+    "mau_ho_so_tai_san_va_ke_hoach_van_hanh_di_san_20_50_nam.md",
 ]
 
 
@@ -188,15 +216,213 @@ def real_image_path(num: str) -> str:
     return f"assets/images/module-{num}-cover.svg"
 
 
+def doc_id(rel: str) -> str:
+    stem = rel.removesuffix(".md").replace("/", "-")
+    return "doc-" + re.sub(r"[^A-Za-z0-9_-]+", "-", stem).strip("-")
+
+
+def module_group(num: str) -> str:
+    value = int(num)
+    if value <= 12:
+        return "foundation"
+    if value <= 26:
+        return "delivery"
+    if value <= 34:
+        return "house"
+    return "legacy"
+
+
+def inline_md(text: str) -> str:
+    text = escape(text)
+    text = re.sub(r"`([^`]+)`", r"<code>\1</code>", text)
+    text = re.sub(r"\*\*([^*]+)\*\*", r"<strong>\1</strong>", text)
+    text = re.sub(r"\[([^\]]+)\]\(([^)]+)\)", lambda m: f'<a href="{escape(m.group(2), quote=True)}">{m.group(1)}</a>', text)
+    return text
+
+
+def table_html(lines: list[str]) -> str:
+    rows = []
+    for line in lines:
+        cells = [cell.strip() for cell in line.strip().strip("|").split("|")]
+        rows.append(cells)
+    header = rows[0]
+    body = rows[2:]
+    head = "".join(f"<th>{inline_md(cell)}</th>" for cell in header)
+    body_html = "".join("<tr>" + "".join(f"<td>{inline_md(cell)}</td>" for cell in row) + "</tr>" for row in body)
+    return f'<div class="table-wrap"><table><thead><tr>{head}</tr></thead><tbody>{body_html}</tbody></table></div>'
+
+
+def markdown_to_html(md: str, id_prefix: str) -> str:
+    lines = md.splitlines()
+    out: list[str] = []
+    i = 0
+    heading_count = 0
+
+    def is_table_start(index: int) -> bool:
+        return (
+            index + 1 < len(lines)
+            and lines[index].lstrip().startswith("|")
+            and lines[index + 1].lstrip().startswith("|")
+            and "---" in lines[index + 1]
+        )
+
+    while i < len(lines):
+        line = lines[i]
+        stripped = line.strip()
+        if not stripped or stripped.startswith("<!--"):
+            i += 1
+            continue
+
+        if stripped.startswith("```"):
+            lang = stripped.strip("`").strip()
+            block: list[str] = []
+            i += 1
+            while i < len(lines) and not lines[i].strip().startswith("```"):
+                block.append(lines[i])
+                i += 1
+            i += 1
+            code = escape("\n".join(block))
+            if lang == "mermaid":
+                out.append(f'<div class="diagram-shell"><pre class="mermaid">{code}</pre></div>')
+            else:
+                out.append(f"<pre><code>{code}</code></pre>")
+            continue
+
+        if is_table_start(i):
+            block = []
+            while i < len(lines) and lines[i].lstrip().startswith("|"):
+                block.append(lines[i])
+                i += 1
+            out.append(table_html(block))
+            continue
+
+        if stripped.startswith("#"):
+            level = len(stripped) - len(stripped.lstrip("#"))
+            text = stripped[level:].strip()
+            heading_count += 1
+            out.append(f'<h{level} id="{id_prefix}-h{heading_count}">{inline_md(text)}</h{level}>')
+            i += 1
+            continue
+
+        if stripped.startswith(">"):
+            parts = []
+            while i < len(lines) and lines[i].strip().startswith(">"):
+                parts.append(lines[i].strip().lstrip(">").strip())
+                i += 1
+            out.append(f"<blockquote>{inline_md(' '.join(parts))}</blockquote>")
+            continue
+
+        if re.match(r"^-\s+", stripped):
+            items = []
+            while i < len(lines) and re.match(r"^-\s+", lines[i].strip()):
+                items.append(re.sub(r"^-\s+", "", lines[i].strip()))
+                i += 1
+            out.append("<ul>" + "".join(f"<li>{inline_md(item)}</li>" for item in items) + "</ul>")
+            continue
+
+        if re.match(r"^\d+\.\s+", stripped):
+            items = []
+            while i < len(lines) and re.match(r"^\d+\.\s+", lines[i].strip()):
+                items.append(re.sub(r"^\d+\.\s+", "", lines[i].strip()))
+                i += 1
+            out.append("<ol>" + "".join(f"<li>{inline_md(item)}</li>" for item in items) + "</ol>")
+            continue
+
+        parts = [stripped]
+        i += 1
+        while i < len(lines):
+            nxt = lines[i].strip()
+            if (
+                not nxt
+                or nxt.startswith("#")
+                or nxt.startswith(">")
+                or nxt.startswith("```")
+                or nxt.startswith("<!--")
+                or nxt.startswith("|")
+                or re.match(r"^-\s+", nxt)
+                or re.match(r"^\d+\.\s+", nxt)
+            ):
+                break
+            parts.append(nxt)
+            i += 1
+        out.append(f"<p>{inline_md(' '.join(parts))}</p>")
+
+    return "\n".join(out)
+
+
+def docs_to_render() -> list[tuple[str, Path, str]]:
+    docs: list[tuple[str, Path, str]] = [("Tài liệu", COURSE / "00_muc_luc_va_huong_dan_hoc.md", "")]
+    for num, slug, *_ in MODULES:
+        docs.append(("Module", COURSE / "modules" / f"module-{num}-{slug}.md", module_group(num)))
+    for filename in APPENDICES:
+        docs.append(("Phụ lục", COURSE / "phu_luc" / filename, ""))
+    docs.append(("Tài liệu", COURSE / "kiem_dinh_chat_luong.md", ""))
+    return docs
+
+
+def first_heading(md: str, fallback: str) -> str:
+    for line in md.splitlines():
+        if line.startswith("# "):
+            return line[2:].strip()
+    return fallback
+
+
+def build_combined_markdown() -> None:
+    parts = []
+    for _, path, _ in docs_to_render():
+        rel = path.relative_to(ROOT).as_posix()
+        parts.append(f"<!-- source: {rel} -->\n\n{path.read_text(encoding='utf-8').strip()}\n")
+    (ROOT / "giao_trinh_nen_tang_thiet_ke_nha_vuon_nghi_duong.md").write_text("\n---\n\n".join(parts) + "\n", encoding="utf-8")
+
+
+def build_base_html() -> None:
+    nav = []
+    articles = []
+    for kind, path, group in docs_to_render():
+        rel = path.relative_to(COURSE).as_posix()
+        md = path.read_text(encoding="utf-8")
+        title = first_heading(md, rel)
+        article_id = doc_id(rel)
+        group_attr = f' data-group="{group}"' if group else ""
+        nav_group_attr = group_attr if kind == "Module" else ""
+        nav.append(
+            f'<a class="nav-link" href="#{article_id}"{nav_group_attr} data-title="{escape(title.lower(), quote=True)}">'
+            f"<span>{escape(title)}</span><small>{escape(kind)}</small></a>"
+        )
+        articles.append(
+            f'<article class="doc-card" id="{article_id}"{group_attr}>'
+            f'<div class="doc-meta">{escape(rel)}</div>'
+            f'{markdown_to_html(md, article_id)}'
+            "</article>"
+        )
+
+    base_css = "body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;line-height:1.65}.layout{display:grid;grid-template-columns:300px 1fr}aside{padding:20px}main{padding:20px}.nav-link{display:block;margin:8px 0}.doc-card{margin:24px 0}.table-wrap{overflow:auto}table{border-collapse:collapse;width:100%}th,td{border:1px solid #ddd;padding:8px;text-align:left;vertical-align:top}"
+    html = (
+        '<!doctype html><html lang="vi"><head><meta charset="utf-8">'
+        '<meta name="viewport" content="width=device-width,initial-scale=1">'
+        '<title>Bộ Giáo Trình Thiết Kế Nhà Vườn Nghỉ Dưỡng Nhiệt Đới</title>'
+        '<script type="module">import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";mermaid.initialize({startOnLoad:true,theme:"base"});</script>'
+        f"<style>{base_css}</style></head><body><div class=\"layout\"><aside><h1>Giáo trình nhà vườn</h1>"
+        '<p>Thiết kế nghỉ dưỡng nhiệt đới</p><input id="search" class="search" placeholder="Tìm module, phụ lục, từ khóa...">'
+        f"<nav>{''.join(nav)}</nav></aside><main>"
+        '<section class="hero"><h2>Thiết kế nhà vườn như một hệ sống.</h2></section><section class="content">'
+        f"{''.join(articles)}</section></main></div><div class=\"tools\"><button id=\"top\">Lên đầu</button><button id=\"print\">In/PDF</button></div>"
+        "<script>const s=document.getElementById('search');s.oninput=()=>{};document.getElementById('top').onclick=()=>scrollTo({top:0,behavior:'smooth'});document.getElementById('print').onclick=()=>print();</script>"
+        "</body></html>"
+    )
+    HTML_PATH.write_text(html, encoding="utf-8")
+
+
 def visual_header(module: tuple[str, str, str, str, str, list[str]], total: int) -> str:
     num, _, title, visual, desc, tags = module
     cover_src = real_image_path(num)
+    cover_label = "Ảnh thật bối cảnh" if "photo." in cover_src else "Cover minh họa"
     tag_html = "".join(f"<span>{escape(tag)}</span>" for tag in tags)
     gallery = "".join(
         f'<figure><img src="{src}" loading="lazy" alt="{escape(title)} - hình trực quan {i}"><figcaption>{escape(label)}</figcaption></figure>'
         for i, (src, label) in enumerate(
             [
-                (cover_src, "Ảnh thật bối cảnh"),
+                (cover_src, cover_label),
                 (f"assets/diagrams/module-{num}-diagram.svg", "Sơ đồ trọng tâm"),
                 (f"assets/images/module-{num}-moodboard.svg", "Moodboard mẫu"),
             ],
@@ -219,19 +445,19 @@ def enhance_html() -> None:
     hero_real = next((p for p in sorted(IMAGE_DIR.glob("hero-garden-real.*")) if p.suffix.lower() in {".jpg", ".jpeg", ".png", ".webp"}), None)
     if hero_real:
         hero_src = str(hero_real.relative_to(COURSE))
-    hero = f'''<section class="hero visual-hero"><img src="{hero_src}" alt="Nhà vườn nghỉ dưỡng nhiệt đới với hiên rộng, cây nhiều lớp và mặt nước"><div class="hero-panel"><div class="eyebrow">Bản HTML thị giác</div><h2>Thiết kế nhà vườn như một hệ sống.</h2><p>Giáo trình được nâng cấp thành trải nghiệm học trực quan: mỗi module có ảnh thật không trùng lặp, sơ đồ trọng tâm, gallery minh họa, checklist và bảng vẫn giữ đầy đủ để tra cứu và in ấn.</p><div class="stats"><div class="stat"><b>34</b><span> module chuyên sâu</span></div><div class="stat"><b>35</b><span> ảnh thật bối cảnh</span></div><div class="stat"><b>18</b><span> phụ lục thực hành</span></div><div class="stat"><b>Static</b><span> HTML + assets</span></div></div></div></section>'''
+    hero = f'''<section class="hero visual-hero"><img src="{hero_src}" alt="Nhà vườn nghỉ dưỡng nhiệt đới với hiên rộng, cây nhiều lớp và mặt nước"><div class="hero-panel"><div class="eyebrow">Bản HTML thị giác</div><h2>Thiết kế nhà vườn như một hệ sống.</h2><p>Giáo trình được nâng cấp thành trải nghiệm học trực quan: mỗi module có ảnh thật hoặc visual riêng, sơ đồ trọng tâm, gallery minh họa, checklist và bảng vẫn giữ đầy đủ để tra cứu và in ấn.</p><div class="stats"><div class="stat"><b>37</b><span> module chuyên sâu</span></div><div class="stat"><b>35</b><span> ảnh thật bối cảnh</span></div><div class="stat"><b>21</b><span> phụ lục thực hành</span></div><div class="stat"><b>20-50</b><span> năm vận hành di sản</span></div></div></div></section>'''
     html = re.sub(r'<section class="hero(?: visual-hero)?">.*?</section><section class="content">', hero + '<section class="content">', html, count=1, flags=re.S)
 
-    filters = '<div class="filter-tabs" role="group" aria-label="Lọc nhóm module"><button type="button" class="active" data-filter="all">Tất cả</button><button type="button" data-filter="foundation">Nền tảng</button><button type="button" data-filter="delivery">Triển khai</button><button type="button" data-filter="house">Phần nhà</button></div>'
+    filters = '<div class="filter-tabs" role="group" aria-label="Lọc nhóm module"><button type="button" class="active" data-filter="all">Tất cả</button><button type="button" data-filter="foundation">Nền tảng</button><button type="button" data-filter="delivery">Triển khai</button><button type="button" data-filter="house">Phần nhà</button><button type="button" data-filter="legacy">Di sản</button></div>'
     html = html.replace('<input id="search" class="search" placeholder="Tìm module, phụ lục, từ khóa...">', '<input id="search" class="search" placeholder="Tìm module, phụ lục, từ khóa...">' + filters, 1)
 
     total = len(MODULES)
     for idx, module in enumerate(MODULES, start=1):
         num, slug, *_ = module
         article_id = f"doc-modules-module-{num}-{slug}"
-        group = "foundation" if int(num) <= 12 else "delivery" if int(num) <= 26 else "house"
-        html = html.replace(f'<article class="doc-card" id="{article_id}">', f'<article class="doc-card" id="{article_id}" data-group="{group}" data-progress="{idx:02d}/{total}">', 1)
-        html = html.replace(f'href="#{article_id}" data-title=', f'href="#{article_id}" data-group="{group}" data-title=', 1)
+        group = module_group(num)
+        html = re.sub(rf'<article class="doc-card" id="{re.escape(article_id)}"[^>]*>', f'<article class="doc-card" id="{article_id}" data-group="{group}" data-progress="{idx:02d}/{total}">', html, count=1)
+        html = re.sub(rf'<a class="nav-link" href="#{re.escape(article_id)}"[^>]* data-title=', f'<a class="nav-link" href="#{article_id}" data-group="{group}" data-title=', html, count=1)
         pattern = rf'(<article class="doc-card" id="{re.escape(article_id)}"[^>]*>.*?<h1[^>]*>.*?</h1>)'
         html = re.sub(pattern, lambda m, module=module: m.group(1) + visual_header(module, total), html, count=1, flags=re.S)
 
@@ -241,6 +467,8 @@ def enhance_html() -> None:
 
 
 def main() -> None:
+    build_combined_markdown()
+    build_base_html()
     make_assets()
     enhance_html()
 

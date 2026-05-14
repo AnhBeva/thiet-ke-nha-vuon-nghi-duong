@@ -12,6 +12,7 @@ Sau khi học xong, người học cần có khả năng:
 - Làm việc hiệu quả với kiến trúc sư, cảnh quan, kỹ sư, nhà thầu và đơn vị bảo trì.
 - Tự kiểm tra dự án bằng checklist thay vì duyệt cảm tính.
 - Đọc, lập nhiệm vụ và duyệt thiết kế phần nhà: pháp lý, công năng, mặt bằng, mặt cắt, vỏ nhà, kết cấu, MEP, vật liệu và hồ sơ.
+- Kiểm soát ngôn ngữ thiết kế tổng thể, công nghệ ẩn và vận hành dài hạn để công trình có khả năng trở thành di sản.
 
 ## Tư duy xuyên suốt
 
@@ -23,6 +24,7 @@ flowchart TD
   D --> E["Kỹ thuật / BOQ / Mẫu / Hợp đồng"]
   E --> F["Thi công nhà và cảnh quan"]
   F --> G["Nghiệm thu / Bàn giao / Bảo trì"]
+  G --> H["Ngôn ngữ thiết kế / Công nghệ ẩn / Vận hành di sản"]
 ```
 
 ## Cách học khuyến nghị
@@ -34,6 +36,7 @@ flowchart TD
 | 3. Kiểm soát thi công | Học Module 20-25 | Biết duyệt mẫu, chọn đội ngũ, quản lý hiện trường, thi công nhà-vườn, nghiệm thu và bàn giao |
 | 4. Vận hành dài hạn | Học Module 26 và phụ lục | Có kế hoạch bảo trì 12 tháng và kịch bản 1-3-5 năm |
 | 5. Đi sâu thiết kế nhà | Học Module 27-34 | Có brief kiến trúc, zoning, mặt cắt, checklist vỏ nhà, phối hợp kỹ thuật và tiêu chuẩn duyệt hồ sơ |
+| 6. Nâng cấp thành tài sản di sản | Học Module 35-37 và phụ lục S-U | Có ngôn ngữ thiết kế thống nhất, công nghệ ẩn và hồ sơ vận hành 20-50 năm |
 
 ## Mục lục chi tiết
 
@@ -86,6 +89,14 @@ flowchart TD
 | [Module 33](modules/module-33-vat-lieu-cau-tao-chong-tham-chong-nong-va-bao-tri.md) | Vật liệu, cấu tạo, chống thấm, chống nóng và bảo trì | Bảng vật liệu, checklist cấu tạo rủi ro |
 | [Module 34](modules/module-34-ho-so-thiet-ke-checklist-duyet-phuong-an-va-tieu-chuan-nghiem-thu.md) | Hồ sơ thiết kế, checklist duyệt và tiêu chuẩn nghiệm thu | Danh mục hồ sơ, mẫu nghiệm thu thiết kế |
 
+### Phần IV. Thiết kế tổng thể, công nghệ ẩn và vận hành di sản
+
+| Tài liệu | Nội dung | Đầu ra chính |
+|---|---|---|
+| [Module 35](modules/module-35-ngon-ngu-thiet-ke-tong-the-noi-that-ngoai-that-canh-quan.md) | Ngôn ngữ thiết kế tổng thể, nội thất - ngoại thất - cảnh quan | Tuyên ngôn ngôn ngữ thiết kế, material board, checklist duyệt tổng thể |
+| [Module 36](modules/module-36-cong-nghe-an-an-ninh-an-toan-tien-nghi-khong-pho-truong.md) | Công nghệ ẩn, an ninh, an toàn và tiện nghi không phô trương | Ma trận công nghệ ẩn, kịch bản vận hành, checklist bàn giao số |
+| [Module 37](modules/module-37-van-hanh-tu-dong-bao-tri-du-bao-ho-so-tai-san-di-san.md) | Vận hành tự động, bảo trì dự báo và hồ sơ tài sản sau bàn giao | Asset register, kế hoạch 20-50 năm, sổ tay di sản |
+
 ## Phụ lục thực hành
 
 | Phụ lục | Nội dung |
@@ -108,6 +119,9 @@ flowchart TD
 | [Phụ lục P](phu_luc/checklist_kiem_tra_hien_truong.md) | Checklist kiểm tra hiện trường |
 | [Phụ lục Q](phu_luc/checklist_nghiem_thu_ban_giao.md) | Checklist nghiệm thu bàn giao |
 | [Phụ lục R](phu_luc/ke_hoach_bao_tri_12_thang_1_3_5_nam.md) | Kế hoạch bảo trì 12 tháng và kịch bản 1-3-5 năm |
+| [Phụ lục S](phu_luc/checklist_ngon_ngu_thiet_ke_tong_the.md) | Checklist duyệt ngôn ngữ thiết kế tổng thể |
+| [Phụ lục T](phu_luc/ma_tran_cong_nghe_an_an_ninh_an_toan_tien_nghi.md) | Ma trận công nghệ ẩn, an ninh, an toàn và tiện nghi |
+| [Phụ lục U](phu_luc/mau_ho_so_tai_san_va_ke_hoach_van_hanh_di_san_20_50_nam.md) | Mẫu hồ sơ tài sản và kế hoạch vận hành di sản 20-50 năm |
 
 ## Chuẩn trình bày trong từng module
 
@@ -130,6 +144,8 @@ Mỗi module đều dùng cùng một khung 15 phần để dễ học, dễ rà
 15. Ghi chú giới hạn chuyên môn.
 
 Module 27-34 dùng khung chuyên sâu hơn cho phần nhà: vai trò, mục tiêu, kiến thức đầu vào, khái niệm cốt lõi, nguyên lý thiết kế, quy chuẩn/pháp lý cần kiểm tra, công cụ phân tích, quy trình, đầu ra bắt buộc, ví dụ, lỗi thường gặp, checklist, bài tập, tiêu chí tự đánh giá và giới hạn chuyên môn.
+
+Module 35-37 dùng khung chuyên sâu cho lớp tổng thể và vận hành di sản: ngôn ngữ thiết kế, công nghệ ẩn, an ninh, an toàn, tiện nghi, hồ sơ tài sản, bảo trì dự báo, kế hoạch vòng đời và nguyên tắc chuyển giao 20-50 năm.
 
 ## Giới hạn của giáo trình
 

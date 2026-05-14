@@ -1,8 +1,8 @@
 # Giáo Trình Thiết Kế Nhà Vườn Nghỉ Dưỡng Nhiệt Đới
 
-Bộ giáo trình giúp chủ nhà hiểu đúng bản chất thiết kế nhà vườn nghỉ dưỡng và làm chủ quá trình triển khai dự án từ brief, khảo sát, concept, thiết kế cơ sở, hồ sơ kỹ thuật, dự toán, mẫu, hợp đồng, tiến độ, thi công, nghiệm thu đến bảo trì.
+Bộ giáo trình giúp chủ nhà hiểu đúng bản chất thiết kế nhà vườn nghỉ dưỡng và làm chủ quá trình triển khai dự án từ brief, khảo sát, concept, thiết kế cơ sở, hồ sơ kỹ thuật, dự toán, mẫu, hợp đồng, tiến độ, thi công, nghiệm thu, bảo trì đến vận hành di sản.
 
-Phiên bản này gồm 26 module và 18 phụ lục thực hành. Mục tiêu không phải thay thế kiến trúc sư, kỹ sư, luật sư hoặc nhà thầu, mà giúp chủ nhà đặt đề bài đúng, hỏi đúng, duyệt đúng và kiểm soát chất lượng bằng tiêu chí.
+Phiên bản này gồm 37 module và 21 phụ lục thực hành. Mục tiêu không phải thay thế kiến trúc sư, kỹ sư, luật sư hoặc nhà thầu, mà giúp chủ nhà đặt đề bài đúng, hỏi đúng, duyệt đúng và kiểm soát chất lượng bằng tiêu chí.
 
 ## Xem Bản HTML
 
@@ -21,8 +21,8 @@ https://<github-user>.github.io/<repo-name>/
 |---|---|
 | `giao_trinh_nen_tang_thiet_ke_nha_vuon_nghi_duong.md` | File khung gốc |
 | `giao_trinh_nha_vuon_nghi_duong/00_muc_luc_va_huong_dan_hoc.md` | Mục lục và hướng dẫn học |
-| `giao_trinh_nha_vuon_nghi_duong/modules/` | 26 module bài học chi tiết |
-| `giao_trinh_nha_vuon_nghi_duong/phu_luc/` | 18 phụ lục: checklist, mẫu brief, mẫu khảo sát, BOQ, tiến độ, nghiệm thu, bảo trì |
+| `giao_trinh_nha_vuon_nghi_duong/modules/` | 37 module bài học chi tiết |
+| `giao_trinh_nha_vuon_nghi_duong/phu_luc/` | 21 phụ lục: checklist, mẫu brief, mẫu khảo sát, BOQ, tiến độ, nghiệm thu, bảo trì, công nghệ ẩn và vận hành di sản |
 | `giao_trinh_nha_vuon_nghi_duong/giao_trinh_hoan_chinh.html` | Bản HTML hợp nhất |
 | `giao_trinh_nha_vuon_nghi_duong/kiem_dinh_chat_luong.md` | Báo cáo kiểm định chất lượng |
 
@@ -32,6 +32,8 @@ https://<github-user>.github.io/<repo-name>/
 |---|---|---|
 | Phần I | 01-12 | Nền tảng thiết kế nhà vườn: khu đất, khí hậu, trải nghiệm, cây, nước, vật liệu, ánh sáng, bảo trì, quy trình và brief |
 | Phần II | 13-26 | Triển khai dự án từ brief đến bảo trì: khảo sát, concept, thiết kế cơ sở, kỹ thuật, BOQ, mẫu, hợp đồng, thi công, nghiệm thu và vận hành |
+| Phần III | 27-34 | Thiết kế nhà nghỉ dưỡng gia đình: pháp lý, công năng, mặt bằng, vỏ nhà, MEP, vật liệu và hồ sơ |
+| Phần IV | 35-37 | Thiết kế tổng thể, công nghệ ẩn và vận hành di sản 20-50 năm |
 
 ## Cụm Thiết Kế Nhà Mới
 
@@ -45,6 +47,14 @@ https://<github-user>.github.io/<repo-name>/
 | 32 | Phối hợp kết cấu, MEP và kỹ thuật vận hành | Checklist phối hợp bộ môn, sơ đồ vùng kỹ thuật |
 | 33 | Vật liệu, cấu tạo, chống thấm, chống nóng và bảo trì | Bảng vật liệu, checklist cấu tạo rủi ro |
 | 34 | Hồ sơ thiết kế, checklist duyệt và nghiệm thu | Danh mục hồ sơ, mẫu nghiệm thu thiết kế |
+
+## Cụm Thiết Kế Tổng Thể Và Vận Hành Di Sản
+
+| Module | Nội dung | Đầu ra chính |
+|---|---|---|
+| 35 | Ngôn ngữ thiết kế tổng thể, nội thất - ngoại thất - cảnh quan | Tuyên ngôn ngôn ngữ thiết kế, material board, checklist duyệt tổng thể |
+| 36 | Công nghệ ẩn, an ninh, an toàn và tiện nghi không phô trương | Ma trận công nghệ ẩn, kịch bản vận hành, checklist bàn giao số |
+| 37 | Vận hành tự động, bảo trì dự báo và hồ sơ tài sản sau bàn giao | Asset register, kế hoạch 20-50 năm, sổ tay di sản |
 
 ## Chuẩn Module
 

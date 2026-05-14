@@ -984,5 +984,65 @@
       "Tiêu chuẩn"
     ],
     "slug": "ho-so-thiet-ke-checklist-duyet-phuong-an-va-tieu-chuan-nghiem-thu"
+  },
+  "module-35": {
+    "title": "Ngôn Ngữ Thiết Kế",
+    "visual": "Design language",
+    "caption": "Visual trọng tâm: design language cho tinh thần, tỷ lệ, vật liệu, ánh sáng và chi tiết.",
+    "cover": "assets/images/module-35-cover.svg",
+    "cover_kind": "svg",
+    "source": null,
+    "diagram": "assets/diagrams/module-35-diagram.svg",
+    "gallery": [
+      "assets/images/module-35-cover.svg",
+      "assets/diagrams/module-35-diagram.svg",
+      "assets/images/module-35-moodboard.svg"
+    ],
+    "tags": [
+      "Tinh thần",
+      "Vật liệu",
+      "Chi tiết"
+    ],
+    "slug": "ngon-ngu-thiet-ke-tong-the-noi-that-ngoai-that-canh-quan"
+  },
+  "module-36": {
+    "title": "Công Nghệ Ẩn",
+    "visual": "Hidden technology",
+    "caption": "Visual trọng tâm: hidden technology cho an ninh, an toàn, tiện nghi, cảm biến và bàn giao số.",
+    "cover": "assets/images/module-36-cover.svg",
+    "cover_kind": "svg",
+    "source": null,
+    "diagram": "assets/diagrams/module-36-diagram.svg",
+    "gallery": [
+      "assets/images/module-36-cover.svg",
+      "assets/diagrams/module-36-diagram.svg",
+      "assets/images/module-36-moodboard.svg"
+    ],
+    "tags": [
+      "An ninh",
+      "Cảm biến",
+      "Bàn giao"
+    ],
+    "slug": "cong-nghe-an-an-ninh-an-toan-tien-nghi-khong-pho-truong"
+  },
+  "module-37": {
+    "title": "Vận Hành Di Sản",
+    "visual": "Legacy operations",
+    "caption": "Visual trọng tâm: legacy operations cho asset register, bảo trì dự báo và kế hoạch 20-50 năm.",
+    "cover": "assets/images/module-37-cover.svg",
+    "cover_kind": "svg",
+    "source": null,
+    "diagram": "assets/diagrams/module-37-diagram.svg",
+    "gallery": [
+      "assets/images/module-37-cover.svg",
+      "assets/diagrams/module-37-diagram.svg",
+      "assets/images/module-37-moodboard.svg"
+    ],
+    "tags": [
+      "Tài sản",
+      "Dự báo",
+      "Di sản"
+    ],
+    "slug": "van-hanh-tu-dong-bao-tri-du-bao-ho-so-tai-san-di-san"
   }
 }
